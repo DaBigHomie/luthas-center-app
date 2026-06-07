@@ -412,8 +412,8 @@ graph TB
 
 | File | Purpose |
 |------|---------|
-| `~/management-git/scripts/setup-luthas-workspace.mts` | Setup/regenerate repo structure |
-| `~/management-git/scripts/refresh-gdrive-token.mts` | Refresh Google Drive MCP OAuth token |
+| `~/management-git/damieus-workflow-agents/scripts/setup-luthas-workspace.mts` | Setup/regenerate repo structure |
+| `~/management-git/damieus-workflow-agents/scripts/refresh-gdrive-token.mts` | Refresh Google Drive MCP OAuth token |
 | `~/management-git/scripts/session-startup.mts` | CORTEX session bootstrap (aliases registered) |
 | `~/management-git/luthas-wp-migration_antigravity.code-workspace` | VS Code workspace |
 | `~/management-git/damieus-workflow-agents/scripts/scripts/extract-wordpress-content.ts` | WP GraphQL extractor |
