@@ -39,3 +39,27 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Agent
+.cortex-boot.json
+.handoff.config.json
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Build
+.next/
+out/
+dist/
+.turbo/
+.vercel/
+coverage/
+*.tsbuildinfo

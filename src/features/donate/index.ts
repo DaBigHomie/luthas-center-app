@@ -1,0 +1,2 @@
+// Feature: donate
+export {};

@@ -1,0 +1,64 @@
+{
+  "alias": "luthas-center",
+  "name": "luthas-center-app",
+  "generatedAt": "2026-06-07T21:38:33.370Z",
+  "stack": [
+    "Next.js ^15",
+    "React ^19",
+    "Supabase",
+    "Tailwind",
+    "TypeScript",
+    "shadcn/ui"
+  ],
+  "entryPoints": [
+    "src/app/layout.tsx",
+    "src/app/page.tsx"
+  ],
+  "srcFileCount": 0,
+  "topDirectories": [
+    "src/app",
+    "src/entities",
+    "src/features",
+    "src/shared",
+    "src/widgets"
+  ],
+  "routes": [
+    "/",
+    "/courses",
+    "/courses/[slug]",
+    "/resources",
+    "/resources/[slug]",
+    "/donate",
+    "/blog",
+    "/blog/[slug]",
+    "/about",
+    "/contact",
+    "/admin",
+    "/admin/courses",
+    "/admin/resources",
+    "/admin/donations"
+  ],
+  "dbTables": [
+    "courses",
+    "course_modules",
+    "resources",
+    "resource_categories",
+    "donations",
+    "posts",
+    "pages",
+    "contact_submissions",
+    "profiles",
+    "site_settings"
+  ],
+  "wpMigration": {
+    "source": "luthascenter.com",
+    "devDomain": "luthas-center.damieus.app",
+    "backup": "UpdraftPlus (Google Drive)"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "lint": "next lint",
+    "start": "next start"
+  }
+}
