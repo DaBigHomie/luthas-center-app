@@ -79,6 +79,11 @@ Moved scripts out of root `management-git/scripts/` into `damieus-workflow-agent
 - `refresh-gdrive-token.mts` → `damieus-workflow-agents/scripts/`
 - Updated all path references in `MIGRATION-WALKTHROUGH.md` across 3 repos
 
+### 9. Document Rendering & Editor Parity Workflow
+- Relocated the session planning files (`task.md`, `implementation_plan.md`, `walkthrough.md`) into the git-tracked [luthas-center-app/docs/](file:///Users/dame/management-git/luthas-center-app/docs/) folder and created symbolic links in the IDE's brain directory to keep the IDE and your workspace files in sync.
+- Created [render-docs.mts](file:///Users/dame/management-git/damieus-workflow-agents/scripts/render-docs.mts) to parse custom IDE Markdown syntax (carousels, callout alerts, file badges, checklists) and compile them to beautiful, self-contained HTML files matching the "Royal Nightlife" dark theme.
+- Added a `render-docs` shell function in `~/.zshrc`, `~/.bashrc`, and `~/.bash_profile` to compile and automatically launch preview documents in your browser.
+
 ---
 
 ## Files Created/Modified
@@ -86,10 +91,10 @@ Moved scripts out of root `management-git/scripts/` into `damieus-workflow-agent
 ### New files (in repo subfolders)
 | Repo | Files |
 |------|-------|
-| `luthas-center-app` | 26 files (scaffold + FSD + agents + docs) |
+| `luthas-center-app` | 29 files (scaffold + FSD + agents + docs + planning files) |
 | `luthas-org-app` | 24 files |
 | `dame-luthas-app` | 25 files |
-| `damieus-workflow-agents` | 2 scripts (`setup-luthas-workspace.mts`, `refresh-gdrive-token.mts`) |
+| `damieus-workflow-agents` | 3 scripts (`setup-luthas-workspace.mts`, `refresh-gdrive-token.mts`, `render-docs.mts`) |
 
 ### Modified files
 | File | Change |
@@ -97,9 +102,9 @@ Moved scripts out of root `management-git/scripts/` into `damieus-workflow-agent
 | `scripts/session-startup.mts` | Added 3 repo aliases |
 | `documentation-standards/docs/REPO-INDEX.md` | Added 3 repo entries |
 | `~/.gemini/antigravity-ide/mcp_config.json` | Removed unused GCP servers, keeping only stitch and gdrive |
-| `~/.zshrc` | Added `/` shortcut and `.env.mcp` sourcing block |
-| `~/.bashrc` | Added `.env.mcp` sourcing block |
-| `~/.bash_profile` | Added `.env.mcp` sourcing block |
+| `~/.zshrc` | Added `/` and `render-docs` shortcuts, and `.env.mcp` sourcing block |
+| `~/.bashrc` | Added `render-docs` shortcut and `.env.mcp` sourcing block |
+| `~/.bash_profile` | Added `render-docs` shortcut and `.env.mcp` sourcing block |
 | `~/management-git/.env.mcp` | Fixed hyphenated variable syntax error |
 
 ---
