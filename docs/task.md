@@ -4,6 +4,8 @@
 - [x] Register 15 CORTEX tasks in agent_kb.sqlite
 - [x] Update REPO-INDEX.md with new repos
 - [x] Register aliases in session-startup.mts
+- [x] Relocate session planning files to git repository (docs/task.md, docs/walkthrough.md, docs/implementation_plan.md)
+- [x] Create `render-docs.mts` compiler and `render-docs` shell command shortcut
 
 ## Phase 0.5: Google Drive MCP (for UpdraftPlus backups)
 - [x] Enable Google Drive API in GCP project `dame-494916`
