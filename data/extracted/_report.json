@@ -1,0 +1,86 @@
+{
+  "generated_at": "2026-06-08T23:27:27.281Z",
+  "junk_title_pattern": "^(home\\s*\\d|home.*(bk|backup|temp|transition)|temp|untitled)$",
+  "published_courses_kept": 30,
+  "published_courses_assertion": "PASS (all 30 owned courses retained)",
+  "domains": [
+    {
+      "domain": "courses",
+      "raw": 47,
+      "kept": 47,
+      "dropped_junk": 0,
+      "dropped_dupe": 0,
+      "drops": []
+    },
+    {
+      "domain": "lessons",
+      "raw": 57,
+      "kept": 57,
+      "dropped_junk": 0,
+      "dropped_dupe": 0,
+      "drops": []
+    },
+    {
+      "domain": "quizzes",
+      "raw": 5,
+      "kept": 5,
+      "dropped_junk": 0,
+      "dropped_dupe": 0,
+      "drops": []
+    },
+    {
+      "domain": "products",
+      "raw": 15,
+      "kept": 15,
+      "dropped_junk": 0,
+      "dropped_dupe": 0,
+      "drops": []
+    },
+    {
+      "domain": "donations",
+      "raw": 3,
+      "kept": 3,
+      "dropped_junk": 0,
+      "dropped_dupe": 0,
+      "drops": []
+    },
+    {
+      "domain": "posts",
+      "raw": 668,
+      "kept": 668,
+      "dropped_junk": 0,
+      "dropped_dupe": 0,
+      "drops": []
+    },
+    {
+      "domain": "pages",
+      "raw": 14,
+      "kept": 14,
+      "dropped_junk": 0,
+      "dropped_dupe": 0,
+      "drops": []
+    },
+    {
+      "domain": "media",
+      "raw": 5669,
+      "kept": 5669,
+      "dropped_junk": 0,
+      "dropped_dupe": 0,
+      "drops": []
+    },
+    {
+      "domain": "profiles",
+      "raw": 8,
+      "kept": 8,
+      "dropped_junk": 0,
+      "dropped_dupe": 0,
+      "drops": []
+    }
+  ],
+  "totals": {
+    "raw": 6486,
+    "kept": 6486,
+    "dropped_junk": 0,
+    "dropped_dupe": 0
+  }
+}

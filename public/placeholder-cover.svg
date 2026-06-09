@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Image not available">
+  <!-- Background -->
+  <rect width="800" height="450" fill="hsl(0, 0%, 93%)"/>
+  <!-- Brand accent stripe top -->
+  <rect width="800" height="4" fill="hsl(19, 94%, 55%)"/>
+  <!-- Icon group — centered -->
+  <g transform="translate(400,225)">
+    <!-- Image frame -->
+    <rect x="-60" y="-48" width="120" height="96" rx="8" fill="none" stroke="hsl(0, 0%, 75%)" stroke-width="3"/>
+    <!-- Mountain shape -->
+    <polyline points="-48,24 -16,-20 16,8 32,-12 48,24" fill="none" stroke="hsl(0, 0%, 68%)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Sun circle -->
+    <circle cx="32" cy="-28" r="10" fill="none" stroke="hsl(0, 0%, 68%)" stroke-width="2.5"/>
+  </g>
+  <!-- Label -->
+  <text x="400" y="310" font-family="Lato, sans-serif" font-size="14" fill="hsl(0, 0%, 57%)" text-anchor="middle">Image not available</text>
+</svg>
