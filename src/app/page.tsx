@@ -19,7 +19,7 @@ import {
   listPosts,
   listDonationForms,
   getPageBySlug,
-  resolveMediaUrl,
+  resolveCoverUrl,
 } from '@/shared/lib/data-source'
 import { CourseCard } from '@/entities/course/ui/CourseCard'
 import { PostCard } from '@/entities/post/ui/PostCard'
@@ -90,16 +90,14 @@ export default async function HomePage() {
   const mediaRows = await getMediaByWpIds(allImageIds)
   const mediaMap = new Map(mediaRows.map((m) => [m.wp_attachment_id, m]))
 
-  function getCourseImageUrl(featuredImageId: number | null | undefined): string {
-    if (!featuredImageId) return '/placeholder-cover.svg'
-    const m = mediaMap.get(featuredImageId)
-    return m ? resolveMediaUrl(m) : '/placeholder-cover.svg'
+  function getCourseImageUrl(course: (typeof featuredCourses)[number]): string {
+    const m = course.featured_image_id ? mediaMap.get(course.featured_image_id) ?? null : null
+    return resolveCoverUrl(m, 'course', course.slug)
   }
 
-  function getPostImageUrl(featuredImageId: number | null | undefined): string {
-    if (!featuredImageId) return '/placeholder-cover.svg'
-    const m = mediaMap.get(featuredImageId)
-    return m ? resolveMediaUrl(m) : '/placeholder-cover.svg'
+  function getPostImageUrl(post: (typeof recentPosts)[number]): string {
+    const m = post.featured_image_id ? mediaMap.get(post.featured_image_id) ?? null : null
+    return resolveCoverUrl(m, 'post', post.slug)
   }
 
   // Donation form — use first one (the education fund)
@@ -151,7 +149,7 @@ export default async function HomePage() {
                 <CourseCard
                   key={course.id}
                   course={course}
-                  imageUrl={getCourseImageUrl(course.featured_image_id)}
+                  imageUrl={getCourseImageUrl(course)}
                 />
               ))}
             </div>
@@ -203,7 +201,7 @@ export default async function HomePage() {
                 <PostCard
                   key={post.id}
                   post={post}
-                  imageUrl={getPostImageUrl(post.featured_image_id)}
+                  imageUrl={getPostImageUrl(post)}
                 />
               ))}
             </div>

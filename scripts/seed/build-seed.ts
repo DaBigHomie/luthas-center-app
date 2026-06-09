@@ -21,6 +21,8 @@
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { applyTransforms, WP_CLEAN_PIPELINE } from "../../src/shared/lib/wp-content/index.ts";
+import { REDIRECT_MAP } from "../../src/shared/config/redirects.generated.ts";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..", "..");
@@ -61,6 +63,21 @@ function num(v: any): string {
 function ts(v: any): string {
   if (!v) return "NULL";
   return `'${String(v).replace(/'/g, "''")}'::timestamptz`;
+}
+
+// ---------------------------------------------------------------------------
+// WP content cleaning
+// ---------------------------------------------------------------------------
+/**
+ * Run raw WordPress HTML through the shared transform pipeline so the seed
+ * stores already-clean HTML. Null/undefined values are passed through as-is
+ * (the lit() helper will emit NULL for them).
+ */
+function cleanContent(html: any): any {
+  if (html === null || html === undefined || html === "") return html;
+  return applyTransforms(String(html), WP_CLEAN_PIPELINE, {
+    redirectMap: REDIRECT_MAP,
+  });
 }
 
 // Track media references that resolve to NULL.
@@ -185,7 +202,7 @@ for (const c of courses) {
   const status = c.status === "publish" ? "publish" : "pending";
   out.push(
     `INSERT INTO public.courses (wp_id, status, slug, title, content, excerpt, short_description, price_type, price, access_mode, certificate_id, intro_video, materials_enabled, menu_order, steps_source, step_counts, featured_image_id, cover_image_id, old_path, new_path, published_at, modified_at) VALUES (` +
-      `${num(c.wp_id)}, ${lit(status)}::public.course_status, ${lit(c.slug)}, ${lit(c.title)}, ${lit(c.content)}, ${lit(c.excerpt)}, ${lit(c.short_description)}, ${lit(c.price_type)}, ${num(c.price)}, ${lit(c.access_mode)}, ${num(c.certificate_id)}, ${lit(c.intro_video)}, ${c.materials_enabled ? "TRUE" : "FALSE"}, ${num(c.menu_order)}, ${lit(c.steps_source)}, ${jsonb(c.step_counts ?? null)}, ${mediaRef("courses", c.wp_id, "featured_image_id", c.featured_image_id)}, ${mediaRef("courses", c.wp_id, "cover_image_id", c.cover_image_id)}, ${lit(c.old_path)}, ${lit(c.new_path)}, ${ts(c.date)}, ${ts(c.modified)})` +
+      `${num(c.wp_id)}, ${lit(status)}::public.course_status, ${lit(c.slug)}, ${lit(c.title)}, ${lit(cleanContent(c.content))}, ${lit(c.excerpt)}, ${lit(c.short_description)}, ${lit(c.price_type)}, ${num(c.price)}, ${lit(c.access_mode)}, ${num(c.certificate_id)}, ${lit(c.intro_video)}, ${c.materials_enabled ? "TRUE" : "FALSE"}, ${num(c.menu_order)}, ${lit(c.steps_source)}, ${jsonb(c.step_counts ?? null)}, ${mediaRef("courses", c.wp_id, "featured_image_id", c.featured_image_id)}, ${mediaRef("courses", c.wp_id, "cover_image_id", c.cover_image_id)}, ${lit(c.old_path)}, ${lit(c.new_path)}, ${ts(c.date)}, ${ts(c.modified)})` +
       ` ON CONFLICT (wp_id) DO UPDATE SET status = EXCLUDED.status, slug = EXCLUDED.slug, title = EXCLUDED.title, content = EXCLUDED.content, excerpt = EXCLUDED.excerpt, short_description = EXCLUDED.short_description, price_type = EXCLUDED.price_type, price = EXCLUDED.price, access_mode = EXCLUDED.access_mode, certificate_id = EXCLUDED.certificate_id, intro_video = EXCLUDED.intro_video, materials_enabled = EXCLUDED.materials_enabled, menu_order = EXCLUDED.menu_order, steps_source = EXCLUDED.steps_source, step_counts = EXCLUDED.step_counts, featured_image_id = EXCLUDED.featured_image_id, cover_image_id = EXCLUDED.cover_image_id, old_path = EXCLUDED.old_path, new_path = EXCLUDED.new_path, published_at = EXCLUDED.published_at, modified_at = EXCLUDED.modified_at;`
   );
   counts.courses++;
@@ -204,7 +221,7 @@ for (const l of lessons) {
   const courseId = courseIds.has(Number(l.course_id)) ? num(l.course_id) : "NULL";
   out.push(
     `INSERT INTO public.lessons (wp_id, course_id, slug, title, content, excerpt, sort_order, status, video_url, featured_image_id, old_path, new_path, published_at, modified_at) VALUES (` +
-      `${num(l.wp_id)}, ${courseId}, ${lit(l.slug)}, ${lit(l.title)}, ${lit(l.content)}, ${lit(l.excerpt)}, ${num(l.menu_order)}, ${lit(lmsStatus(l.status))}::public.lms_content_status, ${lit(l.video_url)}, ${mediaRef("lessons", l.wp_id, "featured_image_id", l.featured_image_id)}, ${lit(l.old_path)}, ${lit(l.new_path)}, ${ts(l.date)}, ${ts(l.modified)})` +
+      `${num(l.wp_id)}, ${courseId}, ${lit(l.slug)}, ${lit(l.title)}, ${lit(cleanContent(l.content))}, ${lit(l.excerpt)}, ${num(l.menu_order)}, ${lit(lmsStatus(l.status))}::public.lms_content_status, ${lit(l.video_url)}, ${mediaRef("lessons", l.wp_id, "featured_image_id", l.featured_image_id)}, ${lit(l.old_path)}, ${lit(l.new_path)}, ${ts(l.date)}, ${ts(l.modified)})` +
       ` ON CONFLICT (wp_id) DO UPDATE SET course_id = EXCLUDED.course_id, slug = EXCLUDED.slug, title = EXCLUDED.title, content = EXCLUDED.content, excerpt = EXCLUDED.excerpt, sort_order = EXCLUDED.sort_order, status = EXCLUDED.status, video_url = EXCLUDED.video_url, featured_image_id = EXCLUDED.featured_image_id, old_path = EXCLUDED.old_path, new_path = EXCLUDED.new_path, published_at = EXCLUDED.published_at, modified_at = EXCLUDED.modified_at;`
   );
   counts.lessons++;
@@ -220,7 +237,7 @@ for (const q of quizzes) {
   const lessonId = lessonIds.has(Number(q.lesson_id)) ? num(q.lesson_id) : "NULL";
   out.push(
     `INSERT INTO public.quizzes (wp_id, course_id, lesson_id, slug, title, content, excerpt, status, pro_quiz_id, passing_percentage, featured_image_id, old_path, new_path, published_at, modified_at) VALUES (` +
-      `${num(q.wp_id)}, ${courseId}, ${lessonId}, ${lit(q.slug)}, ${lit(q.title)}, ${lit(q.content)}, ${lit(q.excerpt)}, ${lit(lmsStatus(q.status))}::public.lms_content_status, ${num(q.pro_quiz_id)}, ${num(q.passing_percentage)}, ${mediaRef("quizzes", q.wp_id, "featured_image_id", q.featured_image_id)}, ${lit(q.old_path)}, ${lit(q.new_path)}, ${ts(q.date)}, ${ts(q.modified)})` +
+      `${num(q.wp_id)}, ${courseId}, ${lessonId}, ${lit(q.slug)}, ${lit(q.title)}, ${lit(cleanContent(q.content))}, ${lit(q.excerpt)}, ${lit(lmsStatus(q.status))}::public.lms_content_status, ${num(q.pro_quiz_id)}, ${num(q.passing_percentage)}, ${mediaRef("quizzes", q.wp_id, "featured_image_id", q.featured_image_id)}, ${lit(q.old_path)}, ${lit(q.new_path)}, ${ts(q.date)}, ${ts(q.modified)})` +
       ` ON CONFLICT (wp_id) DO UPDATE SET course_id = EXCLUDED.course_id, lesson_id = EXCLUDED.lesson_id, slug = EXCLUDED.slug, title = EXCLUDED.title, content = EXCLUDED.content, excerpt = EXCLUDED.excerpt, status = EXCLUDED.status, pro_quiz_id = EXCLUDED.pro_quiz_id, passing_percentage = EXCLUDED.passing_percentage, featured_image_id = EXCLUDED.featured_image_id, old_path = EXCLUDED.old_path, new_path = EXCLUDED.new_path, published_at = EXCLUDED.published_at, modified_at = EXCLUDED.modified_at;`
   );
   counts.quizzes++;
@@ -259,7 +276,7 @@ for (const p of posts) {
   const status = p.status === "publish" ? "publish" : "draft";
   out.push(
     `INSERT INTO public.posts (wp_id, slug, title, content, excerpt, status, author_id, featured_image_id, reading_time, old_path, new_path, published_at, modified_at) VALUES (` +
-      `${num(p.wp_id)}, ${lit(p.slug)}, ${lit(p.title)}, ${lit(p.content)}, ${lit(p.excerpt)}, ${lit(status)}::public.post_status, ${authorId}, ${mediaRef("posts", p.wp_id, "featured_image_id", p.featured_image_id)}, ${num(p.reading_time_minutes)}, ${lit(p.old_path)}, ${lit(p.new_path)}, ${ts(p.date)}, ${ts(p.modified)})` +
+      `${num(p.wp_id)}, ${lit(p.slug)}, ${lit(p.title)}, ${lit(cleanContent(p.content))}, ${lit(p.excerpt)}, ${lit(status)}::public.post_status, ${authorId}, ${mediaRef("posts", p.wp_id, "featured_image_id", p.featured_image_id)}, ${num(p.reading_time_minutes)}, ${lit(p.old_path)}, ${lit(p.new_path)}, ${ts(p.date)}, ${ts(p.modified)})` +
       ` ON CONFLICT (wp_id) DO UPDATE SET slug = EXCLUDED.slug, title = EXCLUDED.title, content = EXCLUDED.content, excerpt = EXCLUDED.excerpt, status = EXCLUDED.status, author_id = EXCLUDED.author_id, featured_image_id = EXCLUDED.featured_image_id, reading_time = EXCLUDED.reading_time, old_path = EXCLUDED.old_path, new_path = EXCLUDED.new_path, published_at = EXCLUDED.published_at, modified_at = EXCLUDED.modified_at;`
   );
   counts.posts++;
@@ -273,7 +290,7 @@ counts.products = 0;
 for (const p of products) {
   out.push(
     `INSERT INTO public.products (wp_id, slug, title, description, short_description, status, sku, regular_price, sale_price, price, virtual, downloadable, download_limit, download_expiry, stock_status, average_rating, review_count, total_sales, featured_image_id, menu_order, old_path, new_path, published_at, modified_at) VALUES (` +
-      `${num(p.wp_id)}, ${lit(p.slug)}, ${lit(p.title)}, ${lit(p.description)}, ${lit(p.short_description)}, ${lit(p.status || "publish")}, ${lit(p.sku)}, ${num(p.regular_price)}, ${num(p.sale_price)}, ${num(p.price)}, ${p.virtual ? "TRUE" : "FALSE"}, ${p.downloadable ? "TRUE" : "FALSE"}, ${num(p.download_limit)}, ${num(p.download_expiry)}, ${lit(p.stock_status || "instock")}, ${num(p.average_rating)}, ${num(p.review_count)}, ${num(p.total_sales)}, ${mediaRef("products", p.wp_id, "featured_image_id", p.featured_image_id)}, ${num(p.menu_order)}, ${lit(p.old_path)}, ${lit(p.new_path)}, ${ts(p.date)}, ${ts(p.modified)})` +
+      `${num(p.wp_id)}, ${lit(p.slug)}, ${lit(p.title)}, ${lit(cleanContent(p.description))}, ${lit(p.short_description)}, ${lit(p.status || "publish")}, ${lit(p.sku)}, ${num(p.regular_price)}, ${num(p.sale_price)}, ${num(p.price)}, ${p.virtual ? "TRUE" : "FALSE"}, ${p.downloadable ? "TRUE" : "FALSE"}, ${num(p.download_limit)}, ${num(p.download_expiry)}, ${lit(p.stock_status || "instock")}, ${num(p.average_rating)}, ${num(p.review_count)}, ${num(p.total_sales)}, ${mediaRef("products", p.wp_id, "featured_image_id", p.featured_image_id)}, ${num(p.menu_order)}, ${lit(p.old_path)}, ${lit(p.new_path)}, ${ts(p.date)}, ${ts(p.modified)})` +
       ` ON CONFLICT (wp_id) DO UPDATE SET slug = EXCLUDED.slug, title = EXCLUDED.title, description = EXCLUDED.description, short_description = EXCLUDED.short_description, status = EXCLUDED.status, sku = EXCLUDED.sku, regular_price = EXCLUDED.regular_price, sale_price = EXCLUDED.sale_price, price = EXCLUDED.price, virtual = EXCLUDED.virtual, downloadable = EXCLUDED.downloadable, download_limit = EXCLUDED.download_limit, download_expiry = EXCLUDED.download_expiry, stock_status = EXCLUDED.stock_status, average_rating = EXCLUDED.average_rating, review_count = EXCLUDED.review_count, total_sales = EXCLUDED.total_sales, featured_image_id = EXCLUDED.featured_image_id, menu_order = EXCLUDED.menu_order, old_path = EXCLUDED.old_path, new_path = EXCLUDED.new_path, published_at = EXCLUDED.published_at, modified_at = EXCLUDED.modified_at;`
   );
   counts.products++;
@@ -288,7 +305,7 @@ for (const p of pages) {
   const authorId = p.author && profileWpIds.has(Number(p.author.id ?? p.author)) ? num(p.author.id ?? p.author) : "NULL";
   out.push(
     `INSERT INTO public.pages (wp_id, slug, title, content, excerpt, status, parent_id, menu_order, page_template, author_id, featured_image_id, published_at, modified_at) VALUES (` +
-      `${num(p.wp_id)}, ${lit(p.slug)}, ${lit(p.title)}, ${lit(p.content)}, ${lit(p.excerpt)}, ${lit(p.status || "publish")}, ${num(p.parent_id)}, ${num(p.menu_order)}, ${lit(p.page_template)}, ${authorId}, ${mediaRef("pages", p.wp_id, "featured_image_id", p.featured_image_id)}, ${ts(p.date)}, ${ts(p.modified)})` +
+      `${num(p.wp_id)}, ${lit(p.slug)}, ${lit(p.title)}, ${lit(cleanContent(p.content))}, ${lit(p.excerpt)}, ${lit(p.status || "publish")}, ${num(p.parent_id)}, ${num(p.menu_order)}, ${lit(p.page_template)}, ${authorId}, ${mediaRef("pages", p.wp_id, "featured_image_id", p.featured_image_id)}, ${ts(p.date)}, ${ts(p.modified)})` +
       ` ON CONFLICT (wp_id) DO UPDATE SET slug = EXCLUDED.slug, title = EXCLUDED.title, content = EXCLUDED.content, excerpt = EXCLUDED.excerpt, status = EXCLUDED.status, parent_id = EXCLUDED.parent_id, menu_order = EXCLUDED.menu_order, page_template = EXCLUDED.page_template, author_id = EXCLUDED.author_id, featured_image_id = EXCLUDED.featured_image_id, published_at = EXCLUDED.published_at, modified_at = EXCLUDED.modified_at;`
   );
   counts.pages++;
@@ -303,7 +320,7 @@ counts.donation_stats = 0;
 for (const d of donations) {
   out.push(
     `INSERT INTO public.donation_forms (wp_id, slug, title, content, status, goal_enabled, goal_amount, goal_format, price_option, set_price, custom_amount, price_levels, image_id, published_at, modified_at) VALUES (` +
-      `${num(d.wp_id)}, ${lit(d.slug)}, ${lit(d.title)}, ${lit(d.content)}, ${lit(d.status || "publish")}, ${d.goal_enabled ? "TRUE" : "FALSE"}, ${num(d.goal_amount)}, ${lit(d.goal_format)}, ${lit(d.price_option)}, ${num(d.set_price)}, ${d.custom_amount ? "TRUE" : "FALSE"}, ${jsonb(d.donation_levels ?? null)}, ${mediaRef("donation_forms", d.wp_id, "image_id", d.image_id)}, ${ts(d.date)}, ${ts(d.modified)})` +
+      `${num(d.wp_id)}, ${lit(d.slug)}, ${lit(d.title)}, ${lit(cleanContent(d.content))}, ${lit(d.status || "publish")}, ${d.goal_enabled ? "TRUE" : "FALSE"}, ${num(d.goal_amount)}, ${lit(d.goal_format)}, ${lit(d.price_option)}, ${num(d.set_price)}, ${d.custom_amount ? "TRUE" : "FALSE"}, ${jsonb(d.donation_levels ?? null)}, ${mediaRef("donation_forms", d.wp_id, "image_id", d.image_id)}, ${ts(d.date)}, ${ts(d.modified)})` +
       ` ON CONFLICT (wp_id) DO UPDATE SET slug = EXCLUDED.slug, title = EXCLUDED.title, content = EXCLUDED.content, status = EXCLUDED.status, goal_enabled = EXCLUDED.goal_enabled, goal_amount = EXCLUDED.goal_amount, goal_format = EXCLUDED.goal_format, price_option = EXCLUDED.price_option, set_price = EXCLUDED.set_price, custom_amount = EXCLUDED.custom_amount, price_levels = EXCLUDED.price_levels, image_id = EXCLUDED.image_id, published_at = EXCLUDED.published_at, modified_at = EXCLUDED.modified_at;`
   );
   counts.donation_forms++;

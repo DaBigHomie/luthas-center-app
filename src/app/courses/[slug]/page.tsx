@@ -16,7 +16,7 @@ import {
   listPublishedCourses,
   getMediaByWpId,
   getMediaByWpIds,
-  resolveMediaUrl,
+  resolveCoverUrl,
 } from '@/shared/lib/data-source'
 import { CourseHero } from '@/widgets/course-detail/CourseHero'
 import { CourseMetaBar } from '@/widgets/course-detail/CourseMetaBar'
@@ -50,11 +50,8 @@ export async function generateMetadata({
 
   const description = course.excerpt ?? course.short_description ?? undefined
   const imageId = course.featured_image_id ?? course.cover_image_id ?? null
-  let ogImageUrl = '/placeholder-cover.svg'
-  if (imageId) {
-    const media = await getMediaByWpId(imageId)
-    if (media) ogImageUrl = resolveMediaUrl(media)
-  }
+  const ogMedia = imageId ? await getMediaByWpId(imageId) : null
+  const ogImageUrl = resolveCoverUrl(ogMedia, 'course', slug)
 
   const canonical = `https://luthascenter.damieus.app/courses/${slug}`
 
@@ -102,12 +99,12 @@ export default async function CourseDetailPage({
 
   // Resolve cover image
   let coverImage: MediaRow | null = null
-  let coverImageUrl: string | null = null
   const imageId = course.featured_image_id ?? course.cover_image_id
   if (imageId) {
     coverImage = await getMediaByWpId(imageId)
-    if (coverImage) coverImageUrl = resolveMediaUrl(coverImage)
   }
+  // Use per-item branded SVG when real cover is missing
+  const coverImageUrl: string = resolveCoverUrl(coverImage, 'course', course.slug)
 
   // Resolve related course images (different course, max 4)
   const allCourses = await listPublishedCourses()
@@ -119,12 +116,16 @@ export default async function CourseDetailPage({
     .map((c) => c.featured_image_id)
     .filter((id): id is number => id != null)
   const relatedMediaRows = await getMediaByWpIds(relatedImageIds)
-  const relatedMediaMap: Record<number, string> = {}
-  relatedMediaRows.forEach((m) => {
-    if (m.wp_attachment_id) {
-      relatedMediaMap[m.wp_attachment_id] = resolveMediaUrl(m)
-    }
-  })
+  const relatedMediaByWpId = new Map(relatedMediaRows.map((m) => [m.wp_attachment_id, m]))
+  // Build imageUrl map keyed by course.id (string) so RelatedCourses can look up by id.
+  // Every course gets a URL via resolveCoverUrl (real → branded SVG → placeholder).
+  const relatedMediaMap: Record<string, string> = {}
+  for (const relCourse of related) {
+    const relMedia = relCourse.featured_image_id
+      ? relatedMediaByWpId.get(relCourse.featured_image_id) ?? null
+      : null
+    relatedMediaMap[relCourse.id] = resolveCoverUrl(relMedia, 'course', relCourse.slug)
+  }
 
   // Instructor — best-effort; falls back to platform name
   const instructorName = 'Luthas Center'

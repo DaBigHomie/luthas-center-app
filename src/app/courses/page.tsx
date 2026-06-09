@@ -18,7 +18,7 @@ import {
   listPublishedCourses,
   listTermsByTaxonomy,
   getMediaByWpIds,
-  resolveMediaUrl,
+  resolveCoverUrl,
 } from '@/shared/lib/data-source'
 import { CourseCatalogClient } from '@/widgets/course-catalog'
 import type { CatalogCourse } from '@/widgets/course-catalog'
@@ -146,7 +146,7 @@ export default async function CoursesPage({ searchParams }: CoursesPageProps) {
     const media = course.featured_image_id
       ? mediaMap.get(course.featured_image_id) ?? null
       : null
-    const imageUrl = media ? resolveMediaUrl(media) : '/placeholder-cover.svg'
+    const imageUrl = resolveCoverUrl(media, 'course', course.slug)
 
     const catInfo = categoryMap.get(course.wp_id)
     const categoryTermIds = catInfo?.termIds ?? []

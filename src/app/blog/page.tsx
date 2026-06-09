@@ -17,7 +17,7 @@ import {
   countPosts,
   listTermsByTaxonomy,
   getMediaByWpIds,
-  resolveMediaUrl,
+  resolveCoverUrl,
 } from '@/shared/lib/data-source'
 import { PostCard } from '@/entities/post/ui/PostCard'
 import { Skeleton } from '@/shared/ui'
@@ -201,7 +201,7 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
               const mediaRow = post.featured_image_id
                 ? (mediaById.get(post.featured_image_id) ?? null)
                 : null
-              const imageUrl = mediaRow ? resolveMediaUrl(mediaRow) : '/placeholder-cover.svg'
+              const imageUrl = resolveCoverUrl(mediaRow, 'post', post.slug)
 
               return (
                 <PostCard

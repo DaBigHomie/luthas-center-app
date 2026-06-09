@@ -1,8 +1,10 @@
 /**
  * Prose — renders trusted WordPress HTML via dangerouslySetInnerHTML.
  *
- * Server Component. Content is sanitized server-side with sanitize-html and
- * internal links/images are rewritten to new routes before rendering.
+ * Server Component. Content is run through the WP_CLEAN_PIPELINE first
+ * (strip Gutenberg comments, unwrap shortcodes, rewrite internal links,
+ * replace unreachable images), then sanitized with sanitize-html as the
+ * final safety net before rendering.
  *
  * Typography is built from design tokens (no raw hex, no Tailwind Typography
  * plugin dependency). Headings use font-heading; links use text-accent.
@@ -13,45 +15,7 @@ import * as React from 'react'
 import sanitizeHtml from 'sanitize-html'
 import { cn } from '@/shared/lib/utils'
 import { REDIRECT_MAP } from '@/shared/config/redirects.generated'
-
-// ---------------------------------------------------------------------------
-// Internal-URL patterns for luthascenter.local (dev WP host) and
-// absolute old-WP paths that should be rewritten to new routes.
-// ---------------------------------------------------------------------------
-
-const INTERNAL_ORIGINS = [
-  'https://luthascenter.local',
-  'http://luthascenter.local',
-  'https://www.luthascenter.local',
-  'http://www.luthascenter.local',
-  'https://luthascenter.com',
-  'http://luthascenter.com',
-  'https://www.luthascenter.com',
-  'http://www.luthascenter.com',
-]
-
-/**
- * Strip any known internal origin from an absolute URL, returning a root-
- * relative path (e.g. "/courses/agile-foundations"). Returns null when the URL
- * cannot be matched to an internal origin.
- */
-function toInternalPath(href: string): string | null {
-  for (const origin of INTERNAL_ORIGINS) {
-    if (href.startsWith(origin + '/') || href === origin) {
-      return href.slice(origin.length) || '/'
-    }
-  }
-  return null
-}
-
-/**
- * Lookup a path in the redirect map (normalise trailing slash first).
- * Returns the mapped new path or the original path if not found.
- */
-function resolveInternalPath(rawPath: string): string {
-  const normalised = rawPath.length > 1 ? rawPath.replace(/\/$/, '') : rawPath
-  return REDIRECT_MAP[normalised] ?? normalised
-}
+import { applyTransforms, WP_CLEAN_PIPELINE } from '@/shared/lib/wp-content'
 
 // ---------------------------------------------------------------------------
 // sanitize-html configuration
@@ -97,21 +61,12 @@ const SANITIZE_OPTIONS: sanitizeHtml.IOptions = {
     ins: ['datetime'],
   },
   allowedSchemes: ['https', 'http', 'mailto', 'tel'],
-  // Rewrite internal links and drop unreachable .local image sources
+  // External links — ensure safe rel/target attributes.
+  // Internal link rewriting and unreachable image replacement are handled
+  // upstream by WP_CLEAN_PIPELINE before sanitize-html runs.
   transformTags: {
     a(tagName, attribs) {
       const href = attribs.href ?? ''
-      const internalPath = toInternalPath(href)
-      if (internalPath !== null) {
-        return {
-          tagName,
-          attribs: {
-            ...attribs,
-            href: resolveInternalPath(internalPath),
-          },
-        }
-      }
-      // External links — ensure safe rel
       if (href.startsWith('http')) {
         return {
           tagName,
@@ -124,33 +79,7 @@ const SANITIZE_OPTIONS: sanitizeHtml.IOptions = {
       }
       return { tagName, attribs }
     },
-    img(tagName, attribs) {
-      const src = attribs.src ?? ''
-      const internalPath = toInternalPath(src)
-      if (internalPath !== null) {
-        // Internal image from .local host — replace with placeholder
-        return {
-          tagName,
-          attribs: {
-            ...attribs,
-            src: '/placeholder-cover.svg',
-            srcset: '',
-            sizes: '',
-          },
-        }
-      }
-      // External image: pass through unchanged (src may be a CDN or Supabase URL)
-      return { tagName, attribs }
-    },
   },
-}
-
-// ---------------------------------------------------------------------------
-// Sanitize helper
-// ---------------------------------------------------------------------------
-
-function sanitize(html: string): string {
-  return sanitizeHtml(html, SANITIZE_OPTIONS)
 }
 
 // ---------------------------------------------------------------------------
@@ -163,7 +92,13 @@ export interface ProseProps {
 }
 
 export function Prose({ html, className }: ProseProps) {
-  const clean = sanitize(html)
+  // Step 1: run the WP transform pipeline (strips comments, shortcodes,
+  //         rewrites internal links, replaces unreachable images).
+  const pipelined = applyTransforms(html, WP_CLEAN_PIPELINE, {
+    redirectMap: REDIRECT_MAP,
+  })
+  // Step 2: sanitize-html as the final safety net.
+  const clean = sanitizeHtml(pipelined, SANITIZE_OPTIONS)
 
   return (
     <div

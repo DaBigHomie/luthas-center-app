@@ -9,7 +9,13 @@ import type { CourseSummary } from '@/entities/course/model'
 
 interface RelatedCoursesProps {
   courses: CourseSummary[]
-  mediaMap: Record<number, string>
+  /**
+   * Map from course.id (string) → resolved cover URL.
+   * Built by the parent Server Component using resolveCoverUrl so that every
+   * entry already contains the best available URL (real image → branded SVG →
+   * placeholder). Every course in the `courses` array should have an entry.
+   */
+  mediaMap: Record<string, string>
 }
 
 function formatPrice(price: number | null | undefined, priceType: string | null): string {
@@ -30,7 +36,7 @@ export function RelatedCourses({ courses, mediaMap }: RelatedCoursesProps) {
       </h2>
       <div className="flex gap-spacing-4 overflow-x-auto pb-spacing-2 lg:grid lg:grid-cols-4 lg:overflow-visible snap-x snap-mandatory">
         {courses.map((course) => {
-          const imgUrl = course.featured_image_id ? mediaMap[course.featured_image_id] : null
+          const imgUrl = mediaMap[course.id] ?? '/placeholder-cover.svg'
           const priceLabel = formatPrice(course.price, course.price_type)
           return (
             <a
@@ -40,21 +46,13 @@ export function RelatedCourses({ courses, mediaMap }: RelatedCoursesProps) {
             >
               {/* Cover image */}
               <div className="relative aspect-video bg-color-surface-raised">
-                {imgUrl ? (
-                  <Image
-                    src={imgUrl}
-                    alt={`${course.title} — course cover`}
-                    fill
-                    className="object-cover"
-                    sizes="(max-width: 1024px) 256px, 25vw"
-                  />
-                ) : (
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <svg aria-hidden="true" viewBox="0 0 40 40" fill="currentColor" className="size-10 text-color-text-muted opacity-20">
-                      <path d="M20 4C11.163 4 4 11.163 4 20s7.163 16 16 16 16-7.163 16-16S28.837 4 20 4zm-4 22V14l11 6-11 6z" />
-                    </svg>
-                  </div>
-                )}
+                <Image
+                  src={imgUrl}
+                  alt={`${course.title} — course cover`}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 1024px) 256px, 25vw"
+                />
               </div>
               {/* Card body */}
               <div className="p-spacing-4">

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="What Causes An Anxiety Spiral And How To Prevent It">
+  <defs>
+    <linearGradient id="bg-anxiety-spiral" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:hsl(19, 94%, 55%);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:hsl(0, 0%, 7%);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background gradient -->
+  <rect width="1200" height="630" fill="url(#bg-anxiety-spiral)" />
+  <!-- Subtle texture overlay -->
+  <rect width="1200" height="630" fill="hsl(0, 0%, 100%)" opacity="0.04" />
+  <!-- Bottom bar with brand name -->
+  <rect x="0" y="558" width="1200" height="72" fill="hsl(0, 0%, 7%)" opacity="0.55" />
+  <text x="60" y="602" font-family="Montserrat,Arial,sans-serif" font-weight="700" font-size="22" fill="hsl(0, 0%, 100%)" opacity="0.90">Luthas Center for Excellence</text>
+  <!-- Type badge -->
+  <rect x="60" y="48" width="126" height="34" rx="4" fill="hsl(216, 72%, 21%)" opacity="0.90" />
+  <text x="123" y="70" text-anchor="middle" font-family="Montserrat,Arial,sans-serif" font-weight="700" font-size="14" fill="hsl(0, 0%, 100%)" letter-spacing="2">ARTICLE</text>
+  <!-- Title text -->
+  <text x="600" y="273" text-anchor="middle" font-family="Montserrat,Arial,sans-serif" font-weight="700" font-size="38" fill="hsl(0, 0%, 100%)" opacity="0.97">What Causes An Anxiety</text>
+  <text x="600" y="325" text-anchor="middle" font-family="Montserrat,Arial,sans-serif" font-weight="700" font-size="38" fill="hsl(0, 0%, 100%)" opacity="0.97">Spiral And How To</text>
+  <text x="600" y="377" text-anchor="middle" font-family="Montserrat,Arial,sans-serif" font-weight="700" font-size="38" fill="hsl(0, 0%, 100%)" opacity="0.97">Prevent It</text>
+</svg>

@@ -21,7 +21,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { getPostBySlug, listPosts } from '@/shared/lib/data-source'
 import { getMediaByWpId, getMediaByWpIds } from '@/shared/lib/data-source'
-import { resolveMediaUrl } from '@/shared/lib/data-source'
+import { resolveCoverUrl } from '@/shared/lib/data-source'
 import { Breadcrumb } from '@/shared/ui/Breadcrumb'
 import { Badge } from '@/shared/ui/Badge'
 import { Avatar } from '@/shared/ui/Avatar'
@@ -61,11 +61,8 @@ export async function generateMetadata({
   const description = post.excerpt ?? undefined
   const canonical = `https://luthascenter.damieus.app/blog/${slug}`
 
-  let ogImageUrl = '/placeholder-cover.svg'
-  if (post.featured_image_id) {
-    const media = await getMediaByWpId(Number(post.featured_image_id))
-    if (media) ogImageUrl = resolveMediaUrl(media)
-  }
+  const ogMedia = post.featured_image_id ? await getMediaByWpId(Number(post.featured_image_id)) : null
+  const ogImageUrl = resolveCoverUrl(ogMedia, 'post', slug)
 
   return {
     title: post.title ?? undefined,
@@ -188,7 +185,8 @@ export default async function PostDetailPage({
   if (post.featured_image_id) {
     featuredMedia = await getMediaByWpId(Number(post.featured_image_id))
   }
-  const featuredImageUrl = featuredMedia ? resolveMediaUrl(featuredMedia) : '/placeholder-cover.svg'
+  // Use per-item branded SVG when real cover is missing
+  const featuredImageUrl = resolveCoverUrl(featuredMedia, 'post', slug)
   const imageAlt = featuredMedia?.alt_text || post.title || 'Post featured image'
   const imageWidth = featuredMedia?.width ?? 1200
   const imageHeight = featuredMedia?.height ?? 675
@@ -436,9 +434,9 @@ export default async function PostDetailPage({
           <div className="grid gap-spacing-6 sm:grid-cols-2 lg:grid-cols-3">
             {relatedPosts.map((related) => {
               const relMedia = related.featured_image_id
-                ? mediaMap.get(Number(related.featured_image_id))
-                : undefined
-              const relImageUrl = relMedia ? resolveMediaUrl(relMedia) : '/placeholder-cover.svg'
+                ? mediaMap.get(Number(related.featured_image_id)) ?? null
+                : null
+              const relImageUrl = resolveCoverUrl(relMedia, 'post', related.slug)
 
               // Raw record for related post categories
               const relRaw = loadRawPost(related.slug)
