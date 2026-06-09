@@ -1,10 +1,10 @@
 import 'server-only'
-import { createClient } from '@/shared/lib/supabase/server'
+import { createPublicClient } from '@/shared/lib/supabase/server'
 import type { PageRow, PageSummary } from './model'
 
 /** List all published pages, ordered by menu_order. */
 export async function listPublishedPages(): Promise<PageSummary[]> {
-  const supabase = await createClient()
+  const supabase = await createPublicClient()
   const { data, error } = await supabase
     .from('pages')
     .select('id, wp_id, slug, title, excerpt, parent_id, menu_order, page_template, status')
@@ -17,7 +17,7 @@ export async function listPublishedPages(): Promise<PageSummary[]> {
 
 /** Fetch a single published page by slug. */
 export async function getPageBySlug(slug: string): Promise<PageRow | null> {
-  const supabase = await createClient()
+  const supabase = await createPublicClient()
   const { data, error } = await supabase
     .from('pages')
     .select('*')
@@ -34,7 +34,7 @@ export async function getPageBySlug(slug: string): Promise<PageRow | null> {
 
 /** Fetch all published child pages for a given parent (by wp_id). */
 export async function listChildPages(parentWpId: number): Promise<PageSummary[]> {
-  const supabase = await createClient()
+  const supabase = await createPublicClient()
   const { data, error } = await supabase
     .from('pages')
     .select('id, wp_id, slug, title, excerpt, parent_id, menu_order, page_template, status')

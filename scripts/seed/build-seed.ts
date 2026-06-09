@@ -23,6 +23,7 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { applyTransforms, WP_CLEAN_PIPELINE } from "../../src/shared/lib/wp-content/index.ts";
 import { REDIRECT_MAP } from "../../src/shared/config/redirects.generated.ts";
+import { slugify, isNumericSlug } from "../../src/shared/lib/slugify.ts";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..", "..");
@@ -110,6 +111,27 @@ const products = records(load(SAN, "products"));
 const pages = records(load(SAN, "pages"));
 const donationsEnv = load(SAN, "donations");
 const donations = records(donationsEnv);
+
+// Title-slugs for LMS content (courses/lessons store numeric wp_id as their
+// slug). MUST match the JSON adapter (src/shared/lib/data-source.ts) so both
+// data sources produce identical routes.
+function buildTitleSlugMap(recs: any[]): Map<number, string> {
+  const seen = new Map<string, number>();
+  const result = new Map<number, string>();
+  for (const r of [...recs].sort((a, b) => a.wp_id - b.wp_id)) {
+    const base = slugify(String(r.title ?? r.wp_id));
+    const count = seen.get(base) ?? 0;
+    result.set(r.wp_id, count === 0 ? base : `${base}-${count + 1}`);
+    seen.set(base, count + 1);
+  }
+  return result;
+}
+const courseSlugMap = buildTitleSlugMap(courses);
+const lessonSlugMap = buildTitleSlugMap(lessons);
+function resolveLmsSlug(r: any, map: Map<number, string>): string {
+  if (!isNumericSlug(r.slug)) return r.slug as string;
+  return map.get(r.wp_id) ?? slugify(String(r.title ?? r.wp_id));
+}
 
 const mediaIds = new Set<number>(media.map((m: any) => Number(m.wp_id ?? m.wp_attachment_id)));
 const termIds = new Set<number>(terms.map((t: any) => Number(t.term_id)));
@@ -202,7 +224,7 @@ for (const c of courses) {
   const status = c.status === "publish" ? "publish" : "pending";
   out.push(
     `INSERT INTO public.courses (wp_id, status, slug, title, content, excerpt, short_description, price_type, price, access_mode, certificate_id, intro_video, materials_enabled, menu_order, steps_source, step_counts, featured_image_id, cover_image_id, old_path, new_path, published_at, modified_at) VALUES (` +
-      `${num(c.wp_id)}, ${lit(status)}::public.course_status, ${lit(c.slug)}, ${lit(c.title)}, ${lit(cleanContent(c.content))}, ${lit(c.excerpt)}, ${lit(c.short_description)}, ${lit(c.price_type)}, ${num(c.price)}, ${lit(c.access_mode)}, ${num(c.certificate_id)}, ${lit(c.intro_video)}, ${c.materials_enabled ? "TRUE" : "FALSE"}, ${num(c.menu_order)}, ${lit(c.steps_source)}, ${jsonb(c.step_counts ?? null)}, ${mediaRef("courses", c.wp_id, "featured_image_id", c.featured_image_id)}, ${mediaRef("courses", c.wp_id, "cover_image_id", c.cover_image_id)}, ${lit(c.old_path)}, ${lit(c.new_path)}, ${ts(c.date)}, ${ts(c.modified)})` +
+      `${num(c.wp_id)}, ${lit(status)}::public.course_status, ${lit(resolveLmsSlug(c, courseSlugMap))}, ${lit(c.title)}, ${lit(cleanContent(c.content))}, ${lit(c.excerpt)}, ${lit(c.short_description)}, ${lit(c.price_type)}, ${num(c.price)}, ${lit(c.access_mode)}, ${num(c.certificate_id)}, ${lit(c.intro_video)}, ${c.materials_enabled ? "TRUE" : "FALSE"}, ${num(c.menu_order)}, ${lit(c.steps_source)}, ${jsonb(c.step_counts ?? null)}, ${mediaRef("courses", c.wp_id, "featured_image_id", c.featured_image_id)}, ${mediaRef("courses", c.wp_id, "cover_image_id", c.cover_image_id)}, ${lit(c.old_path)}, ${lit(c.new_path)}, ${ts(c.date)}, ${ts(c.modified)})` +
       ` ON CONFLICT (wp_id) DO UPDATE SET status = EXCLUDED.status, slug = EXCLUDED.slug, title = EXCLUDED.title, content = EXCLUDED.content, excerpt = EXCLUDED.excerpt, short_description = EXCLUDED.short_description, price_type = EXCLUDED.price_type, price = EXCLUDED.price, access_mode = EXCLUDED.access_mode, certificate_id = EXCLUDED.certificate_id, intro_video = EXCLUDED.intro_video, materials_enabled = EXCLUDED.materials_enabled, menu_order = EXCLUDED.menu_order, steps_source = EXCLUDED.steps_source, step_counts = EXCLUDED.step_counts, featured_image_id = EXCLUDED.featured_image_id, cover_image_id = EXCLUDED.cover_image_id, old_path = EXCLUDED.old_path, new_path = EXCLUDED.new_path, published_at = EXCLUDED.published_at, modified_at = EXCLUDED.modified_at;`
   );
   counts.courses++;
@@ -221,7 +243,7 @@ for (const l of lessons) {
   const courseId = courseIds.has(Number(l.course_id)) ? num(l.course_id) : "NULL";
   out.push(
     `INSERT INTO public.lessons (wp_id, course_id, slug, title, content, excerpt, sort_order, status, video_url, featured_image_id, old_path, new_path, published_at, modified_at) VALUES (` +
-      `${num(l.wp_id)}, ${courseId}, ${lit(l.slug)}, ${lit(l.title)}, ${lit(cleanContent(l.content))}, ${lit(l.excerpt)}, ${num(l.menu_order)}, ${lit(lmsStatus(l.status))}::public.lms_content_status, ${lit(l.video_url)}, ${mediaRef("lessons", l.wp_id, "featured_image_id", l.featured_image_id)}, ${lit(l.old_path)}, ${lit(l.new_path)}, ${ts(l.date)}, ${ts(l.modified)})` +
+      `${num(l.wp_id)}, ${courseId}, ${lit(resolveLmsSlug(l, lessonSlugMap))}, ${lit(l.title)}, ${lit(cleanContent(l.content))}, ${lit(l.excerpt)}, ${num(l.menu_order)}, ${lit(lmsStatus(l.status))}::public.lms_content_status, ${lit(l.video_url)}, ${mediaRef("lessons", l.wp_id, "featured_image_id", l.featured_image_id)}, ${lit(l.old_path)}, ${lit(l.new_path)}, ${ts(l.date)}, ${ts(l.modified)})` +
       ` ON CONFLICT (wp_id) DO UPDATE SET course_id = EXCLUDED.course_id, slug = EXCLUDED.slug, title = EXCLUDED.title, content = EXCLUDED.content, excerpt = EXCLUDED.excerpt, sort_order = EXCLUDED.sort_order, status = EXCLUDED.status, video_url = EXCLUDED.video_url, featured_image_id = EXCLUDED.featured_image_id, old_path = EXCLUDED.old_path, new_path = EXCLUDED.new_path, published_at = EXCLUDED.published_at, modified_at = EXCLUDED.modified_at;`
   );
   counts.lessons++;

@@ -1,10 +1,10 @@
 import 'server-only'
-import { createClient } from '@/shared/lib/supabase/server'
+import { createPublicClient } from '@/shared/lib/supabase/server'
 import type { QuizRow } from './model'
 
 /** Fetch all published quizzes for a given course (by wp_id). */
 export async function listQuizzesByCourse(courseWpId: number): Promise<QuizRow[]> {
-  const supabase = await createClient()
+  const supabase = await createPublicClient()
   const { data, error } = await supabase
     .from('quizzes')
     .select('*')
@@ -18,7 +18,7 @@ export async function listQuizzesByCourse(courseWpId: number): Promise<QuizRow[]
 
 /** Fetch a single published quiz by slug. */
 export async function getQuizBySlug(slug: string): Promise<QuizRow | null> {
-  const supabase = await createClient()
+  const supabase = await createPublicClient()
   const { data, error } = await supabase
     .from('quizzes')
     .select('*')

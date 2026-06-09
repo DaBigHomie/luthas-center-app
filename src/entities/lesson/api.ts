@@ -1,10 +1,10 @@
 import 'server-only'
-import { createClient } from '@/shared/lib/supabase/server'
+import { createPublicClient } from '@/shared/lib/supabase/server'
 import type { LessonRow } from './model'
 
 /** Fetch all published lessons for a given course (by wp_id), ordered by sort_order. */
 export async function listLessonsByCourse(courseWpId: number): Promise<LessonRow[]> {
-  const supabase = await createClient()
+  const supabase = await createPublicClient()
   const { data, error } = await supabase
     .from('lessons')
     .select('*')
@@ -18,7 +18,7 @@ export async function listLessonsByCourse(courseWpId: number): Promise<LessonRow
 
 /** Fetch a single published lesson by slug. */
 export async function getLessonBySlug(slug: string): Promise<LessonRow | null> {
-  const supabase = await createClient()
+  const supabase = await createPublicClient()
   const { data, error } = await supabase
     .from('lessons')
     .select('*')
@@ -35,7 +35,7 @@ export async function getLessonBySlug(slug: string): Promise<LessonRow | null> {
 
 /** Fetch a lesson by wp_id (any status — admin use). */
 export async function getLessonByWpId(wpId: number): Promise<LessonRow | null> {
-  const supabase = await createClient()
+  const supabase = await createPublicClient()
   const { data, error } = await supabase
     .from('lessons')
     .select('*')

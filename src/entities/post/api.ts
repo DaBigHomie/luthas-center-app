@@ -1,5 +1,5 @@
 import 'server-only'
-import { createClient } from '@/shared/lib/supabase/server'
+import { createPublicClient } from '@/shared/lib/supabase/server'
 import type { PostRow, PostSummary, ListPostsParams } from './model'
 
 /** List published posts with optional category filter, paginated. */
@@ -8,7 +8,7 @@ export async function listPosts(params: ListPostsParams = {}): Promise<PostSumma
   const from = (page - 1) * pageSize
   const to = from + pageSize - 1
 
-  const supabase = await createClient()
+  const supabase = await createPublicClient()
 
   // If filtering by category, first resolve the term's wp_term_id
   let wpIds: number[] | null = null
@@ -56,7 +56,7 @@ export async function listPosts(params: ListPostsParams = {}): Promise<PostSumma
 
 /** Fetch a single published post by slug (full content). */
 export async function getPostBySlug(slug: string): Promise<PostRow | null> {
-  const supabase = await createClient()
+  const supabase = await createPublicClient()
   const { data, error } = await supabase
     .from('posts')
     .select('*')
@@ -73,7 +73,7 @@ export async function getPostBySlug(slug: string): Promise<PostRow | null> {
 
 /** Count total published posts, optionally scoped to a category slug. */
 export async function countPosts(categorySlug?: string): Promise<number> {
-  const supabase = await createClient()
+  const supabase = await createPublicClient()
 
   let wpIds: number[] | null = null
   if (categorySlug) {

@@ -1,10 +1,10 @@
 import 'server-only'
-import { createClient } from '@/shared/lib/supabase/server'
+import { createPublicClient } from '@/shared/lib/supabase/server'
 import type { DonationFormRow, DonationFormWithStats, DonationStatsRow } from './model'
 
 /** List all published donation forms. */
 export async function listDonationForms(): Promise<DonationFormRow[]> {
-  const supabase = await createClient()
+  const supabase = await createPublicClient()
   const { data, error } = await supabase
     .from('donation_forms')
     .select('*')
@@ -19,7 +19,7 @@ export async function listDonationForms(): Promise<DonationFormRow[]> {
 export async function getDonationFormWithStats(
   wpId: number,
 ): Promise<DonationFormWithStats | null> {
-  const supabase = await createClient()
+  const supabase = await createPublicClient()
   const { data: form, error: formError } = await supabase
     .from('donation_forms')
     .select('*')
@@ -47,7 +47,7 @@ export async function getDonationFormWithStats(
 
 /** Fetch aggregate stats for a donation form. */
 export async function getDonationStats(formWpId: number): Promise<DonationStatsRow | null> {
-  const supabase = await createClient()
+  const supabase = await createPublicClient()
   const { data, error } = await supabase
     .from('donation_stats')
     .select('*')

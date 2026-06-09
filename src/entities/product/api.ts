@@ -1,10 +1,10 @@
 import 'server-only'
-import { createClient } from '@/shared/lib/supabase/server'
+import { createPublicClient } from '@/shared/lib/supabase/server'
 import type { ProductRow, ProductAttributeRow, ProductWithAttributes, ProductSummary } from './model'
 
 /** List all published products, ordered by menu_order. */
 export async function listPublishedProducts(): Promise<ProductSummary[]> {
-  const supabase = await createClient()
+  const supabase = await createPublicClient()
   const { data, error } = await supabase
     .from('products')
     .select(
@@ -19,7 +19,7 @@ export async function listPublishedProducts(): Promise<ProductSummary[]> {
 
 /** Fetch a published product by slug. */
 export async function getProductBySlug(slug: string): Promise<ProductRow | null> {
-  const supabase = await createClient()
+  const supabase = await createPublicClient()
   const { data, error } = await supabase
     .from('products')
     .select('*')
@@ -41,7 +41,7 @@ export async function getProductWithAttributes(
   const product = await getProductBySlug(slug)
   if (!product) return null
 
-  const supabase = await createClient()
+  const supabase = await createPublicClient()
   const { data: attrs, error } = await supabase
     .from('product_attributes')
     .select('*')
@@ -54,7 +54,7 @@ export async function getProductWithAttributes(
 
 /** List product attributes for a given product (by wp_id). */
 export async function listProductAttributes(productWpId: number): Promise<ProductAttributeRow[]> {
-  const supabase = await createClient()
+  const supabase = await createPublicClient()
   const { data, error } = await supabase
     .from('product_attributes')
     .select('*')

@@ -1,10 +1,10 @@
 import 'server-only'
-import { createClient } from '@/shared/lib/supabase/server'
+import { createPublicClient } from '@/shared/lib/supabase/server'
 import type { MediaRow } from './model'
 
 /** Fetch a media record by its WP attachment id. */
 export async function getMediaByWpId(wpAttachmentId: number): Promise<MediaRow | null> {
-  const supabase = await createClient()
+  const supabase = await createPublicClient()
   const { data, error } = await supabase
     .from('media')
     .select('*')
@@ -21,7 +21,7 @@ export async function getMediaByWpId(wpAttachmentId: number): Promise<MediaRow |
 /** Fetch multiple media records by their WP attachment ids. */
 export async function getMediaByWpIds(wpAttachmentIds: number[]): Promise<MediaRow[]> {
   if (wpAttachmentIds.length === 0) return []
-  const supabase = await createClient()
+  const supabase = await createPublicClient()
   const { data, error } = await supabase
     .from('media')
     .select('*')
@@ -33,7 +33,7 @@ export async function getMediaByWpIds(wpAttachmentIds: number[]): Promise<MediaR
 
 /** List all media records for a given MIME type prefix (e.g. 'image/'). */
 export async function listMediaByMimePrefix(mimePrefix: string): Promise<MediaRow[]> {
-  const supabase = await createClient()
+  const supabase = await createPublicClient()
   const { data, error } = await supabase
     .from('media')
     .select('*')

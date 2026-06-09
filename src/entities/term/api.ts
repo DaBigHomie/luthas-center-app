@@ -1,10 +1,10 @@
 import 'server-only'
-import { createClient } from '@/shared/lib/supabase/server'
+import { createPublicClient } from '@/shared/lib/supabase/server'
 import type { TermRow, TermRelationshipRow, Taxonomy } from './model'
 
 /** List all terms for a given taxonomy, ordered by name. */
 export async function listTermsByTaxonomy(taxonomy: Taxonomy): Promise<TermRow[]> {
-  const supabase = await createClient()
+  const supabase = await createPublicClient()
   const { data, error } = await supabase
     .from('terms')
     .select('*')
@@ -17,7 +17,7 @@ export async function listTermsByTaxonomy(taxonomy: Taxonomy): Promise<TermRow[]
 
 /** Fetch a term by slug within a taxonomy. */
 export async function getTermBySlug(slug: string, taxonomy: Taxonomy): Promise<TermRow | null> {
-  const supabase = await createClient()
+  const supabase = await createPublicClient()
   const { data, error } = await supabase
     .from('terms')
     .select('*')
@@ -37,7 +37,7 @@ export async function listTermsForObject(
   objectType: string,
   objectId: number,
 ): Promise<TermRelationshipRow[]> {
-  const supabase = await createClient()
+  const supabase = await createPublicClient()
   const { data, error } = await supabase
     .from('term_relationships')
     .select('*')
@@ -57,7 +57,7 @@ export async function getTermsForObject(
   objectId: number,
   taxonomy?: Taxonomy,
 ): Promise<TermRow[]> {
-  const supabase = await createClient()
+  const supabase = await createPublicClient()
 
   let query = supabase
     .from('term_relationships')

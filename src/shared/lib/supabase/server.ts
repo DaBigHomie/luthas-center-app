@@ -5,6 +5,7 @@
 // Constructed lazily — does not crash at import time if env is missing.
 
 import { createServerClient as _createServerClient } from '@supabase/ssr'
+import { createClient as _createSupabaseClient } from '@supabase/supabase-js'
 import { cookies } from 'next/headers'
 import type { Database } from '@/shared/types/database'
 
@@ -27,6 +28,19 @@ function getEnv() {
  * For Route Handlers or Server Actions that need to write auth cookies, use
  * createActionClient() instead.
  */
+/**
+ * Cookieless anon client for PUBLIC, read-only data (courses, posts, pages,
+ * media, etc.). Safe in generateStaticParams / static rendering because it does
+ * NOT touch cookies() — RLS public-read policies still govern access.
+ * Async to keep call sites (`await createPublicClient()`) uniform.
+ */
+export async function createPublicClient() {
+  const { url, key } = getEnv()
+  return _createSupabaseClient<Database>(url, key, {
+    auth: { persistSession: false, autoRefreshToken: false },
+  })
+}
+
 export async function createClient() {
   const { url, key } = getEnv()
   const cookieStore = await cookies()

@@ -1,12 +1,12 @@
 import 'server-only'
-import { createClient } from '@/shared/lib/supabase/server'
+import { createPublicClient } from '@/shared/lib/supabase/server'
 import type { CourseRow, CourseStepRow, CourseWithCurriculum, CourseSummary } from './model'
 import { listLessonsByCourse } from '@/entities/lesson/api'
 import { listQuizzesByCourse } from '@/entities/quiz/api'
 
 /** List all published courses, ordered by menu_order then published_at. */
 export async function listPublishedCourses(): Promise<CourseSummary[]> {
-  const supabase = await createClient()
+  const supabase = await createPublicClient()
   const { data, error } = await supabase
     .from('courses')
     .select(
@@ -22,7 +22,7 @@ export async function listPublishedCourses(): Promise<CourseSummary[]> {
 
 /** Fetch a single published course by slug. */
 export async function getCourseBySlug(slug: string): Promise<CourseRow | null> {
-  const supabase = await createClient()
+  const supabase = await createPublicClient()
   const { data, error } = await supabase
     .from('courses')
     .select('*')
@@ -41,7 +41,7 @@ export async function getCourseBySlug(slug: string): Promise<CourseRow | null> {
 export async function getCourseWithCurriculum(
   slug: string,
 ): Promise<CourseWithCurriculum | null> {
-  const supabase = await createClient()
+  const supabase = await createPublicClient()
   const { data: course, error } = await supabase
     .from('courses')
     .select('*')
@@ -77,7 +77,7 @@ export async function getCourseWithCurriculum(
 
 /** Fetch all courses for a given term (by wp_term_id). */
 export async function listCoursesByTerm(wpTermId: number): Promise<CourseSummary[]> {
-  const supabase = await createClient()
+  const supabase = await createPublicClient()
   // term_relationships uses wp_id (integer) as object_id
   const { data: rels, error: relError } = await supabase
     .from('term_relationships')
