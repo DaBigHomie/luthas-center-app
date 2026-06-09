@@ -1,0 +1,5517 @@
+{
+  "domain": "redirects",
+  "source": "luthascenter.com (wp_ / blog_id=1)",
+  "blog_id": 1,
+  "extracted_at": "2026-06-08T23:27:26.807Z",
+  "note": "Functional-parity redirect map derived from the DB (no live WP crawl).",
+  "count": 686,
+  "canonical_count": 587,
+  "historical_count": 99,
+  "redirects": [
+    {
+      "type": "donation_form",
+      "wp_id": 17155,
+      "slug": "operational-expenses",
+      "old_path": "/donations/operational-expenses/",
+      "new_path": "/give/operational-expenses",
+      "reason": "canonical"
+    },
+    {
+      "type": "donation_form",
+      "wp_id": 17317,
+      "slug": "fund-education-initiatives",
+      "old_path": "/donations/fund-education-initiatives/",
+      "new_path": "/give/fund-education-initiatives",
+      "reason": "canonical"
+    },
+    {
+      "type": "donation_form",
+      "wp_id": 18072,
+      "slug": "mental-health-services-program",
+      "old_path": "/donations/mental-health-services-program/",
+      "new_path": "/give/mental-health-services-program",
+      "reason": "canonical"
+    },
+    {
+      "type": "page",
+      "wp_id": 5625,
+      "slug": "contact",
+      "old_path": "/contact/",
+      "new_path": "/contact",
+      "reason": "canonical"
+    },
+    {
+      "type": "page",
+      "wp_id": 6665,
+      "slug": "blog",
+      "old_path": "/blog/",
+      "new_path": "/blog",
+      "reason": "canonical"
+    },
+    {
+      "type": "page",
+      "wp_id": 6694,
+      "slug": "home",
+      "old_path": "/home/",
+      "new_path": "/home",
+      "reason": "canonical"
+    },
+    {
+      "type": "page",
+      "wp_id": 11766,
+      "slug": "donation-failed",
+      "old_path": "/donation-failed/",
+      "new_path": "/donation-failed",
+      "reason": "canonical"
+    },
+    {
+      "type": "page",
+      "wp_id": 11767,
+      "slug": "donor-dashboard",
+      "old_path": "/donor-dashboard/",
+      "new_path": "/donor-dashboard",
+      "reason": "canonical"
+    },
+    {
+      "type": "page",
+      "wp_id": 11771,
+      "slug": "give-receipt",
+      "old_path": "/give-receipt/",
+      "new_path": "/give-receipt",
+      "reason": "canonical"
+    },
+    {
+      "type": "page",
+      "wp_id": 17095,
+      "slug": "donate",
+      "old_path": "/donate/",
+      "new_path": "/donate",
+      "reason": "canonical"
+    },
+    {
+      "type": "page",
+      "wp_id": 17178,
+      "slug": "cart",
+      "old_path": "/cart/",
+      "new_path": "/cart",
+      "reason": "canonical"
+    },
+    {
+      "type": "page",
+      "wp_id": 17181,
+      "slug": "checkout",
+      "old_path": "/checkout/",
+      "new_path": "/checkout",
+      "reason": "canonical"
+    },
+    {
+      "type": "page",
+      "wp_id": 17183,
+      "slug": "my-account",
+      "old_path": "/my-account/",
+      "new_path": "/my-account",
+      "reason": "canonical"
+    },
+    {
+      "type": "page",
+      "wp_id": 17186,
+      "slug": "terms-and-conditions",
+      "old_path": "/terms-and-conditions/",
+      "new_path": "/terms-and-conditions",
+      "reason": "canonical"
+    },
+    {
+      "type": "page",
+      "wp_id": 17190,
+      "slug": "privacy-policy",
+      "old_path": "/privacy-policy/",
+      "new_path": "/privacy-policy",
+      "reason": "canonical"
+    },
+    {
+      "type": "page",
+      "wp_id": 17603,
+      "slug": "about",
+      "old_path": "/about/",
+      "new_path": "/about",
+      "reason": "canonical"
+    },
+    {
+      "type": "page",
+      "wp_id": 18158,
+      "slug": "empowering-diverse-communities-dei-initiatives",
+      "old_path": "/empowering-diverse-communities-dei-initiatives/",
+      "new_path": "/empowering-diverse-communities-dei-initiatives",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 2267,
+      "slug": "the-100-greatest-kids-movies-of-all-time-according-to-movie-critic-dads",
+      "old_path": "/the-100-greatest-kids-movies-of-all-time-according-to-movie-critic-dads/",
+      "new_path": "/blog/the-100-greatest-kids-movies-of-all-time-according-to-movie-critic-dads",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 2272,
+      "slug": "9-ways-to-stay-injury-free-for-life",
+      "old_path": "/9-ways-to-stay-injury-free-for-life/",
+      "new_path": "/blog/9-ways-to-stay-injury-free-for-life",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 2283,
+      "slug": "5-sneaky-and-subtle-signs-you-could-have-high-functioning-anxiety",
+      "old_path": "/5-sneaky-and-subtle-signs-you-could-have-high-functioning-anxiety/",
+      "new_path": "/blog/5-sneaky-and-subtle-signs-you-could-have-high-functioning-anxiety",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 2285,
+      "slug": "what-causes-autism-these-3-factors-decidedly-do-not-cause-autism",
+      "old_path": "/what-causes-autism-these-3-factors-decidedly-do-not-cause-autism/",
+      "new_path": "/blog/what-causes-autism-these-3-factors-decidedly-do-not-cause-autism",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 2289,
+      "slug": "what-you-need-to-know-about-the-new-covid-booster",
+      "old_path": "/what-you-need-to-know-about-the-new-covid-booster/",
+      "new_path": "/blog/what-you-need-to-know-about-the-new-covid-booster",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 2338,
+      "slug": "15-ideas-for-the-best-5-year-old-birthday-parties",
+      "old_path": "/15-ideas-for-the-best-5-year-old-birthday-parties/",
+      "new_path": "/blog/15-ideas-for-the-best-5-year-old-birthday-parties",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 2360,
+      "slug": "how-to-raise-brave-resilient-kids-without-scaring-them",
+      "old_path": "/how-to-raise-brave-resilient-kids-without-scaring-them/",
+      "new_path": "/blog/how-to-raise-brave-resilient-kids-without-scaring-them",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 2366,
+      "slug": "15-truly-original-ideas-for-the-6-year-old-birthday-party",
+      "old_path": "/15-truly-original-ideas-for-the-6-year-old-birthday-party/",
+      "new_path": "/blog/15-truly-original-ideas-for-the-6-year-old-birthday-party",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 2379,
+      "slug": "8-simple-practices-to-incorporate",
+      "old_path": "/8-simple-practices-to-incorporate/",
+      "new_path": "/blog/8-simple-practices-to-incorporate",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 3994,
+      "slug": "if-ai-is-the-future-gender-equity-is-essential",
+      "old_path": "/if-ai-is-the-future-gender-equity-is-essential/",
+      "new_path": "/blog/if-ai-is-the-future-gender-equity-is-essential",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4024,
+      "slug": "asking-you-good-isnt-good",
+      "old_path": "/asking-you-good-isnt-good/",
+      "new_path": "/blog/asking-you-good-isnt-good",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4061,
+      "slug": "what-causes-chronic-procrastination-and-how-to-overcome-it-2",
+      "old_path": "/what-causes-chronic-procrastination-and-how-to-overcome-it-2/",
+      "new_path": "/blog/what-causes-chronic-procrastination-and-how-to-overcome-it-2",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4068,
+      "slug": "inspirational-quotes-to-keep-you-motivated-for-life-success",
+      "old_path": "/inspirational-quotes-to-keep-you-motivated-for-life-success/",
+      "new_path": "/blog/inspirational-quotes-to-keep-you-motivated-for-life-success",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4077,
+      "slug": "what-causes-chronic-procrastination-and-how-to-overcome-it",
+      "old_path": "/what-causes-chronic-procrastination-and-how-to-overcome-it/",
+      "new_path": "/blog/what-causes-chronic-procrastination-and-how-to-overcome-it",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4079,
+      "slug": "12-foods-that-can-keep-you-awake-at-night-besides-caffeine",
+      "old_path": "/12-foods-that-can-keep-you-awake-at-night-besides-caffeine/",
+      "new_path": "/blog/12-foods-that-can-keep-you-awake-at-night-besides-caffeine",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4081,
+      "slug": "what-does-create-your-own-reality-mean-by-a-life-coach",
+      "old_path": "/what-does-create-your-own-reality-mean-by-a-life-coach/",
+      "new_path": "/blog/what-does-create-your-own-reality-mean-by-a-life-coach",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4091,
+      "slug": "how-to-use-project-milestones-to-stay-on-track-with-goals",
+      "old_path": "/how-to-use-project-milestones-to-stay-on-track-with-goals/",
+      "new_path": "/blog/how-to-use-project-milestones-to-stay-on-track-with-goals",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4094,
+      "slug": "how-to-turn-your-mid-career-crisis-into-an-opportunity",
+      "old_path": "/how-to-turn-your-mid-career-crisis-into-an-opportunity/",
+      "new_path": "/blog/how-to-turn-your-mid-career-crisis-into-an-opportunity",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4102,
+      "slug": "how-to-approach-dating-if-youre-too-busy-to-date",
+      "old_path": "/how-to-approach-dating-if-youre-too-busy-to-date/",
+      "new_path": "/blog/how-to-approach-dating-if-youre-too-busy-to-date",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4107,
+      "slug": "9-low-impact-exercises-for-all-fitness-levels",
+      "old_path": "/9-low-impact-exercises-for-all-fitness-levels/",
+      "new_path": "/blog/9-low-impact-exercises-for-all-fitness-levels",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4109,
+      "slug": "whats-avoidance-coping-and-alternative-strategies-to-cope",
+      "old_path": "/whats-avoidance-coping-and-alternative-strategies-to-cope/",
+      "new_path": "/blog/whats-avoidance-coping-and-alternative-strategies-to-cope",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4111,
+      "slug": "why-emotional-intelligence-in-leadership-matters",
+      "old_path": "/why-emotional-intelligence-in-leadership-matters/",
+      "new_path": "/blog/why-emotional-intelligence-in-leadership-matters",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4113,
+      "slug": "what-is-intuitive-eating-and-its-benefits-go-to-guide",
+      "old_path": "/what-is-intuitive-eating-and-its-benefits-go-to-guide/",
+      "new_path": "/blog/what-is-intuitive-eating-and-its-benefits-go-to-guide",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4117,
+      "slug": "optimist-vs-pessimist-how-your-mindset-can-impact-your-life",
+      "old_path": "/optimist-vs-pessimist-how-your-mindset-can-impact-your-life/",
+      "new_path": "/blog/optimist-vs-pessimist-how-your-mindset-can-impact-your-life",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4124,
+      "slug": "migraine-headaches-8-pressure-points-for-migraine-relief",
+      "old_path": "/migraine-headaches-8-pressure-points-for-migraine-relief/",
+      "new_path": "/blog/migraine-headaches-8-pressure-points-for-migraine-relief",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4128,
+      "slug": "how-to-use-day-theming-for-productivity-with-examples",
+      "old_path": "/how-to-use-day-theming-for-productivity-with-examples/",
+      "new_path": "/blog/how-to-use-day-theming-for-productivity-with-examples",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4130,
+      "slug": "how-to-get-over-your-fear-of-confrontation-with-confidence",
+      "old_path": "/how-to-get-over-your-fear-of-confrontation-with-confidence/",
+      "new_path": "/blog/how-to-get-over-your-fear-of-confrontation-with-confidence",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4143,
+      "slug": "servant-leadership",
+      "old_path": "/servant-leadership/",
+      "new_path": "/blog/servant-leadership",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4146,
+      "slug": "leading-with-empathy",
+      "old_path": "/leading-with-empathy/",
+      "new_path": "/blog/leading-with-empathy",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4161,
+      "slug": "what-is-a-mission-statement",
+      "old_path": "/what-is-a-mission-statement/",
+      "new_path": "/blog/what-is-a-mission-statement",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4167,
+      "slug": "delegating-work",
+      "old_path": "/delegating-work/",
+      "new_path": "/blog/delegating-work",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4173,
+      "slug": "authentic-leadership",
+      "old_path": "/authentic-leadership/",
+      "new_path": "/blog/authentic-leadership",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4176,
+      "slug": "leader-vs-manager",
+      "old_path": "/leader-vs-manager/",
+      "new_path": "/blog/leader-vs-manager",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4179,
+      "slug": "what-is-delegation",
+      "old_path": "/what-is-delegation/",
+      "new_path": "/blog/what-is-delegation",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4194,
+      "slug": "how-to-lead-a-team",
+      "old_path": "/how-to-lead-a-team/",
+      "new_path": "/blog/how-to-lead-a-team",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4197,
+      "slug": "teamwork-in-the-workplace",
+      "old_path": "/teamwork-in-the-workplace/",
+      "new_path": "/blog/teamwork-in-the-workplace",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4214,
+      "slug": "shortcut-happiness",
+      "old_path": "/shortcut-happiness/",
+      "new_path": "/blog/shortcut-happiness",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4217,
+      "slug": "plan-your-future-dream-job-now",
+      "old_path": "/plan-your-future-dream-job-now/",
+      "new_path": "/blog/plan-your-future-dream-job-now",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4220,
+      "slug": "why-big-dreams-can-big-problems",
+      "old_path": "/why-big-dreams-can-big-problems/",
+      "new_path": "/blog/why-big-dreams-can-big-problems",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4232,
+      "slug": "entrepreneurs-top-10-mistakes-from-apples-former-chief-evangelist",
+      "old_path": "/entrepreneurs-top-10-mistakes-from-apples-former-chief-evangelist/",
+      "new_path": "/blog/entrepreneurs-top-10-mistakes-from-apples-former-chief-evangelist",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4238,
+      "slug": "how-to-use-microresolutions-to-improve-sales-performance",
+      "old_path": "/how-to-use-microresolutions-to-improve-sales-performance/",
+      "new_path": "/blog/how-to-use-microresolutions-to-improve-sales-performance",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4241,
+      "slug": "4-personality-traits-that-create-conflicts-in-the-workplace",
+      "old_path": "/4-personality-traits-that-create-conflicts-in-the-workplace/",
+      "new_path": "/blog/4-personality-traits-that-create-conflicts-in-the-workplace",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4247,
+      "slug": "12-easy-actions-you-can-take-today-to-boost-your-confidence",
+      "old_path": "/12-easy-actions-you-can-take-today-to-boost-your-confidence/",
+      "new_path": "/blog/12-easy-actions-you-can-take-today-to-boost-your-confidence",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4262,
+      "slug": "this-important-element-in-you-brain-decides-if-youre-a-leader-or-a-follower",
+      "old_path": "/this-important-element-in-you-brain-decides-if-youre-a-leader-or-a-follower/",
+      "new_path": "/blog/this-important-element-in-you-brain-decides-if-youre-a-leader-or-a-follower",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4271,
+      "slug": "top-10-books-to-read-recommended-by-barack-obama-steve-jobs-and-elon-musk",
+      "old_path": "/top-10-books-to-read-recommended-by-barack-obama-steve-jobs-and-elon-musk/",
+      "new_path": "/blog/top-10-books-to-read-recommended-by-barack-obama-steve-jobs-and-elon-musk",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4277,
+      "slug": "becoming-bossbabe-5-reasons-you-should-read-more",
+      "old_path": "/becoming-bossbabe-5-reasons-you-should-read-more/",
+      "new_path": "/blog/becoming-bossbabe-5-reasons-you-should-read-more",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4283,
+      "slug": "how-emotionally-intelligent-like-true-leader",
+      "old_path": "/how-emotionally-intelligent-like-true-leader/",
+      "new_path": "/blog/how-emotionally-intelligent-like-true-leader",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4286,
+      "slug": "science-explains-why-having-deep-voice-critical-our-success-2",
+      "old_path": "/science-explains-why-having-deep-voice-critical-our-success-2/",
+      "new_path": "/blog/science-explains-why-having-deep-voice-critical-our-success-2",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4289,
+      "slug": "want-lift-yourself-instant-mood-boosters",
+      "old_path": "/want-lift-yourself-instant-mood-boosters/",
+      "new_path": "/blog/want-lift-yourself-instant-mood-boosters",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4298,
+      "slug": "10-non-cliche-books-written-super-successful-ceo-that-you-shouldnt-miss",
+      "old_path": "/10-non-cliche-books-written-super-successful-ceo-that-you-shouldnt-miss/",
+      "new_path": "/blog/10-non-cliche-books-written-super-successful-ceo-that-you-shouldnt-miss",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4319,
+      "slug": "managing-a-remote-team",
+      "old_path": "/managing-a-remote-team/",
+      "new_path": "/blog/managing-a-remote-team",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4322,
+      "slug": "how-to-become-a-leader",
+      "old_path": "/how-to-become-a-leader/",
+      "new_path": "/blog/how-to-become-a-leader",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4325,
+      "slug": "strategic-leadership",
+      "old_path": "/strategic-leadership/",
+      "new_path": "/blog/strategic-leadership",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4334,
+      "slug": "delegation-of-authority",
+      "old_path": "/delegation-of-authority/",
+      "new_path": "/blog/delegation-of-authority",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4343,
+      "slug": "the-lifehack-show-the-importance-of-leadership",
+      "old_path": "/the-lifehack-show-the-importance-of-leadership/",
+      "new_path": "/blog/the-lifehack-show-the-importance-of-leadership",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4346,
+      "slug": "leadership-motivation",
+      "old_path": "/leadership-motivation/",
+      "new_path": "/blog/leadership-motivation",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4361,
+      "slug": "mentoring",
+      "old_path": "/mentoring/",
+      "new_path": "/blog/mentoring",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4364,
+      "slug": "micromanage-swam-intelligence",
+      "old_path": "/micromanage-swam-intelligence/",
+      "new_path": "/blog/micromanage-swam-intelligence",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4381,
+      "slug": "kick-start-your-productivity-when-all-you-want-resist",
+      "old_path": "/kick-start-your-productivity-when-all-you-want-resist/",
+      "new_path": "/blog/kick-start-your-productivity-when-all-you-want-resist",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4393,
+      "slug": "9-traits-early-startups-should-look-for-marketing-hire",
+      "old_path": "/9-traits-early-startups-should-look-for-marketing-hire/",
+      "new_path": "/blog/9-traits-early-startups-should-look-for-marketing-hire",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4396,
+      "slug": "15-startup-founders-share-their-productivity-habits",
+      "old_path": "/15-startup-founders-share-their-productivity-habits/",
+      "new_path": "/blog/15-startup-founders-share-their-productivity-habits",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4404,
+      "slug": "designing-the-superior-man-15-powerful-qualities-part-1",
+      "old_path": "/designing-the-superior-man-15-powerful-qualities-part-1/",
+      "new_path": "/blog/designing-the-superior-man-15-powerful-qualities-part-1",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4413,
+      "slug": "10-ways-to-become-unstoppable",
+      "old_path": "/10-ways-to-become-unstoppable/",
+      "new_path": "/blog/10-ways-to-become-unstoppable",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4419,
+      "slug": "8-big-differences-between-great-leaders-and-bad-leaders",
+      "old_path": "/8-big-differences-between-great-leaders-and-bad-leaders/",
+      "new_path": "/blog/8-big-differences-between-great-leaders-and-bad-leaders",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4422,
+      "slug": "10-signs-of-a-true-leader-instead-of-a-boss",
+      "old_path": "/10-signs-of-a-true-leader-instead-of-a-boss/",
+      "new_path": "/blog/10-signs-of-a-true-leader-instead-of-a-boss",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4440,
+      "slug": "10-big-mistakes-to-avoid-making-when-presenting-to-the-boss",
+      "old_path": "/10-big-mistakes-to-avoid-making-when-presenting-to-the-boss/",
+      "new_path": "/blog/10-big-mistakes-to-avoid-making-when-presenting-to-the-boss",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4455,
+      "slug": "17-ancient-quotes-that-can-fuel-your-success",
+      "old_path": "/17-ancient-quotes-that-can-fuel-your-success/",
+      "new_path": "/blog/17-ancient-quotes-that-can-fuel-your-success",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4470,
+      "slug": "one-told-you-the-book-list-for-improving-leadership-skills-will",
+      "old_path": "/one-told-you-the-book-list-for-improving-leadership-skills-will/",
+      "new_path": "/blog/one-told-you-the-book-list-for-improving-leadership-skills-will",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4476,
+      "slug": "micromanager",
+      "old_path": "/micromanager/",
+      "new_path": "/blog/micromanager",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4479,
+      "slug": "how-to-inspire-your-team",
+      "old_path": "/how-to-inspire-your-team/",
+      "new_path": "/blog/how-to-inspire-your-team",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4482,
+      "slug": "leadership-delegation",
+      "old_path": "/leadership-delegation/",
+      "new_path": "/blog/leadership-delegation",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4485,
+      "slug": "how-to-manage-a-failing-team",
+      "old_path": "/how-to-manage-a-failing-team/",
+      "new_path": "/blog/how-to-manage-a-failing-team",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4488,
+      "slug": "voice-of-employee",
+      "old_path": "/voice-of-employee/",
+      "new_path": "/blog/voice-of-employee",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4500,
+      "slug": "delegating-leadership",
+      "old_path": "/delegating-leadership/",
+      "new_path": "/blog/delegating-leadership",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4506,
+      "slug": "democratic-leadership",
+      "old_path": "/democratic-leadership/",
+      "new_path": "/blog/democratic-leadership",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4530,
+      "slug": "leadership-examples",
+      "old_path": "/leadership-examples/",
+      "new_path": "/blog/leadership-examples",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4533,
+      "slug": "how-to-delegate-work-the-definitive-guide-for-successful-leaders",
+      "old_path": "/how-to-delegate-work-the-definitive-guide-for-successful-leaders/",
+      "new_path": "/blog/how-to-delegate-work-the-definitive-guide-for-successful-leaders",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4539,
+      "slug": "are-you-weird-enough-three-ways-stand-out",
+      "old_path": "/are-you-weird-enough-three-ways-stand-out/",
+      "new_path": "/blog/are-you-weird-enough-three-ways-stand-out",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4541,
+      "slug": "ten-strategies-transform-your-dreams-into-reality",
+      "old_path": "/ten-strategies-transform-your-dreams-into-reality/",
+      "new_path": "/blog/ten-strategies-transform-your-dreams-into-reality",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4559,
+      "slug": "care-is-life-6-essentially-necessary-virtues-of-a-good-caregiver",
+      "old_path": "/care-is-life-6-essentially-necessary-virtues-of-a-good-caregiver/",
+      "new_path": "/blog/care-is-life-6-essentially-necessary-virtues-of-a-good-caregiver",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4574,
+      "slug": "five-success-tips-you-can-learn-while-playing-football",
+      "old_path": "/five-success-tips-you-can-learn-while-playing-football/",
+      "new_path": "/blog/five-success-tips-you-can-learn-while-playing-football",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4577,
+      "slug": "5-productivity-hacks-to-kick-start-your-day",
+      "old_path": "/5-productivity-hacks-to-kick-start-your-day/",
+      "new_path": "/blog/5-productivity-hacks-to-kick-start-your-day",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4580,
+      "slug": "use-this-one-weird-trick-to-be-who-you-want-to-be",
+      "old_path": "/use-this-one-weird-trick-to-be-who-you-want-to-be/",
+      "new_path": "/blog/use-this-one-weird-trick-to-be-who-you-want-to-be",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4592,
+      "slug": "from-developer-to-manager",
+      "old_path": "/from-developer-to-manager/",
+      "new_path": "/blog/from-developer-to-manager",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4607,
+      "slug": "13-top-billionaires-tips-on-positive-thinking-and-why-it-matters",
+      "old_path": "/13-top-billionaires-tips-on-positive-thinking-and-why-it-matters/",
+      "new_path": "/blog/13-top-billionaires-tips-on-positive-thinking-and-why-it-matters",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4613,
+      "slug": "tips-for-new-project-managers",
+      "old_path": "/tips-for-new-project-managers/",
+      "new_path": "/blog/tips-for-new-project-managers",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4616,
+      "slug": "12-weekly-challenges-for-happier-more-productive-employees",
+      "old_path": "/12-weekly-challenges-for-happier-more-productive-employees/",
+      "new_path": "/blog/12-weekly-challenges-for-happier-more-productive-employees",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4625,
+      "slug": "become-transformational-leader-your-industry",
+      "old_path": "/become-transformational-leader-your-industry/",
+      "new_path": "/blog/become-transformational-leader-your-industry",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4646,
+      "slug": "what-makes-an-authentic-leader",
+      "old_path": "/what-makes-an-authentic-leader/",
+      "new_path": "/blog/what-makes-an-authentic-leader",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4666,
+      "slug": "best-management-books",
+      "old_path": "/best-management-books/",
+      "new_path": "/blog/best-management-books",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4675,
+      "slug": "effective-team-management",
+      "old_path": "/effective-team-management/",
+      "new_path": "/blog/effective-team-management",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4678,
+      "slug": "people-management-career",
+      "old_path": "/people-management-career/",
+      "new_path": "/blog/people-management-career",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4687,
+      "slug": "how-to-be-influential",
+      "old_path": "/how-to-be-influential/",
+      "new_path": "/blog/how-to-be-influential",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4690,
+      "slug": "management-skills",
+      "old_path": "/management-skills/",
+      "new_path": "/blog/management-skills",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4693,
+      "slug": "diversity-in-the-workplace",
+      "old_path": "/diversity-in-the-workplace/",
+      "new_path": "/blog/diversity-in-the-workplace",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4699,
+      "slug": "what-leadership-really-means-and-why-need",
+      "old_path": "/what-leadership-really-means-and-why-need/",
+      "new_path": "/blog/what-leadership-really-means-and-why-need",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4704,
+      "slug": "how-finish-your-pmp-exam-under-4-hours",
+      "old_path": "/how-finish-your-pmp-exam-under-4-hours/",
+      "new_path": "/blog/how-finish-your-pmp-exam-under-4-hours",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4707,
+      "slug": "are-you-boss-leader-and-one-definitely-better-than-the-other",
+      "old_path": "/are-you-boss-leader-and-one-definitely-better-than-the-other/",
+      "new_path": "/blog/are-you-boss-leader-and-one-definitely-better-than-the-other",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4710,
+      "slug": "understanding-the-foundations-great-team-culture",
+      "old_path": "/understanding-the-foundations-great-team-culture/",
+      "new_path": "/blog/understanding-the-foundations-great-team-culture",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4713,
+      "slug": "how-the-employer-benefits-from-developing-management-skills-their-employees",
+      "old_path": "/how-the-employer-benefits-from-developing-management-skills-their-employees/",
+      "new_path": "/blog/how-the-employer-benefits-from-developing-management-skills-their-employees",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4719,
+      "slug": "call-women-everywhere-time-arise-and-take-back-your-glory-now",
+      "old_path": "/call-women-everywhere-time-arise-and-take-back-your-glory-now/",
+      "new_path": "/blog/call-women-everywhere-time-arise-and-take-back-your-glory-now",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4731,
+      "slug": "warning-these-9-mistakes-will-destroy-your-leadership-effectiveness",
+      "old_path": "/warning-these-9-mistakes-will-destroy-your-leadership-effectiveness/",
+      "new_path": "/blog/warning-these-9-mistakes-will-destroy-your-leadership-effectiveness",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4734,
+      "slug": "ask-these-3-questions-daily-to-be-more-productive-and-do-work-that-matters",
+      "old_path": "/ask-these-3-questions-daily-to-be-more-productive-and-do-work-that-matters/",
+      "new_path": "/blog/ask-these-3-questions-daily-to-be-more-productive-and-do-work-that-matters",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4740,
+      "slug": "from-an-entrepreneur-dream-to-dynasty-in-10-easy-steps",
+      "old_path": "/from-an-entrepreneur-dream-to-dynasty-in-10-easy-steps/",
+      "new_path": "/blog/from-an-entrepreneur-dream-to-dynasty-in-10-easy-steps",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4743,
+      "slug": "the-difference-between-a-job-and-a-career",
+      "old_path": "/the-difference-between-a-job-and-a-career/",
+      "new_path": "/blog/the-difference-between-a-job-and-a-career",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4749,
+      "slug": "how-to-gain-confidence-when-other-people-criticize-us",
+      "old_path": "/how-to-gain-confidence-when-other-people-criticize-us/",
+      "new_path": "/blog/how-to-gain-confidence-when-other-people-criticize-us",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4755,
+      "slug": "if-it-makes-you-happy-does-it-really-matter-what-others-think",
+      "old_path": "/if-it-makes-you-happy-does-it-really-matter-what-others-think/",
+      "new_path": "/blog/if-it-makes-you-happy-does-it-really-matter-what-others-think",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4761,
+      "slug": "autofocus-brain-5-tricks-to-use-your-brain-like-a-camera",
+      "old_path": "/autofocus-brain-5-tricks-to-use-your-brain-like-a-camera/",
+      "new_path": "/blog/autofocus-brain-5-tricks-to-use-your-brain-like-a-camera",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4770,
+      "slug": "the-16-most-inspirational-songs-from-animated-movies",
+      "old_path": "/the-16-most-inspirational-songs-from-animated-movies/",
+      "new_path": "/blog/the-16-most-inspirational-songs-from-animated-movies",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4773,
+      "slug": "zanshin-learning-the-art-attention-and-focus-from-legendary-samurai-archer",
+      "old_path": "/zanshin-learning-the-art-attention-and-focus-from-legendary-samurai-archer/",
+      "new_path": "/blog/zanshin-learning-the-art-attention-and-focus-from-legendary-samurai-archer",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4776,
+      "slug": "how-create-purpose-your-work",
+      "old_path": "/how-create-purpose-your-work/",
+      "new_path": "/blog/how-create-purpose-your-work",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4782,
+      "slug": "how-mentally-strong-people-make-wise-decisions",
+      "old_path": "/how-mentally-strong-people-make-wise-decisions/",
+      "new_path": "/blog/how-mentally-strong-people-make-wise-decisions",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4785,
+      "slug": "how-the-chaos-your-life-builds-character",
+      "old_path": "/how-the-chaos-your-life-builds-character/",
+      "new_path": "/blog/how-the-chaos-your-life-builds-character",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4788,
+      "slug": "100-tips-to-help-you-live-an-amazing-life",
+      "old_path": "/100-tips-to-help-you-live-an-amazing-life/",
+      "new_path": "/blog/100-tips-to-help-you-live-an-amazing-life",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4797,
+      "slug": "keeping-millennials-motivated-remote-workplace",
+      "old_path": "/keeping-millennials-motivated-remote-workplace/",
+      "new_path": "/blog/keeping-millennials-motivated-remote-workplace",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4821,
+      "slug": "100-life-hacks-that-make-life-easier-html",
+      "old_path": "/100-life-hacks-that-make-life-easier-html/",
+      "new_path": "/blog/100-life-hacks-that-make-life-easier-html",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4833,
+      "slug": "best-anti-inflammatory-foods",
+      "old_path": "/best-anti-inflammatory-foods/",
+      "new_path": "/blog/best-anti-inflammatory-foods",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4835,
+      "slug": "changing-your-narrative",
+      "old_path": "/changing-your-narrative/",
+      "new_path": "/blog/changing-your-narrative",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4839,
+      "slug": "entrepreneurial-mindset",
+      "old_path": "/entrepreneurial-mindset/",
+      "new_path": "/blog/entrepreneurial-mindset",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4841,
+      "slug": "how-to-work-through-grief",
+      "old_path": "/how-to-work-through-grief/",
+      "new_path": "/blog/how-to-work-through-grief",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4845,
+      "slug": "first-principles-thinking",
+      "old_path": "/first-principles-thinking/",
+      "new_path": "/blog/first-principles-thinking",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4895,
+      "slug": "process-goals-examples",
+      "old_path": "/process-goals-examples/",
+      "new_path": "/blog/process-goals-examples",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4897,
+      "slug": "when-to-hire-in-your-small-business",
+      "old_path": "/when-to-hire-in-your-small-business/",
+      "new_path": "/blog/when-to-hire-in-your-small-business",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4938,
+      "slug": "foods-that-drain-your-energy",
+      "old_path": "/foods-that-drain-your-energy/",
+      "new_path": "/blog/foods-that-drain-your-energy",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4940,
+      "slug": "how-to-enjoy-running",
+      "old_path": "/how-to-enjoy-running/",
+      "new_path": "/blog/how-to-enjoy-running",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4942,
+      "slug": "how-to-take-turmeric",
+      "old_path": "/how-to-take-turmeric/",
+      "new_path": "/blog/how-to-take-turmeric",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4944,
+      "slug": "cross-team-collaboration",
+      "old_path": "/cross-team-collaboration/",
+      "new_path": "/blog/cross-team-collaboration",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4946,
+      "slug": "anxiety-and-procrastination",
+      "old_path": "/anxiety-and-procrastination/",
+      "new_path": "/blog/anxiety-and-procrastination",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4948,
+      "slug": "losing-confidence",
+      "old_path": "/losing-confidence/",
+      "new_path": "/blog/losing-confidence",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4950,
+      "slug": "stressors-in-life",
+      "old_path": "/stressors-in-life/",
+      "new_path": "/blog/stressors-in-life",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4952,
+      "slug": "family-meals-to-go",
+      "old_path": "/family-meals-to-go/",
+      "new_path": "/blog/family-meals-to-go",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4954,
+      "slug": "what-is-opportunity-cost",
+      "old_path": "/what-is-opportunity-cost/",
+      "new_path": "/blog/what-is-opportunity-cost",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4956,
+      "slug": "goal-motivation",
+      "old_path": "/goal-motivation/",
+      "new_path": "/blog/goal-motivation",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4962,
+      "slug": "core-needs-in-a-relationship",
+      "old_path": "/core-needs-in-a-relationship/",
+      "new_path": "/blog/core-needs-in-a-relationship",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4964,
+      "slug": "headache-and-tired",
+      "old_path": "/headache-and-tired/",
+      "new_path": "/blog/headache-and-tired",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4966,
+      "slug": "how-to-build-muscle-fast",
+      "old_path": "/how-to-build-muscle-fast/",
+      "new_path": "/blog/how-to-build-muscle-fast",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4968,
+      "slug": "healthy-snacks-to-eat-at-night",
+      "old_path": "/healthy-snacks-to-eat-at-night/",
+      "new_path": "/blog/healthy-snacks-to-eat-at-night",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4970,
+      "slug": "procrastination-and-perfectionism",
+      "old_path": "/procrastination-and-perfectionism/",
+      "new_path": "/blog/procrastination-and-perfectionism",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4972,
+      "slug": "motivation-psychology",
+      "old_path": "/motivation-psychology/",
+      "new_path": "/blog/motivation-psychology",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4976,
+      "slug": "bloated-stomach-causes",
+      "old_path": "/bloated-stomach-causes/",
+      "new_path": "/blog/bloated-stomach-causes",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4984,
+      "slug": "post-pandemic-stress-disorder",
+      "old_path": "/post-pandemic-stress-disorder/",
+      "new_path": "/blog/post-pandemic-stress-disorder",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4986,
+      "slug": "online-dating-for-single-parents",
+      "old_path": "/online-dating-for-single-parents/",
+      "new_path": "/blog/online-dating-for-single-parents",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4990,
+      "slug": "circuit-training-workouts",
+      "old_path": "/circuit-training-workouts/",
+      "new_path": "/blog/circuit-training-workouts",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4992,
+      "slug": "diet-to-lose-belly-fat",
+      "old_path": "/diet-to-lose-belly-fat/",
+      "new_path": "/blog/diet-to-lose-belly-fat",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4994,
+      "slug": "avoiding-difficult-tasks",
+      "old_path": "/avoiding-difficult-tasks/",
+      "new_path": "/blog/avoiding-difficult-tasks",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 4996,
+      "slug": "incentive-motivation",
+      "old_path": "/incentive-motivation/",
+      "new_path": "/blog/incentive-motivation",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5006,
+      "slug": "quit-job-to-start-business",
+      "old_path": "/quit-job-to-start-business/",
+      "new_path": "/blog/quit-job-to-start-business",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5012,
+      "slug": "tired-all-the-time-women",
+      "old_path": "/tired-all-the-time-women/",
+      "new_path": "/blog/tired-all-the-time-women",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5014,
+      "slug": "bodyweight-workout-for-beginners",
+      "old_path": "/bodyweight-workout-for-beginners/",
+      "new_path": "/blog/bodyweight-workout-for-beginners",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5016,
+      "slug": "whole-food-diet",
+      "old_path": "/whole-food-diet/",
+      "new_path": "/blog/whole-food-diet",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5018,
+      "slug": "6-tips-to-stop-procrastinating-your-life",
+      "old_path": "/6-tips-to-stop-procrastinating-your-life/",
+      "new_path": "/blog/6-tips-to-stop-procrastinating-your-life",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5022,
+      "slug": "addicted-to-work",
+      "old_path": "/addicted-to-work/",
+      "new_path": "/blog/addicted-to-work",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5024,
+      "slug": "best-time-to-drink-coffee",
+      "old_path": "/best-time-to-drink-coffee/",
+      "new_path": "/blog/best-time-to-drink-coffee",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5026,
+      "slug": "how-to-overcome-fear-of-uncertainty",
+      "old_path": "/how-to-overcome-fear-of-uncertainty/",
+      "new_path": "/blog/how-to-overcome-fear-of-uncertainty",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5028,
+      "slug": "employee-goals",
+      "old_path": "/employee-goals/",
+      "new_path": "/blog/employee-goals",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5032,
+      "slug": "what-is-breathwork",
+      "old_path": "/what-is-breathwork/",
+      "new_path": "/blog/what-is-breathwork",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5034,
+      "slug": "how-to-find-community",
+      "old_path": "/how-to-find-community/",
+      "new_path": "/blog/how-to-find-community",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5036,
+      "slug": "afternoon-slump",
+      "old_path": "/afternoon-slump/",
+      "new_path": "/blog/afternoon-slump",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5038,
+      "slug": "hiit-workouts-at-home",
+      "old_path": "/hiit-workouts-at-home/",
+      "new_path": "/blog/hiit-workouts-at-home",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5040,
+      "slug": "high-protein-low-fat-foods",
+      "old_path": "/high-protein-low-fat-foods/",
+      "new_path": "/blog/high-protein-low-fat-foods",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5042,
+      "slug": "stop-procrastinating-now",
+      "old_path": "/stop-procrastinating-now/",
+      "new_path": "/blog/stop-procrastinating-now",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5044,
+      "slug": "drive-theory-of-motivation",
+      "old_path": "/drive-theory-of-motivation/",
+      "new_path": "/blog/drive-theory-of-motivation",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5046,
+      "slug": "manifest-abundance",
+      "old_path": "/manifest-abundance/",
+      "new_path": "/blog/manifest-abundance",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5048,
+      "slug": "best-pillows",
+      "old_path": "/best-pillows/",
+      "new_path": "/blog/best-pillows",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5050,
+      "slug": "how-to-be-more-courageous-in-life",
+      "old_path": "/how-to-be-more-courageous-in-life/",
+      "new_path": "/blog/how-to-be-more-courageous-in-life",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5052,
+      "slug": "weekly-goals",
+      "old_path": "/weekly-goals/",
+      "new_path": "/blog/weekly-goals",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5054,
+      "slug": "become-a-life-coach",
+      "old_path": "/become-a-life-coach/",
+      "new_path": "/blog/become-a-life-coach",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5056,
+      "slug": "anxiety-spiral",
+      "old_path": "/anxiety-spiral/",
+      "new_path": "/blog/anxiety-spiral",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5058,
+      "slug": "guilt-in-relationships",
+      "old_path": "/guilt-in-relationships/",
+      "new_path": "/blog/guilt-in-relationships",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5064,
+      "slug": "best-food-to-eat-at-night",
+      "old_path": "/best-food-to-eat-at-night/",
+      "new_path": "/blog/best-food-to-eat-at-night",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5066,
+      "slug": "be-productive-stop-procrastinating",
+      "old_path": "/be-productive-stop-procrastinating/",
+      "new_path": "/blog/be-productive-stop-procrastinating",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5068,
+      "slug": "fitness-motivation",
+      "old_path": "/fitness-motivation/",
+      "new_path": "/blog/fitness-motivation",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5070,
+      "slug": "get-your-life-back",
+      "old_path": "/get-your-life-back/",
+      "new_path": "/blog/get-your-life-back",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5072,
+      "slug": "best-blankets",
+      "old_path": "/best-blankets/",
+      "new_path": "/blog/best-blankets",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5078,
+      "slug": "the-great-resignation",
+      "old_path": "/the-great-resignation/",
+      "new_path": "/blog/the-great-resignation",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5082,
+      "slug": "emotional-attunement",
+      "old_path": "/emotional-attunement/",
+      "new_path": "/blog/emotional-attunement",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5088,
+      "slug": "breaking-a-fast",
+      "old_path": "/breaking-a-fast/",
+      "new_path": "/blog/breaking-a-fast",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5090,
+      "slug": "how-to-overcome-laziness",
+      "old_path": "/how-to-overcome-laziness/",
+      "new_path": "/blog/how-to-overcome-laziness",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5092,
+      "slug": "competence-motivation",
+      "old_path": "/competence-motivation/",
+      "new_path": "/blog/competence-motivation",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5094,
+      "slug": "pillars-of-life",
+      "old_path": "/pillars-of-life/",
+      "new_path": "/blog/pillars-of-life",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5096,
+      "slug": "too-tired-to-sleep",
+      "old_path": "/too-tired-to-sleep/",
+      "new_path": "/blog/too-tired-to-sleep",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5100,
+      "slug": "intermediate-goals",
+      "old_path": "/intermediate-goals/",
+      "new_path": "/blog/intermediate-goals",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5102,
+      "slug": "growth-mindset-in-business",
+      "old_path": "/growth-mindset-in-business/",
+      "new_path": "/blog/growth-mindset-in-business",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5104,
+      "slug": "creative-journaling-for-mental-health",
+      "old_path": "/creative-journaling-for-mental-health/",
+      "new_path": "/blog/creative-journaling-for-mental-health",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5110,
+      "slug": "stretching-routine",
+      "old_path": "/stretching-routine/",
+      "new_path": "/blog/stretching-routine",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5114,
+      "slug": "time-management-and-procrastination",
+      "old_path": "/time-management-and-procrastination/",
+      "new_path": "/blog/time-management-and-procrastination",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5116,
+      "slug": "achievement-motivation",
+      "old_path": "/achievement-motivation/",
+      "new_path": "/blog/achievement-motivation",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5118,
+      "slug": "stop-complicating-life",
+      "old_path": "/stop-complicating-life/",
+      "new_path": "/blog/stop-complicating-life",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5122,
+      "slug": "how-to-improve-your-confidence-and-give-a-boost-to-your-self-esteem",
+      "old_path": "/how-to-improve-your-confidence-and-give-a-boost-to-your-self-esteem/",
+      "new_path": "/blog/how-to-improve-your-confidence-and-give-a-boost-to-your-self-esteem",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5132,
+      "slug": "entrepreneurial-burnout",
+      "old_path": "/entrepreneurial-burnout/",
+      "new_path": "/blog/entrepreneurial-burnout",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5138,
+      "slug": "stop-procrastinating-app",
+      "old_path": "/stop-procrastinating-app/",
+      "new_path": "/blog/stop-procrastinating-app",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5140,
+      "slug": "good-morning-motivation",
+      "old_path": "/good-morning-motivation/",
+      "new_path": "/blog/good-morning-motivation",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5144,
+      "slug": "why-am-i-so-sleepy",
+      "old_path": "/why-am-i-so-sleepy/",
+      "new_path": "/blog/why-am-i-so-sleepy",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5146,
+      "slug": "fear-of-responsibility",
+      "old_path": "/fear-of-responsibility/",
+      "new_path": "/blog/fear-of-responsibility",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5148,
+      "slug": "what-is-the-most-important-step-in-prioritizing-goals",
+      "old_path": "/what-is-the-most-important-step-in-prioritizing-goals/",
+      "new_path": "/blog/what-is-the-most-important-step-in-prioritizing-goals",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5152,
+      "slug": "self-parenting",
+      "old_path": "/self-parenting/",
+      "new_path": "/blog/self-parenting",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5154,
+      "slug": "dating-after-divorce",
+      "old_path": "/dating-after-divorce/",
+      "new_path": "/blog/dating-after-divorce",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5156,
+      "slug": "healthy-balanced-diet",
+      "old_path": "/healthy-balanced-diet/",
+      "new_path": "/blog/healthy-balanced-diet",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5162,
+      "slug": "ted-talk-procrastination",
+      "old_path": "/ted-talk-procrastination/",
+      "new_path": "/blog/ted-talk-procrastination",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5164,
+      "slug": "fear-based-motivation",
+      "old_path": "/fear-based-motivation/",
+      "new_path": "/blog/fear-based-motivation",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5170,
+      "slug": "angry-at-myself",
+      "old_path": "/angry-at-myself/",
+      "new_path": "/blog/angry-at-myself",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5172,
+      "slug": "why-is-it-important-to-set-realistic-goals",
+      "old_path": "/why-is-it-important-to-set-realistic-goals/",
+      "new_path": "/blog/why-is-it-important-to-set-realistic-goals",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5174,
+      "slug": "self-care-entrepreneur",
+      "old_path": "/self-care-entrepreneur/",
+      "new_path": "/blog/self-care-entrepreneur",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5178,
+      "slug": "how-to-trust-people",
+      "old_path": "/how-to-trust-people/",
+      "new_path": "/blog/how-to-trust-people",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5180,
+      "slug": "why-do-i-feel-tired-after-eating",
+      "old_path": "/why-do-i-feel-tired-after-eating/",
+      "new_path": "/blog/why-do-i-feel-tired-after-eating",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5182,
+      "slug": "workouts-to-lose-belly-fat",
+      "old_path": "/workouts-to-lose-belly-fat/",
+      "new_path": "/blog/workouts-to-lose-belly-fat",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5186,
+      "slug": "procrastination-quotes",
+      "old_path": "/procrastination-quotes/",
+      "new_path": "/blog/procrastination-quotes",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5188,
+      "slug": "affiliation-motivation",
+      "old_path": "/affiliation-motivation/",
+      "new_path": "/blog/affiliation-motivation",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5190,
+      "slug": "why-is-life-so-complicated",
+      "old_path": "/why-is-life-so-complicated/",
+      "new_path": "/blog/why-is-life-so-complicated",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5192,
+      "slug": "health-motivation",
+      "old_path": "/health-motivation/",
+      "new_path": "/blog/health-motivation",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5194,
+      "slug": "how-to-silence-the-impostor-syndrome",
+      "old_path": "/how-to-silence-the-impostor-syndrome/",
+      "new_path": "/blog/how-to-silence-the-impostor-syndrome",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5196,
+      "slug": "why-we-need-to-take-action",
+      "old_path": "/why-we-need-to-take-action/",
+      "new_path": "/blog/why-we-need-to-take-action",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5198,
+      "slug": "are-entrepreneurs-born-or-made",
+      "old_path": "/are-entrepreneurs-born-or-made/",
+      "new_path": "/blog/are-entrepreneurs-born-or-made",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5208,
+      "slug": "healthy-meal-plan-for-the-week",
+      "old_path": "/healthy-meal-plan-for-the-week/",
+      "new_path": "/blog/healthy-meal-plan-for-the-week",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5210,
+      "slug": "how-to-stop-procrastinating",
+      "old_path": "/how-to-stop-procrastinating/",
+      "new_path": "/blog/how-to-stop-procrastinating",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5212,
+      "slug": "why-cant-i-motivate-myself",
+      "old_path": "/why-cant-i-motivate-myself/",
+      "new_path": "/blog/why-cant-i-motivate-myself",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5216,
+      "slug": "aging-sucks",
+      "old_path": "/aging-sucks/",
+      "new_path": "/blog/aging-sucks",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5218,
+      "slug": "what-is-tenacity",
+      "old_path": "/what-is-tenacity/",
+      "new_path": "/blog/what-is-tenacity",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5220,
+      "slug": "process-goal-outcome-goal",
+      "old_path": "/process-goal-outcome-goal/",
+      "new_path": "/blog/process-goal-outcome-goal",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5222,
+      "slug": "morning-routine-for-entrepreneurs",
+      "old_path": "/morning-routine-for-entrepreneurs/",
+      "new_path": "/blog/morning-routine-for-entrepreneurs",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5228,
+      "slug": "what-is-sedentary-lifestyle",
+      "old_path": "/what-is-sedentary-lifestyle/",
+      "new_path": "/blog/what-is-sedentary-lifestyle",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5230,
+      "slug": "how-to-start-exercising",
+      "old_path": "/how-to-start-exercising/",
+      "new_path": "/blog/how-to-start-exercising",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5232,
+      "slug": "best-food-to-eat-for-weight-loss",
+      "old_path": "/best-food-to-eat-for-weight-loss/",
+      "new_path": "/blog/best-food-to-eat-for-weight-loss",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5234,
+      "slug": "procrastination-is-a-matter-of-emotion-heres-how-to-stop-it",
+      "old_path": "/procrastination-is-a-matter-of-emotion-heres-how-to-stop-it/",
+      "new_path": "/blog/procrastination-is-a-matter-of-emotion-heres-how-to-stop-it",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5242,
+      "slug": "what-are-vision-boards",
+      "old_path": "/what-are-vision-boards/",
+      "new_path": "/blog/what-are-vision-boards",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5246,
+      "slug": "mental-health-covid",
+      "old_path": "/mental-health-covid/",
+      "new_path": "/blog/mental-health-covid",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5248,
+      "slug": "my-wife-doesnt-respect-me",
+      "old_path": "/my-wife-doesnt-respect-me/",
+      "new_path": "/blog/my-wife-doesnt-respect-me",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5250,
+      "slug": "stress-control",
+      "old_path": "/stress-control/",
+      "new_path": "/blog/stress-control",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5256,
+      "slug": "putting-things-off-because-theyre-hard-boring-try-this-approach-stop-procrastination",
+      "old_path": "/putting-things-off-because-theyre-hard-boring-try-this-approach-stop-procrastination/",
+      "new_path": "/blog/putting-things-off-because-theyre-hard-boring-try-this-approach-stop-procrastination",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5258,
+      "slug": "words-of-encouragement",
+      "old_path": "/words-of-encouragement/",
+      "new_path": "/blog/words-of-encouragement",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5260,
+      "slug": "life-balance",
+      "old_path": "/life-balance/",
+      "new_path": "/blog/life-balance",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5262,
+      "slug": "adaptability-skills",
+      "old_path": "/adaptability-skills/",
+      "new_path": "/blog/adaptability-skills",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5264,
+      "slug": "goal-setting-theory",
+      "old_path": "/goal-setting-theory/",
+      "new_path": "/blog/goal-setting-theory",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5268,
+      "slug": "working-from-home-stress",
+      "old_path": "/working-from-home-stress/",
+      "new_path": "/blog/working-from-home-stress",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5272,
+      "slug": "what-to-do-when-burned-out",
+      "old_path": "/what-to-do-when-burned-out/",
+      "new_path": "/blog/what-to-do-when-burned-out",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5276,
+      "slug": "what-to-eat-before-morning-workout",
+      "old_path": "/what-to-eat-before-morning-workout/",
+      "new_path": "/blog/what-to-eat-before-morning-workout",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5278,
+      "slug": "the-one-focus-you-need-to-kill-procrastination",
+      "old_path": "/the-one-focus-you-need-to-kill-procrastination/",
+      "new_path": "/blog/the-one-focus-you-need-to-kill-procrastination",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5280,
+      "slug": "monday-motivation",
+      "old_path": "/monday-motivation/",
+      "new_path": "/blog/monday-motivation",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5282,
+      "slug": "live-your-best-life",
+      "old_path": "/live-your-best-life/",
+      "new_path": "/blog/live-your-best-life",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5284,
+      "slug": "reactive-vs-proactive",
+      "old_path": "/reactive-vs-proactive/",
+      "new_path": "/blog/reactive-vs-proactive",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5286,
+      "slug": "small-victories",
+      "old_path": "/small-victories/",
+      "new_path": "/blog/small-victories",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5288,
+      "slug": "how-to-stop-being-anxious",
+      "old_path": "/how-to-stop-being-anxious/",
+      "new_path": "/blog/how-to-stop-being-anxious",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5292,
+      "slug": "shift-work-disorder",
+      "old_path": "/shift-work-disorder/",
+      "new_path": "/blog/shift-work-disorder",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5294,
+      "slug": "how-to-become-flexible",
+      "old_path": "/how-to-become-flexible/",
+      "new_path": "/blog/how-to-become-flexible",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5298,
+      "slug": "losing-motivation",
+      "old_path": "/losing-motivation/",
+      "new_path": "/blog/losing-motivation",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5300,
+      "slug": "wheel-of-life",
+      "old_path": "/wheel-of-life/",
+      "new_path": "/blog/wheel-of-life",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5302,
+      "slug": "what-is-an-action-plan",
+      "old_path": "/what-is-an-action-plan/",
+      "new_path": "/blog/what-is-an-action-plan",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5304,
+      "slug": "does-anxiety-make-you-tired",
+      "old_path": "/does-anxiety-make-you-tired/",
+      "new_path": "/blog/does-anxiety-make-you-tired",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5312,
+      "slug": "5-simple-ways-stop-procrastinating-for-good",
+      "old_path": "/5-simple-ways-stop-procrastinating-for-good/",
+      "new_path": "/blog/5-simple-ways-stop-procrastinating-for-good",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5314,
+      "slug": "motivation-styles",
+      "old_path": "/motivation-styles/",
+      "new_path": "/blog/motivation-styles",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5318,
+      "slug": "intention-vs-goal",
+      "old_path": "/intention-vs-goal/",
+      "new_path": "/blog/intention-vs-goal",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5320,
+      "slug": "does-depression-make-you-tired",
+      "old_path": "/does-depression-make-you-tired/",
+      "new_path": "/blog/does-depression-make-you-tired",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5322,
+      "slug": "long-distance-marriage",
+      "old_path": "/long-distance-marriage/",
+      "new_path": "/blog/long-distance-marriage",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5324,
+      "slug": "do-supplements-work",
+      "old_path": "/do-supplements-work/",
+      "new_path": "/blog/do-supplements-work",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5326,
+      "slug": "workout-routine-to-lose-weight",
+      "old_path": "/workout-routine-to-lose-weight/",
+      "new_path": "/blog/workout-routine-to-lose-weight",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5328,
+      "slug": "easy-tasks-difficult-tasks-first-which-one-more-productive-html",
+      "old_path": "/easy-tasks-difficult-tasks-first-which-one-more-productive-html/",
+      "new_path": "/blog/easy-tasks-difficult-tasks-first-which-one-more-productive-html",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5330,
+      "slug": "what-is-extrinsic-motivation",
+      "old_path": "/what-is-extrinsic-motivation/",
+      "new_path": "/blog/what-is-extrinsic-motivation",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5332,
+      "slug": "ditch-work-life-balance-and-embrace-work-life-harmony",
+      "old_path": "/ditch-work-life-balance-and-embrace-work-life-harmony/",
+      "new_path": "/blog/ditch-work-life-balance-and-embrace-work-life-harmony",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5334,
+      "slug": "regular-exercise",
+      "old_path": "/regular-exercise/",
+      "new_path": "/blog/regular-exercise",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5338,
+      "slug": "8-ways-procrastination-can-destroy-your-life-html",
+      "old_path": "/8-ways-procrastination-can-destroy-your-life-html/",
+      "new_path": "/blog/8-ways-procrastination-can-destroy-your-life-html",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5340,
+      "slug": "motivation-app",
+      "old_path": "/motivation-app/",
+      "new_path": "/blog/motivation-app",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5342,
+      "slug": "self-care-live-your-best-life",
+      "old_path": "/self-care-live-your-best-life/",
+      "new_path": "/blog/self-care-live-your-best-life",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5346,
+      "slug": "happy-life",
+      "old_path": "/happy-life/",
+      "new_path": "/blog/happy-life",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5348,
+      "slug": "proactive-management",
+      "old_path": "/proactive-management/",
+      "new_path": "/blog/proactive-management",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5688,
+      "slug": "what-causes-anger-the-luthas-center",
+      "old_path": "/what-causes-anger-the-luthas-center/",
+      "new_path": "/blog/what-causes-anger-the-luthas-center",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5690,
+      "slug": "5-types-of-procrastinators-which-type-are-you",
+      "old_path": "/5-types-of-procrastinators-which-type-are-you/",
+      "new_path": "/blog/5-types-of-procrastinators-which-type-are-you",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5694,
+      "slug": "9-tips-on-how-to-disconnect-from-work-and-stay-present",
+      "old_path": "/9-tips-on-how-to-disconnect-from-work-and-stay-present/",
+      "new_path": "/blog/9-tips-on-how-to-disconnect-from-work-and-stay-present",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5698,
+      "slug": "how-to-commit-to-your-passion-projects-when-youre-busy",
+      "old_path": "/how-to-commit-to-your-passion-projects-when-youre-busy/",
+      "new_path": "/blog/how-to-commit-to-your-passion-projects-when-youre-busy",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5700,
+      "slug": "how-to-release-anger-11-healthy-ways-to-let-it-out",
+      "old_path": "/how-to-release-anger-11-healthy-ways-to-let-it-out/",
+      "new_path": "/blog/how-to-release-anger-11-healthy-ways-to-let-it-out",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5702,
+      "slug": "why-power-walking-beats-running-3-hidden-benefits",
+      "old_path": "/why-power-walking-beats-running-3-hidden-benefits/",
+      "new_path": "/blog/why-power-walking-beats-running-3-hidden-benefits",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5706,
+      "slug": "how-to-forgive-betrayal-in-marriage-and-move-forward",
+      "old_path": "/how-to-forgive-betrayal-in-marriage-and-move-forward/",
+      "new_path": "/blog/how-to-forgive-betrayal-in-marriage-and-move-forward",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5708,
+      "slug": "how-childhood-trauma-affects-us-in-adulthood",
+      "old_path": "/how-childhood-trauma-affects-us-in-adulthood/",
+      "new_path": "/blog/how-childhood-trauma-affects-us-in-adulthood",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5710,
+      "slug": "childhood-friends-when-to-stay-and-when-to-move-on",
+      "old_path": "/childhood-friends-when-to-stay-and-when-to-move-on/",
+      "new_path": "/blog/childhood-friends-when-to-stay-and-when-to-move-on",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5733,
+      "slug": "9-tips-on-leading-with-integrity-and-building-trust",
+      "old_path": "/9-tips-on-leading-with-integrity-and-building-trust/",
+      "new_path": "/blog/9-tips-on-leading-with-integrity-and-building-trust",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5745,
+      "slug": "how-to-stop-procrastinating-and-stick-to-good-habits-with-the-2-minute-rule",
+      "old_path": "/how-to-stop-procrastinating-and-stick-to-good-habits-with-the-2-minute-rule/",
+      "new_path": "/blog/how-to-stop-procrastinating-and-stick-to-good-habits-with-the-2-minute-rule",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5747,
+      "slug": "work-life-integration-vs-work-life-balance-is-one-better-than-the-other",
+      "old_path": "/work-life-integration-vs-work-life-balance-is-one-better-than-the-other/",
+      "new_path": "/blog/work-life-integration-vs-work-life-balance-is-one-better-than-the-other",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5751,
+      "slug": "how-to-use-social-stories-for-kids-with-autism",
+      "old_path": "/how-to-use-social-stories-for-kids-with-autism/",
+      "new_path": "/blog/how-to-use-social-stories-for-kids-with-autism",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5753,
+      "slug": "what-are-the-warning-signs-of-prediabetes-in-adults",
+      "old_path": "/what-are-the-warning-signs-of-prediabetes-in-adults/",
+      "new_path": "/blog/what-are-the-warning-signs-of-prediabetes-in-adults",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5756,
+      "slug": "8-tips-on-adopting-a-high-performance-mindset",
+      "old_path": "/8-tips-on-adopting-a-high-performance-mindset/",
+      "new_path": "/blog/8-tips-on-adopting-a-high-performance-mindset",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5758,
+      "slug": "why-work-life-balance-doesnt-exist-and-how-to-stay-sane",
+      "old_path": "/why-work-life-balance-doesnt-exist-and-how-to-stay-sane/",
+      "new_path": "/blog/why-work-life-balance-doesnt-exist-and-how-to-stay-sane",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5760,
+      "slug": "5-tips-for-reframing-negative-thoughts-into-positive-ones",
+      "old_path": "/5-tips-for-reframing-negative-thoughts-into-positive-ones/",
+      "new_path": "/blog/5-tips-for-reframing-negative-thoughts-into-positive-ones",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5762,
+      "slug": "14-types-of-anger-how-to-manage-them-the-luthas-center",
+      "old_path": "/14-types-of-anger-how-to-manage-them-the-luthas-center/",
+      "new_path": "/blog/14-types-of-anger-how-to-manage-them-the-luthas-center",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5764,
+      "slug": "why-am-i-so-angry-all-the-time-the-luthas-center",
+      "old_path": "/why-am-i-so-angry-all-the-time-the-luthas-center/",
+      "new_path": "/blog/why-am-i-so-angry-all-the-time-the-luthas-center",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5766,
+      "slug": "how-to-handle-a-passive-aggressive-boss-at-work",
+      "old_path": "/how-to-handle-a-passive-aggressive-boss-at-work/",
+      "new_path": "/blog/how-to-handle-a-passive-aggressive-boss-at-work",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5768,
+      "slug": "signs-impacts-and-prevention-tips-the-luthas-center",
+      "old_path": "/signs-impacts-and-prevention-tips-the-luthas-center/",
+      "new_path": "/blog/signs-impacts-and-prevention-tips-the-luthas-center",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5770,
+      "slug": "what-causes-anger-the-luthas-center-2",
+      "old_path": "/what-causes-anger-the-luthas-center-2/",
+      "new_path": "/blog/what-causes-anger-the-luthas-center-2",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5771,
+      "slug": "a-helpful-guide-the-luthas-center",
+      "old_path": "/a-helpful-guide-the-luthas-center/",
+      "new_path": "/blog/a-helpful-guide-the-luthas-center",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5773,
+      "slug": "how-to-deal-with-grieving-the-loss-of-a-pet-the-luthas-center",
+      "old_path": "/how-to-deal-with-grieving-the-loss-of-a-pet-the-luthas-center/",
+      "new_path": "/blog/how-to-deal-with-grieving-the-loss-of-a-pet-the-luthas-center",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5775,
+      "slug": "signs-symptoms-coping-tips-the-luthas-center",
+      "old_path": "/signs-symptoms-coping-tips-the-luthas-center/",
+      "new_path": "/blog/signs-symptoms-coping-tips-the-luthas-center",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5777,
+      "slug": "how-to-tell-the-difference-the-luthas-center",
+      "old_path": "/how-to-tell-the-difference-the-luthas-center/",
+      "new_path": "/blog/how-to-tell-the-difference-the-luthas-center",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5779,
+      "slug": "10-helpful-grounding-tips-the-luthas-center",
+      "old_path": "/10-helpful-grounding-tips-the-luthas-center/",
+      "new_path": "/blog/10-helpful-grounding-tips-the-luthas-center",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5781,
+      "slug": "worried-sick-when-worry-impacts-your-physical-health",
+      "old_path": "/worried-sick-when-worry-impacts-your-physical-health/",
+      "new_path": "/blog/worried-sick-when-worry-impacts-your-physical-health",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5783,
+      "slug": "how-to-be-happy-again-14-tips-the-luthas-center",
+      "old_path": "/how-to-be-happy-again-14-tips-the-luthas-center/",
+      "new_path": "/blog/how-to-be-happy-again-14-tips-the-luthas-center",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5785,
+      "slug": "how-to-deal-with-post-vacation-depression-the-luthas-center",
+      "old_path": "/how-to-deal-with-post-vacation-depression-the-luthas-center/",
+      "new_path": "/blog/how-to-deal-with-post-vacation-depression-the-luthas-center",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5791,
+      "slug": "medications-to-treat-obsessive-compulsive-disorder-ocd",
+      "old_path": "/medications-to-treat-obsessive-compulsive-disorder-ocd/",
+      "new_path": "/blog/medications-to-treat-obsessive-compulsive-disorder-ocd",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5793,
+      "slug": "what-causes-ocd-to-get-worse-the-luthas-center",
+      "old_path": "/what-causes-ocd-to-get-worse-the-luthas-center/",
+      "new_path": "/blog/what-causes-ocd-to-get-worse-the-luthas-center",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5795,
+      "slug": "all-you-need-to-know-the-luthas-center",
+      "old_path": "/all-you-need-to-know-the-luthas-center/",
+      "new_path": "/blog/all-you-need-to-know-the-luthas-center",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5797,
+      "slug": "how-the-technique-works-the-luthas-center",
+      "old_path": "/how-the-technique-works-the-luthas-center/",
+      "new_path": "/blog/how-the-technique-works-the-luthas-center",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5799,
+      "slug": "definition-how-it-can-help-the-luthas-center",
+      "old_path": "/definition-how-it-can-help-the-luthas-center/",
+      "new_path": "/blog/definition-how-it-can-help-the-luthas-center",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5801,
+      "slug": "what-is-narcissistic-gaslighting-the-luthas-center",
+      "old_path": "/what-is-narcissistic-gaslighting-the-luthas-center/",
+      "new_path": "/blog/what-is-narcissistic-gaslighting-the-luthas-center",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5803,
+      "slug": "what-is-interpersonal-therapy-the-luthas-center",
+      "old_path": "/what-is-interpersonal-therapy-the-luthas-center/",
+      "new_path": "/blog/what-is-interpersonal-therapy-the-luthas-center",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5805,
+      "slug": "what-is-person-client-centered-therapy",
+      "old_path": "/what-is-person-client-centered-therapy/",
+      "new_path": "/blog/what-is-person-client-centered-therapy",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5809,
+      "slug": "talk-therapy-what-is-it-how-can-it-help",
+      "old_path": "/talk-therapy-what-is-it-how-can-it-help/",
+      "new_path": "/blog/talk-therapy-what-is-it-how-can-it-help",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5811,
+      "slug": "what-is-emotion-focused-therapy-eft-the-luthas-center",
+      "old_path": "/what-is-emotion-focused-therapy-eft-the-luthas-center/",
+      "new_path": "/blog/what-is-emotion-focused-therapy-eft-the-luthas-center",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5813,
+      "slug": "what-is-humanistic-therapy-the-luthas-center",
+      "old_path": "/what-is-humanistic-therapy-the-luthas-center/",
+      "new_path": "/blog/what-is-humanistic-therapy-the-luthas-center",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5815,
+      "slug": "what-is-somatic-therapy-the-luthas-center",
+      "old_path": "/what-is-somatic-therapy-the-luthas-center/",
+      "new_path": "/blog/what-is-somatic-therapy-the-luthas-center",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5817,
+      "slug": "what-is-existential-therapy-and-how-can-it-benefit-me",
+      "old_path": "/what-is-existential-therapy-and-how-can-it-benefit-me/",
+      "new_path": "/blog/what-is-existential-therapy-and-how-can-it-benefit-me",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5819,
+      "slug": "what-is-solution-focused-therapy-the-luthas-center",
+      "old_path": "/what-is-solution-focused-therapy-the-luthas-center/",
+      "new_path": "/blog/what-is-solution-focused-therapy-the-luthas-center",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5821,
+      "slug": "effective-affordable-online-therapy-counseling-try-the-luthas-center",
+      "old_path": "/effective-affordable-online-therapy-counseling-try-the-luthas-center/",
+      "new_path": "/blog/effective-affordable-online-therapy-counseling-try-the-luthas-center",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5823,
+      "slug": "everything-you-need-to-know-about-couples-therapy",
+      "old_path": "/everything-you-need-to-know-about-couples-therapy/",
+      "new_path": "/blog/everything-you-need-to-know-about-couples-therapy",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5825,
+      "slug": "how-often-should-you-talk-to-your-therapist-to-feel-the-benefits",
+      "old_path": "/how-often-should-you-talk-to-your-therapist-to-feel-the-benefits/",
+      "new_path": "/blog/how-often-should-you-talk-to-your-therapist-to-feel-the-benefits",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5827,
+      "slug": "6-misconceptions-about-starting-therapy",
+      "old_path": "/6-misconceptions-about-starting-therapy/",
+      "new_path": "/blog/6-misconceptions-about-starting-therapy",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5829,
+      "slug": "the-science-behind-how-long-therapy-takes",
+      "old_path": "/the-science-behind-how-long-therapy-takes/",
+      "new_path": "/blog/the-science-behind-how-long-therapy-takes",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5831,
+      "slug": "how-to-accelerate-your-progress-in-therapy",
+      "old_path": "/how-to-accelerate-your-progress-in-therapy/",
+      "new_path": "/blog/how-to-accelerate-your-progress-in-therapy",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5833,
+      "slug": "why-you-should-stick-with-therapy-even-when-its-tough",
+      "old_path": "/why-you-should-stick-with-therapy-even-when-its-tough/",
+      "new_path": "/blog/why-you-should-stick-with-therapy-even-when-its-tough",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5835,
+      "slug": "what-to-expect-from-your-first-online-therapy-experience",
+      "old_path": "/what-to-expect-from-your-first-online-therapy-experience/",
+      "new_path": "/blog/what-to-expect-from-your-first-online-therapy-experience",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5837,
+      "slug": "what-the-heck-are-job-seekers-supposed-to-do",
+      "old_path": "/what-the-heck-are-job-seekers-supposed-to-do/",
+      "new_path": "/blog/what-the-heck-are-job-seekers-supposed-to-do",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5839,
+      "slug": "40-million-americans-gain-access-to-the-luthas-center-with-insurance-coverage",
+      "old_path": "/40-million-americans-gain-access-to-the-luthas-center-with-insurance-coverage/",
+      "new_path": "/blog/40-million-americans-gain-access-to-the-luthas-center-with-insurance-coverage",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5841,
+      "slug": "5-mental-health-tips-for-surviving-the-school-year",
+      "old_path": "/5-mental-health-tips-for-surviving-the-school-year/",
+      "new_path": "/blog/5-mental-health-tips-for-surviving-the-school-year",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5843,
+      "slug": "how-to-tell-if-its-safe-to-return-to-your-place-of-employment",
+      "old_path": "/how-to-tell-if-its-safe-to-return-to-your-place-of-employment/",
+      "new_path": "/blog/how-to-tell-if-its-safe-to-return-to-your-place-of-employment",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5845,
+      "slug": "how-to-reconnect-with-friends-safely-and-save-your-mental-health",
+      "old_path": "/how-to-reconnect-with-friends-safely-and-save-your-mental-health/",
+      "new_path": "/blog/how-to-reconnect-with-friends-safely-and-save-your-mental-health",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5847,
+      "slug": "racial-trauma-at-work-heres-what-it-looks-like-and-how-to-navigate-it",
+      "old_path": "/racial-trauma-at-work-heres-what-it-looks-like-and-how-to-navigate-it/",
+      "new_path": "/blog/racial-trauma-at-work-heres-what-it-looks-like-and-how-to-navigate-it",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5849,
+      "slug": "getting-parents-therapy-can-help-children",
+      "old_path": "/getting-parents-therapy-can-help-children/",
+      "new_path": "/blog/getting-parents-therapy-can-help-children",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5851,
+      "slug": "how-to-stay-resilient-in-the-long-term-fight-for-racial-justice",
+      "old_path": "/how-to-stay-resilient-in-the-long-term-fight-for-racial-justice/",
+      "new_path": "/blog/how-to-stay-resilient-in-the-long-term-fight-for-racial-justice",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5853,
+      "slug": "7-relationship-strengthening-activities-for-valentines-day-the-luthas-center",
+      "old_path": "/7-relationship-strengthening-activities-for-valentines-day-the-luthas-center/",
+      "new_path": "/blog/7-relationship-strengthening-activities-for-valentines-day-the-luthas-center",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5855,
+      "slug": "how-to-set-healthy-boundaries-with-friends-the-luthas-center",
+      "old_path": "/how-to-set-healthy-boundaries-with-friends-the-luthas-center/",
+      "new_path": "/blog/how-to-set-healthy-boundaries-with-friends-the-luthas-center",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5857,
+      "slug": "5-helpful-tips-the-luthas-center",
+      "old_path": "/5-helpful-tips-the-luthas-center/",
+      "new_path": "/blog/5-helpful-tips-the-luthas-center",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5859,
+      "slug": "1-tip-to-foster-a-lasting-relationship-the-luthas-center",
+      "old_path": "/1-tip-to-foster-a-lasting-relationship-the-luthas-center/",
+      "new_path": "/blog/1-tip-to-foster-a-lasting-relationship-the-luthas-center",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5861,
+      "slug": "how-to-fix-trust-issues-in-a-relationship-the-luthas-center",
+      "old_path": "/how-to-fix-trust-issues-in-a-relationship-the-luthas-center/",
+      "new_path": "/blog/how-to-fix-trust-issues-in-a-relationship-the-luthas-center",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5863,
+      "slug": "how-to-get-over-infidelity-in-your-relationship-the-luthas-center",
+      "old_path": "/how-to-get-over-infidelity-in-your-relationship-the-luthas-center/",
+      "new_path": "/blog/how-to-get-over-infidelity-in-your-relationship-the-luthas-center",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5865,
+      "slug": "how-to-control-anger-in-a-relationship-the-luthas-center",
+      "old_path": "/how-to-control-anger-in-a-relationship-the-luthas-center/",
+      "new_path": "/blog/how-to-control-anger-in-a-relationship-the-luthas-center",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5867,
+      "slug": "borderline-personality-disorder-vs-bipolar-disorder",
+      "old_path": "/borderline-personality-disorder-vs-bipolar-disorder/",
+      "new_path": "/blog/borderline-personality-disorder-vs-bipolar-disorder",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5869,
+      "slug": "diary-of-a-therapist-during-the-coronavirus-outbreak-dr-amy-cirbus",
+      "old_path": "/diary-of-a-therapist-during-the-coronavirus-outbreak-dr-amy-cirbus/",
+      "new_path": "/blog/diary-of-a-therapist-during-the-coronavirus-outbreak-dr-amy-cirbus",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5871,
+      "slug": "ask-a-therapist-is-this-ocd-or-just-normal-anxiety-about-the-pandemic",
+      "old_path": "/ask-a-therapist-is-this-ocd-or-just-normal-anxiety-about-the-pandemic/",
+      "new_path": "/blog/ask-a-therapist-is-this-ocd-or-just-normal-anxiety-about-the-pandemic",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5873,
+      "slug": "ask-a-therapist-how-do-i-know-if-im-depressed-or-if-i-should-take-anti-depressants",
+      "old_path": "/ask-a-therapist-how-do-i-know-if-im-depressed-or-if-i-should-take-anti-depressants/",
+      "new_path": "/blog/ask-a-therapist-how-do-i-know-if-im-depressed-or-if-i-should-take-anti-depressants",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5875,
+      "slug": "aks-a-therapist-is-it-re-entry-anxiety",
+      "old_path": "/aks-a-therapist-is-it-re-entry-anxiety/",
+      "new_path": "/blog/aks-a-therapist-is-it-re-entry-anxiety",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5877,
+      "slug": "ask-a-therapist-how-do-i-deal-with-thoughts-of-suicide",
+      "old_path": "/ask-a-therapist-how-do-i-deal-with-thoughts-of-suicide/",
+      "new_path": "/blog/ask-a-therapist-how-do-i-deal-with-thoughts-of-suicide",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5879,
+      "slug": "how-to-help-someone-with-depression-8-ways-the-luthas-center",
+      "old_path": "/how-to-help-someone-with-depression-8-ways-the-luthas-center/",
+      "new_path": "/blog/how-to-help-someone-with-depression-8-ways-the-luthas-center",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5881,
+      "slug": "ask-a-therapist-how-can-i-hold-on-to-hope-when-ive-been-feeling-lonely-for-so-long",
+      "old_path": "/ask-a-therapist-how-can-i-hold-on-to-hope-when-ive-been-feeling-lonely-for-so-long/",
+      "new_path": "/blog/ask-a-therapist-how-can-i-hold-on-to-hope-when-ive-been-feeling-lonely-for-so-long",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5883,
+      "slug": "ask-a-therapist-can-ptsd-and-social-anxiety-randomly-return",
+      "old_path": "/ask-a-therapist-can-ptsd-and-social-anxiety-randomly-return/",
+      "new_path": "/blog/ask-a-therapist-can-ptsd-and-social-anxiety-randomly-return",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 5885,
+      "slug": "ask-a-therapist-holiday-advice-for-an-anxious-black-woman",
+      "old_path": "/ask-a-therapist-holiday-advice-for-an-anxious-black-woman/",
+      "new_path": "/blog/ask-a-therapist-holiday-advice-for-an-anxious-black-woman",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 6018,
+      "slug": "mental-health-conditions-library",
+      "old_path": "/mental-health-conditions-library/",
+      "new_path": "/blog/mental-health-conditions-library",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17268,
+      "slug": "get-a-one-year-sams-club-membership-for-10-right-now",
+      "old_path": "/get-a-one-year-sams-club-membership-for-10-right-now/",
+      "new_path": "/blog/get-a-one-year-sams-club-membership-for-10-right-now",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17349,
+      "slug": "homeless-prevention",
+      "old_path": "/homeless-prevention/",
+      "new_path": "/blog/homeless-prevention",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17352,
+      "slug": "da-big-homie",
+      "old_path": "/da-big-homie/",
+      "new_path": "/blog/da-big-homie",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17353,
+      "slug": "queens-of-s-t-e-m",
+      "old_path": "/queens-of-s-t-e-m/",
+      "new_path": "/blog/queens-of-s-t-e-m",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17354,
+      "slug": "prenatal-death-prevention",
+      "old_path": "/prenatal-death-prevention/",
+      "new_path": "/blog/prenatal-death-prevention",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17355,
+      "slug": "you-heal-i-heal-we-heal",
+      "old_path": "/you-heal-i-heal-we-heal/",
+      "new_path": "/blog/you-heal-i-heal-we-heal",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17356,
+      "slug": "mental-health-services",
+      "old_path": "/mental-health-services/",
+      "new_path": "/blog/mental-health-services",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17357,
+      "slug": "the-school-of-obstacles-and-adversity",
+      "old_path": "/the-school-of-obstacles-and-adversity/",
+      "new_path": "/blog/the-school-of-obstacles-and-adversity",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17367,
+      "slug": "the-school-of-obstacles-and-adversity-2",
+      "old_path": "/the-school-of-obstacles-and-adversity-2/",
+      "new_path": "/blog/the-school-of-obstacles-and-adversity-2",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17367,
+      "slug": "the-school-of-obstacles-and-adversity",
+      "old_path": "/the-school-of-obstacles-and-adversity/",
+      "new_path": "/blog/the-school-of-obstacles-and-adversity-2",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "post",
+      "wp_id": 17368,
+      "slug": "the-school-of-obstacles-and-adversity-3",
+      "old_path": "/the-school-of-obstacles-and-adversity-3/",
+      "new_path": "/blog/the-school-of-obstacles-and-adversity-3",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17368,
+      "slug": "the-school-of-obstacles-and-adversity",
+      "old_path": "/the-school-of-obstacles-and-adversity/",
+      "new_path": "/blog/the-school-of-obstacles-and-adversity-3",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "post",
+      "wp_id": 17369,
+      "slug": "the-school-of-obstacles-and-adversity-4",
+      "old_path": "/the-school-of-obstacles-and-adversity-4/",
+      "new_path": "/blog/the-school-of-obstacles-and-adversity-4",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17369,
+      "slug": "the-school-of-obstacles-and-adversity",
+      "old_path": "/the-school-of-obstacles-and-adversity/",
+      "new_path": "/blog/the-school-of-obstacles-and-adversity-4",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "post",
+      "wp_id": 17370,
+      "slug": "school-obstacles-adversity",
+      "old_path": "/school-obstacles-adversity/",
+      "new_path": "/blog/school-obstacles-adversity",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17370,
+      "slug": "the-school-of-obstacles-and-adversity",
+      "old_path": "/the-school-of-obstacles-and-adversity/",
+      "new_path": "/blog/school-obstacles-adversity",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "post",
+      "wp_id": 17370,
+      "slug": "the-school-of-obstacles-and-adversity-5",
+      "old_path": "/the-school-of-obstacles-and-adversity-5/",
+      "new_path": "/blog/school-obstacles-adversity",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "post",
+      "wp_id": 17512,
+      "slug": "faceless-angels",
+      "old_path": "/faceless-angels/",
+      "new_path": "/blog/faceless-angels",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17525,
+      "slug": "just-for-today-your-24-7-virtual-na-meetings-platform",
+      "old_path": "/just-for-today-your-24-7-virtual-na-meetings-platform/",
+      "new_path": "/blog/just-for-today-your-24-7-virtual-na-meetings-platform",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17592,
+      "slug": "the-luthas-center-for-excellence",
+      "old_path": "/the-luthas-center-for-excellence/",
+      "new_path": "/blog/the-luthas-center-for-excellence",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17608,
+      "slug": "evangeline-byars-pioneering-change-in-the-labor-movement",
+      "old_path": "/evangeline-byars-pioneering-change-in-the-labor-movement/",
+      "new_path": "/blog/evangeline-byars-pioneering-change-in-the-labor-movement",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17646,
+      "slug": "dame-luthas-a-visionary-leader",
+      "old_path": "/dame-luthas-a-visionary-leader/",
+      "new_path": "/blog/dame-luthas-a-visionary-leader",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17723,
+      "slug": "mompreneur-strikes-deal-with-walmart-just-2-years-after-launching-her-beauty-products",
+      "old_path": "/mompreneur-strikes-deal-with-walmart-just-2-years-after-launching-her-beauty-products/",
+      "new_path": "/blog/mompreneur-strikes-deal-with-walmart-just-2-years-after-launching-her-beauty-products",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17727,
+      "slug": "black-woman-founder-secures-1-million-in-funding-despite-pandemic",
+      "old_path": "/black-woman-founder-secures-1-million-in-funding-despite-pandemic/",
+      "new_path": "/blog/black-woman-founder-secures-1-million-in-funding-despite-pandemic",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17731,
+      "slug": "black-entrepreneur-launches-t-shirt-business-in-a-box-kit-for-easy-start-up-now-available-at-walmart",
+      "old_path": "/black-entrepreneur-launches-t-shirt-business-in-a-box-kit-for-easy-start-up-now-available-at-walmart/",
+      "new_path": "/blog/black-entrepreneur-launches-t-shirt-business-in-a-box-kit-for-easy-start-up-now-available-at-walmart",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17735,
+      "slug": "mom-and-daughter-owners-of-black-owned-greek-paraphernalia-store-celebrate-35-years-in-business",
+      "old_path": "/mom-and-daughter-owners-of-black-owned-greek-paraphernalia-store-celebrate-35-years-in-business/",
+      "new_path": "/blog/mom-and-daughter-owners-of-black-owned-greek-paraphernalia-store-celebrate-35-years-in-business",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17739,
+      "slug": "meet-the-1st-ever-black-woman-president-of-nikes-jordan-brand-which-made-5-1-billion-last-year",
+      "old_path": "/meet-the-1st-ever-black-woman-president-of-nikes-jordan-brand-which-made-5-1-billion-last-year/",
+      "new_path": "/blog/meet-the-1st-ever-black-woman-president-of-nikes-jordan-brand-which-made-5-1-billion-last-year",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17743,
+      "slug": "black-entrepreneur-wins-patent-for-disposable-underwear-for-women-made-from-bamboo",
+      "old_path": "/black-entrepreneur-wins-patent-for-disposable-underwear-for-women-made-from-bamboo/",
+      "new_path": "/blog/black-entrepreneur-wins-patent-for-disposable-underwear-for-women-made-from-bamboo",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17747,
+      "slug": "hbcu-president-makes-history-opens-first-ever-black-owned-footwear-factory-in-the-u-s",
+      "old_path": "/hbcu-president-makes-history-opens-first-ever-black-owned-footwear-factory-in-the-u-s/",
+      "new_path": "/blog/hbcu-president-makes-history-opens-first-ever-black-owned-footwear-factory-in-the-u-s",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17751,
+      "slug": "couple-secures-250k-deal-on-shark-tank-for-black-owned-virtual-bridal-company",
+      "old_path": "/couple-secures-250k-deal-on-shark-tank-for-black-owned-virtual-bridal-company/",
+      "new_path": "/blog/couple-secures-250k-deal-on-shark-tank-for-black-owned-virtual-bridal-company",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17755,
+      "slug": "black-entrepreneur-who-secured-200k-deal-on-shark-tank-made-1-8m-last-year",
+      "old_path": "/black-entrepreneur-who-secured-200k-deal-on-shark-tank-made-1-8m-last-year/",
+      "new_path": "/blog/black-entrepreneur-who-secured-200k-deal-on-shark-tank-made-1-8m-last-year",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17759,
+      "slug": "this-black-entrepreneur-hit-1m-in-t-shirt-sales-while-working-a-full-time-job",
+      "old_path": "/this-black-entrepreneur-hit-1m-in-t-shirt-sales-while-working-a-full-time-job/",
+      "new_path": "/blog/this-black-entrepreneur-hit-1m-in-t-shirt-sales-while-working-a-full-time-job",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17763,
+      "slug": "meet-the-3-women-behind-the-newest-black-owned-jewelry-storefront-in-baton-rouge",
+      "old_path": "/meet-the-3-women-behind-the-newest-black-owned-jewelry-storefront-in-baton-rouge/",
+      "new_path": "/blog/meet-the-3-women-behind-the-newest-black-owned-jewelry-storefront-in-baton-rouge",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17767,
+      "slug": "black-woman-entrepreneur-makes-history-with-80m-company-opens-first-flagship-retail-store",
+      "old_path": "/black-woman-entrepreneur-makes-history-with-80m-company-opens-first-flagship-retail-store/",
+      "new_path": "/blog/black-woman-entrepreneur-makes-history-with-80m-company-opens-first-flagship-retail-store",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17771,
+      "slug": "founder-of-black-owned-vending-company-launches-nationwide-franchise-opportunity",
+      "old_path": "/founder-of-black-owned-vending-company-launches-nationwide-franchise-opportunity/",
+      "new_path": "/blog/founder-of-black-owned-vending-company-launches-nationwide-franchise-opportunity",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17775,
+      "slug": "woman-makes-history-opens-first-ever-black-owned-bridal-store-in-minnesota",
+      "old_path": "/woman-makes-history-opens-first-ever-black-owned-bridal-store-in-minnesota/",
+      "new_path": "/blog/woman-makes-history-opens-first-ever-black-owned-bridal-store-in-minnesota",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17779,
+      "slug": "black-female-ceo-empowering-entrepreneurs-to-achieve-homeownership-without-requiring-tax-returns",
+      "old_path": "/black-female-ceo-empowering-entrepreneurs-to-achieve-homeownership-without-requiring-tax-returns/",
+      "new_path": "/blog/black-female-ceo-empowering-entrepreneurs-to-achieve-homeownership-without-requiring-tax-returns",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17783,
+      "slug": "meet-the-9-year-old-entrepreneur-teaching-advanced-computer-tips-on-tiktok",
+      "old_path": "/meet-the-9-year-old-entrepreneur-teaching-advanced-computer-tips-on-tiktok/",
+      "new_path": "/blog/meet-the-9-year-old-entrepreneur-teaching-advanced-computer-tips-on-tiktok",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17787,
+      "slug": "mom-dad-4-daughters-launch-newest-black-owned-beauty-supply-store-in-california",
+      "old_path": "/mom-dad-4-daughters-launch-newest-black-owned-beauty-supply-store-in-california/",
+      "new_path": "/blog/mom-dad-4-daughters-launch-newest-black-owned-beauty-supply-store-in-california",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17791,
+      "slug": "alpha-kappa-alpha-oldest-sorority-for-black-women-opens-first-ever-members-only-credit-union",
+      "old_path": "/alpha-kappa-alpha-oldest-sorority-for-black-women-opens-first-ever-members-only-credit-union/",
+      "new_path": "/blog/alpha-kappa-alpha-oldest-sorority-for-black-women-opens-first-ever-members-only-credit-union",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17795,
+      "slug": "black-owned-agency-in-houston-texas-writes-over-16000-affordable-health-insurance-policies-in-one-year",
+      "old_path": "/black-owned-agency-in-houston-texas-writes-over-16000-affordable-health-insurance-policies-in-one-year/",
+      "new_path": "/blog/black-owned-agency-in-houston-texas-writes-over-16000-affordable-health-insurance-policies-in-one-year",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17799,
+      "slug": "young-black-college-dropouts-raise-5m-to-rival-ticketmaster-with-new-platform",
+      "old_path": "/young-black-college-dropouts-raise-5m-to-rival-ticketmaster-with-new-platform/",
+      "new_path": "/blog/young-black-college-dropouts-raise-5m-to-rival-ticketmaster-with-new-platform",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17803,
+      "slug": "black-woman-owned-manufacturer-awarded-historic-contract-to-supply-4400-hospitals-with-textured-hair-products",
+      "old_path": "/black-woman-owned-manufacturer-awarded-historic-contract-to-supply-4400-hospitals-with-textured-hair-products/",
+      "new_path": "/blog/black-woman-owned-manufacturer-awarded-historic-contract-to-supply-4400-hospitals-with-textured-hair-products",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17807,
+      "slug": "23-year-old-becomes-the-youngest-black-male-licensed-mortgage-loan-originator-at-kelly-mortgage",
+      "old_path": "/23-year-old-becomes-the-youngest-black-male-licensed-mortgage-loan-originator-at-kelly-mortgage/",
+      "new_path": "/blog/23-year-old-becomes-the-youngest-black-male-licensed-mortgage-loan-originator-at-kelly-mortgage",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17811,
+      "slug": "former-nba-star-lamar-odom-starts-senior-living-business-inspired-by-his-96-year-old-grandma",
+      "old_path": "/former-nba-star-lamar-odom-starts-senior-living-business-inspired-by-his-96-year-old-grandma/",
+      "new_path": "/blog/former-nba-star-lamar-odom-starts-senior-living-business-inspired-by-his-96-year-old-grandma",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17815,
+      "slug": "entrepreneurs-make-history-launch-newest-black-woman-owned-hr-platform",
+      "old_path": "/entrepreneurs-make-history-launch-newest-black-woman-owned-hr-platform/",
+      "new_path": "/blog/entrepreneurs-make-history-launch-newest-black-woman-owned-hr-platform",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17819,
+      "slug": "founder-of-black-owned-skincare-brand-awarded-top-honor-from-national-eczema-association",
+      "old_path": "/founder-of-black-owned-skincare-brand-awarded-top-honor-from-national-eczema-association/",
+      "new_path": "/blog/founder-of-black-owned-skincare-brand-awarded-top-honor-from-national-eczema-association",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17823,
+      "slug": "entrepreneur-who-secured-17m-in-funds-launches-free-grant-writing-training-to-black-owned-businesses-and-non-profits",
+      "old_path": "/entrepreneur-who-secured-17m-in-funds-launches-free-grant-writing-training-to-black-owned-businesses-and-non-profits/",
+      "new_path": "/blog/entrepreneur-who-secured-17m-in-funds-launches-free-grant-writing-training-to-black-owned-businesses-and-non-profits",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17827,
+      "slug": "storytelling-expert-launches-professional-development-program-for-black-women-to-accelerate-their-careers-with-thought-leadership",
+      "old_path": "/storytelling-expert-launches-professional-development-program-for-black-women-to-accelerate-their-careers-with-thought-leadership/",
+      "new_path": "/blog/storytelling-expert-launches-professional-development-program-for-black-women-to-accelerate-their-careers-with-thought-leadership",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17831,
+      "slug": "her-app-has-recirculated-10m-into-black-owned-businesses-now-shes-expanding-to-ten-more-countries",
+      "old_path": "/her-app-has-recirculated-10m-into-black-owned-businesses-now-shes-expanding-to-ten-more-countries/",
+      "new_path": "/blog/her-app-has-recirculated-10m-into-black-owned-businesses-now-shes-expanding-to-ten-more-countries",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17835,
+      "slug": "grandpa-and-granddaughter-team-up-to-open-black-owned-beauty-supply-store-in-north-carolina",
+      "old_path": "/grandpa-and-granddaughter-team-up-to-open-black-owned-beauty-supply-store-in-north-carolina/",
+      "new_path": "/blog/grandpa-and-granddaughter-team-up-to-open-black-owned-beauty-supply-store-in-north-carolina",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17839,
+      "slug": "founder-host-of-black-real-estate-podcast-is-teaching-entrepreneurs-how-to-own-property",
+      "old_path": "/founder-host-of-black-real-estate-podcast-is-teaching-entrepreneurs-how-to-own-property/",
+      "new_path": "/blog/founder-host-of-black-real-estate-podcast-is-teaching-entrepreneurs-how-to-own-property",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17843,
+      "slug": "tulaine-montgomery-becomes-sole-ceo-during-time-of-unprecedented-growth-for-new-profit",
+      "old_path": "/tulaine-montgomery-becomes-sole-ceo-during-time-of-unprecedented-growth-for-new-profit/",
+      "new_path": "/blog/tulaine-montgomery-becomes-sole-ceo-during-time-of-unprecedented-growth-for-new-profit",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17847,
+      "slug": "black-couples-online-academy-becomes-the-first-to-be-accredited-to-use-non-human-ai-avatar-instructors",
+      "old_path": "/black-couples-online-academy-becomes-the-first-to-be-accredited-to-use-non-human-ai-avatar-instructors/",
+      "new_path": "/blog/black-couples-online-academy-becomes-the-first-to-be-accredited-to-use-non-human-ai-avatar-instructors",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17851,
+      "slug": "founder-of-black-owned-vegan-nail-polish-brand-wins-pitch-competition",
+      "old_path": "/founder-of-black-owned-vegan-nail-polish-brand-wins-pitch-competition/",
+      "new_path": "/blog/founder-of-black-owned-vegan-nail-polish-brand-wins-pitch-competition",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17855,
+      "slug": "black-investor-offers-7-billion-to-buy-washington-commanders",
+      "old_path": "/black-investor-offers-7-billion-to-buy-washington-commanders/",
+      "new_path": "/blog/black-investor-offers-7-billion-to-buy-washington-commanders",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17859,
+      "slug": "12-year-old-black-entrepreneur-from-georgia-mowing-lawns-to-help-pay-family-bills",
+      "old_path": "/12-year-old-black-entrepreneur-from-georgia-mowing-lawns-to-help-pay-family-bills/",
+      "new_path": "/blog/12-year-old-black-entrepreneur-from-georgia-mowing-lawns-to-help-pay-family-bills",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17863,
+      "slug": "black-mom-and-daughter-create-first-interactive-stem-somi-doll-win-innovation-of-the-year-award",
+      "old_path": "/black-mom-and-daughter-create-first-interactive-stem-somi-doll-win-innovation-of-the-year-award/",
+      "new_path": "/blog/black-mom-and-daughter-create-first-interactive-stem-somi-doll-win-innovation-of-the-year-award",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17867,
+      "slug": "founder-gets-emotional-after-becoming-the-largest-black-owned-makeup-brand-in-target-stores",
+      "old_path": "/founder-gets-emotional-after-becoming-the-largest-black-owned-makeup-brand-in-target-stores/",
+      "new_path": "/blog/founder-gets-emotional-after-becoming-the-largest-black-owned-makeup-brand-in-target-stores",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17871,
+      "slug": "black-investors-make-history-purchase-white-owned-bank-in-utah",
+      "old_path": "/black-investors-make-history-purchase-white-owned-bank-in-utah/",
+      "new_path": "/blog/black-investors-make-history-purchase-white-owned-bank-in-utah",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17875,
+      "slug": "entrepreneur-makes-history-the-only-black-female-chiropractor-with-3-clinics-in-the-dallas-texas-area",
+      "old_path": "/entrepreneur-makes-history-the-only-black-female-chiropractor-with-3-clinics-in-the-dallas-texas-area/",
+      "new_path": "/blog/entrepreneur-makes-history-the-only-black-female-chiropractor-with-3-clinics-in-the-dallas-texas-area",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17879,
+      "slug": "father-dies-leaves-black-owned-batteries-plus-franchise-to-his-kids",
+      "old_path": "/father-dies-leaves-black-owned-batteries-plus-franchise-to-his-kids/",
+      "new_path": "/blog/father-dies-leaves-black-owned-batteries-plus-franchise-to-his-kids",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17883,
+      "slug": "founders-of-black-owned-eyewear-line-make-history-sign-licensing-deal-with-nickelodeon",
+      "old_path": "/founders-of-black-owned-eyewear-line-make-history-sign-licensing-deal-with-nickelodeon/",
+      "new_path": "/blog/founders-of-black-owned-eyewear-line-make-history-sign-licensing-deal-with-nickelodeon",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17887,
+      "slug": "black-couple-secures-250k-deal-on-shark-tank-for-2-4m-frozen-yogurt-startup",
+      "old_path": "/black-couple-secures-250k-deal-on-shark-tank-for-2-4m-frozen-yogurt-startup/",
+      "new_path": "/blog/black-couple-secures-250k-deal-on-shark-tank-for-2-4m-frozen-yogurt-startup",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17891,
+      "slug": "black-entrepreneur-from-maryland-buys-laundromat-already-making-24k-a-month",
+      "old_path": "/black-entrepreneur-from-maryland-buys-laundromat-already-making-24k-a-month/",
+      "new_path": "/blog/black-entrepreneur-from-maryland-buys-laundromat-already-making-24k-a-month",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17895,
+      "slug": "black-female-entrepreneur-makes-history-as-the-co-founder-of-a-1-6-billion-tech-startup",
+      "old_path": "/black-female-entrepreneur-makes-history-as-the-co-founder-of-a-1-6-billion-tech-startup/",
+      "new_path": "/blog/black-female-entrepreneur-makes-history-as-the-co-founder-of-a-1-6-billion-tech-startup",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17899,
+      "slug": "disney-collaborates-with-black-owned-photography-studio-to-reimagine-its-white-princess-characters",
+      "old_path": "/disney-collaborates-with-black-owned-photography-studio-to-reimagine-its-white-princess-characters/",
+      "new_path": "/blog/disney-collaborates-with-black-owned-photography-studio-to-reimagine-its-white-princess-characters",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17903,
+      "slug": "entrepreneur-makes-history-as-the-first-black-private-mortgage-lender-with-a-100m-warehouse-line",
+      "old_path": "/entrepreneur-makes-history-as-the-first-black-private-mortgage-lender-with-a-100m-warehouse-line/",
+      "new_path": "/blog/entrepreneur-makes-history-as-the-first-black-private-mortgage-lender-with-a-100m-warehouse-line",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17907,
+      "slug": "former-nba-star-lamar-odom-is-the-new-owner-of-three-drug-treatment-facilities-in-california",
+      "old_path": "/former-nba-star-lamar-odom-is-the-new-owner-of-three-drug-treatment-facilities-in-california/",
+      "new_path": "/blog/former-nba-star-lamar-odom-is-the-new-owner-of-three-drug-treatment-facilities-in-california",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17911,
+      "slug": "best-friends-who-made-2m-in-two-years-now-helping-others-get-started-in-billion-dollar-hair-beauty-industry",
+      "old_path": "/best-friends-who-made-2m-in-two-years-now-helping-others-get-started-in-billion-dollar-hair-beauty-industry/",
+      "new_path": "/blog/best-friends-who-made-2m-in-two-years-now-helping-others-get-started-in-billion-dollar-hair-beauty-industry",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17915,
+      "slug": "32-year-old-black-entrepreneur-mom-of-4-secures-over-15m-in-funding-for-clients-and-students",
+      "old_path": "/32-year-old-black-entrepreneur-mom-of-4-secures-over-15m-in-funding-for-clients-and-students/",
+      "new_path": "/blog/32-year-old-black-entrepreneur-mom-of-4-secures-over-15m-in-funding-for-clients-and-students",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17919,
+      "slug": "introducing-the-first-black-woman-owned-barbershop-in-omaha-nebraska",
+      "old_path": "/introducing-the-first-black-woman-owned-barbershop-in-omaha-nebraska/",
+      "new_path": "/blog/introducing-the-first-black-woman-owned-barbershop-in-omaha-nebraska",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17923,
+      "slug": "black-mom-of-3-quits-job-launches-nail-polish-line-that-caters-to-women-with-darker-skin",
+      "old_path": "/black-mom-of-3-quits-job-launches-nail-polish-line-that-caters-to-women-with-darker-skin/",
+      "new_path": "/blog/black-mom-of-3-quits-job-launches-nail-polish-line-that-caters-to-women-with-darker-skin",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17927,
+      "slug": "entrepreneur-makes-history-opens-first-ever-black-owned-bank-in-arkansas",
+      "old_path": "/entrepreneur-makes-history-opens-first-ever-black-owned-bank-in-arkansas/",
+      "new_path": "/blog/entrepreneur-makes-history-opens-first-ever-black-owned-bank-in-arkansas",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17931,
+      "slug": "army-veteran-turned-serial-entrepreneur-launches-ceo-camp-to-empower-micro-business-owners-across-the-nation",
+      "old_path": "/army-veteran-turned-serial-entrepreneur-launches-ceo-camp-to-empower-micro-business-owners-across-the-nation/",
+      "new_path": "/blog/army-veteran-turned-serial-entrepreneur-launches-ceo-camp-to-empower-micro-business-owners-across-the-nation",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17935,
+      "slug": "meet-the-veteran-mom-of-2-behind-this-black-owned-plant-based-body-care-brand",
+      "old_path": "/meet-the-veteran-mom-of-2-behind-this-black-owned-plant-based-body-care-brand/",
+      "new_path": "/blog/meet-the-veteran-mom-of-2-behind-this-black-owned-plant-based-body-care-brand",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17939,
+      "slug": "community-leader-announces-500k-in-funding-for-black-women-entrepreneurs",
+      "old_path": "/community-leader-announces-500k-in-funding-for-black-women-entrepreneurs/",
+      "new_path": "/blog/community-leader-announces-500k-in-funding-for-black-women-entrepreneurs",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17943,
+      "slug": "uncle-two-nephews-launch-newest-black-family-owned-film-production-company-in-the-midwest",
+      "old_path": "/uncle-two-nephews-launch-newest-black-family-owned-film-production-company-in-the-midwest/",
+      "new_path": "/blog/uncle-two-nephews-launch-newest-black-family-owned-film-production-company-in-the-midwest",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17947,
+      "slug": "black-entrepreneur-eliminates-bad-hair-days-with-headband-wigs-that-install-in-seconds",
+      "old_path": "/black-entrepreneur-eliminates-bad-hair-days-with-headband-wigs-that-install-in-seconds/",
+      "new_path": "/blog/black-entrepreneur-eliminates-bad-hair-days-with-headband-wigs-that-install-in-seconds",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17951,
+      "slug": "founder-of-black-owned-tax-firm-that-grossed-1-5m-in-three-months-to-offer-franchise-opportunities",
+      "old_path": "/founder-of-black-owned-tax-firm-that-grossed-1-5m-in-three-months-to-offer-franchise-opportunities/",
+      "new_path": "/blog/founder-of-black-owned-tax-firm-that-grossed-1-5m-in-three-months-to-offer-franchise-opportunities",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17955,
+      "slug": "career-growth-strategist-isi-aladejobi-has-helped-black-women-increase-their-salaries-by-1-9-million",
+      "old_path": "/career-growth-strategist-isi-aladejobi-has-helped-black-women-increase-their-salaries-by-1-9-million/",
+      "new_path": "/blog/career-growth-strategist-isi-aladejobi-has-helped-black-women-increase-their-salaries-by-1-9-million",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17959,
+      "slug": "black-doctor-partners-with-his-esthetician-wife-to-launch-holistic-skincare-brand",
+      "old_path": "/black-doctor-partners-with-his-esthetician-wife-to-launch-holistic-skincare-brand/",
+      "new_path": "/blog/black-doctor-partners-with-his-esthetician-wife-to-launch-holistic-skincare-brand",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17963,
+      "slug": "founder-of-largest-group-of-black-female-investors-in-california-celebrates-25-years-of-trading-and-investing",
+      "old_path": "/founder-of-largest-group-of-black-female-investors-in-california-celebrates-25-years-of-trading-and-investing/",
+      "new_path": "/blog/founder-of-largest-group-of-black-female-investors-in-california-celebrates-25-years-of-trading-and-investing",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17967,
+      "slug": "young-couple-makes-history-as-the-first-black-owners-of-a-business-park-in-pg-county-maryland",
+      "old_path": "/young-couple-makes-history-as-the-first-black-owners-of-a-business-park-in-pg-county-maryland/",
+      "new_path": "/blog/young-couple-makes-history-as-the-first-black-owners-of-a-business-park-in-pg-county-maryland",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17971,
+      "slug": "18-year-old-black-entrepreneur-lands-deal-with-major-grocery-retailer-with-73-stores-in-11-states",
+      "old_path": "/18-year-old-black-entrepreneur-lands-deal-with-major-grocery-retailer-with-73-stores-in-11-states/",
+      "new_path": "/blog/18-year-old-black-entrepreneur-lands-deal-with-major-grocery-retailer-with-73-stores-in-11-states",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17975,
+      "slug": "27-year-old-black-woman-entrepreneur-who-turned-10k-into-2m-now-teaching-others",
+      "old_path": "/27-year-old-black-woman-entrepreneur-who-turned-10k-into-2m-now-teaching-others/",
+      "new_path": "/blog/27-year-old-black-woman-entrepreneur-who-turned-10k-into-2m-now-teaching-others",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17979,
+      "slug": "meet-the-founder-on-a-mission-to-unmute-1000-black-women-execs-in-corporate-america-and-beyond",
+      "old_path": "/meet-the-founder-on-a-mission-to-unmute-1000-black-women-execs-in-corporate-america-and-beyond/",
+      "new_path": "/blog/meet-the-founder-on-a-mission-to-unmute-1000-black-women-execs-in-corporate-america-and-beyond",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17983,
+      "slug": "these-three-black-entrepreneurs-own-38-grocery-stores-and-just-received-13-5m-to-buy-six-more",
+      "old_path": "/these-three-black-entrepreneurs-own-38-grocery-stores-and-just-received-13-5m-to-buy-six-more/",
+      "new_path": "/blog/these-three-black-entrepreneurs-own-38-grocery-stores-and-just-received-13-5m-to-buy-six-more",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17987,
+      "slug": "young-black-lawyer-giving-away-free-trademark-services-to-help-women-entrepreneurs-own-their-brands",
+      "old_path": "/young-black-lawyer-giving-away-free-trademark-services-to-help-women-entrepreneurs-own-their-brands/",
+      "new_path": "/blog/young-black-lawyer-giving-away-free-trademark-services-to-help-women-entrepreneurs-own-their-brands",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17991,
+      "slug": "black-family-closes-7-figure-real-estate-deal-to-recreate-modern-day-black-wall-street-in-mississippi",
+      "old_path": "/black-family-closes-7-figure-real-estate-deal-to-recreate-modern-day-black-wall-street-in-mississippi/",
+      "new_path": "/blog/black-family-closes-7-figure-real-estate-deal-to-recreate-modern-day-black-wall-street-in-mississippi",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17995,
+      "slug": "shante-r-roddy-creates-she-boss-up-grants-for-minority-women-after-securing-funding-for-over-10000-businesses",
+      "old_path": "/shante-r-roddy-creates-she-boss-up-grants-for-minority-women-after-securing-funding-for-over-10000-businesses/",
+      "new_path": "/blog/shante-r-roddy-creates-she-boss-up-grants-for-minority-women-after-securing-funding-for-over-10000-businesses",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 17999,
+      "slug": "black-entrepreneur-once-fired-from-netflix-now-owns-a-multimillion-dollar-marketing-agency",
+      "old_path": "/black-entrepreneur-once-fired-from-netflix-now-owns-a-multimillion-dollar-marketing-agency/",
+      "new_path": "/blog/black-entrepreneur-once-fired-from-netflix-now-owns-a-multimillion-dollar-marketing-agency",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 18003,
+      "slug": "meet-the-black-entrepreneur-who-made-500k-writing-selling-rap-songs-on-fiverr",
+      "old_path": "/meet-the-black-entrepreneur-who-made-500k-writing-selling-rap-songs-on-fiverr/",
+      "new_path": "/blog/meet-the-black-entrepreneur-who-made-500k-writing-selling-rap-songs-on-fiverr",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 18007,
+      "slug": "founders-of-black-owned-coffee-brand-secure-licensing-deal-to-use-wakanda-forever-on-their-packaging",
+      "old_path": "/founders-of-black-owned-coffee-brand-secure-licensing-deal-to-use-wakanda-forever-on-their-packaging/",
+      "new_path": "/blog/founders-of-black-owned-coffee-brand-secure-licensing-deal-to-use-wakanda-forever-on-their-packaging",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 18011,
+      "slug": "entrepreneur-on-a-mission-to-help-10000-black-women-become-bilingual-with-her-spanish-program",
+      "old_path": "/entrepreneur-on-a-mission-to-help-10000-black-women-become-bilingual-with-her-spanish-program/",
+      "new_path": "/blog/entrepreneur-on-a-mission-to-help-10000-black-women-become-bilingual-with-her-spanish-program",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 18015,
+      "slug": "black-mompreneur-launches-all-natural-food-products-for-other-breastfeeding-mothers",
+      "old_path": "/black-mompreneur-launches-all-natural-food-products-for-other-breastfeeding-mothers/",
+      "new_path": "/blog/black-mompreneur-launches-all-natural-food-products-for-other-breastfeeding-mothers",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 18019,
+      "slug": "meet-the-coach-helping-1000s-of-black-female-entrepreneurs-conquer-their-fears",
+      "old_path": "/meet-the-coach-helping-1000s-of-black-female-entrepreneurs-conquer-their-fears/",
+      "new_path": "/blog/meet-the-coach-helping-1000s-of-black-female-entrepreneurs-conquer-their-fears",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 18023,
+      "slug": "hbcu-grad-turned-entrepreneur-make-history-invents-first-ever-brand-of-pantiless-liners",
+      "old_path": "/hbcu-grad-turned-entrepreneur-make-history-invents-first-ever-brand-of-pantiless-liners/",
+      "new_path": "/blog/hbcu-grad-turned-entrepreneur-make-history-invents-first-ever-brand-of-pantiless-liners",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 18027,
+      "slug": "hbcu-grad-black-pharmacist-celebrates-two-years-as-owner-of-a-natural-hair-salon-and-beauty-supply-store",
+      "old_path": "/hbcu-grad-black-pharmacist-celebrates-two-years-as-owner-of-a-natural-hair-salon-and-beauty-supply-store/",
+      "new_path": "/blog/hbcu-grad-black-pharmacist-celebrates-two-years-as-owner-of-a-natural-hair-salon-and-beauty-supply-store",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 18031,
+      "slug": "couple-opens-first-ever-black-owned-mattress-store-in-the-midwest",
+      "old_path": "/couple-opens-first-ever-black-owned-mattress-store-in-the-midwest/",
+      "new_path": "/blog/couple-opens-first-ever-black-owned-mattress-store-in-the-midwest",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 18035,
+      "slug": "a-black-man-is-the-ceo-of-the-countrys-largest-preschool-system-with-75000-students",
+      "old_path": "/a-black-man-is-the-ceo-of-the-countrys-largest-preschool-system-with-75000-students/",
+      "new_path": "/blog/a-black-man-is-the-ceo-of-the-countrys-largest-preschool-system-with-75000-students",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 18039,
+      "slug": "this-entrepreneur-has-helped-black-business-owners-reach-over-75m-in-sales",
+      "old_path": "/this-entrepreneur-has-helped-black-business-owners-reach-over-75m-in-sales/",
+      "new_path": "/blog/this-entrepreneur-has-helped-black-business-owners-reach-over-75m-in-sales",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 18043,
+      "slug": "owner-of-black-owned-cannabis-wellness-brand-launches-platform-to-help-other-startup-entrepreneurs",
+      "old_path": "/owner-of-black-owned-cannabis-wellness-brand-launches-platform-to-help-other-startup-entrepreneurs/",
+      "new_path": "/blog/owner-of-black-owned-cannabis-wellness-brand-launches-platform-to-help-other-startup-entrepreneurs",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 18047,
+      "slug": "meet-the-founders-of-approved-jets-the-fastest-growing-black-owned-private-jet-company",
+      "old_path": "/meet-the-founders-of-approved-jets-the-fastest-growing-black-owned-private-jet-company/",
+      "new_path": "/blog/meet-the-founders-of-approved-jets-the-fastest-growing-black-owned-private-jet-company",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 18051,
+      "slug": "black-entrepreneur-launches-line-of-luggage-covers-travel-accessories-that-celebrate-african-culture",
+      "old_path": "/black-entrepreneur-launches-line-of-luggage-covers-travel-accessories-that-celebrate-african-culture/",
+      "new_path": "/blog/black-entrepreneur-launches-line-of-luggage-covers-travel-accessories-that-celebrate-african-culture",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 18055,
+      "slug": "black-couple-sells-their-236-acre-farm-in-upstate-new-york-to-developers-for-13-7-million",
+      "old_path": "/black-couple-sells-their-236-acre-farm-in-upstate-new-york-to-developers-for-13-7-million/",
+      "new_path": "/blog/black-couple-sells-their-236-acre-farm-in-upstate-new-york-to-developers-for-13-7-million",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 18059,
+      "slug": "meet-the-entrepreneur-behind-the-newest-black-woman-owned-boxing-and-fitness-gym-franchise",
+      "old_path": "/meet-the-entrepreneur-behind-the-newest-black-woman-owned-boxing-and-fitness-gym-franchise/",
+      "new_path": "/blog/meet-the-entrepreneur-behind-the-newest-black-woman-owned-boxing-and-fitness-gym-franchise",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 18077,
+      "slug": "the-health-and-well-being-of-single-mothers",
+      "old_path": "/the-health-and-well-being-of-single-mothers/",
+      "new_path": "/blog/the-health-and-well-being-of-single-mothers",
+      "reason": "canonical"
+    },
+    {
+      "type": "post",
+      "wp_id": 18100,
+      "slug": "havencycle-prevent-survive-thrive",
+      "old_path": "/havencycle-prevent-survive-thrive/",
+      "new_path": "/blog/havencycle-prevent-survive-thrive",
+      "reason": "canonical"
+    },
+    {
+      "type": "product",
+      "wp_id": 17220,
+      "slug": "aws-certified-cloud-practitioner-exam-training",
+      "old_path": "/product/aws-certified-cloud-practitioner-exam-training/",
+      "new_path": "/shop/aws-certified-cloud-practitioner-exam-training",
+      "reason": "canonical"
+    },
+    {
+      "type": "product",
+      "wp_id": 17223,
+      "slug": "the-god-memorandum",
+      "old_path": "/product/the-god-memorandum/",
+      "new_path": "/shop/the-god-memorandum",
+      "reason": "canonical"
+    },
+    {
+      "type": "product",
+      "wp_id": 17224,
+      "slug": "all-about-gaming-industry-careers-game-design-fundamentals",
+      "old_path": "/product/all-about-gaming-industry-careers-game-design-fundamentals/",
+      "new_path": "/shop/all-about-gaming-industry-careers-game-design-fundamentals",
+      "reason": "canonical"
+    },
+    {
+      "type": "product",
+      "wp_id": 17225,
+      "slug": "design-your-best-life-with-lifebook",
+      "old_path": "/product/design-your-best-life-with-lifebook/",
+      "new_path": "/shop/design-your-best-life-with-lifebook",
+      "reason": "canonical"
+    },
+    {
+      "type": "product",
+      "wp_id": 17226,
+      "slug": "the-ultimate-comptia-a-training-course",
+      "old_path": "/product/the-ultimate-comptia-a-training-course/",
+      "new_path": "/shop/the-ultimate-comptia-a-training-course",
+      "reason": "canonical"
+    },
+    {
+      "type": "product",
+      "wp_id": 17227,
+      "slug": "speak-and-inspire-lisa-nichols",
+      "old_path": "/product/speak-and-inspire-lisa-nichols/",
+      "new_path": "/shop/speak-and-inspire-lisa-nichols",
+      "reason": "canonical"
+    },
+    {
+      "type": "product",
+      "wp_id": 17228,
+      "slug": "uncompromised-life-marisa-peer",
+      "old_path": "/product/uncompromised-life-marisa-peer/",
+      "new_path": "/shop/uncompromised-life-marisa-peer",
+      "reason": "canonical"
+    },
+    {
+      "type": "product",
+      "wp_id": 17229,
+      "slug": "superbrain-course-by-jim-kwik",
+      "old_path": "/product/superbrain-course-by-jim-kwik/",
+      "new_path": "/shop/superbrain-course-by-jim-kwik",
+      "reason": "canonical"
+    },
+    {
+      "type": "product",
+      "wp_id": 17230,
+      "slug": "duality-by-jeffrey-allen",
+      "old_path": "/product/duality-by-jeffrey-allen/",
+      "new_path": "/shop/duality-by-jeffrey-allen",
+      "reason": "canonical"
+    },
+    {
+      "type": "product",
+      "wp_id": 17231,
+      "slug": "verbal-advantage",
+      "old_path": "/product/verbal-advantage/",
+      "new_path": "/shop/verbal-advantage",
+      "reason": "canonical"
+    },
+    {
+      "type": "product",
+      "wp_id": 17232,
+      "slug": "the-complete-2023-web-development-bootcamp",
+      "old_path": "/product/the-complete-2023-web-development-bootcamp/",
+      "new_path": "/shop/the-complete-2023-web-development-bootcamp",
+      "reason": "canonical"
+    },
+    {
+      "type": "product",
+      "wp_id": 17232,
+      "slug": "udemy-the-complete-2023-web-development-bootcamp",
+      "old_path": "/product/udemy-the-complete-2023-web-development-bootcamp/",
+      "new_path": "/shop/the-complete-2023-web-development-bootcamp",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "product",
+      "wp_id": 17233,
+      "slug": "master-youtube",
+      "old_path": "/product/master-youtube/",
+      "new_path": "/shop/master-youtube",
+      "reason": "canonical"
+    },
+    {
+      "type": "product",
+      "wp_id": 17234,
+      "slug": "the-complete-foundation-stock-trading-course",
+      "old_path": "/product/the-complete-foundation-stock-trading-course/",
+      "new_path": "/shop/the-complete-foundation-stock-trading-course",
+      "reason": "canonical"
+    },
+    {
+      "type": "product",
+      "wp_id": 17235,
+      "slug": "brand-strategy-fundamentals",
+      "old_path": "/product/brand-strategy-fundamentals/",
+      "new_path": "/shop/brand-strategy-fundamentals",
+      "reason": "canonical"
+    },
+    {
+      "type": "product",
+      "wp_id": 17236,
+      "slug": "aws-certified-solutions-architect-training",
+      "old_path": "/product/aws-certified-solutions-architect-training/",
+      "new_path": "/shop/aws-certified-solutions-architect-training",
+      "reason": "canonical"
+    },
+    {
+      "type": "product",
+      "wp_id": 17236,
+      "slug": "aws-certified-solutions-architect-zero-to-mastery",
+      "old_path": "/product/aws-certified-solutions-architect-zero-to-mastery/",
+      "new_path": "/shop/aws-certified-solutions-architect-training",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "course",
+      "wp_id": 3761,
+      "slug": "3761",
+      "old_path": "/courses/3761/",
+      "new_path": "/courses/3761",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3761,
+      "slug": "sfwd-courses-62e0a2a44e8306.04334218",
+      "old_path": "/courses/sfwd-courses-62e0a2a44e8306.04334218/",
+      "new_path": "/courses/3761",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "course",
+      "wp_id": 3763,
+      "slug": "3763",
+      "old_path": "/courses/3763/",
+      "new_path": "/courses/3763",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3763,
+      "slug": "sfwd-courses-62e0a2a46f4806.59087303",
+      "old_path": "/courses/sfwd-courses-62e0a2a46f4806.59087303/",
+      "new_path": "/courses/3763",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "course",
+      "wp_id": 3765,
+      "slug": "3765",
+      "old_path": "/courses/3765/",
+      "new_path": "/courses/3765",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3765,
+      "slug": "sfwd-courses-62e0a2a48c7d47.48053333",
+      "old_path": "/courses/sfwd-courses-62e0a2a48c7d47.48053333/",
+      "new_path": "/courses/3765",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "course",
+      "wp_id": 3767,
+      "slug": "3767",
+      "old_path": "/courses/3767/",
+      "new_path": "/courses/3767",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3767,
+      "slug": "sfwd-courses-62e0a2a4a93fa5.40898704",
+      "old_path": "/courses/sfwd-courses-62e0a2a4a93fa5.40898704/",
+      "new_path": "/courses/3767",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "course",
+      "wp_id": 3769,
+      "slug": "3769",
+      "old_path": "/courses/3769/",
+      "new_path": "/courses/3769",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3769,
+      "slug": "sfwd-courses-62e0a2a4c971f6.92149505",
+      "old_path": "/courses/sfwd-courses-62e0a2a4c971f6.92149505/",
+      "new_path": "/courses/3769",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "course",
+      "wp_id": 3771,
+      "slug": "3771",
+      "old_path": "/courses/3771/",
+      "new_path": "/courses/3771",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3771,
+      "slug": "sfwd-courses-62e0a2a4ecef33.40100361",
+      "old_path": "/courses/sfwd-courses-62e0a2a4ecef33.40100361/",
+      "new_path": "/courses/3771",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "course",
+      "wp_id": 3773,
+      "slug": "3773",
+      "old_path": "/courses/3773/",
+      "new_path": "/courses/3773",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3773,
+      "slug": "sfwd-courses-62e0a2a516e363.58078467",
+      "old_path": "/courses/sfwd-courses-62e0a2a516e363.58078467/",
+      "new_path": "/courses/3773",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "course",
+      "wp_id": 3775,
+      "slug": "3775",
+      "old_path": "/courses/3775/",
+      "new_path": "/courses/3775",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3775,
+      "slug": "sfwd-courses-62e0a2a532f0f9.24642389",
+      "old_path": "/courses/sfwd-courses-62e0a2a532f0f9.24642389/",
+      "new_path": "/courses/3775",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "course",
+      "wp_id": 3777,
+      "slug": "3777",
+      "old_path": "/courses/3777/",
+      "new_path": "/courses/3777",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3777,
+      "slug": "sfwd-courses-62e0a2a54e1b11.48380083",
+      "old_path": "/courses/sfwd-courses-62e0a2a54e1b11.48380083/",
+      "new_path": "/courses/3777",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "course",
+      "wp_id": 3779,
+      "slug": "3779",
+      "old_path": "/courses/3779/",
+      "new_path": "/courses/3779",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3779,
+      "slug": "sfwd-courses-62e0a2a571b309.38956036",
+      "old_path": "/courses/sfwd-courses-62e0a2a571b309.38956036/",
+      "new_path": "/courses/3779",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "course",
+      "wp_id": 3781,
+      "slug": "3781",
+      "old_path": "/courses/3781/",
+      "new_path": "/courses/3781",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3781,
+      "slug": "sfwd-courses-62e0a2a5917402.44876600",
+      "old_path": "/courses/sfwd-courses-62e0a2a5917402.44876600/",
+      "new_path": "/courses/3781",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "course",
+      "wp_id": 3783,
+      "slug": "3783",
+      "old_path": "/courses/3783/",
+      "new_path": "/courses/3783",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3783,
+      "slug": "sfwd-courses-62e0a2a5af19b7.87924950",
+      "old_path": "/courses/sfwd-courses-62e0a2a5af19b7.87924950/",
+      "new_path": "/courses/3783",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "course",
+      "wp_id": 3785,
+      "slug": "3785",
+      "old_path": "/courses/3785/",
+      "new_path": "/courses/3785",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3785,
+      "slug": "sfwd-courses-62e0a2a5ccb362.39203022",
+      "old_path": "/courses/sfwd-courses-62e0a2a5ccb362.39203022/",
+      "new_path": "/courses/3785",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "course",
+      "wp_id": 3787,
+      "slug": "3787",
+      "old_path": "/courses/3787/",
+      "new_path": "/courses/3787",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3787,
+      "slug": "sfwd-courses-62e0a2a5eb59e6.74186906",
+      "old_path": "/courses/sfwd-courses-62e0a2a5eb59e6.74186906/",
+      "new_path": "/courses/3787",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "course",
+      "wp_id": 3789,
+      "slug": "3789",
+      "old_path": "/courses/3789/",
+      "new_path": "/courses/3789",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3789,
+      "slug": "sfwd-courses-62e0a2a6153f94.71983176",
+      "old_path": "/courses/sfwd-courses-62e0a2a6153f94.71983176/",
+      "new_path": "/courses/3789",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "course",
+      "wp_id": 3791,
+      "slug": "3791",
+      "old_path": "/courses/3791/",
+      "new_path": "/courses/3791",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3791,
+      "slug": "sfwd-courses-62e0a2a6330fd0.75073757",
+      "old_path": "/courses/sfwd-courses-62e0a2a6330fd0.75073757/",
+      "new_path": "/courses/3791",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "course",
+      "wp_id": 3793,
+      "slug": "3793",
+      "old_path": "/courses/3793/",
+      "new_path": "/courses/3793",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3793,
+      "slug": "sfwd-courses-62e0a2a6512291.02362591",
+      "old_path": "/courses/sfwd-courses-62e0a2a6512291.02362591/",
+      "new_path": "/courses/3793",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "course",
+      "wp_id": 3795,
+      "slug": "3795",
+      "old_path": "/courses/3795/",
+      "new_path": "/courses/3795",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3795,
+      "slug": "sfwd-courses-62e0a2a67145c2.92213407",
+      "old_path": "/courses/sfwd-courses-62e0a2a67145c2.92213407/",
+      "new_path": "/courses/3795",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "course",
+      "wp_id": 3797,
+      "slug": "3797",
+      "old_path": "/courses/3797/",
+      "new_path": "/courses/3797",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3797,
+      "slug": "sfwd-courses-62e0a2a6922ef1.97506003",
+      "old_path": "/courses/sfwd-courses-62e0a2a6922ef1.97506003/",
+      "new_path": "/courses/3797",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "course",
+      "wp_id": 3799,
+      "slug": "3799",
+      "old_path": "/courses/3799/",
+      "new_path": "/courses/3799",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3799,
+      "slug": "sfwd-courses-62e0a2a6b29b64.61366277",
+      "old_path": "/courses/sfwd-courses-62e0a2a6b29b64.61366277/",
+      "new_path": "/courses/3799",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "course",
+      "wp_id": 3801,
+      "slug": "3801",
+      "old_path": "/courses/3801/",
+      "new_path": "/courses/3801",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3801,
+      "slug": "sfwd-courses-62e0a2a6d1ac98.38431089",
+      "old_path": "/courses/sfwd-courses-62e0a2a6d1ac98.38431089/",
+      "new_path": "/courses/3801",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "course",
+      "wp_id": 3803,
+      "slug": "3803",
+      "old_path": "/courses/3803/",
+      "new_path": "/courses/3803",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3803,
+      "slug": "sfwd-courses-62e0a2a7001e68.88446846",
+      "old_path": "/courses/sfwd-courses-62e0a2a7001e68.88446846/",
+      "new_path": "/courses/3803",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "course",
+      "wp_id": 3805,
+      "slug": "3805",
+      "old_path": "/courses/3805/",
+      "new_path": "/courses/3805",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3805,
+      "slug": "sfwd-courses-62e0a2a7224a93.81478027",
+      "old_path": "/courses/sfwd-courses-62e0a2a7224a93.81478027/",
+      "new_path": "/courses/3805",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "course",
+      "wp_id": 3807,
+      "slug": "3807",
+      "old_path": "/courses/3807/",
+      "new_path": "/courses/3807",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3807,
+      "slug": "sfwd-courses-62e0a2a744a568.45093026",
+      "old_path": "/courses/sfwd-courses-62e0a2a744a568.45093026/",
+      "new_path": "/courses/3807",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "course",
+      "wp_id": 3809,
+      "slug": "3809",
+      "old_path": "/courses/3809/",
+      "new_path": "/courses/3809",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3809,
+      "slug": "sfwd-courses-62e0a2a7670241.41853327",
+      "old_path": "/courses/sfwd-courses-62e0a2a7670241.41853327/",
+      "new_path": "/courses/3809",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "course",
+      "wp_id": 3811,
+      "slug": "3811",
+      "old_path": "/courses/3811/",
+      "new_path": "/courses/3811",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3811,
+      "slug": "sfwd-courses-62e0a2a7860a84.77605140",
+      "old_path": "/courses/sfwd-courses-62e0a2a7860a84.77605140/",
+      "new_path": "/courses/3811",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "course",
+      "wp_id": 3813,
+      "slug": "3813",
+      "old_path": "/courses/3813/",
+      "new_path": "/courses/3813",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3813,
+      "slug": "sfwd-courses-62e0a2a7a4e5a6.15442323",
+      "old_path": "/courses/sfwd-courses-62e0a2a7a4e5a6.15442323/",
+      "new_path": "/courses/3813",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "course",
+      "wp_id": 3815,
+      "slug": "3815",
+      "old_path": "/courses/3815/",
+      "new_path": "/courses/3815",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3815,
+      "slug": "sfwd-courses-62e0a2a7c87473.94271555",
+      "old_path": "/courses/sfwd-courses-62e0a2a7c87473.94271555/",
+      "new_path": "/courses/3815",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "course",
+      "wp_id": 3817,
+      "slug": "3817",
+      "old_path": "/courses/3817/",
+      "new_path": "/courses/3817",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3817,
+      "slug": "sfwd-courses-62e0a2a7e641b1.41606568",
+      "old_path": "/courses/sfwd-courses-62e0a2a7e641b1.41606568/",
+      "new_path": "/courses/3817",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "course",
+      "wp_id": 3819,
+      "slug": "3819",
+      "old_path": "/courses/3819/",
+      "new_path": "/courses/3819",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3819,
+      "slug": "sfwd-courses-62e0a2a80d0b42.99774167",
+      "old_path": "/courses/sfwd-courses-62e0a2a80d0b42.99774167/",
+      "new_path": "/courses/3819",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "course",
+      "wp_id": 3821,
+      "slug": "",
+      "old_path": "/courses//",
+      "new_path": "/courses/",
+      "status": "pending",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3823,
+      "slug": "",
+      "old_path": "/courses//",
+      "new_path": "/courses/",
+      "status": "pending",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3825,
+      "slug": "",
+      "old_path": "/courses//",
+      "new_path": "/courses/",
+      "status": "pending",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3827,
+      "slug": "",
+      "old_path": "/courses//",
+      "new_path": "/courses/",
+      "status": "pending",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3829,
+      "slug": "",
+      "old_path": "/courses//",
+      "new_path": "/courses/",
+      "status": "pending",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3831,
+      "slug": "",
+      "old_path": "/courses//",
+      "new_path": "/courses/",
+      "status": "pending",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3833,
+      "slug": "",
+      "old_path": "/courses//",
+      "new_path": "/courses/",
+      "status": "pending",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3835,
+      "slug": "",
+      "old_path": "/courses//",
+      "new_path": "/courses/",
+      "status": "pending",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3837,
+      "slug": "",
+      "old_path": "/courses//",
+      "new_path": "/courses/",
+      "status": "pending",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3839,
+      "slug": "",
+      "old_path": "/courses//",
+      "new_path": "/courses/",
+      "status": "pending",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3841,
+      "slug": "",
+      "old_path": "/courses//",
+      "new_path": "/courses/",
+      "status": "pending",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3843,
+      "slug": "",
+      "old_path": "/courses//",
+      "new_path": "/courses/",
+      "status": "pending",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3845,
+      "slug": "",
+      "old_path": "/courses//",
+      "new_path": "/courses/",
+      "status": "pending",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3847,
+      "slug": "",
+      "old_path": "/courses//",
+      "new_path": "/courses/",
+      "status": "pending",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3849,
+      "slug": "",
+      "old_path": "/courses//",
+      "new_path": "/courses/",
+      "status": "pending",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3851,
+      "slug": "",
+      "old_path": "/courses//",
+      "new_path": "/courses/",
+      "status": "pending",
+      "reason": "canonical"
+    },
+    {
+      "type": "course",
+      "wp_id": 3853,
+      "slug": "",
+      "old_path": "/courses//",
+      "new_path": "/courses/",
+      "status": "pending",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3855,
+      "slug": "3855",
+      "old_path": "/lessons/3855/",
+      "new_path": "/lessons/3855",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3855,
+      "slug": "sfwd-lessons-62e0a2aa1987d9.77591075",
+      "old_path": "/lessons/sfwd-lessons-62e0a2aa1987d9.77591075/",
+      "new_path": "/lessons/3855",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3857,
+      "slug": "3857",
+      "old_path": "/lessons/3857/",
+      "new_path": "/lessons/3857",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3857,
+      "slug": "sfwd-lessons-62e0a2aa2945a5.76998365",
+      "old_path": "/lessons/sfwd-lessons-62e0a2aa2945a5.76998365/",
+      "new_path": "/lessons/3857",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3859,
+      "slug": "3859",
+      "old_path": "/lessons/3859/",
+      "new_path": "/lessons/3859",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3859,
+      "slug": "sfwd-lessons-62e0a2aa37c4e9.80153794",
+      "old_path": "/lessons/sfwd-lessons-62e0a2aa37c4e9.80153794/",
+      "new_path": "/lessons/3859",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3861,
+      "slug": "3861",
+      "old_path": "/lessons/3861/",
+      "new_path": "/lessons/3861",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3861,
+      "slug": "sfwd-lessons-62e0a2aa46ecd5.50058943",
+      "old_path": "/lessons/sfwd-lessons-62e0a2aa46ecd5.50058943/",
+      "new_path": "/lessons/3861",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3863,
+      "slug": "3863",
+      "old_path": "/lessons/3863/",
+      "new_path": "/lessons/3863",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3863,
+      "slug": "sfwd-lessons-62e0a2aa510b34.84637706",
+      "old_path": "/lessons/sfwd-lessons-62e0a2aa510b34.84637706/",
+      "new_path": "/lessons/3863",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3865,
+      "slug": "3865",
+      "old_path": "/lessons/3865/",
+      "new_path": "/lessons/3865",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3865,
+      "slug": "sfwd-lessons-62e0a2aa5fe998.74053867",
+      "old_path": "/lessons/sfwd-lessons-62e0a2aa5fe998.74053867/",
+      "new_path": "/lessons/3865",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3867,
+      "slug": "3867",
+      "old_path": "/lessons/3867/",
+      "new_path": "/lessons/3867",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3867,
+      "slug": "sfwd-lessons-62e0a2aa6a1422.77397839",
+      "old_path": "/lessons/sfwd-lessons-62e0a2aa6a1422.77397839/",
+      "new_path": "/lessons/3867",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3871,
+      "slug": "3871",
+      "old_path": "/lessons/3871/",
+      "new_path": "/lessons/3871",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3871,
+      "slug": "sfwd-lessons-62e0a2aa8a0ee9.06234207",
+      "old_path": "/lessons/sfwd-lessons-62e0a2aa8a0ee9.06234207/",
+      "new_path": "/lessons/3871",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3873,
+      "slug": "3873",
+      "old_path": "/lessons/3873/",
+      "new_path": "/lessons/3873",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3873,
+      "slug": "sfwd-lessons-62e0a2aa9a1397.54094804",
+      "old_path": "/lessons/sfwd-lessons-62e0a2aa9a1397.54094804/",
+      "new_path": "/lessons/3873",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3875,
+      "slug": "3875",
+      "old_path": "/lessons/3875/",
+      "new_path": "/lessons/3875",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3875,
+      "slug": "sfwd-lessons-62e0a2aaa9a6e5.70253377",
+      "old_path": "/lessons/sfwd-lessons-62e0a2aaa9a6e5.70253377/",
+      "new_path": "/lessons/3875",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3877,
+      "slug": "3877",
+      "old_path": "/lessons/3877/",
+      "new_path": "/lessons/3877",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3877,
+      "slug": "sfwd-lessons-62e0a2aab966d2.34447160",
+      "old_path": "/lessons/sfwd-lessons-62e0a2aab966d2.34447160/",
+      "new_path": "/lessons/3877",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3879,
+      "slug": "3879",
+      "old_path": "/lessons/3879/",
+      "new_path": "/lessons/3879",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3879,
+      "slug": "sfwd-lessons-62e0a2aac41635.24194356",
+      "old_path": "/lessons/sfwd-lessons-62e0a2aac41635.24194356/",
+      "new_path": "/lessons/3879",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3881,
+      "slug": "3881",
+      "old_path": "/lessons/3881/",
+      "new_path": "/lessons/3881",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3881,
+      "slug": "sfwd-lessons-62e0a2aad49be0.40742614",
+      "old_path": "/lessons/sfwd-lessons-62e0a2aad49be0.40742614/",
+      "new_path": "/lessons/3881",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3883,
+      "slug": "3883",
+      "old_path": "/lessons/3883/",
+      "new_path": "/lessons/3883",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3883,
+      "slug": "sfwd-lessons-62e0a2aaded7e7.58180495",
+      "old_path": "/lessons/sfwd-lessons-62e0a2aaded7e7.58180495/",
+      "new_path": "/lessons/3883",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3885,
+      "slug": "3885",
+      "old_path": "/lessons/3885/",
+      "new_path": "/lessons/3885",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3885,
+      "slug": "sfwd-lessons-62e0a2aaefa1a3.22420523",
+      "old_path": "/lessons/sfwd-lessons-62e0a2aaefa1a3.22420523/",
+      "new_path": "/lessons/3885",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3887,
+      "slug": "3887",
+      "old_path": "/lessons/3887/",
+      "new_path": "/lessons/3887",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3887,
+      "slug": "sfwd-lessons-62e0a2ab0ca574.39171987",
+      "old_path": "/lessons/sfwd-lessons-62e0a2ab0ca574.39171987/",
+      "new_path": "/lessons/3887",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3889,
+      "slug": "3889",
+      "old_path": "/lessons/3889/",
+      "new_path": "/lessons/3889",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3889,
+      "slug": "sfwd-lessons-62e0a2ab1d5293.18609761",
+      "old_path": "/lessons/sfwd-lessons-62e0a2ab1d5293.18609761/",
+      "new_path": "/lessons/3889",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3891,
+      "slug": "3891",
+      "old_path": "/lessons/3891/",
+      "new_path": "/lessons/3891",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3891,
+      "slug": "sfwd-lessons-62e0a2ab2e24b0.42945499",
+      "old_path": "/lessons/sfwd-lessons-62e0a2ab2e24b0.42945499/",
+      "new_path": "/lessons/3891",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3893,
+      "slug": "3893",
+      "old_path": "/lessons/3893/",
+      "new_path": "/lessons/3893",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3893,
+      "slug": "sfwd-lessons-62e0a2ab3fc302.62512589",
+      "old_path": "/lessons/sfwd-lessons-62e0a2ab3fc302.62512589/",
+      "new_path": "/lessons/3893",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3895,
+      "slug": "3895",
+      "old_path": "/lessons/3895/",
+      "new_path": "/lessons/3895",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3895,
+      "slug": "sfwd-lessons-62e0a2ab521d27.42697499",
+      "old_path": "/lessons/sfwd-lessons-62e0a2ab521d27.42697499/",
+      "new_path": "/lessons/3895",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3897,
+      "slug": "3897",
+      "old_path": "/lessons/3897/",
+      "new_path": "/lessons/3897",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3897,
+      "slug": "sfwd-lessons-62e0a2ab62e618.77020026",
+      "old_path": "/lessons/sfwd-lessons-62e0a2ab62e618.77020026/",
+      "new_path": "/lessons/3897",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3899,
+      "slug": "3899",
+      "old_path": "/lessons/3899/",
+      "new_path": "/lessons/3899",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3899,
+      "slug": "sfwd-lessons-62e0a2ab6e39d5.26390099",
+      "old_path": "/lessons/sfwd-lessons-62e0a2ab6e39d5.26390099/",
+      "new_path": "/lessons/3899",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3901,
+      "slug": "3901",
+      "old_path": "/lessons/3901/",
+      "new_path": "/lessons/3901",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3901,
+      "slug": "sfwd-lessons-62e0a2ab7f00a0.48980826",
+      "old_path": "/lessons/sfwd-lessons-62e0a2ab7f00a0.48980826/",
+      "new_path": "/lessons/3901",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3903,
+      "slug": "3903",
+      "old_path": "/lessons/3903/",
+      "new_path": "/lessons/3903",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3903,
+      "slug": "sfwd-lessons-62e0a2ab919446.65102047",
+      "old_path": "/lessons/sfwd-lessons-62e0a2ab919446.65102047/",
+      "new_path": "/lessons/3903",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3905,
+      "slug": "3905",
+      "old_path": "/lessons/3905/",
+      "new_path": "/lessons/3905",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3905,
+      "slug": "sfwd-lessons-62e0a2ab9c36f3.45724776",
+      "old_path": "/lessons/sfwd-lessons-62e0a2ab9c36f3.45724776/",
+      "new_path": "/lessons/3905",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3907,
+      "slug": "3907",
+      "old_path": "/lessons/3907/",
+      "new_path": "/lessons/3907",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3907,
+      "slug": "sfwd-lessons-62e0a2abb037c6.46370120",
+      "old_path": "/lessons/sfwd-lessons-62e0a2abb037c6.46370120/",
+      "new_path": "/lessons/3907",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3909,
+      "slug": "3909",
+      "old_path": "/lessons/3909/",
+      "new_path": "/lessons/3909",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3909,
+      "slug": "sfwd-lessons-62e0a2abbb3335.30434558",
+      "old_path": "/lessons/sfwd-lessons-62e0a2abbb3335.30434558/",
+      "new_path": "/lessons/3909",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3911,
+      "slug": "3911",
+      "old_path": "/lessons/3911/",
+      "new_path": "/lessons/3911",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3911,
+      "slug": "sfwd-lessons-62e0a2abcca915.88354532",
+      "old_path": "/lessons/sfwd-lessons-62e0a2abcca915.88354532/",
+      "new_path": "/lessons/3911",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3913,
+      "slug": "3913",
+      "old_path": "/lessons/3913/",
+      "new_path": "/lessons/3913",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3913,
+      "slug": "sfwd-lessons-62e0a2abdf49e7.59748679",
+      "old_path": "/lessons/sfwd-lessons-62e0a2abdf49e7.59748679/",
+      "new_path": "/lessons/3913",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3915,
+      "slug": "3915",
+      "old_path": "/lessons/3915/",
+      "new_path": "/lessons/3915",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3915,
+      "slug": "sfwd-lessons-62e0a2ac028560.65160701",
+      "old_path": "/lessons/sfwd-lessons-62e0a2ac028560.65160701/",
+      "new_path": "/lessons/3915",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3917,
+      "slug": "3917",
+      "old_path": "/lessons/3917/",
+      "new_path": "/lessons/3917",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3917,
+      "slug": "sfwd-lessons-62e0a2ac1cd640.83456620",
+      "old_path": "/lessons/sfwd-lessons-62e0a2ac1cd640.83456620/",
+      "new_path": "/lessons/3917",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3919,
+      "slug": "3919",
+      "old_path": "/lessons/3919/",
+      "new_path": "/lessons/3919",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3919,
+      "slug": "sfwd-lessons-62e0a2ac38ec55.04401750",
+      "old_path": "/lessons/sfwd-lessons-62e0a2ac38ec55.04401750/",
+      "new_path": "/lessons/3919",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3921,
+      "slug": "3921",
+      "old_path": "/lessons/3921/",
+      "new_path": "/lessons/3921",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3921,
+      "slug": "sfwd-lessons-62e0a2ac496db3.28053301",
+      "old_path": "/lessons/sfwd-lessons-62e0a2ac496db3.28053301/",
+      "new_path": "/lessons/3921",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3923,
+      "slug": "3923",
+      "old_path": "/lessons/3923/",
+      "new_path": "/lessons/3923",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3923,
+      "slug": "sfwd-lessons-62e0a2ac5d8c63.63701743",
+      "old_path": "/lessons/sfwd-lessons-62e0a2ac5d8c63.63701743/",
+      "new_path": "/lessons/3923",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3925,
+      "slug": "3925",
+      "old_path": "/lessons/3925/",
+      "new_path": "/lessons/3925",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3925,
+      "slug": "sfwd-lessons-62e0a2ac6d16f3.15351857",
+      "old_path": "/lessons/sfwd-lessons-62e0a2ac6d16f3.15351857/",
+      "new_path": "/lessons/3925",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3927,
+      "slug": "3927",
+      "old_path": "/lessons/3927/",
+      "new_path": "/lessons/3927",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3927,
+      "slug": "sfwd-lessons-62e0a2ac782911.84666612",
+      "old_path": "/lessons/sfwd-lessons-62e0a2ac782911.84666612/",
+      "new_path": "/lessons/3927",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3929,
+      "slug": "3929",
+      "old_path": "/lessons/3929/",
+      "new_path": "/lessons/3929",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3929,
+      "slug": "sfwd-lessons-62e0a2ac825ea9.18152080",
+      "old_path": "/lessons/sfwd-lessons-62e0a2ac825ea9.18152080/",
+      "new_path": "/lessons/3929",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3931,
+      "slug": "3931",
+      "old_path": "/lessons/3931/",
+      "new_path": "/lessons/3931",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3931,
+      "slug": "sfwd-lessons-62e0a2ac8bacd6.30133022",
+      "old_path": "/lessons/sfwd-lessons-62e0a2ac8bacd6.30133022/",
+      "new_path": "/lessons/3931",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3933,
+      "slug": "3933",
+      "old_path": "/lessons/3933/",
+      "new_path": "/lessons/3933",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3933,
+      "slug": "sfwd-lessons-62e0a2ac96da30.56992030",
+      "old_path": "/lessons/sfwd-lessons-62e0a2ac96da30.56992030/",
+      "new_path": "/lessons/3933",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3935,
+      "slug": "3935",
+      "old_path": "/lessons/3935/",
+      "new_path": "/lessons/3935",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3935,
+      "slug": "sfwd-lessons-62e0a2aca1d193.44356675",
+      "old_path": "/lessons/sfwd-lessons-62e0a2aca1d193.44356675/",
+      "new_path": "/lessons/3935",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3937,
+      "slug": "3937",
+      "old_path": "/lessons/3937/",
+      "new_path": "/lessons/3937",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3937,
+      "slug": "sfwd-lessons-62e0a2acac25a9.42194877",
+      "old_path": "/lessons/sfwd-lessons-62e0a2acac25a9.42194877/",
+      "new_path": "/lessons/3937",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3939,
+      "slug": "3939",
+      "old_path": "/lessons/3939/",
+      "new_path": "/lessons/3939",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3939,
+      "slug": "sfwd-lessons-62e0a2acb691c2.26367348",
+      "old_path": "/lessons/sfwd-lessons-62e0a2acb691c2.26367348/",
+      "new_path": "/lessons/3939",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3941,
+      "slug": "3941",
+      "old_path": "/lessons/3941/",
+      "new_path": "/lessons/3941",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3941,
+      "slug": "sfwd-lessons-62e0a2acc0d443.35159345",
+      "old_path": "/lessons/sfwd-lessons-62e0a2acc0d443.35159345/",
+      "new_path": "/lessons/3941",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3943,
+      "slug": "3943",
+      "old_path": "/lessons/3943/",
+      "new_path": "/lessons/3943",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3943,
+      "slug": "sfwd-lessons-62e0a2accb98b3.98025225",
+      "old_path": "/lessons/sfwd-lessons-62e0a2accb98b3.98025225/",
+      "new_path": "/lessons/3943",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3945,
+      "slug": "3945",
+      "old_path": "/lessons/3945/",
+      "new_path": "/lessons/3945",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3945,
+      "slug": "sfwd-lessons-62e0a2acd4d0c3.33921479",
+      "old_path": "/lessons/sfwd-lessons-62e0a2acd4d0c3.33921479/",
+      "new_path": "/lessons/3945",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3947,
+      "slug": "3947",
+      "old_path": "/lessons/3947/",
+      "new_path": "/lessons/3947",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3947,
+      "slug": "sfwd-lessons-62e0a2acdf0ae3.94704597",
+      "old_path": "/lessons/sfwd-lessons-62e0a2acdf0ae3.94704597/",
+      "new_path": "/lessons/3947",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3949,
+      "slug": "3949",
+      "old_path": "/lessons/3949/",
+      "new_path": "/lessons/3949",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3949,
+      "slug": "sfwd-lessons-62e0a2ace97676.44648753",
+      "old_path": "/lessons/sfwd-lessons-62e0a2ace97676.44648753/",
+      "new_path": "/lessons/3949",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3951,
+      "slug": "3951",
+      "old_path": "/lessons/3951/",
+      "new_path": "/lessons/3951",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3951,
+      "slug": "sfwd-lessons-62e0a2acf31292.27003245",
+      "old_path": "/lessons/sfwd-lessons-62e0a2acf31292.27003245/",
+      "new_path": "/lessons/3951",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3953,
+      "slug": "3953",
+      "old_path": "/lessons/3953/",
+      "new_path": "/lessons/3953",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3953,
+      "slug": "sfwd-lessons-62e0a2ad0e1267.92654655",
+      "old_path": "/lessons/sfwd-lessons-62e0a2ad0e1267.92654655/",
+      "new_path": "/lessons/3953",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3955,
+      "slug": "3955",
+      "old_path": "/lessons/3955/",
+      "new_path": "/lessons/3955",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3955,
+      "slug": "sfwd-lessons-62e0a2ad18bfb7.72398614",
+      "old_path": "/lessons/sfwd-lessons-62e0a2ad18bfb7.72398614/",
+      "new_path": "/lessons/3955",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3957,
+      "slug": "3957",
+      "old_path": "/lessons/3957/",
+      "new_path": "/lessons/3957",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3957,
+      "slug": "sfwd-lessons-62e0a2ad2404b1.58473177",
+      "old_path": "/lessons/sfwd-lessons-62e0a2ad2404b1.58473177/",
+      "new_path": "/lessons/3957",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3959,
+      "slug": "3959",
+      "old_path": "/lessons/3959/",
+      "new_path": "/lessons/3959",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3959,
+      "slug": "sfwd-lessons-62e0a2ad335d48.68819887",
+      "old_path": "/lessons/sfwd-lessons-62e0a2ad335d48.68819887/",
+      "new_path": "/lessons/3959",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3961,
+      "slug": "3961",
+      "old_path": "/lessons/3961/",
+      "new_path": "/lessons/3961",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3961,
+      "slug": "sfwd-lessons-62e0a2ad3effe1.38089037",
+      "old_path": "/lessons/sfwd-lessons-62e0a2ad3effe1.38089037/",
+      "new_path": "/lessons/3961",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3963,
+      "slug": "3963",
+      "old_path": "/lessons/3963/",
+      "new_path": "/lessons/3963",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3963,
+      "slug": "sfwd-lessons-62e0a2ad4caa82.82835113",
+      "old_path": "/lessons/sfwd-lessons-62e0a2ad4caa82.82835113/",
+      "new_path": "/lessons/3963",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3965,
+      "slug": "3965",
+      "old_path": "/lessons/3965/",
+      "new_path": "/lessons/3965",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3965,
+      "slug": "sfwd-lessons-62e0a2ad597529.64556641",
+      "old_path": "/lessons/sfwd-lessons-62e0a2ad597529.64556641/",
+      "new_path": "/lessons/3965",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3967,
+      "slug": "3967",
+      "old_path": "/lessons/3967/",
+      "new_path": "/lessons/3967",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3967,
+      "slug": "sfwd-lessons-62e0a2ad6387f4.90739495",
+      "old_path": "/lessons/sfwd-lessons-62e0a2ad6387f4.90739495/",
+      "new_path": "/lessons/3967",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3979,
+      "slug": "3979",
+      "old_path": "/lessons/3979/",
+      "new_path": "/lessons/3979",
+      "reason": "canonical"
+    },
+    {
+      "type": "lesson",
+      "wp_id": 3979,
+      "slug": "sfwd-lessons-62e0a2ad9b8822.46086733",
+      "old_path": "/lessons/sfwd-lessons-62e0a2ad9b8822.46086733/",
+      "new_path": "/lessons/3979",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "quiz",
+      "wp_id": 3756,
+      "slug": "3756",
+      "old_path": "/quizzes/3756/",
+      "new_path": "/quizzes/3756",
+      "reason": "canonical"
+    },
+    {
+      "type": "quiz",
+      "wp_id": 3756,
+      "slug": "sfwd-quiz-62e0a2a4221713.10848123",
+      "old_path": "/quizzes/sfwd-quiz-62e0a2a4221713.10848123/",
+      "new_path": "/quizzes/3756",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "quiz",
+      "wp_id": 3757,
+      "slug": "3757",
+      "old_path": "/quizzes/3757/",
+      "new_path": "/quizzes/3757",
+      "reason": "canonical"
+    },
+    {
+      "type": "quiz",
+      "wp_id": 3757,
+      "slug": "sfwd-quiz-62e0a2a42b6bb4.18473507",
+      "old_path": "/quizzes/sfwd-quiz-62e0a2a42b6bb4.18473507/",
+      "new_path": "/quizzes/3757",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "quiz",
+      "wp_id": 3758,
+      "slug": "3758",
+      "old_path": "/quizzes/3758/",
+      "new_path": "/quizzes/3758",
+      "reason": "canonical"
+    },
+    {
+      "type": "quiz",
+      "wp_id": 3758,
+      "slug": "sfwd-quiz-62e0a2a43501e9.18833773",
+      "old_path": "/quizzes/sfwd-quiz-62e0a2a43501e9.18833773/",
+      "new_path": "/quizzes/3758",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "quiz",
+      "wp_id": 3759,
+      "slug": "3759",
+      "old_path": "/quizzes/3759/",
+      "new_path": "/quizzes/3759",
+      "reason": "canonical"
+    },
+    {
+      "type": "quiz",
+      "wp_id": 3759,
+      "slug": "sfwd-quiz-62e0a2a43e0837.94674570",
+      "old_path": "/quizzes/sfwd-quiz-62e0a2a43e0837.94674570/",
+      "new_path": "/quizzes/3759",
+      "reason": "historical_slug"
+    },
+    {
+      "type": "quiz",
+      "wp_id": 3760,
+      "slug": "3760",
+      "old_path": "/quizzes/3760/",
+      "new_path": "/quizzes/3760",
+      "reason": "canonical"
+    },
+    {
+      "type": "quiz",
+      "wp_id": 3760,
+      "slug": "sfwd-quiz-62e0a2a4465fd1.52756683",
+      "old_path": "/quizzes/sfwd-quiz-62e0a2a4465fd1.52756683/",
+      "new_path": "/quizzes/3760",
+      "reason": "historical_slug"
+    }
+  ]
+}

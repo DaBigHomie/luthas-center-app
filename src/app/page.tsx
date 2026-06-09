@@ -1,65 +1,195 @@
-import Image from "next/image";
+/**
+ * Home page — Luthas Center for Excellence
+ *
+ * Async Server Component. Fetches all data in parallel and delegates
+ * rendering to purpose-built widgets under src/widgets/.
+ *
+ * Sections:
+ *   1. Hero         — tagline + CTAs
+ *   2. Featured Courses — first 6 published courses
+ *   3. Mission + Donate — about excerpt + donation form CTA
+ *   4. Recent Posts — latest 3 blog posts
+ *   5. Newsletter   — email signup stub
+ */
 
-export default function Home() {
+import Link from 'next/link'
+import {
+  listPublishedCourses,
+  listPosts,
+  listDonationForms,
+  getPageBySlug,
+  resolveMediaUrl,
+} from '@/shared/lib/data-source'
+import { CourseCard } from '@/entities/course/ui/CourseCard'
+import { PostCard } from '@/entities/post/ui/PostCard'
+import { HomeHero } from '@/widgets/home-hero/HomeHero'
+import { DonateBand } from '@/widgets/home-donate/DonateBand'
+import { NewsletterSection } from '@/widgets/home-newsletter/NewsletterSection'
+
+// ---------------------------------------------------------------------------
+// Page
+// ---------------------------------------------------------------------------
+
+export const metadata = {
+  title: 'Home',
+  description:
+    'Impossible to Inevitable — discover courses, resources, and community at Luthas Center for Excellence.',
+}
+
+export default async function HomePage() {
+  // -------------------------------------------------------------------------
+  // Parallel data fetches
+  // -------------------------------------------------------------------------
+  const [allCourses, recentPosts, donationForms, aboutPage] = await Promise.all([
+    listPublishedCourses(),
+    listPosts({ page: 1, pageSize: 3 }),
+    listDonationForms(),
+    getPageBySlug('about'),
+  ])
+
+  const featuredCourses = allCourses.slice(0, 6)
+
+  // Resolve course cover images
+  const courseImageIds = featuredCourses
+    .map((c) => c.featured_image_id)
+    .filter((id): id is number => typeof id === 'number')
+
+  const postImageIds = recentPosts
+    .map((p) => p.featured_image_id)
+    .filter((id): id is number => typeof id === 'number')
+
+  const allImageIds = [...new Set([...courseImageIds, ...postImageIds])]
+
+  // Batch-load media rows
+  const { getMediaByWpIds } = await import('@/shared/lib/data-source')
+  const mediaRows = await getMediaByWpIds(allImageIds)
+  const mediaMap = new Map(mediaRows.map((m) => [m.wp_attachment_id, m]))
+
+  function getCourseImageUrl(featuredImageId: number | null | undefined): string {
+    if (!featuredImageId) return '/placeholder-cover.svg'
+    const m = mediaMap.get(featuredImageId)
+    return m ? resolveMediaUrl(m) : '/placeholder-cover.svg'
+  }
+
+  function getPostImageUrl(featuredImageId: number | null | undefined): string {
+    if (!featuredImageId) return '/placeholder-cover.svg'
+    const m = mediaMap.get(featuredImageId)
+    return m ? resolveMediaUrl(m) : '/placeholder-cover.svg'
+  }
+
+  // Donation form — use first one (the education fund)
+  const donationForm = donationForms[0] ?? null
+
+  // About excerpt for hero subheadline and mission panel
+  const aboutExcerpt = aboutPage?.excerpt ?? null
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
+    <>
+      {/* ------------------------------------------------------------------ */}
+      {/* 1. HERO                                                             */}
+      {/* ------------------------------------------------------------------ */}
+      <HomeHero subheadline={aboutExcerpt} />
+
+      {/* ------------------------------------------------------------------ */}
+      {/* 2. FEATURED COURSES                                                 */}
+      {/* ------------------------------------------------------------------ */}
+      <section
+        aria-labelledby="featured-courses-heading"
+        className="w-full py-spacing-16 px-spacing-6 md:px-spacing-8 bg-color-background"
+      >
+        <div className="max-w-5xl mx-auto">
+          {/* Section header row */}
+          <div className="flex items-center justify-between mb-spacing-8 gap-spacing-4">
+            <h2
+              id="featured-courses-heading"
+              className="font-[var(--font-heading)] font-bold text-2xl md:text-3xl text-color-text"
             >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
+              Featured Courses
+            </h2>
+            <Link
+              href="/courses"
+              className="shrink-0 text-sm font-semibold text-color-primary hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-color-border-focus rounded-sm"
             >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+              View all courses
+              <span aria-hidden="true"> →</span>
+            </Link>
+          </div>
+
+          {featuredCourses.length === 0 ? (
+            <p className="text-color-text-muted text-center py-spacing-12">
+              No courses available yet. Check back soon.
+            </p>
+          ) : (
+            /* Horizontal scroll on mobile, 3-col grid on desktop */
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-spacing-6">
+              {featuredCourses.map((course) => (
+                <CourseCard
+                  key={course.id}
+                  course={course}
+                  imageUrl={getCourseImageUrl(course.featured_image_id)}
+                />
+              ))}
+            </div>
+          )}
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </section>
+
+      {/* ------------------------------------------------------------------ */}
+      {/* 3. MISSION + DONATE                                                 */}
+      {/* ------------------------------------------------------------------ */}
+      <DonateBand
+        missionExcerpt={aboutExcerpt}
+        donationForm={donationForm}
+        totalDonated={null}
+      />
+
+      {/* ------------------------------------------------------------------ */}
+      {/* 4. RECENT POSTS                                                     */}
+      {/* ------------------------------------------------------------------ */}
+      <section
+        aria-labelledby="recent-posts-heading"
+        className="w-full py-spacing-16 px-spacing-6 md:px-spacing-8 bg-color-background"
+      >
+        <div className="max-w-5xl mx-auto">
+          {/* Section header row */}
+          <div className="flex items-center justify-between mb-spacing-8 gap-spacing-4">
+            <h2
+              id="recent-posts-heading"
+              className="font-[var(--font-heading)] font-bold text-2xl md:text-3xl text-color-text"
+            >
+              From the Blog
+            </h2>
+            <Link
+              href="/blog"
+              className="shrink-0 text-sm font-semibold text-color-primary hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-color-border-focus rounded-sm"
+            >
+              Read the blog
+              <span aria-hidden="true"> →</span>
+            </Link>
+          </div>
+
+          {recentPosts.length === 0 ? (
+            <p className="text-color-text-muted text-center py-spacing-12">
+              No posts yet. Check back soon.
+            </p>
+          ) : (
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-spacing-6">
+              {recentPosts.map((post) => (
+                <PostCard
+                  key={post.id}
+                  post={post}
+                  imageUrl={getPostImageUrl(post.featured_image_id)}
+                />
+              ))}
+            </div>
+          )}
         </div>
-      </main>
-    </div>
-  );
+      </section>
+
+      {/* ------------------------------------------------------------------ */}
+      {/* 5. NEWSLETTER                                                       */}
+      {/* ------------------------------------------------------------------ */}
+      <NewsletterSection />
+    </>
+  )
 }

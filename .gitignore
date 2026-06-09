@@ -63,3 +63,9 @@ dist/
 .vercel/
 coverage/
 *.tsbuildinfo
+
+# WP migration source (large; never commit)
+.wp-source/
+
+# dev media symlink (points at gitignored .wp-source)
+public/media

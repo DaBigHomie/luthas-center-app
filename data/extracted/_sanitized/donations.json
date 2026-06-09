@@ -1,0 +1,199 @@
+{
+  "domain": "donations",
+  "source": "luthascenter.com (wp_ / blog_id=1)",
+  "blog_id": 1,
+  "extracted_at": "2026-06-08T23:27:25.853Z",
+  "count": 3,
+  "records": [
+    {
+      "wp_id": 17317,
+      "status": "publish",
+      "title": "Fund education initiatives",
+      "slug": "fund-education-initiatives",
+      "content": "",
+      "date": "2023-08-28 04:05:49",
+      "modified": "2023-08-30 03:20:12",
+      "goal_enabled": true,
+      "goal_amount": 50000,
+      "goal_format": "amount",
+      "price_option": "multi",
+      "set_price": 25,
+      "custom_amount": true,
+      "donation_levels": [
+        {
+          "level_id": "0",
+          "amount": 10,
+          "text": null,
+          "recurring": true,
+          "period": "month",
+          "period_interval": 1
+        },
+        {
+          "level_id": "1",
+          "amount": 25,
+          "text": null,
+          "recurring": true,
+          "period": "month",
+          "period_interval": 1
+        },
+        {
+          "level_id": "2",
+          "amount": 50,
+          "text": null,
+          "recurring": true,
+          "period": "month",
+          "period_interval": 1
+        },
+        {
+          "level_id": "3",
+          "amount": 100,
+          "text": null,
+          "recurring": true,
+          "period": "month",
+          "period_interval": 1
+        },
+        {
+          "level_id": "5",
+          "amount": 250,
+          "text": null,
+          "recurring": true,
+          "period": "month",
+          "period_interval": 1
+        }
+      ],
+      "earnings": 275,
+      "sales": 2,
+      "old_path": "/donations/fund-education-initiatives/",
+      "new_path": "/give/fund-education-initiatives"
+    },
+    {
+      "wp_id": 17155,
+      "status": "publish",
+      "title": "Donate to The Luthas Center",
+      "slug": "operational-expenses",
+      "content": "",
+      "date": "2023-08-30 03:20:12",
+      "modified": "2023-08-30 03:20:12",
+      "goal_enabled": true,
+      "goal_amount": 50000,
+      "goal_format": "amount",
+      "price_option": "multi",
+      "set_price": 25,
+      "custom_amount": true,
+      "donation_levels": [
+        {
+          "level_id": "0",
+          "amount": 10,
+          "text": null,
+          "recurring": true,
+          "period": "month",
+          "period_interval": 1
+        },
+        {
+          "level_id": "1",
+          "amount": 25,
+          "text": null,
+          "recurring": true,
+          "period": "month",
+          "period_interval": 1
+        },
+        {
+          "level_id": "2",
+          "amount": 50,
+          "text": null,
+          "recurring": true,
+          "period": "month",
+          "period_interval": 1
+        },
+        {
+          "level_id": "3",
+          "amount": 100,
+          "text": null,
+          "recurring": true,
+          "period": "month",
+          "period_interval": 1
+        },
+        {
+          "level_id": "5",
+          "amount": 250,
+          "text": null,
+          "recurring": true,
+          "period": "month",
+          "period_interval": 1
+        }
+      ],
+      "earnings": 275,
+      "sales": 2,
+      "old_path": "/donations/operational-expenses/",
+      "new_path": "/give/operational-expenses"
+    },
+    {
+      "wp_id": 18072,
+      "status": "publish",
+      "title": "Mental Health Services Program",
+      "slug": "mental-health-services-program",
+      "content": "",
+      "date": "2023-09-18 14:11:53",
+      "modified": "2023-09-19 03:17:55",
+      "goal_enabled": true,
+      "goal_amount": 50000,
+      "goal_format": "amount",
+      "price_option": "multi",
+      "set_price": 25,
+      "custom_amount": true,
+      "donation_levels": [
+        {
+          "level_id": "0",
+          "amount": 10,
+          "text": null,
+          "recurring": true,
+          "period": "month",
+          "period_interval": 1
+        },
+        {
+          "level_id": "1",
+          "amount": 25,
+          "text": "Helps fund one counseling session for an individual in need",
+          "recurring": true,
+          "period": "month",
+          "period_interval": 1
+        },
+        {
+          "level_id": "2",
+          "amount": 50,
+          "text": "Supports the creation of educational materials for mental health awareness.",
+          "recurring": true,
+          "period": "month",
+          "period_interval": 1
+        },
+        {
+          "level_id": "3",
+          "amount": 100,
+          "text": "Enables us to organize a wellness workshop for a group of 10 individuals.",
+          "recurring": true,
+          "period": "month",
+          "period_interval": 1
+        },
+        {
+          "level_id": "5",
+          "amount": 250,
+          "text": "Sponsors a month of telehealth services for those unable to attend in person",
+          "recurring": true,
+          "period": "month",
+          "period_interval": 1
+        }
+      ],
+      "earnings": 275,
+      "sales": 2,
+      "old_path": "/donations/mental-health-services-program/",
+      "new_path": "/give/mental-health-services-program"
+    }
+  ],
+  "donation_stats": {
+    "form_count": 3,
+    "total_earnings": 825,
+    "total_sales": 6,
+    "note": "Aggregate is from form-level rollup counters only. Individual donor/payment rows are DEMO PII and were intentionally NOT extracted."
+  },
+  "sanitized": true
+}

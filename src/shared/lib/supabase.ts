@@ -1,6 +1,5 @@
-import { createClient } from '@supabase/supabase-js';
-
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
-const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
-
-export const supabase = createClient(supabaseUrl, supabaseAnonKey);
+// Re-export barrel — prefer importing directly from supabase/client or
+// supabase/server. This shim exists so any legacy import of
+// '@/shared/lib/supabase' still resolves without crashing.
+export { createClient as createBrowserClient } from './supabase/client'
+export { createClient as createServerClient } from './supabase/server'

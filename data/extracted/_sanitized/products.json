@@ -1,0 +1,784 @@
+{
+  "domain": "products",
+  "source": "luthascenter.com (wp_ / blog_id=1)",
+  "blog_id": 1,
+  "extracted_at": "2026-06-08T23:27:25.846Z",
+  "count": 15,
+  "records": [
+    {
+      "wp_id": 17224,
+      "status": "publish",
+      "title": "All About Gaming Industry Careers &amp; Game Design Fundamentals",
+      "slug": "all-about-gaming-industry-careers-game-design-fundamentals",
+      "description": "<strong>What you'll learn​</strong>\n<ul>\n \t<li>Understand the roles in game development</li>\n \t<li>Learn the Fundamentals of Game Design</li>\n \t<li>Generating and drafting ideas for games</li>\n \t<li>Mechanics, dynamics, and systems in game design</li>\n \t<li>The phases of game development</li>\n \t<li>Find out if a career in the gaming industry is for you</li>\n \t<li>Preparing for a job in the game industry</li>\n</ul>\n<strong>Description​</strong>\nWelcome to this 2 part course where you'll get insights on careers in the gaming industry and learn about the fundamentals of game design.\n\nWe'll start things off where we explore careers in the gaming industry. You'll learn about concepts and skills required to make it in the gaming industry—whether you want to build and finance your own game or land a job at a studio or in mobile gaming.\n\nWe'll explore the structure of a typical game studio, the distribution paths for different types of games, marketing trends, the various roles (both artistic and technical), and the skills you need for each job.\n\nThen we'll get into game design. You'll learn about strategies for starting a career in game design, drafting your game ideas, tools and skills. We'll also discuss the role of the game designer, as well as how to define the core loop of your game, create features from a core, and much more.\n\n<strong>Who this course is for</strong>:​\nGamers\nDevelopers\nProgrammers",
+      "short_description": "<strong>What you'll learn​</strong>\n<ul>\n \t<li>Understand the roles in game development</li>\n \t<li>Learn the Fundamentals of Game Design</li>\n \t<li>Generating and drafting ideas for games</li>\n \t<li>Mechanics, dynamics, and systems in game design</li>\n \t<li>The phases of game development</li>\n \t<li>Find out if a career in the gaming industry is for you</li>\n \t<li>Preparing for a job in the game industry</li>\n</ul>",
+      "menu_order": 0,
+      "date": "2023-03-10 22:41:39",
+      "modified": "2023-03-10 22:41:39",
+      "sku": null,
+      "regular_price": 99,
+      "sale_price": 50,
+      "price": 50,
+      "virtual": true,
+      "downloadable": true,
+      "download_limit": -1,
+      "download_expiry": -1,
+      "stock_status": "instock",
+      "average_rating": 0,
+      "review_count": 0,
+      "total_sales": 0,
+      "featured_image_id": 7816,
+      "categories": [
+        {
+          "term_id": 1600,
+          "name": "Training",
+          "slug": "training"
+        },
+        {
+          "term_id": 1606,
+          "name": "Gaming",
+          "slug": "gaming"
+        }
+      ],
+      "tags": [
+        {
+          "term_id": 1607,
+          "name": "gaming",
+          "slug": "gaming"
+        },
+        {
+          "term_id": 1608,
+          "name": "training",
+          "slug": "training"
+        }
+      ],
+      "old_path": "/product/all-about-gaming-industry-careers-game-design-fundamentals/",
+      "new_path": "/shop/all-about-gaming-industry-careers-game-design-fundamentals"
+    },
+    {
+      "wp_id": 17220,
+      "status": "publish",
+      "title": "AWS Certified Cloud Practitioner Exam Training",
+      "slug": "aws-certified-cloud-practitioner-exam-training",
+      "description": "This AWS Cloud Practitioner course covers all new information and best practices for 2023 and is focused on efficiency.\r\n\r\n<b>That means you'll never have to spend time on confusing, out-of-date, incomplete tutorials anymore.</b>\r\n\r\nInstead we're laser-focused on teaching you <i>exactly</i> what you need to ace the AWS Certified Cloud Practitioner exam so that you can learn AWS, get certified, and get hired.\r\n\r\nAnd this course goes beyond just teaching you the information, it'll also ensure you get across the finish line.\r\n\r\nYou'll get <b>study strategies, tips, demos, practice questions, and a full practice exam</b> from your instructor. Your instructor has passed the certification <i>multiple times</i> simply to ensure she's providing you the most up-to-date, accurate information and study strategies for the exam.\r\n<h3><b>Why Should I Learn AWS?</b></h3>\r\nWe like you already. Asking those smart, tough questions!\r\n\r\nBecoming an AWS Certified Cloud Practitioner is a great way to pivot into tech or take your existing career in tech to the next level. That's because it provides you with some seriously lucrative opportunities.\r\n\r\nThere are<a href=\"https://www.linkedin.com/jobs/search/?keywords=aws\"> 369,000+ job postings</a> available in the United States for those with AWS skills, and the average salary of an AWS Cloud Engineer is over<a href=\"https://www.glassdoor.ca/Salaries/us-aws-engineer-salary-SRCH_IL.0,2_IN1_KO3,15.htm\"> $100,000 / year</a>.\r\n\r\nPlus AWS is huge. Like, really huge. AWS has about <b>75%</b> of the share of the enterprise cloud market. It's the biggest player in a<a href=\"https://www.prnewswire.com/news-releases/cloud-computing-market-size-worth-1251-09-billion-by-2028--cagr-19-1-grand-view-research-inc-301366888.html\"> trillion dollar market</a>. So we'll say it again: it's HUGE.\r\n\r\nIf all that doesn't boggle your mind then call a doctor.\r\n\r\n<b>Key takeaway?</b> AWS is a highly lucrative skill for which companies are desperately trying to hire people.\r\n\r\nThat's before we even talk about the fact that more and more companies are implementing and utilizing cloud services every day. This is only the beginning. And that means you have definitely not missed the boat.\r\n\r\nGetting into this space now will give you a future-proof career.\r\n\r\nWith your AWS Cloud Practitioner certification you'll be well positioned to work with and help companies that use AWS cloud services. But even better, it also opens the door for you to work in more advanced roles where you can earn even higher salaries.\r\n\r\nAs you can see, this career has tons of potential, but you still need to grab it by the horns. You still need to seize the opportunity. So seize it!\r\n<h3><b>Here's what this AWS Cloud Practitioner course covers:</b></h3>\r\nThis course, like all Zero To Mastery courses, will be constantly updated as the landscape changes.\r\n\r\nAs the AWS ecosystem evolves this course will also be continually updated with new lectures and resources. This will be your go-to place to find the latest AWS Cloud best practices and resources anytime in the future.\r\n<ol>\r\n \t<li><b> AWS CLOUD FUNDAMENTALS</b> - You're going to learn AWS from scratch. That means starting with fundamental questions like: what is the cloud and what is the problem that it solves?</li>\r\n</ol>\r\nPlus you'll learn exactly what makes AWS so powerful and popular, including security, elasticity, scalability, global reach, and the economics of AWS.\r\n\r\nYou'll soon be able to explain to anyone exactly why AWS specifically, and cloud technologies generally, are so prevalent now and so important for the future.\r\n\r\nBut that's not all. From the very first section of this course you're going to learn about cloud architecture design principles. This is the stuff that companies will pay you the big bucks for knowing, so we think it should be a foundational part of your learning journey.\r\n\r\nAnd of course there are demos and practice questions for you along the way.\r\n<ol start=\"2\">\r\n \t<li><b> SECURITY &amp; COMPLIANCE</b> - As an AWS guru, you will wield great power. And of course, with great power comes great responsibility.</li>\r\n</ol>\r\nYou will control and secure a fundamental aspect of your company's business: its cloud services and the protection of information, identities, applications, and devices.\r\n\r\nSo you'll be learning how to master tools and concepts that will allow you to confidently manage security and compliance, including AWS Identity and Access Management (IAM), Security Hub, Secrets Manager, and encryption on AWS.\r\n<ol start=\"3\">\r\n \t<li><b> TECHNOLOGY &amp; INFRASTRUCTURE</b> - The goal of this course is to prepare you to ace the AWS Cloud Practitioner certification exam as efficiently and effectively as possible.</li>\r\n</ol>\r\nThat means you need to attain a deep understanding of the many AWS technologies you'll encounter as an AWS Cloud Engineer.\r\n\r\nSo that's exactly what we'll do.\r\n\r\nYou'll learn everything you need to know about cloud deployment models, EC2 Instances, S3 Storage Classes, Virtual Private Cloud, analytics, databases, containers, monitoring, application integration, and developer tools like CodeBuild, CodeStar, and CodeDeploy.\r\n\r\nAnd you'll learn exactly how to work with these technologies through the AWS Management Console, Command Line Interface (CLI), and programmatically.\r\n\r\nSounds like a lot? It is. But we couldn't be more confident that you can do this.\r\n\r\n<b>Because your instructor Amber makes everything crystal clear and she keeps the lessons laser-focused on what you need to ace the certification</b>.\r\n\r\nPlus any time you're stuck or have your questions, you'll be able to ask Amber and fellow students within the private Discord community... 24/7.\r\n<ol start=\"4\">\r\n \t<li><b> BILLING &amp; PRICING</b> - As the cloud guru at your new job you need to know AWS from top-to-bottom, including AWS pricing models, billing tools, and account structures.</li>\r\n</ol>\r\nSure it may not sound like the most exciting information, but it's a key part of the AWS Cloud Practitioner certification exam, so you need to understand it just as well as any other piece.\r\n<ol start=\"5\">\r\n \t<li><b> AWS PRACTICE EXAM, STUDY TIPS, QUIZZES + MORE</b> - You're here to get certified and launch your new career as an AWS Cloud Engineer.</li>\r\n</ol>\r\nTo do that you need to pass the certification exam. That's what you're here for. That's what this is all about.\r\n\r\nAnd we don't take that lightly.\r\n\r\n<b>That's why this course doesn't just throw information at you and then leave you hanging in the wind like so many other courses and tutorials.</b>\r\n\r\nHell no!\r\n\r\nThis course will help you get over the finish line by walking through the exam guide with you and providing you with <b>study strategies, tips, whitepapers, FAQs, practice questions, and a full, randomized, 65-question, Cloud Practitioner practice exam</b>.\r\n\r\nBy the time you take the exam, you'll be completely ready.\r\n\r\nYou'll even see how to register for the exam. We like to make things easy for you, y'know?\r\n<h3><b>What's the bottom line?</b></h3>\r\nThis course is not about making you just follow along so that when you are done with the course you don’t know what to do other than watch another tutorial.\r\n\r\n<b>Instead, this course will push you and challenge you to go from an absolute beginner in AWS to someone that is in the top 10% of AWS Cloud Practitioners 💪.</b>\r\n\r\nHands-on learning and demos of AWS technologies\r\n\r\nMaster cloud architecture design principles\r\n\r\nThe fundamentals &amp; business of the cloud including security, scalability, and the economics of AWS\r\n\r\nLearn the entire Amazon Web Services cloud ecosystem including EC2 Instances, S3 Storage, ElastiCache, RDS + much more\r\n\r\nFull Practice Exam to simulate the actual exam, including detailed explanations for every answer\r\n\r\nLearn precisely what is needed to ace the certification exam in an efficient and effective manner\r\n\r\nStudy strategies, tips, exam guide, and practice questions",
+      "short_description": "This is the most comprehensive and up-to-date online resource to learn AWS and prepare for the AWS Cloud Practitioner certification exam. You will learn everything you need to ace the exam, become an AWS Certified Cloud Practitioner, and gain the skills you need to get hired in 2023!",
+      "menu_order": 0,
+      "date": "2023-04-08 13:30:16",
+      "modified": "2023-04-14 09:39:40",
+      "sku": null,
+      "regular_price": 149.99,
+      "sale_price": 50,
+      "price": 50,
+      "virtual": false,
+      "downloadable": false,
+      "download_limit": -1,
+      "download_expiry": -1,
+      "stock_status": "instock",
+      "average_rating": 0,
+      "review_count": 0,
+      "total_sales": 0,
+      "featured_image_id": 17301,
+      "categories": [
+        {
+          "term_id": 1599,
+          "name": "Certification Training",
+          "slug": "certification-training"
+        },
+        {
+          "term_id": 1600,
+          "name": "Training",
+          "slug": "training"
+        }
+      ],
+      "tags": [
+        {
+          "term_id": 1598,
+          "name": "aws",
+          "slug": "aws"
+        }
+      ],
+      "old_path": "/product/aws-certified-cloud-practitioner-exam-training/",
+      "new_path": "/shop/aws-certified-cloud-practitioner-exam-training"
+    },
+    {
+      "wp_id": 17236,
+      "status": "publish",
+      "title": "AWS Certified Solutions Architect training",
+      "slug": "aws-certified-solutions-architect-training",
+      "description": "This boot camp will teach you AWS fundamentals all the way to mastering advanced cloud technologies so that you'll be able to ace the <strong>AWS Solutions Architect Associate (SSA-C03) certification exam</strong> and get hired as a Cloud Architect in 2023!\n<h2><b>Course overview​</b></h2>\nWe guarantee you that this is the most comprehensive and up-to-date course to prepare for the AWS Solutions Architect certification exam and become a Cloud Architect or Engineer. You'll learn everything you need to ace the exam, get certified as an AWS Solutions Architect, and gain the skills you need to get hired in 2023!\n\nWith your AWS Solutions Architect certificate in-hand, you'll be ready to help companies design, develop, and deploy advanced cloud technologies. More and more companies are implementing and utilizing cloud services every day. This is only the beginning.\n\nThis course will help you get over the finish line by:\n<ul>\n \t<li>Teaching you the most up-to-date information needed to pass the certification exam</li>\n \t<li>Testing your knowledge with quizzes at the end of each section</li>\n \t<li>Walking you through the exam &amp; study strategies</li>\n \t<li>Having you simulate the real thing with a 65-question AWS Solutions Architect practice exam</li>\n</ul>\nThis AWS Solutions Architect bootcamp course covers all new information and best practices for 2023 and is focused on efficiency.\n\nInstead we're laser-focused on teaching you <i>exactly</i> what you need to ace the AWS Solutions Architect Associate exam so that you can learn AWS, get certified, and get hired.\n\nYou'll also get a full, timed, 65-question AWS Solutions Architect that simulates the real certification exam. You'll know exactly what it's like before you take the real exam.\n\nPlus every section of this course includes quizzes with additional questions.\n\n<b>In total there's over 125 PRACTICE QUESTIONS in this course!</b>\n\nBy the time you take the exam, you'll be completely ready. We like to make sure you're over-prepared and under-stressed, y'know?\n\nAWS provides several services that automate repetitive tasks and make your life easier, such as AWS CloudFormation, AWS Service Catalog, and AWS Systems Manager. You'll learn how to master these services, become an expert with AWS, and save your time.",
+      "short_description": "<strong>The Average compensation of an AWS Cloud Architect is over $196,000 / year</strong>.\n\nLearn AWS from an industry expert. You'll learn AWS fundamentals all the way to advanced cloud technologies so that you'll be able to ace the solutions architect certification exam and get hired as a Cloud Architect!\n\n<b>You have definitely not missed the boat to start your career in this high-paying, in-demand, future-proof sector.</b>\n\nAWS has about 75% market share in the enterprise cloud market making it the biggest player in a trillion dollar market.\n\nTrain for the <strong>AWS Solutions Architect Associate (SSA-C03) certification exam</strong> and get hired as a Cloud Architect in 2023!",
+      "menu_order": 0,
+      "date": "2023-04-08 13:42:00",
+      "modified": "2023-04-08 13:42:00",
+      "sku": null,
+      "regular_price": 500,
+      "sale_price": 250,
+      "price": 250,
+      "virtual": true,
+      "downloadable": true,
+      "download_limit": -1,
+      "download_expiry": -1,
+      "stock_status": "instock",
+      "average_rating": 0,
+      "review_count": 0,
+      "total_sales": 0,
+      "featured_image_id": 17295,
+      "categories": [
+        {
+          "term_id": 1599,
+          "name": "Certification Training",
+          "slug": "certification-training"
+        },
+        {
+          "term_id": 1600,
+          "name": "Training",
+          "slug": "training"
+        }
+      ],
+      "tags": [
+        {
+          "term_id": 1598,
+          "name": "aws",
+          "slug": "aws"
+        },
+        {
+          "term_id": 1628,
+          "name": "six digit jobs",
+          "slug": "six-digit-jobs"
+        }
+      ],
+      "old_path": "/product/aws-certified-solutions-architect-training/",
+      "new_path": "/shop/aws-certified-solutions-architect-training"
+    },
+    {
+      "wp_id": 17235,
+      "status": "publish",
+      "title": "Brand Strategy Fundamentals",
+      "slug": "brand-strategy-fundamentals",
+      "description": "<strong>Who is this for?</strong>\n\nThis course is for all the creatives out there who want to get a good introduction to brand strategy. You'll gain the knowledge, the frameworks, the tools, the templates, and the confidence to sell strategy as a stand-alone service or add it to your current design offerings.\n\nIn my roles as an agency owner, CMO, and CBO, I’ve met hundreds of frustrated creatives who feel treated like order taker rather than a problem solver. It doesn’t have to be like that.\n\nI believe all creative thinkers can become great brand strategists. Why? Because it takes a combination of using the right and left brain. It’s about empathy and imagination, to really understand people and their needs and wants. Beyond their own words. It's also logical thinking to follow a process, and to identify the gaps and connect the dots.\n\nThis course is the starting points I wish I had when I started doing my first brand strategy sessions 15 years ago. I had to figure everything out and create my own framework. This will give you the jump start you need to become your clients’ go-to for solving their big business challenges.\n\n<strong>Get familiar with the framework</strong>\n\nFrom mission, vision, goals, and brand personality to target audience research, gap analysis, positioning and creating a brand roadmap, Anneli walks you through the entire brand strategy workshop process that she's used with internationally recognized brands as well as mom and pop shops.\n\n<strong>Turn knowledge into action</strong>\n\nUsing Anneli's 30+ page PDF workbook full of exercises and prompts, as well as strategy workshop and roadmap templates, you'll have all the tools you need to successfully facilitate workshops that will wow your clients—and solve their branding problems.\n\n<strong>Kickstart your brand strategist career</strong>\n\nSo you've learned the framework- now what? Anneli provides practical steps so you can sell and run your own workshops, whether you'll be providing strategy as a stand along service or combined with graphic design, video, or web work.\n\n<strong>Meet your instructor</strong>\n\n‍Anneli is a Brand strategist, educator and coach. With 20+ years of experience of building brands, she has worked with numerous agencies, enterprises, organizations and freelancers. She is an agency owner but also has experience from the client perspective being a Chief Brand Officer and Chief Marketing Officer at Lantmännen, an International multibillion dollar company with focus on agriculture, food, machines and energy, which was awarded the most sustainable brand in Sweden in 2014 and 2019. Her experience comes from working with international brands like Coca-Cola, Polaroid and Levis, but also start-ups within the food and foodtech industry.\n\nShe describes herself as the bridge between the creatives and business people. She is dedicated to helping creatives shine and get paid to solve business problems.\n\n<strong>Syllabus</strong>\n\nGet ready to expand your knowledge and understanding brand strategy fundamentals. Take a look at what you’ll learn in each module, plus a few bonuses along the way.\n\n<strong>General overview</strong>\n\nMove through the modules at your own pace, on your own time. You’ll have lifetime access to the course, so jump back in whenever you need a refresher.\n\nCourse curriculum\nWhat is Brand Strategy?\nFacilitation\nMission, Vision, and Goals\nDefining the Brand Personality\nTarget Audience and Research\nGap Analysis\nPositioning\nThe Roadmap\nNext Steps",
+      "short_description": "This course is for all the creatives out there who want to get a good introduction to brand strategy. You'll gain the knowledge, the frameworks, the tools, the templates, and the confidence to sell strategy as a stand-alone service or add it to your current design offerings.\n\n<strong>Course Includes</strong>\n30 video lectures\n40-page workbook\nWorkshop template\nRoadmap template\nBonus material\nOnline community\n\n<strong>Course Website</strong> - https://thefutur.com/brand-strategy-fundamentals",
+      "menu_order": 0,
+      "date": "2023-04-07 19:10:16",
+      "modified": "2023-04-07 19:10:16",
+      "sku": null,
+      "regular_price": 500,
+      "sale_price": 250,
+      "price": 250,
+      "virtual": true,
+      "downloadable": true,
+      "download_limit": -1,
+      "download_expiry": -1,
+      "stock_status": "instock",
+      "average_rating": 0,
+      "review_count": 0,
+      "total_sales": 0,
+      "featured_image_id": 17300,
+      "categories": [
+        {
+          "term_id": 1600,
+          "name": "Training",
+          "slug": "training"
+        }
+      ],
+      "tags": [],
+      "old_path": "/product/brand-strategy-fundamentals/",
+      "new_path": "/shop/brand-strategy-fundamentals"
+    },
+    {
+      "wp_id": 17225,
+      "status": "publish",
+      "title": "Design Your Best Life With Lifebook",
+      "slug": "design-your-best-life-with-lifebook",
+      "description": "<h2>Discover what you really want in all 12 dimensions of your life. And get it.</h2>\n<h4>What You’ll Discover</h4>\n<ol>\n \t<li><strong>Discover your personal Life Quality Score</strong>\n<p class=\"mv-type--body\">How close you are to really living your best life? Ask yourself these 4 questions and get an instant accurate insight into your quality of life, what's holding you back, and what to focus first for biggest and easiest wins.</p>\n</li>\n \t<li><strong>The 3 Silent Saboteurs of your hopes &amp; dreams</strong>\n<p class=\"mv-type--body\">If you are feeling stuck, or if there is a goal or breakthrough you just can't seem to reach no matter what you do, you're like being held back by at least one of these 'Silent Saboteurs', Find out what they are and how to permanently erase them.</p>\n</li>\n \t<li><strong>How to create your own deeply personal Lifebook</strong>\n<p class=\"mv-type--body\">You're Lifebook decodes the mystery of who you really are, what you really want, and how to have it all: on your own terms and nobody else's. And since nobody else can make yours for you, you'll discover how to write your own - and gain what will be the most important book in your life, for the rest of your life.</p>\n</li>\n \t<li><strong>Why only focusing on your career &amp; wealth is a deadly trap</strong>\n<p class=\"mv-type--body\">Most people spend 80% - 90% of their time on work and making money. Here’s why that’s a huge mistake, and what you can do instead to achieve extraordinary success in all dimensions of your life *(including your career &amp; wealth)*.</p>\n</li>\n \t<li><strong>How to eliminate uncertainty, and be sure of every decision you make</strong>\n<p class=\"mv-type--body\">Should you take that job? Date that person? Move to that new city? Use this ‘mind hack’ to never second-guess yourself and make choices that are perfectly aligned with who you want to be, your values, and the life you want for yourself.</p>\n</li>\n \t<li><strong>Ask your subconscious what it really wants - and get an instant answer</strong>\nIn just minutes… this Instant-Clarity exercise shatters the deepest illusions you’ve been conditioned with throughout your life, and shows you what you’re really here for.</li>\n</ol>\nYou’ll emerge from this Masterclass with the tools and guidance you need to create your own Lifebook - and become the author of your life greatest life. Instead of letting others dictate your life, you'll have total control of destiny, and the freedom to achieve success and happiness on your own terms.\n<h2>This Is How We Structured The Lifebook Challenge So You Get Fast, Lasting Results In The Shortest Time Possible</h2>\nIn The Lifebook Challenge – 12 Dimensions Of Mastery, one of our main objectives is to help you figure out your own, personal ideal life vision – complete with goals and values in all 12 categories of your life – so you can start realizing that vision, step-by-step.\n\nFor this, we'll be dedicating two days per category to forge a life vision that's uniquely yours. A single, clear and compelling life vision that is based on your values and standards. So you can start living a life that's authentically yours. Heres how the course is structured to deliver this:\n\n<b>Foundation: What Is An Extraordinary Life?</b>\n\nThe first thing we do is explore what an extraordinary life means. Well ask questions like What does having it all mean? and Is it possible for you? and come up with a strong WHY for creating an extraordinary life.\n\n<strong>1: Health &amp; Fitness</strong>\n\nThere's a lot of noise out there in this category – and much of it is contradictory information that can make it difficult for you to navigate. Well identify and present the right strategies that can help you achieve your ideal body in the shortest time possible.\n\n<strong>2: Intellectual Life</strong>\n\nYour intellectual life consists of two parts – input and output. The input is the information that's coming into your head. The output is the thinking and processing you do to come up with a decision. Well learn more about how our intellect works and then explore ways to nourish it.\n\n<strong>3: Emotional Life</strong>\n\nIf you want a great life, you have to experience quality emotions on an ongoing basis. One of the big concepts you'll learn here is that we can exercise a tremendous amount of consciousness and control over our emotions. The trick is to find the recipe for every emotion you'll experience in your life and set goals for those emotions that you want to consistently experience in your life.\n\n<strong>4: Character</strong>\n\nWell look at setting goals for your character – setting goals for self-discipline, goals for staying true to your word, goals for overcoming procrastination and so on. Well literally have you choose the character you want to bring into your life.\n\n<strong>5: Spirituality</strong>\n\nAlmost all of what we believe about spirituality comes from what we we're told as a kid, by our parents, our church or religious institution or by any other member of our family. But this may not necessarily describe your unique truth. And so in the Lifebook Challenge, we take a deep look at your own beliefs and document them. This will definitely be an eye-opening experience.\n\n<strong>6: Love Relationship</strong>\n\nYour love relationship is a subject that, perhaps more than any other, directly affects your level of happiness. Here, you'll examine your deepest held beliefs about love (which control your behavior in this area or your life). You'll define your values and expectations about love and achieve clarity on what you want and need from your love relationship. You'll discover that extraordinary relationships can be achieved if both people want it badly enough to truly commit. And you'll emerge with specific strategies you can use to create the Love Relationship you've always dreamed of.\n\n<strong>7: Parenting</strong>\n\nRaising a child is one of the richest, deepest experiences life has to offer. Here, you'll examine your deepest beliefs about what defines a good parent. You'll reflect on who your children are as individuals, and how you can help them better succeed – both in the short term and long term. You'll consider the key values of your home and create a clearer vision for parenting your children. You'll define the kind of relationship you want to have with your children, and you'll create a clear strategy that will make that relationship blossom. And perhaps most importantly, you'll realize what an incredibly important example you set by the way you live in every category of your life.\n\n<strong>8: Social Life</strong>\n\nHere, we'll do a deep dive into your social life – and this is an important part of your life, way more important than most people realize. So we'll be exploring some profound principles and life-changing content that will reveal just how high the stakes are in this category – and then we'll share some powerful strategies for taking your social life to the next level.\n\n<strong>9: Finances </strong>\n\nHere we're going to focus on true financial abundance. The financial advice and guidance we'll deliver will be worth much more than the cost of this program. If you apply the resources available to you and implement the strategies we'll share with you, you will create a quantifiable surge in your financial life. But we're going to give you something even more valuable than that. Because you can learn financial strategies just about anywhere. Were going to help you bring an immense amount of consciousness to this category, by sharing a unique and powerful perspective that will give you a much deeper understanding of the role money plays in your life. Infinitely more control of your financial world. And a sure-fire formula for creating financial abundance that will work. Thats a big promise – and we will deliver.\n\n<strong>10: Career</strong>\n\nWhen it comes to career, we have a wider range of choice than ever before in human history. There are hundreds of professions that didnt even exist a few years ago. So whats the result of all this wonderful opportunity? Information overload. Many of us are just overwhelmed. There are too many choices. Its bewildering and confusing. With all the possibilities – how do we choose? In this category of the Lifebook Challenge, you'll learn the three pillars upon which a successful, fulfilling career is based, and discover the strategies you need to take your career to a higher level (and make more money in the process!)\n\n<strong>11: Quality of Life</strong>\n\nThis category is about your happiness and fulfillment – it's about living joyfully and fully every day. Living a life of abundance. Having leisure time to enjoy with loved ones. Its about having fun, having great stuff, and having good times. Its about enjoying yourself! This is where you define the lifestyle you want to live. If you're a car person this is where your cars live. If you're a boat person, this is where you create and manifest that vision. This is where your dream house lives. Its where exotic travel, and helicopter rides, and white sand beaches live. This is where all the material rewards for doing all this work can be found.\n\n<strong>12: Life Vision</strong>\n\nYour Life Vision – this is where all the thinking you've done so far will really start to come together. Its here that you'll realize that the Lifebook Challenge isnt about 12 things – it's about one thing. you. Well focus on the most important single aspect of the Lifebook program – a singular, compelling vision for the person you want to become and the life you want to live.\n\n<strong>13 Integration: Goal Setting</strong>\n\nSo far, you've clarified what you want out of life. And in this part of the Lifebook Challenge, we'll look into the causes you need to put in motion to create the effect you're after. And we'll develop a plan that outlines exactly what it will take to achieve your vision.\n\n<strong>14 Integration: Taking Action</strong>\n\nThis part of the Lifebook Challenge is simple but powerful. Well take a look at one of the most important goals in your life and take one powerful action toward the accomplishment of that goal. Preferably – a big, bold, powerful action that will really surge your goal forward. The main objective is for you to feel your life move in the direction you want it to – and action is the active ingredient!",
+      "short_description": "Lifebook is a transformational lifestyle design system that empowers you to ENVISION, PLAN, and ACHIEVE your very best life. On your own terms, and nobody else’s.",
+      "menu_order": 0,
+      "date": "2023-03-10 23:08:22",
+      "modified": "2023-03-10 23:08:22",
+      "sku": null,
+      "regular_price": 250,
+      "sale_price": 50,
+      "price": 50,
+      "virtual": true,
+      "downloadable": true,
+      "download_limit": -1,
+      "download_expiry": -1,
+      "stock_status": "instock",
+      "average_rating": 0,
+      "review_count": 0,
+      "total_sales": 0,
+      "featured_image_id": 7825,
+      "categories": [
+        {
+          "term_id": 1600,
+          "name": "Training",
+          "slug": "training"
+        },
+        {
+          "term_id": 1610,
+          "name": "Personal Transformation",
+          "slug": "personal-transformation"
+        }
+      ],
+      "tags": [
+        {
+          "term_id": 1602,
+          "name": "books",
+          "slug": "books"
+        },
+        {
+          "term_id": 1604,
+          "name": "Personal Transformation",
+          "slug": "personal-transformation"
+        },
+        {
+          "term_id": 1605,
+          "name": "Self-Help",
+          "slug": "self-help"
+        },
+        {
+          "term_id": 1609,
+          "name": "online training",
+          "slug": "online-training"
+        }
+      ],
+      "old_path": "/product/design-your-best-life-with-lifebook/",
+      "new_path": "/shop/design-your-best-life-with-lifebook"
+    },
+    {
+      "wp_id": 17230,
+      "status": "publish",
+      "title": "Duality by Jeffrey Allen",
+      "slug": "duality-by-jeffrey-allen",
+      "description": "The 8-week self-healing course by Jeffrey Allen, a spiritual guru, helps in neglecting negative energy and holding power over manifestation to get accurate results in real life.\n\nAlthough I was never a fan of manifestation, I made a small commitment to myself after taking Duality to manifest something that I’d want in life, and the result was SURREAL!\n\nI mean, would you believe it if I told you that you could give life to your thoughts? That is exactly what happened after applying the lessons I learned from Duality by Jeffrey Allen.\n\n&nbsp;\n\n&nbsp;\n\n<i><img class=\"aligncenter wp-image-7842 size-large\" src=\"http://damieus.com/wp-content/uploads/2023/03/duality-jeffrey-allen-1024x550.webp\" alt=\"\" width=\"1024\" height=\"550\" /></i>\n\n\"<b><i>Most of the time, we assume our beliefs are true — like unchanging facts about the world.  From an energy perspective, however, nothing could be further from the truth.</i></b>\"\n\n<b><i>  -  Jeffrey Allen</i></b>\n\nIn fact, Jeffrey had a conventional job that paid him enough to live the<i> “best life”, </i>but it did not seem to bring him inner peace and value. Hence, he shares his journey in Duality, which was inspirational and motivating at the same time. He also drops incredible tips on handling energy.",
+      "short_description": "The 8-week self-healing course by Jeffrey Allen, a spiritual guru, helps in neglecting negative energy and holding power over manifestation to get accurate results in real life.",
+      "menu_order": 0,
+      "date": "2023-03-12 23:16:25",
+      "modified": "2023-03-12 23:16:25",
+      "sku": null,
+      "regular_price": 250,
+      "sale_price": 50,
+      "price": 50,
+      "virtual": true,
+      "downloadable": true,
+      "download_limit": -1,
+      "download_expiry": -1,
+      "stock_status": "instock",
+      "average_rating": 0,
+      "review_count": 0,
+      "total_sales": 0,
+      "featured_image_id": 7843,
+      "categories": [
+        {
+          "term_id": 1600,
+          "name": "Training",
+          "slug": "training"
+        },
+        {
+          "term_id": 1610,
+          "name": "Personal Transformation",
+          "slug": "personal-transformation"
+        }
+      ],
+      "tags": [
+        {
+          "term_id": 1609,
+          "name": "online training",
+          "slug": "online-training"
+        },
+        {
+          "term_id": 1614,
+          "name": "mindvalley",
+          "slug": "mindvalley"
+        },
+        {
+          "term_id": 1616,
+          "name": "quality of life improvement",
+          "slug": "quality-of-life-improvement"
+        },
+        {
+          "term_id": 1617,
+          "name": "manifestation",
+          "slug": "manifestation"
+        }
+      ],
+      "old_path": "/product/duality-by-jeffrey-allen/",
+      "new_path": "/shop/duality-by-jeffrey-allen"
+    },
+    {
+      "wp_id": 17233,
+      "status": "publish",
+      "title": "Master YouTube",
+      "slug": "master-youtube",
+      "description": "By the end you’ll be able to:\n\n<strong>*Finally* Start your YouTube Channel</strong>\nLet’s tick this off your list of goals once and for all! You’ll know exactly where to start, what to name your channel, and how to breeze through the entire set-up process without the overwhelm.\n\n<strong>CREATE ORIGINAL &amp; ENGAGING CONTENT</strong>\n\nNo more feeling like the rip-off version of your favorite creator. You’ll have developed a solid content strategy so you’ll always know what key topics to make videos about. Plus how to tell compelling stories that’ll hook viewers in from start to finish (and get them to subscribe).\n\n<strong>FILM HIGH QUALITY VIDEOS</strong>\n\nDon’t let your (lack of) equipment hold you back. You’ll learn the basics of filming yourself on camera, the essential tools you need in your kit, and a solid workflow to take you from idea all the way to a crisp, engaging video.\n\n<strong>GROW YOUR REACH</strong>\n\nIt’s time to put your videos in front of the right audience! You’ll know the process to crafting compelling titles &amp; thumbnails without resorting to clickbait tactics. And how to move through the 4 stages of growth all the way to monetization.\n\nThere’s no better time to start a YouTube channel than right now\n\nThe game has changed and anyone (yes, even you!) can create their own platform and share meaningful content with the world.\n\nWhen you compare your videos to those of your favorite creators…your filming &amp; editing skills are coming up short\n\nYou’re determined to start with what you have (even if that’s just your smart phone, a plastic tripod, and a flimsy ring light from Amazon).\nBut you’re still struggling to figure out the lighting, how to edit your videos, record crystal clear audio, and so much more!\n\nYou know making better quality videos takes time and practice…\n\nBut when you’re already juggling a hectic college load or a 9-5 job, improving your limited skills has no choice but to take a backseat.\n\nAnd there’s absolutely no way you’re putting out a less than perfect video – especially if you’re going to be broadcasting your face to strangers on the internet.\n\nThen there’s the content itself –\nBECAUSE EVEN WITH BETTER GEAR &amp; SKILLS, YOU STILL DON’T KNOW HOW TO CREATE AN ORIGINAL, ENGAGING VIDEO.\n\nYou want to create content in a style your subscribers will know is 100% yours… But that’s really freaking hard to do when every idea you have feels like a copy of someone else’s video.\n\nEven if you did want to add your own perspective, you still have no clue how to package up your information in a compelling way…\n\nOr how to tell a story that’ll keep viewers watching to the very end.\n*IF* YOU DO GET AN IDEA THAT’S ORIGINAL AND CAN BE FILMED WITH YOUR LIMITED GEAR, YOU’RE STILL SPENDING HOURS:\n\nFiguring out where the heck to start\n\nWriting, editing, and re-writing the script\n\nStressing about whether you look stupid or like a robot on camera or reshooting 10 takes of you saying:\n\nTo make matters worse, no matter how many tutorials you watch and blog posts you read, it never seems to make a difference\n\nYou’re still surfing YouTube videos like it’s an Olympic sport, trying to piece together all the conflicting information\n\nYet you don’t feel any closer to knowing where to start or how to improve without feeling overwhelmed.\n\nYou can’t seem to get your videos in front of your dream audience (or anyone, really), and you wonder if you should just call it quits on this dream.",
+      "short_description": "An online course about growing on YouTube with integrity. Learn how to create a successful YouTube channel that's unique and distinct to you.\n\nIn 2018, I grew to 50k subscribers within the span of 2 months – a milestone that finally gave me the confidence to go “all-in” on YouTube.\n\nAnd over the course of 2 years, I’ve managed to build a community of over 3 million subscribers; collab with inspiring creators like Peter McKinnon, Gary Vee, Yes Theory; and most importantly – create a life where I get to make original videos I really care about.",
+      "menu_order": 0,
+      "date": "2023-04-06 21:50:57",
+      "modified": "2023-04-06 21:50:57",
+      "sku": null,
+      "regular_price": 250,
+      "sale_price": 50,
+      "price": 50,
+      "virtual": true,
+      "downloadable": true,
+      "download_limit": -1,
+      "download_expiry": -1,
+      "stock_status": "instock",
+      "average_rating": 0,
+      "review_count": 0,
+      "total_sales": 0,
+      "featured_image_id": 17296,
+      "categories": [
+        {
+          "term_id": 1600,
+          "name": "Training",
+          "slug": "training"
+        },
+        {
+          "term_id": 1623,
+          "name": "Social Media",
+          "slug": "social-media"
+        }
+      ],
+      "tags": [
+        {
+          "term_id": 1609,
+          "name": "online training",
+          "slug": "online-training"
+        }
+      ],
+      "old_path": "/product/master-youtube/",
+      "new_path": "/shop/master-youtube"
+    },
+    {
+      "wp_id": 17227,
+      "status": "publish",
+      "title": "Speak and Inspire – Lisa Nichols",
+      "slug": "speak-and-inspire-lisa-nichols",
+      "description": "Lisa Nichols will assist you in ensuring that you never lose a profound bond again by assisting you in being a more effective and impactful communicator.\n\nDuring her 30-day coaching regimen, she transforms into your “sister in prosperity” You will learn how to captivate people and crowds with your charm in this famous Mindvalley masterclass.\n\nYou learn more advanced skills as you go through the quest. By the 30th day, you will understand that you have been a more effective speaker than many of your associates.\n\n<i><img class=\"wp-image-7831 size-large aligncenter\" src=\"http://damieus.com/wp-content/uploads/2023/03/Speak-and-Inspire-Quest-review-Lisa-Nichols-1024x550.webp\" alt=\"\" width=\"1024\" height=\"550\" /></i>\n\n<i>“When your clarity meets your conviction and you apply action to the equation, your world will begin to transform before your eyes.”</i>\n\n<i>― </i><b><i>Lisa Nichols</i></b>\n\nMastering humor, obtaining higher-paid speeches, and obtaining further engagements are only a few examples of talents that you might learn after you complete this quest.\n\nI will recommend this course to those doing podcasts or YouTubers who want to create an effect – inspiring, encouraging, or life-changing – who want to increase the strength of their impact. Speak and Inspire will also assist them in gaining additional followers and devoted viewers or listeners.",
+      "short_description": "Lisa Nichols will assist you in ensuring that you never lose a profound bond again by assisting you in being a more effective and impactful communicator.  During her 30-day coaching regimen, she transforms into your “sister in prosperity” You will learn how to captivate people and crowds with your charm in this famous Mindvalley masterclass",
+      "menu_order": 0,
+      "date": "2023-03-12 20:02:54",
+      "modified": "2023-03-12 20:02:54",
+      "sku": null,
+      "regular_price": 250,
+      "sale_price": 50,
+      "price": 50,
+      "virtual": true,
+      "downloadable": true,
+      "download_limit": -1,
+      "download_expiry": -1,
+      "stock_status": "instock",
+      "average_rating": 0,
+      "review_count": 0,
+      "total_sales": 0,
+      "featured_image_id": 7830,
+      "categories": [
+        {
+          "term_id": 1600,
+          "name": "Training",
+          "slug": "training"
+        },
+        {
+          "term_id": 1612,
+          "name": "Communication Skills",
+          "slug": "communication-skills"
+        }
+      ],
+      "tags": [
+        {
+          "term_id": 1609,
+          "name": "online training",
+          "slug": "online-training"
+        },
+        {
+          "term_id": 1613,
+          "name": "communication skills",
+          "slug": "communication-skills"
+        },
+        {
+          "term_id": 1614,
+          "name": "mindvalley",
+          "slug": "mindvalley"
+        },
+        {
+          "term_id": 1615,
+          "name": "public speaking",
+          "slug": "public-speaking"
+        }
+      ],
+      "old_path": "/product/speak-and-inspire-lisa-nichols/",
+      "new_path": "/shop/speak-and-inspire-lisa-nichols"
+    },
+    {
+      "wp_id": 17229,
+      "status": "publish",
+      "title": "SuperBrain Course by Jim Kwik",
+      "slug": "superbrain-course-by-jim-kwik",
+      "description": "Kwik expresses the idea of breaking into previously untapped realms of our minds without explicitly saying so. He mentions a surreal variety of topics discussed in this 30-day journey in his 5-minute promo. He uses the Spaced Recognition approach to convey everything, which I found very encouraging.\n\nJim Kwik shows students how to supercharge their brains using quick and effective techniques.\n\n\n<i><img class=\"aligncenter wp-image-7839 size-full\" src=\"http://damieus.com/wp-content/uploads/2023/03/Superbrain-With-Jim-Kwik.webp\" alt=\"\" width=\"969\" height=\"515\" /></i>\n\n<i>“Reasons that are tied to your purpose, identity, and values will sufficiently motivate you to act, even in the face of all of the daily obstacles that life puts in your way.”</i>\n\n<i>― </i><b><i>Jim Kwik</i></b>\n\nHe accomplishes this by teaching his eight key principles for optimizing performance:\n<ul>\n \t<li>Increasing memorization</li>\n \t<li>Learning more quickly and reliably</li>\n \t<li>Accelerating the pace at which everyday activities are completed</li>\n \t<li>Increasing efficiency</li>\n \t<li>Changing your habits</li>\n \t<li>Improving brain concentration</li>\n \t<li>Growing your self-esteem</li>\n \t<li>Improving your learning habits</li>\n</ul>\nJim Kwik does provide his students with an outstanding range of self-improvement methods. And it is for this reason that I genuinely recommend this online course to everyone looking to boost their brain’s capabilities. I guess I’ll be digging into more of Jim Kwik’s work in the future.",
+      "short_description": "Kwik expresses the idea of breaking into previously untapped realms of our minds without explicitly saying so. He mentions a surreal variety of topics discussed in this 30-day journey in his 5-minute promo.",
+      "menu_order": 0,
+      "date": "2023-03-12 22:45:35",
+      "modified": "2023-03-12 22:45:35",
+      "sku": null,
+      "regular_price": 250,
+      "sale_price": 50,
+      "price": 50,
+      "virtual": true,
+      "downloadable": true,
+      "download_limit": -1,
+      "download_expiry": -1,
+      "stock_status": "instock",
+      "average_rating": 0,
+      "review_count": 0,
+      "total_sales": 0,
+      "featured_image_id": 7840,
+      "categories": [
+        {
+          "term_id": 1600,
+          "name": "Training",
+          "slug": "training"
+        },
+        {
+          "term_id": 1610,
+          "name": "Personal Transformation",
+          "slug": "personal-transformation"
+        }
+      ],
+      "tags": [
+        {
+          "term_id": 1609,
+          "name": "online training",
+          "slug": "online-training"
+        },
+        {
+          "term_id": 1614,
+          "name": "mindvalley",
+          "slug": "mindvalley"
+        },
+        {
+          "term_id": 1616,
+          "name": "quality of life improvement",
+          "slug": "quality-of-life-improvement"
+        }
+      ],
+      "old_path": "/product/superbrain-course-by-jim-kwik/",
+      "new_path": "/shop/superbrain-course-by-jim-kwik"
+    },
+    {
+      "wp_id": 17232,
+      "status": "publish",
+      "title": "The Complete 2023 Web Development Bootcamp",
+      "slug": "the-complete-2023-web-development-bootcamp",
+      "description": "<strong>What you'll learn​</strong>\n\nBuild 16 web development projects for your portfolio, ready to apply for junior developer jobs.\nLearn the latest technologies, including Javascript, React, Node and even Web3 development.\nAfter the course you will be able to build ANY website you want.\nBuild fully-fledged websites and web apps for your startup or business.\nWork as a freelance web developer.\nMaster frontend development with React\nMaster backend development with Node\nLearn professional developer best practices.\n\n<strong>Requirements​</strong>\n\nNo programming experience needed - I'll teach you everything you need to know\nA computer with access to the internet\nNo paid software required\nI'll walk you through, step-by-step how to get all the software installed and set up\n\n<strong>Description​</strong>\nWelcome to the Complete Web Development Bootcamp, the only course you need to learn to code and become a full-stack web developer. With 150,000+ ratings and a 4.8 average, my Web Development course is one of the HIGHEST RATED courses in the history of Udemy!\n\nAt 65+ hours, this Web Development course is without a doubt the most comprehensive web development course available online. Even if you have zero programming experience, this course will take you from beginner to mastery. Here's why:\n\nThe course is taught by the lead instructor at the App Brewery, London's leading in-person programming bootcamp.\n\nThe course has been updated to be 2023 ready and you'll be learning the latest tools and technologies used at large companies such as Apple, Google and Netflix.\n\nThis course doesn't cut any corners, there are beautiful animated explanation videos and tens of real-world projects which you will get to build.\n\nThe curriculum was developed over a period of four years, with comprehensive student testing and feedback.\n\nWe've taught over a million students how to code and many have gone on to change their lives by becoming professional developers or starting their own tech startup.\n\nYou'll save yourself over $12,000 by enrolling, but still get access to the same teaching materials and learn from the same instructor and curriculum as our in-person programming bootcamp.\n\nThe course is constantly updated with new content, with new projects and modules determined by students - that's you!\n\nWe'll take you step-by-step through engaging video tutorials and teach you everything you need to know to succeed as a web developer.\n\nThe course includes over 65 hours of HD video tutorials and builds your programming knowledge while making real-world websites and web apps.\n\nThroughout this comprehensive course, we cover a massive amount of tools and technologies, including:\n\nFront-End Web Development\nHTML 5\nCSS 3\nBootstrap 4\nJavascript ES6\nDOM Manipulation\njQuery\nBash Command Line\nGit, GitHub and Version Control\nBackend Web Development\nNode.js\nNPM\nExpress.js\nEJS\nREST\nAPIs\nDatabases\nSQL\nMongoDB\nMongoose\nAuthentication\nFirebase\nReact.js\nReact Hooks\nWeb Design\nDeployment with GitHub Pages, Heroku and MongoDB Atlas\nWeb3 Development on the Internet Computer\nBlockchain technology\nToken contract development\nNFT minting, buying and selling logic\n\nBy the end of this course, you will be fluently programming and be ready to make any website you can dream of.\n\nYou'll also build a portfolio of over 32+ websites that you can show off to any potential employer.\nSign up today, and look forward to:\n\nAnimated Video Lectures\nCode Challenges and Coding Exercises\nBeautiful Real-World Projects\nQuizzes &amp; Practice Tests\nDownloadable Programming Resources and Cheatsheets\nOur best selling 12 Rules to Learn to Code eBook\n$12,000+ worth of web development bootcamp course materials and course curriculum\n\nDon't just take my word for it, check out what existing students have to say about the course:\n\"Angela is just incredible, awesome and just fantastic in this course. I've never had such an instructor; detailed in every aspect of the course, gives precise explanations, gives you the anxiety to learn etc. She's got that ability to make fun while explaining things for better understanding. I really love this course.\" - Ekeu MonkamUlrich\n\n\"Angela is very thorough without ever being boring. I've taken MANY online courses in my life including my Bachelors and Masters degrees. She is by far the best instructor I've ever had. This course is packed with thousands of dollars worth of great instruction, and paced well enough for anyone to pick coding up and run with it- Thank you!\" - J Carlucci\n\n\"Love the way Angela explains things. Easy to follow and full of logic. I can say she must have spent a lot of energy creating this great course. Thank you and I recommend it to all who's interested in coding!\" - Yiqing Zheng\n\n\"So far (on my third day) this course has taught me more than I was able to learn in multiple other programming courses. This course is clearly outlined and builds upon itself gradually in an easy to understand way.\" - Normal Ramsey\n\n\"This course will take you from beginner to intermediate level for real. If you don't know how to put together the pieces of web development this is what you're looking for. Angela explains in an amazing way by creating projects all the way during this course, explaining the concepts in real practice. Thank you very much, Angela. I will always consider you my mentor. Look forward to taking more courses with you.\" - Moises Dionisio Cruz\n\n\"An amazing course, perfect for absolute beginners at the start of their coding journey! Angela is an amazing tutor and can explain in the most simple and comprehensible way even complex coding notions. Learning web development cannot get any more fun!\" - Zoe Moyssoglou\n\n\"It's a different approach to teaching Web Development. I like that you are given everything possible to succeed from the onset.\" - Ronick Thomas\n\nThe tutor is simply AMAZING, by far the best tutor I have ever had. I would give her 10 stars out of 5. She is not just punching the code and talking to herself, but she is actually explaining things. She keeps on giving really useful hints and she will give you a great load of other references. I always knew what I was doing and why I was doing it. All the extra challenges have just made me remember and understand things better. - Peter Dlugos\n\nSo what are you waiting for? Click the buy now button and join the world's highest-rated web development course.\n\n<strong>Who this course is for:​</strong>\n\nIf you want to learn to code through building fun and useful projects, then take this course.\nIf you want to start your own startup by building your own websites and web apps.\nIf you are a seasoned programmer, then take this course to to get up to speed quickly with the latest frameworks and NodeJS\nIf you want to take ONE COURSE and learn everything you need to know about web development, take this course",
+      "short_description": "Become a Full-Stack Web Developer with just ONE course. HTML, CSS, Javascript, Node, React, MongoDB, Web3 and DApps\n\nWelcome to the Complete Web Development Bootcamp, the only course you need to learn to code and become a full-stack web developer. With 150,000+ ratings and a 4.8 average, my Web Development course is one of the HIGHEST RATED courses in the history of Udemy!\n\nAt 65+ hours, this Web Development course is without a doubt the most comprehensive web development course available online. Even if you have zero programming experience, this course will take you from beginner to mastery",
+      "menu_order": 0,
+      "date": "2023-04-06 21:12:07",
+      "modified": "2023-04-06 21:12:07",
+      "sku": null,
+      "regular_price": 250,
+      "sale_price": 50,
+      "price": 50,
+      "virtual": true,
+      "downloadable": true,
+      "download_limit": -1,
+      "download_expiry": -1,
+      "stock_status": "instock",
+      "average_rating": 0,
+      "review_count": 0,
+      "total_sales": 0,
+      "featured_image_id": 17298,
+      "categories": [
+        {
+          "term_id": 1600,
+          "name": "Training",
+          "slug": "training"
+        },
+        {
+          "term_id": 1622,
+          "name": "Web Development",
+          "slug": "web-development"
+        }
+      ],
+      "tags": [
+        {
+          "term_id": 1609,
+          "name": "online training",
+          "slug": "online-training"
+        },
+        {
+          "term_id": 1621,
+          "name": "coding",
+          "slug": "coding"
+        }
+      ],
+      "old_path": "/product/the-complete-2023-web-development-bootcamp/",
+      "new_path": "/shop/the-complete-2023-web-development-bootcamp"
+    },
+    {
+      "wp_id": 17234,
+      "status": "publish",
+      "title": "The Complete Foundation Stock Trading Course",
+      "slug": "the-complete-foundation-stock-trading-course",
+      "description": "This is the Number One ranked Stock Trading course on Udemy.\n\nIn this course, you will learn how to trade the Stock Market. It's a course designed for Complete Beginners and Intermediate market participants.\n\nWe start off by covering basic concepts and work our way up to more advanced level material.\n\nBy the end of this course, you will completely understand how the Stock Market works. You will understand what a Stock is, why you need a Broker, and what are Exchanges.\n\nYou will learn about Orders to buy and sell stocks and how they determine the price of a stock. Furthermore, you will get a list of Recommended Resources.\n\nWe then cover Technical Analysis, including Charts and Candlesticks, Trends, Supports &amp; Resistances, Chart Patterns, Volume, etc.\n\nWe also cover some Technical Indicators like Bollinger Bands, Relative Strength Index, and the Average True Range.\n\nFollowing this, we cover one of the most important aspects in trading: Risk Management and Money Management. Here we dive deep into how to protect your account from major losses.\n\nWe continue by covering another major aspect that is often forgotten in many courses: Trading Psychology. How to control your emotions when making decisions involving money.\n\nThis course has been crafted with care. I hope to see you inside, alongside the many happy students.\n\n<strong>Who this course is for:</strong>\n\nBeginners who want to decrease their learning curve.\nTraders who are starting out and Intermediary level Traders who want to learn more.\nAnyone who wants to Trade the Stock Market.\nPeople who want to learn the most important concepts that are needed in trading.\nTraders who want to better time their entries and exits.",
+      "short_description": "<strong>What you'll learn</strong>\n<ul>\n \t<li>Completely understand how the stock market works.</li>\n \t<li>Know the process that a company goes through to become a Publicly Traded Company.</li>\n \t<li>Know the history of the Stock Market and it's Evolution.</li>\n \t<li>Master Technical Analysis: Candlestick Patterns, Chart Patters, Volume and Technical Indicators.</li>\n \t<li>Filter out the noise, get to know what our traders use and how they think. Get insight from a professional trader's standpoint.</li>\n \t<li>How to send Orders and different Order Types.</li>\n \t<li>Different Exchanges: NYSE, NASDAQ &amp; AMEX.</li>\n \t<li>Risk Management: how to reduce losses and manage overall portfolio risk.</li>\n \t<li>Money Management: how to manage risk on each position, how many shares to buy, and where to take a loss.</li>\n \t<li>How to short sell so you can make money if the market goes down.</li>\n \t<li>Trading Psychology: become an Expert in human Emotions and the different Biases that affect people when Money is involved.</li>\n</ul>",
+      "menu_order": 0,
+      "date": "2023-04-07 07:38:52",
+      "modified": "2023-04-07 07:38:52",
+      "sku": null,
+      "regular_price": 500,
+      "sale_price": 250,
+      "price": 250,
+      "virtual": true,
+      "downloadable": true,
+      "download_limit": -1,
+      "download_expiry": -1,
+      "stock_status": "instock",
+      "average_rating": 0,
+      "review_count": 0,
+      "total_sales": 0,
+      "featured_image_id": 17297,
+      "categories": [
+        {
+          "term_id": 1600,
+          "name": "Training",
+          "slug": "training"
+        },
+        {
+          "term_id": 1624,
+          "name": "Stock Trading",
+          "slug": "stock-trading"
+        }
+      ],
+      "tags": [
+        {
+          "term_id": 1625,
+          "name": "stocks",
+          "slug": "stocks"
+        },
+        {
+          "term_id": 1626,
+          "name": "trading",
+          "slug": "trading"
+        },
+        {
+          "term_id": 1627,
+          "name": "udemy",
+          "slug": "udemy"
+        }
+      ],
+      "old_path": "/product/the-complete-foundation-stock-trading-course/",
+      "new_path": "/shop/the-complete-foundation-stock-trading-course"
+    },
+    {
+      "wp_id": 17223,
+      "status": "publish",
+      "title": "The God Memorandum by OG Mandino",
+      "slug": "the-god-memorandum",
+      "description": "The God Memorandum is a powerful and inspirational guide to achieving success, happiness and inner peace. Excerpted from the bestseller The Greatest Miracle in the World this book offers the reader the four laws of happiness and success: 'Count your blessings', 'Proclaim your rarity', 'Go another mile', and 'Use wisely your power of choice'. ",
+      "short_description": "The God Memorandum is a powerful and inspirational guide to achieving success, happiness and inner peace. Excerpted from the bestseller The Greatest Miracle in the World this book offers the reader the four laws of happiness and success: 'Count your blessings', 'Proclaim your rarity', 'Go another mile', and 'Use wisely your power of choice'. ",
+      "menu_order": 0,
+      "date": "2023-03-09 01:17:16",
+      "modified": "2023-03-09 01:17:16",
+      "sku": null,
+      "regular_price": 10,
+      "sale_price": null,
+      "price": 10,
+      "virtual": true,
+      "downloadable": true,
+      "download_limit": -1,
+      "download_expiry": -1,
+      "stock_status": "instock",
+      "average_rating": 0,
+      "review_count": 0,
+      "total_sales": 0,
+      "featured_image_id": 7764,
+      "categories": [
+        {
+          "term_id": 1601,
+          "name": "Audiobook",
+          "slug": "audiobook"
+        }
+      ],
+      "tags": [
+        {
+          "term_id": 1602,
+          "name": "books",
+          "slug": "books"
+        },
+        {
+          "term_id": 1603,
+          "name": "audiobooks",
+          "slug": "audiobooks"
+        },
+        {
+          "term_id": 1604,
+          "name": "Personal Transformation",
+          "slug": "personal-transformation"
+        },
+        {
+          "term_id": 1605,
+          "name": "Self-Help",
+          "slug": "self-help"
+        }
+      ],
+      "old_path": "/product/the-god-memorandum/",
+      "new_path": "/shop/the-god-memorandum"
+    },
+    {
+      "wp_id": 17226,
+      "status": "publish",
+      "title": "The Ultimate CompTIA A+ Training Course",
+      "slug": "the-ultimate-comptia-a-training-course",
+      "description": "<strong>Requirements</strong>\nNo pre-knowledge is required - enthusiasm is all you need!\nAccess to a computer with an internet connection.\n\n<strong>Description</strong>\nWelcome to this course. Are you looking to take the CompTIA A+ Certification exam to kickstart your IT career? Or are you just interested in keeping your home network router from doing that annoying red-blinky-light thing? Whatever your motivation, this course will help you to build a solid foundation in IT in an easy-to-understand way. CompTIA A+, the internationally approved skills certification for technology professionals who deliver technical support, has been upgraded to unite with the evolving nature of the hybrid workforce.\n\n<strong>This course covers all 5 domain areas of the A+ Core 1 Exam:</strong>\n<ul>\n \t<li>Mobile Devices</li>\n \t<li>Networking</li>\n \t<li>Hardware</li>\n \t<li>Virtualization and Cloud Computing</li>\n \t<li>Hardware and Network Troubleshooting</li>\n</ul>\nStarting with an introduction to CompTIA A+, you’ll delve into the major domains covered in the certification exam. You’ll understand mobile device components and get to grips with networking hardware devices, configuration concepts, and network types. You’ll then work with motherboards, CPU, RAM, and other major hardware components to understand the installation, maintenance, customization, and operation of computers. Once you are comfortable with the assembling and functioning of a local machine, you’ll explore virtualization and cloud computing and get to grips with concepts such as IaaS, SaaS, PaaS, virtual machines, and emulators. Finally, you’ll cover hardware and network troubleshooting and resolve problems using best practices and industry standards.\nAt the end of this course, you’ll have gained all the knowledge you need to pass the CompTIA A+ Certification Core 1 exam and the skills to maintain and troubleshoot PC, mobile, and networking devices.\n\n<strong>Who this course is for:</strong>\nIf you are getting ready for a career as an entry-level information technology (IT) professional or personal computer (PC) service technician, the CompTIA A+ Certification course is the first step in your preparation",
+      "short_description": "If you are getting ready for a career as an entry-level information technology (IT) professional or personal computer (PC) service technician, the CompTIA A+ Certification course is the first step in your preparation",
+      "menu_order": 0,
+      "date": "2023-03-12 19:19:31",
+      "modified": "2023-03-12 19:19:31",
+      "sku": null,
+      "regular_price": 250,
+      "sale_price": 50,
+      "price": 50,
+      "virtual": true,
+      "downloadable": true,
+      "download_limit": -1,
+      "download_expiry": -1,
+      "stock_status": "instock",
+      "average_rating": 0,
+      "review_count": 0,
+      "total_sales": 0,
+      "featured_image_id": 7828,
+      "categories": [
+        {
+          "term_id": 1599,
+          "name": "Certification Training",
+          "slug": "certification-training"
+        },
+        {
+          "term_id": 1600,
+          "name": "Training",
+          "slug": "training"
+        }
+      ],
+      "tags": [
+        {
+          "term_id": 1609,
+          "name": "online training",
+          "slug": "online-training"
+        },
+        {
+          "term_id": 1611,
+          "name": "tech certifications",
+          "slug": "tech-certifications"
+        }
+      ],
+      "old_path": "/product/the-ultimate-comptia-a-training-course/",
+      "new_path": "/shop/the-ultimate-comptia-a-training-course"
+    },
+    {
+      "wp_id": 17228,
+      "status": "publish",
+      "title": "Uncompromised Life – Marisa Peer",
+      "slug": "uncompromised-life-marisa-peer",
+      "description": "The eight-week course by Marisa Peer includes hypnotherapy audio recordings, manuals, access to an exclusive Facebook forum, and workbooks.\n\nThis course will walk you through the eight transformations that will transform and improve your spirituality, self-esteem, job fulfillment, relationships, self-belief, and work ethic.\n\n&nbsp;\n\n<i><img class=\"aligncenter wp-image-7834 size-full\" src=\"http://damieus.com/wp-content/uploads/2023/03/Uncompromised-Life-–-Marisa-Peer-1.webp\" alt=\"\" width=\"1024\" height=\"549\" /></i>\n\n<b><i>“The only risk in life is to not take the risk; not taking risks is the biggest gamble of all.”</i></b>\n\n<b><i>― Marisa Peer</i></b>\n\nYou will start experiencing an uncompromised life, experiencing peace, abundance, and freedom in all stages of your life without having to wait years.\n\nEvery week, there are three stages that you have to go through: preparation, rehearsal, and group coaching. The course is easy going so you will be fine with the curriculum.\n\nThis is without a doubt one of the most successful courses, and it is well worth it for those in need of a radical shift to move into their not just healthy but also wealthy position. The fee won’t matter to you after you discover your newfound richness.",
+      "short_description": "The eight-week course by Marisa Peer includes hypnotherapy audio recordings, manuals, access to an exclusive Facebook forum, and workbooks.",
+      "menu_order": 0,
+      "date": "2023-03-12 20:32:56",
+      "modified": "2023-03-12 20:32:56",
+      "sku": null,
+      "regular_price": 250,
+      "sale_price": 50,
+      "price": 50,
+      "virtual": true,
+      "downloadable": true,
+      "download_limit": -1,
+      "download_expiry": -1,
+      "stock_status": "instock",
+      "average_rating": 0,
+      "review_count": 0,
+      "total_sales": 0,
+      "featured_image_id": 7835,
+      "categories": [
+        {
+          "term_id": 1600,
+          "name": "Training",
+          "slug": "training"
+        },
+        {
+          "term_id": 1610,
+          "name": "Personal Transformation",
+          "slug": "personal-transformation"
+        }
+      ],
+      "tags": [
+        {
+          "term_id": 1609,
+          "name": "online training",
+          "slug": "online-training"
+        },
+        {
+          "term_id": 1614,
+          "name": "mindvalley",
+          "slug": "mindvalley"
+        },
+        {
+          "term_id": 1616,
+          "name": "quality of life improvement",
+          "slug": "quality-of-life-improvement"
+        }
+      ],
+      "old_path": "/product/uncompromised-life-marisa-peer/",
+      "new_path": "/shop/uncompromised-life-marisa-peer"
+    },
+    {
+      "wp_id": 17231,
+      "status": "publish",
+      "title": "Verbal Advantage by Charles Harrington Elster",
+      "slug": "verbal-advantage",
+      "description": "First time in book form! A successful program for teaching 3,500 vocabulary words that successful people need to know, based on America's #1 bestselling audio vocabulary series.\n\n\"People judge you by the words you use.\" Millions of Americans know this phrase from radio and print advertising for the Verbal Advantage audio series, which has sold over 100,000 copies. Now this bestselling information is available for the first time in book form, in an easy-to-follow, graduated vocabulary building program that teaches an outstanding vocabulary in just ten steps.\n\nUnlike other vocabulary books, Verbal Advantage provides a complete learning experience, with clear explanations of meanings, word histories, usages, pronunciation, and more. Far more than a cram session for a standardized test, the book is designed as a lifetime vocabulary builder, teaching a vocabulary shared by only the top percentage of Americans, with a proven method that helps the knowledge last.\n\nA 10-step vocabulary program teaches 500 key words and 3,000 synonyms.\nLively, accessible writing from an expert author and radio personality. ",
+      "short_description": "First time in book form! A successful program for teaching 3,500 vocabulary words that successful people need to know, based on America's #1 bestselling audio vocabulary series.",
+      "menu_order": 0,
+      "date": "2023-03-22 16:52:02",
+      "modified": "2023-03-22 16:52:02",
+      "sku": null,
+      "regular_price": 50,
+      "sale_price": 20,
+      "price": 20,
+      "virtual": true,
+      "downloadable": true,
+      "download_limit": 1,
+      "download_expiry": 1,
+      "stock_status": "instock",
+      "average_rating": 0,
+      "review_count": 0,
+      "total_sales": 0,
+      "featured_image_id": 7858,
+      "categories": [
+        {
+          "term_id": 1618,
+          "name": "eBooks",
+          "slug": "ebooks"
+        },
+        {
+          "term_id": 1620,
+          "name": "Vocabulary Building",
+          "slug": "vocabulary-building"
+        }
+      ],
+      "tags": [
+        {
+          "term_id": 1613,
+          "name": "communication skills",
+          "slug": "communication-skills"
+        },
+        {
+          "term_id": 1619,
+          "name": "vocabulary",
+          "slug": "vocabulary"
+        }
+      ],
+      "old_path": "/product/verbal-advantage/",
+      "new_path": "/shop/verbal-advantage"
+    }
+  ],
+  "sanitized": true
+}

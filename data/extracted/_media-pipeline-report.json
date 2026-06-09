@@ -1,0 +1,2115 @@
+{
+  "generated_at": "2026-06-09T00:21:06.630Z",
+  "dry_run": false,
+  "files_in": 22582,
+  "after_merge": 22549,
+  "thumbnails_stripped": 18968,
+  "scaled_with_original_stripped": 0,
+  "originals_after_strip": 3581,
+  "dedup_dropped": 649,
+  "kept_originals": 2932,
+  "bytes_before": 1739184565,
+  "bytes_after": 1592855708,
+  "r16_orphans": [
+    {
+      "wp_id": 6628,
+      "attached_file": "2023/04/homeless-mothers-1-.webp",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 6662,
+      "attached_file": "2023/04/homeless-mothers-2-1-1.webp",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4069,
+      "attached_file": "2022/08/lce-motivational-inspirational-quotes.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5345,
+      "attached_file": "2022/08/reward-system-in-brain.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5343,
+      "attached_file": "2022/08/self-care.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5335,
+      "attached_file": "2022/08/regular-exercise-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5333,
+      "attached_file": "2022/08/Work-Life-Harmony-Marten-Bjork.png",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5331,
+      "attached_file": "2022/08/what-is-extrinsic-motivation-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5329,
+      "attached_file": "2022/08/ToDo1.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5325,
+      "attached_file": "2022/08/do-supplements-work-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5323,
+      "attached_file": "2022/08/long-distance-marriage.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5319,
+      "attached_file": "2022/08/intention-vs-goal.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5317,
+      "attached_file": "2022/08/i-m-stuck.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5315,
+      "attached_file": "2022/08/motivation-styles.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5311,
+      "attached_file": "2022/08/best-fitness-tracker-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5307,
+      "attached_file": "2022/08/feeling-alone-in-a-relationship-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5299,
+      "attached_file": "2022/08/losing-motivation.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5297,
+      "attached_file": "2022/08/procrastination-at-work.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5295,
+      "attached_file": "2022/08/how-to-become-flexible.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5289,
+      "attached_file": "2022/08/how-to-stop-being-anxious-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5281,
+      "attached_file": "2022/08/monday-motivation-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5277,
+      "attached_file": "2022/08/what-to-eat-before-morning-workout.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5273,
+      "attached_file": "2022/08/what-to-do-when-burned-out-1-scaled.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5271,
+      "attached_file": "2022/08/lonely-in-marriage.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5267,
+      "attached_file": "2022/08/how-can-i-start-my-own-business.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5265,
+      "attached_file": "2022/08/goal-setting-theory-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5263,
+      "attached_file": "2022/08/adaptability-skills-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5261,
+      "attached_file": "2022/08/life-balance1.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5259,
+      "attached_file": "2022/08/words-of-encouragement.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5257,
+      "attached_file": "2022/08/putting-things-off-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5255,
+      "attached_file": "2022/08/good-diet-foods-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5253,
+      "attached_file": "2022/08/resistance-band-exercises-for-legs-e1597973277361.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5251,
+      "attached_file": "2022/08/stress-control-scaled.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5249,
+      "attached_file": "2022/08/my-wife-doesnt-respect-me-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5245,
+      "attached_file": "2022/08/what-does-it-take-to-be-an-entrepreneur-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5243,
+      "attached_file": "2022/08/how-to-make-a-vision-board.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5241,
+      "attached_file": "2022/08/life-hacks-for-success.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5239,
+      "attached_file": "2022/08/how-to-get-my-life-together.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5237,
+      "attached_file": "2022/08/motivation-to-study-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5235,
+      "attached_file": "2022/08/1660204370_avoiding-difficult-tasks.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5233,
+      "attached_file": "2022/08/best-food-to-eat-for-weight-loss-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5231,
+      "attached_file": "2022/08/how-to-start-exercising.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5229,
+      "attached_file": "2022/08/what-is-sedentary-lifestyle-scaled.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5225,
+      "attached_file": "2022/08/best-meditation-apps-scaled-e1651477549988.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5221,
+      "attached_file": "2022/08/process-goal-outcome-goal.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5219,
+      "attached_file": "2022/08/what-is-tenacity-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5217,
+      "attached_file": "2022/08/aging-sucks.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5215,
+      "attached_file": "2022/08/how-to-get-a-life.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5213,
+      "attached_file": "2022/08/why-cant-i-motivate-myself.png",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5211,
+      "attached_file": "2022/08/how-to-stop-procrastinating.001.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5207,
+      "attached_file": "2022/08/interval-training-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5205,
+      "attached_file": "2022/08/body-feels-heavy-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5201,
+      "attached_file": "2022/08/anthony-tran-vXymirxr5ac-unsplash-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5199,
+      "attached_file": "2022/08/are-entrepreneurs-born-or-made-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5197,
+      "attached_file": "2022/08/Why-we-need-to-take-action.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5195,
+      "attached_file": "2022/08/How-to-Silence-the-Impostor-Syndrome-scaled.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5191,
+      "attached_file": "2022/08/why-is-life-so-complicated.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5187,
+      "attached_file": "2022/08/procrastination-quotes.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5183,
+      "attached_file": "2022/08/workouts-to-lose-belly-fat-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5181,
+      "attached_file": "2022/08/why-do-i-feel-tired-after-eating-1-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5179,
+      "attached_file": "2022/08/how-to-trust-people-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5177,
+      "attached_file": "2022/08/doom-scroling-e1654075000617.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5175,
+      "attached_file": "2022/08/self-care-entrepreneur-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5173,
+      "attached_file": "2022/08/why-is-it-important-to-set-realistic-goals-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5169,
+      "attached_file": "2022/08/increase-longevity-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5167,
+      "attached_file": "2022/08/how-to-live-a-fuller-happier-life.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5165,
+      "attached_file": "2022/08/fear-based-motivation-scaled.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5161,
+      "attached_file": "2022/08/beetroot-powder.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5159,
+      "attached_file": "2022/08/workout-tips.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5157,
+      "attached_file": "2022/08/healthy-diet-e1656395216730.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5155,
+      "attached_file": "2022/08/dating-after-divorce-scaled-e1651155002545.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5153,
+      "attached_file": "2022/08/self-parenting-scaled-e1653837923852.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5149,
+      "attached_file": "2022/08/what-is-the-most-important-step-in-prioritizing-goals-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5147,
+      "attached_file": "2022/08/fear-of-responsibility.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5143,
+      "attached_file": "2022/08/feeling-restless.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5141,
+      "attached_file": "2022/08/good-morning-motivation-scaled.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5135,
+      "attached_file": "2022/08/weight-lifting-exercises-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5133,
+      "attached_file": "2022/08/entrepreneur-burnout-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5131,
+      "attached_file": "2022/08/adults-friendships-scaled-e1651843770544.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5129,
+      "attached_file": "2022/08/jessica-da-rosa-MIK0uM_dy2c-unsplash-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5127,
+      "attached_file": "2022/08/best-business-podcasts-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5123,
+      "attached_file": "2022/08/how-to-improve-confidence.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5121,
+      "attached_file": "2022/08/how-to-improve-digestion-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5117,
+      "attached_file": "2022/08/achievement-motivation-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5115,
+      "attached_file": "2022/08/time-management-and-procrastination.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5113,
+      "attached_file": "2022/08/best-diet-foods-scaled.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5111,
+      "attached_file": "2022/08/stretching-routine-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5109,
+      "attached_file": "2022/08/what-supplements-should-i-take-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5101,
+      "attached_file": "2022/08/intermediate-goals-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5099,
+      "attached_file": "2022/08/10-80-10-rule-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5097,
+      "attached_file": "2022/08/too-tired-to-sleep-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5095,
+      "attached_file": "2022/08/pillars-of-life.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5093,
+      "attached_file": "2022/08/competence-motivation-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 17628,
+      "attached_file": "2022/08/How-To-Overcome-Laziness-19-Simple-Ways.webp",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5089,
+      "attached_file": "2022/08/breaking-a-fast-scaled.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5087,
+      "attached_file": "2022/08/best-foam-roller-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5083,
+      "attached_file": "2022/08/emotional-attunement-scaled-e1653060713424.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5081,
+      "attached_file": "2022/08/meditation-for-grief-scaled-e1653676742211.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5079,
+      "attached_file": "2022/08/The-Great-Resignation-e1648969757871.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5077,
+      "attached_file": "2022/08/focus-on-your-goals-quotes-scaled.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5075,
+      "attached_file": "2022/08/success-tips.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5073,
+      "attached_file": "2022/08/best-blankets-scaled-e1648670955123.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5071,
+      "attached_file": "2022/08/get-your-life-back.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5067,
+      "attached_file": "2022/08/Be-Productive-And-Stop-Procrastinating.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5065,
+      "attached_file": "2022/08/best-food-to-eat-at-night-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5063,
+      "attached_file": "2022/08/best-resistance-bands-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5061,
+      "attached_file": "2022/08/best-work-from-home-chairs-e1646900228267.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5057,
+      "attached_file": "2022/08/anxiety-spiral-scaled-e1654758302585.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5055,
+      "attached_file": "2022/08/how-to-become-a-life-coach-scaled-e1648633453569.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5051,
+      "attached_file": "2022/08/how-to-be-less-fearful.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5049,
+      "attached_file": "2022/08/best-pillow-scaled-e1648642504580.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5047,
+      "attached_file": "2022/08/manifest-abundance-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5045,
+      "attached_file": "2022/08/drive-theory-of-motivation-scaled.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5043,
+      "attached_file": "2022/08/stop-procrrastinating-now-scaled.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5041,
+      "attached_file": "2022/08/high-protein-low-fat-foods-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5039,
+      "attached_file": "2022/08/hiit-workouts-at-home-scaled.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5035,
+      "attached_file": "2022/08/how-to-find-community-scaled-e1655117776111.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5033,
+      "attached_file": "2022/08/what-is-breathwork-scaled-e1655296231427.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5031,
+      "attached_file": "2022/08/business-growth-scaled-e1649473662275.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5027,
+      "attached_file": "2022/08/how-to-overcome-fear-of-uncertainty-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5025,
+      "attached_file": "2022/08/best-time-to-drink-coffee-scaled-e1649515844725.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5023,
+      "attached_file": "2022/08/addicted-to-work.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5021,
+      "attached_file": "2022/08/friday-motivation-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5019,
+      "attached_file": "2022/08/Stop-Procrastinating-Your-Life-scaled.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5017,
+      "attached_file": "2022/08/whole-food-diet-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5015,
+      "attached_file": "2022/08/bodyweight-workout-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5013,
+      "attached_file": "2022/08/tired-all-the-time-women-scaled-e1651822772400.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5011,
+      "attached_file": "2022/08/conversations-to-have-before-marriage-scaled-e1655289910466.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5009,
+      "attached_file": "2022/08/mindfulness-journal-scaled-e1655919081187.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5007,
+      "attached_file": "2022/08/quit-job-to-start-business-scaled-e1649435373323.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5005,
+      "attached_file": "2022/08/goal-planner-scaled.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5003,
+      "attached_file": "2022/08/being-too-nice-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 5001,
+      "attached_file": "2022/08/gut-health-and-anxiety-scaled-e1652443495347.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4999,
+      "attached_file": "2022/08/what-is-well-being-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4995,
+      "attached_file": "2022/08/avoiding-difficult-tasks.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4991,
+      "attached_file": "2022/08/circuit-training-workouts.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4989,
+      "attached_file": "2022/08/how-to-work-night-shift-and-stay-healthy-scaled-e1653197212511.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4987,
+      "attached_file": "2022/08/online-dating-for-single-parents-e1654854474684.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4983,
+      "attached_file": "2022/08/types-of-entrepreneurs-scaled-e1655369002781.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4981,
+      "attached_file": "2022/08/goal-setting-template-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4979,
+      "attached_file": "2022/08/What-Is-the-Circle-of-Control-e1654149947823.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4977,
+      "attached_file": "2022/08/bloated-stomach-causes-scaled-e1652891631383.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4975,
+      "attached_file": "2022/08/aspect-of-life-e1651124971346.png",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4973,
+      "attached_file": "2022/08/motivation-psychology-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4971,
+      "attached_file": "2022/08/How-to-Break-the-Perfectionism-Procrastination-Loop-e1647929906776.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4969,
+      "attached_file": "2022/08/healthy-snacks-to-eat-at-night-scaled-e1652968185459.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4967,
+      "attached_file": "2022/08/how-to-build-muscle-fast-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4965,
+      "attached_file": "2022/08/headache-and-tired-scaled-e1652181667948.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4961,
+      "attached_file": "2022/08/foods-good-for-depression-scaled-e1655821174579.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4959,
+      "attached_file": "2022/08/business-crisis-scaled-e1655138243789.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4955,
+      "attached_file": "2022/08/what-is-opportunity-cost-e1655202863787.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4953,
+      "attached_file": "2022/08/family-meals-to-go-e1652369460754.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4951,
+      "attached_file": "2022/08/stressors-in-life-scaled-e1650285328233.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4949,
+      "attached_file": "2022/08/losing-confidence-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4947,
+      "attached_file": "2022/08/anxiety-and-procrastination-e1659687212855.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4945,
+      "attached_file": "2022/08/cross-team-collaboration-scaled-e1654744367978.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4939,
+      "attached_file": "2022/08/foods-that-drain-your-energy-e1654682756368.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4937,
+      "attached_file": "2022/08/life-after-divorce-scaled-e1655723661250.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4926,
+      "attached_file": "2022/08/types-of-happiness-scaled-e1656323899120.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4898,
+      "attached_file": "2022/08/when-to-hire-in-your-small-business-scaled-e1655125196303.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4844,
+      "attached_file": "2022/08/pexels-artem-podrez-4492093-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4842,
+      "attached_file": "2022/08/how-to-work-through-grief-scaled-e1656246122991.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4838,
+      "attached_file": "2022/08/monthly-goals-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4836,
+      "attached_file": "2022/08/changing-your-narrative-scaled-e1655107671520.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4832,
+      "attached_file": "2022/08/nathan-chan-lifehack-show-e1659930634358.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4830,
+      "attached_file": "2022/08/serial-entrepreneur-e1660127930150.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4819,
+      "attached_file": "2022/08/life-hacks.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4798,
+      "attached_file": "2022/08/Keeping-Millennials-Motivated-in-a-Remote-Workplace.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4792,
+      "attached_file": "2022/08/Boost-Your-Teams-Productivity-With-These-Tools.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4789,
+      "attached_file": "2022/08/100-Lessons-to-Help-You-Live-an-Amazing-Life.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4783,
+      "attached_file": "2022/08/How-Mentally-Strong-People-Make-Wise-Decisions.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4780,
+      "attached_file": "2022/08/Six-Great-Tips-For-Success-In-Any-Business.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4771,
+      "attached_file": "2022/08/The-16-Most-Inspirational-Songs-from-Animated-Movies.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4765,
+      "attached_file": "2022/08/7-Ways-to-Ignite-a-Stagnant-Career.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4762,
+      "attached_file": "2022/08/1660107292_Autofocus-Brain-5-Tricks-To-Use-Your-Brain-Like-A.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4759,
+      "attached_file": "2022/08/3-Ways-To-Use-Traveling-As-A-Self-Coaching-Session.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4756,
+      "attached_file": "2022/08/If-It-Makes-You-Happy-Does-It-Really-Matter-What.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4753,
+      "attached_file": "2022/08/5-Fundamentals-of-Body-Language-to-Increase-Your-Success-in.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4738,
+      "attached_file": "2022/08/13-Reasons-Why-You-Cant-Just-Give-Up.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4735,
+      "attached_file": "2022/08/1660105658_Ask-These-3-Questions-Daily-To-Be-More-Productive-and.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4729,
+      "attached_file": "2022/08/5-Ways-To-Skyrocket-Your-Social-Media-Presence-Like-A.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4726,
+      "attached_file": "2022/08/Designing-the-Superior-Man-15-Powerful-Qualities-Part-3.png",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4723,
+      "attached_file": "2022/08/6-Things-That-Make-Employees-Happy.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4717,
+      "attached_file": "2022/08/5-Amazing-Things-You-Gain-By-Doing-The-Unthinkable.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4714,
+      "attached_file": "2022/08/1660104341_How-the-Employer-Benefits-From-Developing-Management-Skills-of-Their.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4711,
+      "attached_file": "2022/08/Understanding-the-Foundations-of-a-Great-Team-Culture.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4708,
+      "attached_file": "2022/08/Are-You-A-Boss-Or-A-Leader-And-One-Is.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4705,
+      "attached_file": "2022/08/How-to-Finish-Your-PMP-Exam-in-Under-4-Hours.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4207,
+      "attached_file": "2022/08/6-Steps-To-Transform-Stress-into-Success.png",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4700,
+      "attached_file": "2022/08/What-Leadership-Really-Means-and-Why-We-Need-It.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4697,
+      "attached_file": "2022/08/1660103275_Leadership-vs-Management-Is-One-Better-Than-the-Other.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4694,
+      "attached_file": "2022/08/What-Top-Leaders-Get-About-the-Importance-of-Diversity-in.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4691,
+      "attached_file": "2022/08/Top-15-Management-Skills-Successful-Managers-Have.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4688,
+      "attached_file": "2022/08/How-to-Be-Influential-and-Gain-Respect-at-Work.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4685,
+      "attached_file": "2022/08/10-Ways-to-Improve-Team-Management-Skills-and-Boost-Performance.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4682,
+      "attached_file": "2022/08/4-Types-of-Management-Styles-to-Master-to-Become-a.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4679,
+      "attached_file": "2022/08/Is-People-Management-the-Right-Career-Path-for-You.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4676,
+      "attached_file": "2022/08/9-Effective-Team-Management-Strategies.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4673,
+      "attached_file": "2022/08/5-Traits-of-Positive-Leadership-Any-Leader-Should-Master.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4670,
+      "attached_file": "2022/08/11-Strengths-All-Great-Leaders-Have.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4667,
+      "attached_file": "2022/08/1660101459_20-Best-Management-Books-That-Will-Make-You-a-Great.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4664,
+      "attached_file": "2022/08/What-is-the-Delegation-Model-and-How-to-Use-it.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4661,
+      "attached_file": "2022/08/6-Delegation-Examples-that-you-can-Follow.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4658,
+      "attached_file": "2022/08/5-Collaboration-Skills-to-Bring-Your-Teams-Together.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4655,
+      "attached_file": "2022/08/3-Powerful-Ways-To-Lead-By-Example-At-Work.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4652,
+      "attached_file": "2022/08/4-Effective-Ways-To-Collaborate-With-Your-Team.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4649,
+      "attached_file": "2022/08/7-Reasons-Why-Team-Management-Is-Important.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4174,
+      "attached_file": "2022/08/What-Makes-an-Authentic-Leader-5-Examples.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4641,
+      "attached_file": "2022/08/5-Ways-Essential-For-Leading-Change.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4638,
+      "attached_file": "2022/08/How-To-Master-Managing-Virtual-Teams-Effectively.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4635,
+      "attached_file": "2022/08/5-Great-Books-Every-Leader-Should-Read-By-This-Fall.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4632,
+      "attached_file": "2022/08/5-Areas-of-Your-Life-Where-You-Need-a-Coach.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4629,
+      "attached_file": "2022/08/7-Ways-Humility-Can-Make-You-a-Leader.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4626,
+      "attached_file": "2022/08/Become-a-Transformational-Leader-In-Your-Industry.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4623,
+      "attached_file": "2022/08/5-Reasons-Why-Humility-is-Important-in-Leadership.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4620,
+      "attached_file": "2022/08/5-Ways-To-Boost-Your-Self-Growth.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4617,
+      "attached_file": "2022/08/1660098341_12-Weekly-Challenges-For-Happier-More-Productive-Employees.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4611,
+      "attached_file": "2022/08/3-Mindset-Changes-to-Master-Before-Starting-Your-Business.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4608,
+      "attached_file": "2022/08/13-Top-Billionaires-Tips-on-Positive-Thinking—and-Why-It-Matters.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4605,
+      "attached_file": "2022/08/7-Public-Speaking-Tips-From-World-Class-TED-Presenters.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4602,
+      "attached_file": "2022/08/1660097438_Why-Being-Too-Busy-Is-The-Biggest-Lie-Weve-Been.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4599,
+      "attached_file": "2022/08/5-Questions-To-Ask-During-An-Interview.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4596,
+      "attached_file": "2022/08/1660097077_6-Productivity-Tips-to-Help-You-with-Team-Management.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4590,
+      "attached_file": "2022/08/4-Proven-Steps-To-Being-More-Assertive.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4584,
+      "attached_file": "2022/08/5-Questions-to-Ask-Yourself-Before-Selecting-A-Career.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4581,
+      "attached_file": "2022/08/Use-This-One-Weird-Trick-To-Be-Who-You-Want.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4578,
+      "attached_file": "2022/08/5-Productivity-Hacks-to-Kickstart-Your-Day.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4572,
+      "attached_file": "2022/08/Startups-need-these-Five-Types-of-Employees.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4569,
+      "attached_file": "2022/08/1660095464_4-Reasons-Why-You-Need-More-Than-One-Mentor.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4566,
+      "attached_file": "2022/08/7-Things-Only-an-Entrepreneur-Understands.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4563,
+      "attached_file": "2022/08/5-Tips-for-Becoming-a-Great-Mentor.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4560,
+      "attached_file": "2022/08/Care-is-Life-6-Essentially-Necessary-Virtues-of-A-Good.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4557,
+      "attached_file": "2022/08/7-Unique-Ways-to-Be-More-Productive-in-2017.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4554,
+      "attached_file": "2022/08/6-Ways-to-Inspire-Passion-In-Unmotivated-Employees.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4551,
+      "attached_file": "2022/08/6-Tips-To-Stay-Secure-While-Shopping-Online.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4548,
+      "attached_file": "2022/08/Top-10-Leadership-Tips-from-My-Geek-Trip.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4545,
+      "attached_file": "2022/08/Keep-leading-the-way.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4542,
+      "attached_file": "2022/08/Ten-Strategies-to-Transform-Your-Dreams-into-Reality.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4537,
+      "attached_file": "2022/08/What-Are-4-Core-Leadership-Theories-And-How-To-Apply.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4534,
+      "attached_file": "2022/08/1660093301_How-to-Start-Delegating-Tasks-Effectively-Step-by-Step-Guide.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4531,
+      "attached_file": "2022/08/Become-a-Better-Manager-20-Leadership-Examples-to-Inspire-Your.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4528,
+      "attached_file": "2022/08/22-Team-Building-Activity-for-Work-That-Are-Fun-and.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4525,
+      "attached_file": "2022/08/How-to-Run-an-Effective-One-on-One-Meeting-with.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4519,
+      "attached_file": "2022/08/Positive-and-Negative-Reinforcement-Which-Is-More-Effective.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4513,
+      "attached_file": "2022/08/13-Management-Skills-Every-Great-Manager-Has.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4510,
+      "attached_file": "2022/08/How-to-Be-a-Good-Manager-And-Leader.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4507,
+      "attached_file": "2022/08/Mastering-the-Democratic-Leadership-Style-How-to-Guide.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4504,
+      "attached_file": "2022/08/9-Most-Essential-Leadership-Attributes-of-a-Great-Leader.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4501,
+      "attached_file": "2022/08/The-Importance-of-Delegating-Leadership-And-How-to-Do-It.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4498,
+      "attached_file": "2022/08/What-Leaders-Can-Learn-from-Amazons-14-Leadership-Principles.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4495,
+      "attached_file": "2022/08/6-Characteristics-of-an-Effective-Leadership.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4489,
+      "attached_file": "2022/08/Why-the-Voice-of-Employees-Is-Important-to-Any-Company.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4486,
+      "attached_file": "2022/08/How-to-Manage-a-Failing-Team-Or-an-Underperforming-Team.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4483,
+      "attached_file": "2022/08/Why-Delegation-Is-Important-in-Leadership.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4477,
+      "attached_file": "2022/08/What-Is-A-Micromanager-And-How-To-Deal-With-One.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4474,
+      "attached_file": "2022/08/How-to-Deal-With-Coworkers-Who-Complain-A-Lot.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4471,
+      "attached_file": "2022/08/1660089579_No-One-Told-You-the-Book-List-for-Improving-Leadership.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4468,
+      "attached_file": "2022/08/8-Habits-That-Make-Some-Leaders-Extraordinarily-Likeable.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4465,
+      "attached_file": "2022/08/5-Reasons-Why-Leaders-Need-to-Stimulate-Their-Vocabulary.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4462,
+      "attached_file": "2022/08/Why-interpersonal-relations-training-is-important-for-new-managers.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4456,
+      "attached_file": "2022/08/17-Ancient-Quotes-that-can-Fuel-Your-Success.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4450,
+      "attached_file": "2022/08/3-Lessons-on-how-to-be-an-Attractive-Man-Influenced.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4447,
+      "attached_file": "2022/08/1660088140_6-Tips-for-Personal-Branding.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4444,
+      "attached_file": "2022/08/6-Lessons-For-Entrepreneurs-From-Game-Of-Thrones.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4435,
+      "attached_file": "2022/08/1660087418_5-Common-Mistakes-People-Make-in-Staying-Motivated.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4432,
+      "attached_file": "2022/08/5-Ways-To-Motivate-Millennials-With-Your-Smartphone.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4429,
+      "attached_file": "2022/08/5-Reasons-Why-You-Should-Be-Grateful.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4426,
+      "attached_file": "2022/08/3-Ways-to-Build-a-Happy-and-Productive-Team.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4417,
+      "attached_file": "2022/08/5-Questions-To-Ask-Before-You-Accept-A-Job-Offer.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4411,
+      "attached_file": "2022/08/1660085858_5-Ways-My-Daughter-Made-Me-a-Better-Man.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4408,
+      "attached_file": "2022/08/5-Best-Ways-For-Busy-People-On-The-Go-to-Learn-a.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4405,
+      "attached_file": "2022/08/Designing-the-Superior-Man-15-Powerful-Qualities-Part-1.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4400,
+      "attached_file": "2022/08/5-Problems-Everyone-Has-With-Leadership-and-How-To-Solve.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4397,
+      "attached_file": "2022/08/1660085137_The-habits-15-startup-founders-use-to-get-things-done.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4394,
+      "attached_file": "2022/08/9-Traits-Early-Startups-Should-Look-For-in-a-Marketing.png",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4391,
+      "attached_file": "2022/08/The-Ultimate-New-Years-Resolution.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4388,
+      "attached_file": "2022/08/Face-Your-Fear-and-Thrive.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4385,
+      "attached_file": "2022/08/7-Bio-Hacks-For-Increased-Productivity-and-High-Performance-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4382,
+      "attached_file": "2022/08/Kick-Start-Your-Productivity-When-All-You-Want-To-Do.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4375,
+      "attached_file": "2022/08/Your-Most-Successful-Year-Ever.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4371,
+      "attached_file": "2022/08/4-Things-Every-True-Leader-Wants-You-to-Know.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4368,
+      "attached_file": "2022/08/6-Incredibly-Charismatic-Leadership-Styles-Anyone-Can-Learn-From.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4356,
+      "attached_file": "2022/08/11-Organizational-Skills-That-Every-Smart-Leader-Needs.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4350,
+      "attached_file": "2022/08/How-to-Influence-People-and-Make-Them-Feel-Good.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4347,
+      "attached_file": "2022/08/9-Reasons-Why-Motivation-Matters-in-Leadership.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4344,
+      "attached_file": "2022/08/1660082046_The-Lifehack-Show-The-Importance-of-Leadership-No-Matter-Who.png",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4341,
+      "attached_file": "2022/08/8-Reasons-Why-Teamwork-Is-Important-at-Work.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4338,
+      "attached_file": "2022/08/6-Effective-Leadership-Skills-in-the-Workplace.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4323,
+      "attached_file": "2022/08/How-to-Become-a-Leader-That-People-Respect.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4320,
+      "attached_file": "2022/08/How-To-Lead-And-Manage-a-Remote-Team-The-CEOs.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4317,
+      "attached_file": "2022/08/5-Ways-to-Manage-Conflict-in-a-Team-Effectively.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4314,
+      "attached_file": "2022/08/How-to-Seek-Constructive-Feedback-From-Your-Team-Members.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4308,
+      "attached_file": "2022/08/11-Ways-To-Boost-Workplace-Morale-As-A-Leader.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4305,
+      "attached_file": "2022/08/6-Examples-Of-Conscious-Leadership-And-How-To-Embody-It.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4302,
+      "attached_file": "2022/08/6-Actions-Successful-Leaders-Take-To-Enhance-Collaboration.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4296,
+      "attached_file": "2022/08/1660079143_50-Simple-Things-You-Can-Do-To-Be-A-Real.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4293,
+      "attached_file": "2022/08/Smart-Strategies-For-Evaluating-Others.png",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4290,
+      "attached_file": "2022/08/Want-to-Lift-Yourself-Up-Instant-Mood-Boosters.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4287,
+      "attached_file": "2022/08/Science-Explains-Why-Having-a-Deep-Voice-Is-Critical-to-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4284,
+      "attached_file": "2022/08/How-To-Be-Emotionally-Intelligent-Like-A-True-Leader.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4281,
+      "attached_file": "2022/08/1660078240_Bob-Mathias-On-How-To-Master-The-Art-Of-Self-Confidence.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4278,
+      "attached_file": "2022/08/Becoming-a-BossBabe-5-reasons-you-should-read-more.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4275,
+      "attached_file": "2022/08/3-Small-Proven-Tactics-to-Overcome-Big-Startup-Fears.png",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4269,
+      "attached_file": "2022/08/11-Fantastic-Ways-Passionate-People-Impact-The-World-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4266,
+      "attached_file": "2022/08/5-Reasons-Why-You-Need-A-Mentor.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4263,
+      "attached_file": "2022/08/This-Important-Element-In-You-Brain-Decides-If-Youre-A.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4260,
+      "attached_file": "2022/08/5-Ways-to-Transform-From-Mediocrity-to-Excellence.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4257,
+      "attached_file": "2022/08/How-to-Ensure-Employee-Productivity-in-a-World-Full-of-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4254,
+      "attached_file": "2022/08/5-Tips-To-Help-You-Become-A-Great-Storyteller.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4251,
+      "attached_file": "2022/08/1660076442_4-Team-Building-Hacks-to-Create-a-Dream-Team.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4248,
+      "attached_file": "2022/08/12-Easy-Actions-You-Can-Take-Today-to-Boost-Your.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4242,
+      "attached_file": "2022/08/1660075899_Personality-Traits-That-Create-Conflict-In-The-Workplace.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4239,
+      "attached_file": "2022/08/How-to-Use-Microresolutions-to-Improve-Sales-Performance.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4236,
+      "attached_file": "2022/08/4-Ways-to-Leave-your-Comfort-Zone-and-Achieve-the.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4230,
+      "attached_file": "2022/08/1660075212_6-Great-Hacks-to-Build-Engagement-in-Your-Online-Team.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4227,
+      "attached_file": "2022/08/How-to-Keep-Your-Workers-Focused-On-Work-And-Not.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4224,
+      "attached_file": "2022/08/6-Tips-for-Hiring-the-Best-Possible-Employee.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4221,
+      "attached_file": "2022/08/Why-Big-Dreams-Can-Be-Big-Problems.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4218,
+      "attached_file": "2022/08/1660074518_You-need-to-plan-your-future-dream-job-now.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4215,
+      "attached_file": "2022/08/Shortcut-to-Happiness-Lifehack.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4212,
+      "attached_file": "2022/08/5-important-things-to-do-every-day-to-improve-your.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4204,
+      "attached_file": "2022/08/12-Bad-Leadership-Qualities-to-Be-Aware-of.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4201,
+      "attached_file": "2022/08/5-Key-Traits-of-a-Charismatic-Leadership.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4198,
+      "attached_file": "2022/08/How-Teamwork-in-the-Workplace-Boosts-Morale-and-Delivers-Results.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4195,
+      "attached_file": "2022/08/How-to-Lead-a-Team-More-Effectively-and-Be-a.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4192,
+      "attached_file": "2022/08/Why-Leadership-and-Management-Are-Two-Sides-of-a-Coin.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4186,
+      "attached_file": "2022/08/12-Effective-Time-Management-Skills-for-Managers.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4183,
+      "attached_file": "2022/08/How-to-Master-Your-Management-Skills-and-Build-a-Strong.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4180,
+      "attached_file": "2022/08/What-Is-Delegation-and-How-Does-It-Enhance-Team-Management.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4177,
+      "attached_file": "2022/08/8-Differences-Between-a-Leader-and-a-Manager.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4168,
+      "attached_file": "2022/08/Delegating-Work-What-to-Delegate-and-What-Not-to.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4165,
+      "attached_file": "2022/08/14-Principles-of-Management-for-Effective-Team-Management.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4156,
+      "attached_file": "2022/08/How-to-Manage-a-Team-Effectively-as-a-New-Manager.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4153,
+      "attached_file": "2022/08/4-Ways-to-Deal-With-an-Emotional-Employee.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4150,
+      "attached_file": "2022/08/17-Ways-to-Get-Your-Team-on-the-Same-Page.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4147,
+      "attached_file": "2022/08/The-Importance-of-Leading-With-Empathy-And-How-To-Do.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4144,
+      "attached_file": "2022/08/9-Servant-Leadership-Characteristics-To-Have-As-A-Leader.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4141,
+      "attached_file": "2022/08/7-Easy-Steps-On-How-To-Be-A-Better-Mentor.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4133,
+      "attached_file": "2022/08/task-batching-e1658981737412.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4131,
+      "attached_file": "2022/08/fear-of-confrontation-e1659522214606.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4129,
+      "attached_file": "2022/08/day-theming-e1659429216386.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4127,
+      "attached_file": "2022/08/what-is-groupthink-e1659691645273.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4123,
+      "attached_file": "2022/08/hobbies-that-can-be-turned-into-a-business-scaled-e1655119525364.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4120,
+      "attached_file": "2022/08/child-separation-anxiety-scaled-e1656595417579.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4118,
+      "attached_file": "2022/08/optimist-vs-pessimist-scaled-e1657480539467.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4116,
+      "attached_file": "2022/08/self-advocacy-in-the-workplace-scaled-e1656934327337.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4114,
+      "attached_file": "2022/08/what-is-intuitive-eating-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4110,
+      "attached_file": "2022/08/avoidance-coping-scaled-e1657025508444.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4108,
+      "attached_file": "2022/08/low-impact-exercises-scaled-e1657477964752.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4106,
+      "attached_file": "2022/08/couples-therapy-exercises-scaled-e1657031016214.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4103,
+      "attached_file": "2022/08/too-busy-to-date-scaled-e1658740955934.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4098,
+      "attached_file": "2022/08/team-burnout-scaled-e1656148566408.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4095,
+      "attached_file": "2022/08/How-To-Turn-Your-Mid-Career-Crisis-Into-an-Opportunity-e1657621428786.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4088,
+      "attached_file": "2022/08/ways-for-businesses-to-give-back-to-the-community-scaled-e1658591609717.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4086,
+      "attached_file": "2022/08/microbreaks-scaled-e1656575344177.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4084,
+      "attached_file": "2022/08/resilient-leadership-scaled-e1657664975385.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4082,
+      "attached_file": "2022/08/create-your-own-reality-scaled-e1657475531411.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4080,
+      "attached_file": "2022/08/foods-that-keep-you-awake-at-night-scaled.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4078,
+      "attached_file": "2022/08/chronic-procrastination-scaled-e1658591441144.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4064,
+      "attached_file": "2022/08/lce-chronic-procrastination.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 2565,
+      "attached_file": "2022/02/unrecognizable-woman-hand-helping-man-to-stand-up-stockpack-adobe-stock.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 3997,
+      "attached_file": "/bitnami/wordpress/wp-content/uploads/2022/07/shutterstock_1804021939-crop.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 3995,
+      "attached_file": "/bitnami/wordpress/wp-content/uploads/2022/07/If-AI-is-the-future-gender-equity-is-essential-451871777-220607-1024x394-1.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 82,
+      "reason": "not in media.json",
+      "attached_file": null
+    },
+    {
+      "wp_id": 3277,
+      "reason": "not in media.json",
+      "attached_file": null
+    },
+    {
+      "wp_id": 2315,
+      "reason": "not in media.json",
+      "attached_file": null
+    },
+    {
+      "wp_id": 3726,
+      "attached_file": "2022/07/AWS-Certified-Cloud-Practitioner-1-1.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 3975,
+      "reason": "not in media.json",
+      "attached_file": null
+    },
+    {
+      "wp_id": 2334,
+      "reason": "not in media.json",
+      "attached_file": null
+    },
+    {
+      "wp_id": 3752,
+      "attached_file": "2022/07/iq-know-how-eq-know-you-concept-stockpack-adobe-stock-1.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 2308,
+      "reason": "not in media.json",
+      "attached_file": null
+    },
+    {
+      "wp_id": 2285,
+      "reason": "not in media.json",
+      "attached_file": null
+    },
+    {
+      "wp_id": 2344,
+      "reason": "not in media.json",
+      "attached_file": null
+    },
+    {
+      "wp_id": 2260,
+      "reason": "not in media.json",
+      "attached_file": null
+    },
+    {
+      "wp_id": 3749,
+      "attached_file": "2022/07/1644955613060-1.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 401,
+      "reason": "not in media.json",
+      "attached_file": null
+    },
+    {
+      "wp_id": 2302,
+      "reason": "not in media.json",
+      "attached_file": null
+    },
+    {
+      "wp_id": 2296,
+      "reason": "not in media.json",
+      "attached_file": null
+    },
+    {
+      "wp_id": 2279,
+      "reason": "not in media.json",
+      "attached_file": null
+    },
+    {
+      "wp_id": 2350,
+      "reason": "not in media.json",
+      "attached_file": null
+    },
+    {
+      "wp_id": 3835,
+      "reason": "not in media.json",
+      "attached_file": null
+    },
+    {
+      "wp_id": 3732,
+      "attached_file": "2022/07/Bob-Iger-LA-Magazine-1.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 3789,
+      "reason": "not in media.json",
+      "attached_file": null
+    },
+    {
+      "wp_id": 3744,
+      "attached_file": "2022/07/Bobbi-Brown-Teaches-Makeup-and-Beauty-1-1.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 3230,
+      "reason": "not in media.json",
+      "attached_file": null
+    },
+    {
+      "wp_id": 3740,
+      "attached_file": "2022/07/6XphbCffMRJn9DaPaei6zmR2-1.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4047,
+      "reason": "not in media.json",
+      "attached_file": null
+    },
+    {
+      "wp_id": 3909,
+      "reason": "not in media.json",
+      "attached_file": null
+    },
+    {
+      "wp_id": 3810,
+      "reason": "not in media.json",
+      "attached_file": null
+    },
+    {
+      "wp_id": 3086,
+      "reason": "not in media.json",
+      "attached_file": null
+    },
+    {
+      "wp_id": 3723,
+      "attached_file": "2022/07/phil-1.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4053,
+      "reason": "not in media.json",
+      "attached_file": null
+    },
+    {
+      "wp_id": 3765,
+      "reason": "not in media.json",
+      "attached_file": null
+    },
+    {
+      "wp_id": 3774,
+      "reason": "not in media.json",
+      "attached_file": null
+    },
+    {
+      "wp_id": 3730,
+      "attached_file": "2022/07/madu-2022-opt-0323-1@-1.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 3860,
+      "reason": "not in media.json",
+      "attached_file": null
+    },
+    {
+      "wp_id": 3745,
+      "attached_file": "2022/07/Shonda-Rhimes-teaches-writing-for-television-4-1.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 3206,
+      "reason": "not in media.json",
+      "attached_file": null
+    },
+    {
+      "wp_id": 3646,
+      "reason": "not in media.json",
+      "attached_file": null
+    },
+    {
+      "wp_id": 3729,
+      "attached_file": "2022/07/time-100-2016-steph-curry-scaled-2.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 3879,
+      "reason": "not in media.json",
+      "attached_file": null
+    },
+    {
+      "wp_id": 3725,
+      "attached_file": "2022/07/tao-1.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 4042,
+      "reason": "not in media.json",
+      "attached_file": null
+    },
+    {
+      "wp_id": 3736,
+      "attached_file": "2022/07/b138eb024bda957892d4fa793e7065cf-1.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 3728,
+      "attached_file": "2022/07/maxresdefault-1.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 3915,
+      "reason": "not in media.json",
+      "attached_file": null
+    },
+    {
+      "wp_id": 2360,
+      "reason": "not in media.json",
+      "attached_file": null
+    },
+    {
+      "wp_id": 2290,
+      "reason": "not in media.json",
+      "attached_file": null
+    },
+    {
+      "wp_id": 2327,
+      "reason": "not in media.json",
+      "attached_file": null
+    },
+    {
+      "wp_id": 3748,
+      "attached_file": "2022/07/work-at-home-mom-1280x720-1-1.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 2320,
+      "reason": "not in media.json",
+      "attached_file": null
+    },
+    {
+      "wp_id": 3753,
+      "attached_file": "2022/07/xAEpK4KvuTduGqvNPi2f2Yt3-1-624x267@2x-1.jpeg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 17295,
+      "attached_file": "2023/04/AWS-Certified-Solutions-Architect-Zero-to-Mastery.webp",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 17300,
+      "attached_file": "2023/04/Brand-Strategy-Fundamentals2-.webp",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 7825,
+      "attached_file": "2023/04/3-Small-Proven-Tactics-to-Overcome-Big-Startup-Fears.png",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 7843,
+      "attached_file": "2023/04/4-Critical-Steps-in-the-Process-of-Delegation-100x100.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 17296,
+      "attached_file": "2023/04/master-youtube-training.webp",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 7830,
+      "attached_file": "2023/04/3-Ways-To-Use-Traveling-As-A-Self-Coaching-Session-70x47@2x.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 7764,
+      "attached_file": "2023/04/2-Must-Have-Hacks-for-Your-To-Do-List-600x400.jpg",
+      "reason": "not found on disk in any uploads folder"
+    },
+    {
+      "wp_id": 7828,
+      "attached_file": "2023/04/3-Ways-To-Use-Traveling-As-A-Self-Coaching-Session-320x240@2x.jpg",
+      "reason": "not found on disk in any uploads folder"
+    }
+  ]
+}
