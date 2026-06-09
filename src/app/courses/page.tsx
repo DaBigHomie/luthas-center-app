@@ -22,6 +22,7 @@ import {
 } from '@/shared/lib/data-source'
 import { CourseCatalogClient } from '@/widgets/course-catalog'
 import type { CatalogCourse } from '@/widgets/course-catalog'
+import { SITE_URL } from '@/shared/config/site'
 
 // ---------------------------------------------------------------------------
 // Metadata
@@ -32,13 +33,13 @@ export const metadata: Metadata = {
   description:
     'Browse all free and open-access courses at Luthas Center — empowering you from impossible to inevitable.',
   alternates: {
-    canonical: 'https://luthascenter.damieus.app/courses',
+    canonical: `${SITE_URL}/courses`,
   },
   openGraph: {
     title: 'Course Catalog | Luthas Center for Excellence',
     description:
       'Browse all free and open-access courses at Luthas Center — empowering you from impossible to inevitable.',
-    url: 'https://luthascenter.damieus.app/courses',
+    url: `${SITE_URL}/courses`,
     images: [
       {
         url: '/placeholder-cover.svg',

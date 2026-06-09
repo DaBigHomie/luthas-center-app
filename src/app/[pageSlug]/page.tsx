@@ -13,6 +13,7 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { getPageBySlug, listPublishedPages } from '@/shared/lib/data-source'
 import { Prose } from '@/shared/ui/Prose'
+import { SITE_URL } from '@/shared/config/site'
 
 // ---------------------------------------------------------------------------
 // Slugs that have bespoke app routes — never emit static params for these
@@ -51,7 +52,7 @@ export async function generateStaticParams() {
 // Metadata
 // ---------------------------------------------------------------------------
 
-const BASE_URL = 'https://luthascenter.damieus.app'
+const BASE_URL = SITE_URL
 
 export async function generateMetadata({
   params,

@@ -25,6 +25,7 @@ import { Skeleton } from '@/shared/ui'
 import { BlogFilterBar } from '@/widgets/blog-filter-bar'
 import { BlogPagination } from '@/widgets/blog-pagination'
 import { Breadcrumb } from '@/shared/ui/Breadcrumb'
+import { SITE_URL } from '@/shared/config/site'
 
 // ---------------------------------------------------------------------------
 // Static params + dynamic fallback
@@ -42,7 +43,6 @@ export async function generateStaticParams() {
 // ---------------------------------------------------------------------------
 
 const PAGE_SIZE = 12
-const SITE_URL = 'https://luthascenter.damieus.app'
 
 // ---------------------------------------------------------------------------
 // Metadata

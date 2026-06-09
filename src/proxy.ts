@@ -1,5 +1,5 @@
 /**
- * Next.js Edge Middleware — redirect handler
+ * Next.js Edge Proxy — redirect handler
  *
  * Performs 301 redirects for all WP legacy paths using the pre-generated
  * REDIRECT_MAP from src/shared/config/redirects.generated.ts.
@@ -15,7 +15,7 @@ import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
 import { REDIRECT_MAP } from '@/shared/config/redirects.generated'
 
-export function middleware(request: NextRequest): NextResponse | undefined {
+export function proxy(request: NextRequest): NextResponse | undefined {
   // DORMANT by default (Option B). luthascenter.com/.org are unregistered, so
   // there is no external inbound traffic / SEO equity to preserve and the
   // legacy-path 301s are turned OFF. Flip them on in one step by setting

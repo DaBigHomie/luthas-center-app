@@ -11,6 +11,7 @@ import { Montserrat, Lato } from 'next/font/google'
 import './globals.css'
 import { SiteHeader } from '@/widgets/site-header'
 import { SiteFooter } from '@/widgets/site-footer'
+import { SITE_URL, SITE_NAME } from '@/shared/config/site'
 
 // ---------------------------------------------------------------------------
 // Fonts
@@ -37,15 +38,15 @@ const lato = Lato({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Luthas Center for Excellence',
-    template: '%s | Luthas Center for Excellence',
+    default: SITE_NAME,
+    template: `%s | ${SITE_NAME}`,
   },
   description:
     'Impossible to Inevitable — education, mental health support, and community empowerment through the Luthas Center for Excellence.',
-  metadataBase: new URL('https://luthascenter.damieus.app'),
+  metadataBase: new URL(SITE_URL),
   openGraph: {
     type: 'website',
-    siteName: 'Luthas Center for Excellence',
+    siteName: SITE_NAME,
   },
 }
 
@@ -60,9 +61,9 @@ export const metadata: Metadata = {
 const organizationJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
-  name: 'Luthas Center for Excellence',
-  url: 'https://luthascenter.damieus.app',
-  logo: 'https://luthascenter.damieus.app/favicon.ico',
+  name: SITE_NAME,
+  url: SITE_URL,
+  logo: `${SITE_URL}/favicon.ico`,
   sameAs: [
     'https://www.facebook.com/LuthasCenter',
     'https://twitter.com/LuthasCenter',

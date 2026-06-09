@@ -25,6 +25,7 @@ import { InstructorCard } from '@/widgets/course-detail/InstructorCard'
 import { CourseCtaCard } from '@/widgets/course-detail/CourseCtaCard'
 import { RelatedCourses } from '@/widgets/course-detail/RelatedCourses'
 import type { MediaRow } from '@/entities/media/model'
+import { SITE_URL } from '@/shared/config/site'
 
 // ---------------------------------------------------------------------------
 // Static params
@@ -53,7 +54,7 @@ export async function generateMetadata({
   const ogMedia = imageId ? await getMediaByWpId(imageId) : null
   const ogImageUrl = resolveCoverUrl(ogMedia, 'course', slug)
 
-  const canonical = `https://luthascenter.damieus.app/courses/${slug}`
+  const canonical = `${SITE_URL}/courses/${slug}`
 
   return {
     title: `${course.title} | Luthas Center`,
@@ -135,7 +136,7 @@ export default async function CourseDetailPage({
     { label: course.title ?? course.slug },
   ]
 
-  const BASE_URL = 'https://luthascenter.damieus.app'
+  const BASE_URL = SITE_URL
   const canonicalUrl = `${BASE_URL}/courses/${slug}`
 
   // JSON-LD: Course schema

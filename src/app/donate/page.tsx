@@ -14,19 +14,20 @@ import { Card } from '@/shared/ui'
 import { Badge } from '@/shared/ui'
 import { GoalMeter } from '@/widgets/donate-form/GoalMeter'
 import type { Metadata } from 'next'
+import { SITE_URL } from '@/shared/config/site'
 
 export const metadata: Metadata = {
   title: 'Donate | The Luthas Center',
   description:
     'Support The Luthas Center education and mental health programs. Choose a fund and make a gift today.',
   alternates: {
-    canonical: 'https://luthascenter.damieus.app/donate',
+    canonical: `${SITE_URL}/donate`,
   },
   openGraph: {
     title: 'Donate | The Luthas Center for Excellence',
     description:
       'Support The Luthas Center education and mental health programs. Choose a fund and make a gift today.',
-    url: 'https://luthascenter.damieus.app/donate',
+    url: `${SITE_URL}/donate`,
     images: [
       {
         url: '/placeholder-cover.svg',

@@ -23,6 +23,7 @@ import { PostCard } from '@/entities/post/ui/PostCard'
 import { Skeleton } from '@/shared/ui'
 import { BlogFilterBar } from '@/widgets/blog-filter-bar'
 import { BlogPagination } from '@/widgets/blog-pagination'
+import { SITE_URL } from '@/shared/config/site'
 
 // ---------------------------------------------------------------------------
 // Metadata
@@ -33,13 +34,13 @@ export const metadata: Metadata = {
   description:
     'Stories, guides, and community — from mental health to business. Impossible to Inevitable.',
   alternates: {
-    canonical: 'https://luthascenter.damieus.app/blog',
+    canonical: `${SITE_URL}/blog`,
   },
   openGraph: {
     title: 'Blog — Luthas Center for Excellence',
     description:
       'Stories, guides, and community — from mental health to business. Impossible to Inevitable.',
-    url: 'https://luthascenter.damieus.app/blog',
+    url: `${SITE_URL}/blog`,
     images: [
       {
         url: '/placeholder-cover.svg',

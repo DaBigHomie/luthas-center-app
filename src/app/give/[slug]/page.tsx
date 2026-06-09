@@ -18,6 +18,7 @@ import { DonationWidget } from '@/widgets/donate-form/DonationWidget'
 import { GoalMeter } from '@/widgets/donate-form/GoalMeter'
 import type { DonationLevel } from '@/widgets/donate-form/DonationWidget'
 import type { Metadata } from 'next'
+import { SITE_URL } from '@/shared/config/site'
 
 // ---------------------------------------------------------------------------
 // Types & helpers
@@ -69,7 +70,7 @@ export async function generateMetadata({
 
   const description =
     'Support The Luthas Center — an education and mental health nonprofit. Your gift makes the impossible, inevitable.'
-  const canonical = `https://luthascenter.damieus.app/give/${slug}`
+  const canonical = `${SITE_URL}/give/${slug}`
 
   return {
     title: `${form.title ?? 'Donate'} | The Luthas Center`,

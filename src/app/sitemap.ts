@@ -20,8 +20,9 @@ import {
   listPosts,
   listDonationForms,
 } from '@/shared/lib/data-source'
+import { SITE_URL } from '@/shared/config/site'
 
-const BASE_URL = 'https://luthascenter.damieus.app'
+const BASE_URL = SITE_URL
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const now = new Date()

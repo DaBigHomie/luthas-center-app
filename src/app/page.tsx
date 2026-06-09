@@ -26,6 +26,7 @@ import { PostCard } from '@/entities/post/ui/PostCard'
 import { HomeHero } from '@/widgets/home-hero/HomeHero'
 import { DonateBand } from '@/widgets/home-donate/DonateBand'
 import { NewsletterSection } from '@/widgets/home-newsletter/NewsletterSection'
+import { SITE_URL } from '@/shared/config/site'
 
 // ---------------------------------------------------------------------------
 // Page
@@ -36,13 +37,13 @@ export const metadata: Metadata = {
   description:
     'Impossible to Inevitable — discover courses, resources, and community at Luthas Center for Excellence.',
   alternates: {
-    canonical: 'https://luthascenter.damieus.app',
+    canonical: SITE_URL,
   },
   openGraph: {
     title: 'Luthas Center for Excellence',
     description:
       'Impossible to Inevitable — discover courses, resources, and community at Luthas Center for Excellence.',
-    url: 'https://luthascenter.damieus.app',
+    url: SITE_URL,
     images: [
       {
         url: '/placeholder-cover.svg',

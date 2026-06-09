@@ -32,6 +32,7 @@ import type { PostSummary } from '@/entities/post/model'
 import type { MediaRow } from '@/entities/media/model'
 import path from 'node:path'
 import { readFileSync } from 'node:fs'
+import { SITE_URL } from '@/shared/config/site'
 
 // ---------------------------------------------------------------------------
 // Static params + dynamic fallback
@@ -59,7 +60,7 @@ export async function generateMetadata({
   if (!post) return {}
 
   const description = post.excerpt ?? undefined
-  const canonical = `https://luthascenter.damieus.app/blog/${slug}`
+  const canonical = `${SITE_URL}/blog/${slug}`
 
   const ogMedia = post.featured_image_id ? await getMediaByWpId(Number(post.featured_image_id)) : null
   const ogImageUrl = resolveCoverUrl(ogMedia, 'post', slug)
@@ -195,7 +196,7 @@ export default async function PostDetailPage({
   const authorAvatarUrl = loadAuthorAvatarUrl(author?.id ?? null)
 
   // Canonical URL (used for share bar; must be a string on server)
-  const canonicalUrl = `https://luthascenter.damieus.app/blog/${slug}`
+  const canonicalUrl = `${SITE_URL}/blog/${slug}`
 
   // Related posts
   const relatedPosts = await loadRelatedPosts(primaryCategory?.slug ?? null, slug)
@@ -213,7 +214,7 @@ export default async function PostDetailPage({
     { label: post.title ?? 'Post' },
   ]
 
-  const BASE_URL = 'https://luthascenter.damieus.app'
+  const BASE_URL = SITE_URL
   const absImageUrl = featuredImageUrl.startsWith('/')
     ? `${BASE_URL}${featuredImageUrl}`
     : featuredImageUrl

@@ -13,6 +13,7 @@ import Link from 'next/link'
 import { getPageBySlug } from '@/shared/lib/data-source'
 import { Separator, Button } from '@/shared/ui'
 import { ContactFormWidget } from '@/widgets/contact-form'
+import { SITE_URL } from '@/shared/config/site'
 
 // ---------------------------------------------------------------------------
 // Metadata
@@ -23,13 +24,13 @@ export const metadata: Metadata = {
   description:
     "Get in touch with the Luthas Center for Excellence. We'd love to hear from you.",
   alternates: {
-    canonical: 'https://luthascenter.damieus.app/contact',
+    canonical: `${SITE_URL}/contact`,
   },
   openGraph: {
     title: 'Contact | Luthas Center for Excellence',
     description:
       "Get in touch with the Luthas Center for Excellence. We'd love to hear from you.",
-    url: 'https://luthascenter.damieus.app/contact',
+    url: `${SITE_URL}/contact`,
     images: [
       {
         url: '/placeholder-cover.svg',

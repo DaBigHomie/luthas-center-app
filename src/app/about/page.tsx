@@ -11,6 +11,7 @@ import { getPageBySlug, getMediaByWpId, listTeamProfiles } from '@/shared/lib/da
 import { resolveMediaUrl } from '@/shared/lib/data-source'
 import { Avatar, Button, Separator } from '@/shared/ui'
 import { AboutHeroWidget } from '@/widgets/about-hero'
+import { SITE_URL } from '@/shared/config/site'
 
 // ---------------------------------------------------------------------------
 // Metadata
@@ -21,13 +22,13 @@ export const metadata: Metadata = {
   description:
     'At the Luthas Center for Excellence, our exceptional strength lies in our wholehearted dedication to integrating life-transforming programs.',
   alternates: {
-    canonical: 'https://luthascenter.damieus.app/about',
+    canonical: `${SITE_URL}/about`,
   },
   openGraph: {
     title: 'About | Luthas Center for Excellence',
     description:
       'At the Luthas Center for Excellence, our exceptional strength lies in our wholehearted dedication to integrating life-transforming programs.',
-    url: 'https://luthascenter.damieus.app/about',
+    url: `${SITE_URL}/about`,
     images: [
       {
         url: '/placeholder-cover.svg',
