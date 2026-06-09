@@ -110,10 +110,84 @@ async function checkRoute(path) {
     const body = status < 300 ? await res.text() : ''
     const marker = ERROR_MARKERS.find((m) => body.includes(m))
     if (marker) return { path, status, ok: false, reason: `error marker: "${marker}"` }
-    return { path, status, ok: true }
+    return { path, status, ok: true, body }
   } catch (e) {
-    return { path, status: 0, ok: false, reason: `fetch failed: ${e.message}` }
+    return { path, status: 0, ok: false, reason: `fetch failed: ${e.message}`, body: '' }
   }
+}
+
+/**
+ * Extract internal hrefs from HTML — returns paths starting with '/'.
+ * Skips: external URLs (http/https), mailto:, tel:, fragment-only (#),
+ * Next.js internals (/_next), /media, /covers.
+ */
+function extractInternalLinks(html) {
+  const hrefs = []
+  // Match href="..." or href='...'
+  const re = /href=["']([^"']+)["']/gi
+  let m
+  while ((m = re.exec(html)) !== null) {
+    const raw = m[1].trim()
+    if (!raw.startsWith('/')) continue                         // external / relative
+    if (raw.startsWith('//')) continue                        // protocol-relative
+    if (raw.startsWith('/_next')) continue                    // Next.js assets
+    if (raw.startsWith('/media')) continue                    // uploaded media
+    if (raw.startsWith('/covers')) continue                   // generated cover SVGs
+    if (raw === '#' || raw.startsWith('#')) continue          // fragments
+    // Strip query string and fragment for the href we store
+    const path = raw.split('?')[0].split('#')[0] || '/'
+    hrefs.push(path)
+  }
+  return hrefs
+}
+
+/**
+ * After the main route sweep, collect all internal hrefs found in the fetched
+ * bodies, dedupe, remove already-checked paths, then verify each returns <400.
+ *
+ * Returns an array of broken-link objects: { href, status, linkedFrom }.
+ */
+async function crawlInternalLinks(routeResults) {
+  // Build href → Set<sourcePage> map
+  const linkMap = new Map()
+  for (const r of routeResults) {
+    if (!r.ok || !r.body) continue
+    const found = extractInternalLinks(r.body)
+    for (const href of found) {
+      if (!linkMap.has(href)) linkMap.set(href, new Set())
+      linkMap.get(href).add(r.path)
+    }
+  }
+
+  if (linkMap.size === 0) return []
+
+  // Dedupe against already-checked paths
+  const checkedPaths = new Set(routeResults.map((r) => r.path))
+  const toCheck = [...linkMap.keys()].filter((h) => !checkedPaths.has(h))
+
+  if (toCheck.length === 0) return []
+
+  console.log(`[smoke] crawling ${toCheck.length} unique internal links found in pages...`)
+
+  const broken = []
+  const queue = [...toCheck]
+  const workers = Array.from({ length: 6 }, async () => {
+    while (queue.length) {
+      const href = queue.shift()
+      try {
+        const res = await fetch(`${BASE}${href}`, { redirect: 'manual' })
+        if (res.status >= 400) {
+          const sources = [...linkMap.get(href)].join(', ')
+          broken.push({ href, status: res.status, linkedFrom: sources })
+        }
+      } catch (e) {
+        const sources = [...linkMap.get(href)].join(', ')
+        broken.push({ href, status: 0, linkedFrom: sources, reason: e.message })
+      }
+    }
+  })
+  await Promise.all(workers)
+  return broken
 }
 
 async function main() {
@@ -155,10 +229,26 @@ async function main() {
   const failures = results.filter((r) => !r.ok)
   const okCount = results.length - failures.length
   console.log(`[smoke] ${okCount}/${results.length} OK`)
-  if (failures.length) {
-    console.error(`\n[smoke] ${failures.length} FAILURES:`)
-    for (const f of failures.sort((a, b) => a.path.localeCompare(b.path))) {
-      console.error(`  ✗ ${f.path} — ${f.reason}`)
+
+  // -------------------------------------------------------------------------
+  // Link crawl — check every internal href found in the fetched pages
+  // -------------------------------------------------------------------------
+  const brokenLinks = await crawlInternalLinks(results)
+  if (brokenLinks.length) {
+    console.error(`\n[smoke] ${brokenLinks.length} BROKEN LINK(S):`)
+    for (const b of brokenLinks.sort((a, c) => a.href.localeCompare(c.href))) {
+      console.error(`  BROKEN LINK ${b.href} (${b.status}) — linked from ${b.linkedFrom}`)
+    }
+  } else {
+    console.log('[smoke] link crawl: no broken internal links')
+  }
+
+  if (failures.length || brokenLinks.length) {
+    if (failures.length) {
+      console.error(`\n[smoke] ${failures.length} ROUTE FAILURES:`)
+      for (const f of failures.sort((a, b) => a.path.localeCompare(b.path))) {
+        console.error(`  ✗ ${f.path} — ${f.reason}`)
+      }
     }
     const log = getLog()
     const errLines = log

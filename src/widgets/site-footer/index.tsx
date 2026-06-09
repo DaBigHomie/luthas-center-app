@@ -34,23 +34,21 @@ const FOOTER_COLUMNS = [
     heading: 'Learn',
     links: [
       { label: 'Courses', href: '/courses' },
-      { label: 'Programs', href: '/programs' },
-      { label: 'Certifications', href: '/certifications' },
+      { label: 'Programs', href: '/courses' },
     ],
   },
   {
     heading: 'Support',
     links: [
-      { label: 'Mental Health', href: '/mental-health' },
-      { label: 'Homelessness Resources', href: '/homelessness-resources' },
-      { label: 'Financial Empowerment', href: '/financial-empowerment' },
+      { label: 'Mental Health', href: '/blog' },
+      { label: 'Homelessness Resources', href: '/blog' },
+      { label: 'Financial Empowerment', href: '/blog' },
     ],
   },
   {
     heading: 'Community',
     links: [
       { label: 'Blog', href: '/blog' },
-      { label: 'Events', href: '/events' },
       { label: 'Donate', href: '/donate' },
     ],
   },
@@ -59,7 +57,6 @@ const FOOTER_COLUMNS = [
     links: [
       { label: 'About', href: '/about' },
       { label: 'Contact', href: '/contact' },
-      { label: 'Careers', href: '/careers' },
     ],
   },
 ] as const
@@ -222,9 +219,8 @@ export function SiteFooter() {
             {/* Legal links */}
             <div className="flex items-center gap-spacing-4 order-1 sm:order-2">
               {[
-                { label: 'Privacy Policy', href: '/privacy' },
-                { label: 'Terms of Use', href: '/terms' },
-                { label: 'Accessibility', href: '/accessibility' },
+                { label: 'Privacy Policy', href: '/privacy-policy' },
+                { label: 'Terms of Use', href: '/terms-and-conditions' },
               ].map((link) => (
                 <Link
                   key={link.href}
