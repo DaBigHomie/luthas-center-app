@@ -49,7 +49,7 @@ function CardRoot({
       className={cn(
         'group transition-all duration-[var(--duration-base)] ease-[var(--ease-default)]',
         'hover:-translate-y-0.5',
-        'focus-within:outline-2 focus-within:outline-color-border-focus focus-within:outline-offset-1',
+        'focus-within:outline-2 focus-within:outline-color-ring focus-within:outline-offset-1',
         variantClasses[variant],
         selected && 'ring-2 ring-color-primary',
         className,
@@ -107,7 +107,7 @@ function CardTitle({ className, children, ...rest }: React.HTMLAttributes<HTMLHe
   return (
     <h3
       className={cn(
-        'font-[var(--font-heading)] font-semibold text-lg text-color-text leading-[1.35]',
+        'font-[var(--font-heading)] font-semibold text-lg text-color-heading leading-[1.35]',
         className,
       )}
       {...rest}

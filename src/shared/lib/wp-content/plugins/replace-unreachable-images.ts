@@ -1,9 +1,14 @@
 /**
  * Plugin: replace-unreachable-images
  *
- * Replaces src (and clears srcset/sizes) on <img> tags whose src points to a
- * known internal origin (luthascenter.local or luthascenter.com).  These URLs
- * are unreachable from the new app.
+ * Replaces src (and clears srcset/sizes) on <img> tags whose src is
+ * unreachable from the new app.  Two cases are handled:
+ *
+ *   1. Absolute URLs pointing to a known internal origin
+ *      (luthascenter.local or luthascenter.com) — caught by toInternalPath.
+ *
+ *   2. Relative paths starting with /wp-content/ — legacy media paths that
+ *      exist in old WP post HTML and are not served by the new app.
  *
  * The replacement URL defaults to "/placeholder-cover.svg" but can be
  * overridden via ctx.mediaPlaceholder.
@@ -20,6 +25,11 @@ const DEFAULT_PLACEHOLDER = '/placeholder-cover.svg'
 // Matches <img … src="…" … > (including self-closing />)
 // We rewrite the whole <img> tag to avoid partial attribute replacement.
 const IMG_TAG_RE = /<img\s[^>]*>/gi
+
+/** Return true when a relative src path is a legacy WP media upload path. */
+function isRelativeWpMedia(src: string): boolean {
+  return /^\/wp-content\//i.test(src)
+}
 
 /** Replace the value of a named attribute in an HTML tag string. */
 function replaceAttr(tag: string, name: string, newValue: string): string {
@@ -46,7 +56,9 @@ export const replaceUnreachableImages: ContentTransform = (html, ctx) => {
     if (!srcMatch) return imgTag
     const src = srcMatch[2]
 
-    if (toInternalPath(src) === null) return imgTag
+    // Case 1: absolute URL to a known internal origin.
+    // Case 2: relative /wp-content/ path (no host) — unreachable in new app.
+    if (toInternalPath(src) === null && !isRelativeWpMedia(src)) return imgTag
 
     // Swap src, clear srcset and sizes.
     let tag = replaceAttr(imgTag, 'src', placeholder)

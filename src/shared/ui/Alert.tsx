@@ -195,7 +195,7 @@ function CtaBanner({
             'shrink-0 inline-flex items-center justify-center rounded-radius-md px-spacing-5 py-spacing-2 text-sm font-semibold',
             'w-full sm:w-auto',
             'transition-all duration-[var(--duration-fast)]',
-            'focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-color-border-focus',
+            'focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-color-ring',
             variant === 'campaign'
               ? 'bg-color-accent text-color-text-inverse hover:opacity-90'
               : variant === 'enrollment'
@@ -212,7 +212,7 @@ function CtaBanner({
           type="button"
           aria-label="Dismiss"
           onClick={() => { setDismissed(true); onDismiss() }}
-          className="absolute top-spacing-3 right-spacing-3 size-6 flex items-center justify-center opacity-60 hover:opacity-100 focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-color-border-focus rounded-radius-sm"
+          className="absolute top-spacing-3 right-spacing-3 size-6 flex items-center justify-center opacity-60 hover:opacity-100 focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-color-ring rounded-radius-sm"
         >
           <svg viewBox="0 0 20 20" fill="currentColor" className="size-4" aria-hidden="true">
             <path d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"/>

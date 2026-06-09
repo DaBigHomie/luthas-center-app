@@ -77,7 +77,7 @@ function Badge({
           type="button"
           aria-label="Remove"
           onClick={onRemove}
-          className="shrink-0 size-3.5 flex items-center justify-center opacity-60 hover:opacity-100 focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-color-border-focus rounded-full ml-0.5"
+          className="shrink-0 size-3.5 flex items-center justify-center opacity-60 hover:opacity-100 focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-color-ring rounded-full ml-0.5"
         >
           <svg viewBox="0 0 12 12" fill="currentColor" className="size-2.5" aria-hidden="true">
             <path d="M1 1l10 10M11 1L1 11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>

@@ -475,12 +475,12 @@ export async function listPosts(params: ListPostsParams = {}): Promise<PostSumma
     const { listPosts: dbFn } = await import('@/entities/post/api')
     return dbFn(params)
   }
-  const { page = 1, pageSize = 12, categorySlug } = params
+  const { page = 1, pageSize = 12, categorySlug, tagSlug } = params
   const records = loadJson<RawPost[]>('posts.json')
   const publishedAll = records.filter((r) => r.status === 'publish')
   let filtered = publishedAll.filter((r) => postTextLength(r) >= POST_MIN_CHARS)
   const stubsExcluded = publishedAll.length - filtered.length
-  if (stubsExcluded > 0 && page === 1 && !categorySlug) {
+  if (stubsExcluded > 0 && page === 1 && !categorySlug && !tagSlug) {
     console.log(`[data-source] listPosts: excluded ${stubsExcluded} stub post(s) (<${POST_MIN_CHARS} chars) from ${publishedAll.length} published`)
   }
   if (categorySlug) {
@@ -489,6 +489,15 @@ export async function listPosts(params: ListPostsParams = {}): Promise<PostSumma
         Array.isArray(r.categories) &&
         r.categories.some(
           (c: { slug?: string }) => c.slug === categorySlug,
+        ),
+    )
+  }
+  if (tagSlug) {
+    filtered = filtered.filter(
+      (r) =>
+        Array.isArray(r.tags) &&
+        r.tags.some(
+          (t: { slug?: string }) => t.slug === tagSlug,
         ),
     )
   }
@@ -516,10 +525,10 @@ export async function getPostBySlug(slug: string): Promise<PostRow | null> {
   return found ? mapPostRow(found) : null
 }
 
-export async function countPosts(categorySlug?: string): Promise<number> {
+export async function countPosts(categorySlug?: string, tagSlug?: string): Promise<number> {
   if (isSupabaseAvailable()) {
     const { countPosts: dbFn } = await import('@/entities/post/api')
-    return dbFn(categorySlug)
+    return dbFn(categorySlug, tagSlug)
   }
   const records = loadJson<RawPost[]>('posts.json')
   // Exclude stubs (same filter as listPosts) so pagination math is consistent
@@ -529,6 +538,13 @@ export async function countPosts(categorySlug?: string): Promise<number> {
       (r) =>
         Array.isArray(r.categories) &&
         r.categories.some((c: { slug?: string }) => c.slug === categorySlug),
+    )
+  }
+  if (tagSlug) {
+    filtered = filtered.filter(
+      (r) =>
+        Array.isArray(r.tags) &&
+        r.tags.some((t: { slug?: string }) => t.slug === tagSlug),
     )
   }
   return filtered.length

@@ -2,22 +2,24 @@ import 'server-only'
 import { createPublicClient } from '@/shared/lib/supabase/server'
 import type { PostRow, PostSummary, ListPostsParams } from './model'
 
-/** List published posts with optional category filter, paginated. */
+/** List published posts with optional category or tag filter, paginated. */
 export async function listPosts(params: ListPostsParams = {}): Promise<PostSummary[]> {
-  const { page = 1, pageSize = 12, categorySlug } = params
+  const { page = 1, pageSize = 12, categorySlug, tagSlug } = params
   const from = (page - 1) * pageSize
   const to = from + pageSize - 1
 
   const supabase = await createPublicClient()
 
-  // If filtering by category, first resolve the term's wp_term_id
+  // If filtering by a term slug, resolve its wp_term_id then fetch related post ids
   let wpIds: number[] | null = null
-  if (categorySlug) {
+  const termSlug = categorySlug ?? tagSlug ?? null
+  const termTaxonomy = categorySlug ? 'category' : tagSlug ? 'post_tag' : null
+  if (termSlug && termTaxonomy) {
     const { data: term, error: termError } = await supabase
       .from('terms')
       .select('wp_term_id')
-      .eq('slug', categorySlug)
-      .in('taxonomy', ['category', 'post_tag'])
+      .eq('slug', termSlug)
+      .eq('taxonomy', termTaxonomy)
       .single()
 
     if (termError) {
@@ -71,17 +73,19 @@ export async function getPostBySlug(slug: string): Promise<PostRow | null> {
   return data
 }
 
-/** Count total published posts, optionally scoped to a category slug. */
-export async function countPosts(categorySlug?: string): Promise<number> {
+/** Count total published posts, optionally scoped to a category or tag slug. */
+export async function countPosts(categorySlug?: string, tagSlug?: string): Promise<number> {
   const supabase = await createPublicClient()
 
   let wpIds: number[] | null = null
-  if (categorySlug) {
+  const termSlug = categorySlug ?? tagSlug ?? null
+  const termTaxonomy = categorySlug ? 'category' : tagSlug ? 'post_tag' : null
+  if (termSlug && termTaxonomy) {
     const { data: term } = await supabase
       .from('terms')
       .select('wp_term_id')
-      .eq('slug', categorySlug)
-      .in('taxonomy', ['category', 'post_tag'])
+      .eq('slug', termSlug)
+      .eq('taxonomy', termTaxonomy)
       .single()
 
     if (!term) return 0

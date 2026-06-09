@@ -56,7 +56,7 @@ const inputBase =
   'w-full rounded-radius-md border bg-color-background px-spacing-3 py-spacing-2 text-base text-color-text ' +
   'placeholder:text-color-text-muted ' +
   'transition-colors duration-[var(--duration-fast)] ' +
-  'focus:outline-none focus:border-color-border-focus focus:shadow-[var(--shadow-focus)] ' +
+  'focus:outline-none focus:border-color-ring focus:shadow-[var(--shadow-focus)] ' +
   'read-only:bg-color-surface-raised read-only:text-color-text-muted read-only:cursor-default ' +
   'disabled:opacity-50 disabled:cursor-not-allowed disabled:bg-color-surface-raised'
 
@@ -136,7 +136,7 @@ function FormField({
             type="button"
             aria-label={showPassword ? 'Hide password' : 'Show password'}
             onClick={() => setShowPassword((v) => !v)}
-            className="absolute right-spacing-3 top-1/2 -translate-y-1/2 text-color-text-muted hover:text-color-text focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-color-border-focus"
+            className="absolute right-spacing-3 top-1/2 -translate-y-1/2 text-color-text-muted hover:text-color-text focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-color-ring"
             tabIndex={0}
           >
             {showPassword ? (
@@ -332,7 +332,8 @@ function SelectField({
           hasError ? 'border-color-error' : 'border-color-border',
         )}
         style={{
-          backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23757575' d='M6 8L1 3h10z'/%3E%3C/svg%3E")`,
+          // Chevron SVG uses HSL fill (token: text-muted = hsl(222,14%,46%)) — no raw hex.
+          backgroundImage: `url("data:image/svg+xml,${encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"><path fill="hsl(222,14%,46%)" d="M6 8L1 3h10z"/></svg>')}")`,
           backgroundPosition: 'right 0.75rem center',
           paddingRight: '2.5rem',
         }}

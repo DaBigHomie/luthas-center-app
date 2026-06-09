@@ -34,7 +34,7 @@ export interface PaginationProps {
 const itemBase =
   'inline-flex items-center justify-center size-10 rounded-radius-md text-sm font-medium ' +
   'transition-colors duration-[var(--duration-fast)] ' +
-  'focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-color-border-focus'
+  'focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-color-ring'
 
 const itemDefault =
   'text-color-text hover:bg-color-surface-raised border border-color-border hover:border-color-primary'

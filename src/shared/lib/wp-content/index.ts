@@ -19,6 +19,7 @@ export { stripGutenbergComments } from './plugins/strip-gutenberg-comments'
 export { unwrapShortcodes } from './plugins/unwrap-shortcodes'
 export { rewriteInternalLinks } from './plugins/rewrite-internal-links'
 export { replaceUnreachableImages } from './plugins/replace-unreachable-images'
+export { unwrapDeadLinks } from './plugins/unwrap-dead-links'
 
 // Utilities
 export { readingTimeMinutes } from './reading-time'

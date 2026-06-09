@@ -69,3 +69,4 @@ coverage/
 
 # dev media symlink (points at gitignored .wp-source)
 public/media
+.env*.local

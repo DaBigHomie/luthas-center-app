@@ -9,7 +9,8 @@
  *   1. Strip Gutenberg block comments
  *   2. Unwrap / drop shortcodes
  *   3. Rewrite internal links to root-relative paths
- *   4. Replace unreachable .local image sources with the placeholder
+ *   4. Replace unreachable image sources (absolute .local + relative /wp-content/) with the placeholder
+ *   5. Unwrap dead relative links (/wp-content/… and unknown relative paths)
  *
  * sanitize-html is intentionally NOT part of this pipeline — it runs as the
  * final safety net in Prose.tsx after the pipeline has already done its work.
@@ -20,6 +21,7 @@ import { stripGutenbergComments } from './plugins/strip-gutenberg-comments'
 import { unwrapShortcodes } from './plugins/unwrap-shortcodes'
 import { rewriteInternalLinks } from './plugins/rewrite-internal-links'
 import { replaceUnreachableImages } from './plugins/replace-unreachable-images'
+import { unwrapDeadLinks } from './plugins/unwrap-dead-links'
 
 /**
  * Apply an ordered list of transforms to an HTML string.
@@ -47,4 +49,5 @@ export const WP_CLEAN_PIPELINE: readonly ContentTransform[] = [
   unwrapShortcodes,
   rewriteInternalLinks,
   replaceUnreachableImages,
+  unwrapDeadLinks,
 ]

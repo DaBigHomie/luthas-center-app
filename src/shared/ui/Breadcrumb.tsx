@@ -62,7 +62,7 @@ function Breadcrumb({ items, separator = '/', className }: BreadcrumbProps) {
                     className={cn(
                       'text-color-text-muted hover:text-color-primary',
                       'transition-colors duration-[var(--duration-fast)]',
-                      'focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-color-border-focus rounded-radius-sm',
+                      'focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-color-ring rounded-radius-sm',
                     )}
                   >
                     {item.label}

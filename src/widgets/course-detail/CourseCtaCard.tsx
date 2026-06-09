@@ -8,6 +8,7 @@
  * Server component.
  */
 
+import Link from 'next/link'
 import { Button, Badge } from '@/shared/ui'
 import type { CourseRow } from '@/entities/course/model'
 
@@ -55,12 +56,12 @@ function CtaContent({ course }: { course: CourseRow }) {
 
       {/* Soft donate nudge for open/free courses */}
       {isFree && (
-        <a
+        <Link
           href="/donate"
           className="w-full flex items-center justify-center rounded-radius-md border border-color-primary px-spacing-5 py-spacing-3 text-base font-semibold text-color-primary hover:bg-color-surface-overlay hover:text-color-text-inverse transition-colors duration-[var(--duration-fast)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-color-border-focus"
         >
           Support this course
-        </a>
+        </Link>
       )}
 
       {/* Divider */}

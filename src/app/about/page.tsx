@@ -6,6 +6,7 @@
  */
 
 import type { Metadata } from 'next'
+import Link from 'next/link'
 import { getPageBySlug, getMediaByWpId, listTeamProfiles } from '@/shared/lib/data-source'
 import { resolveMediaUrl } from '@/shared/lib/data-source'
 import { Avatar, Button, Separator } from '@/shared/ui'
@@ -282,10 +283,10 @@ export default async function AboutPage() {
               </p>
             </div>
             <div className="shrink-0">
-              <Button variant="ghost" size="lg" asChild={false}>
-                <a href="/empowering-diverse-communities-dei-initiatives">
+              <Button variant="ghost" size="lg" asChild>
+                <Link href="/empowering-diverse-communities-dei-initiatives">
                   Learn More
-                </a>
+                </Link>
               </Button>
             </div>
           </div>
@@ -384,8 +385,8 @@ export default async function AboutPage() {
                 </a>
               </address>
               <Separator />
-              <Button variant="primary" size="md" asChild={false}>
-                <a href="/contact">Contact Us</a>
+              <Button variant="primary" size="md" asChild>
+                <Link href="/contact">Contact Us</Link>
               </Button>
             </div>
           </div>

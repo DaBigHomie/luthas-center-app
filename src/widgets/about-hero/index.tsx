@@ -59,9 +59,9 @@ export function AboutHeroWidget({
               <Button
                 variant="primary"
                 size="lg"
-                asChild={false}
+                asChild
               >
-                <a href="/donate">Donate Now</a>
+                <Link href="/donate">Donate Now</Link>
               </Button>
               <Link
                 href="/courses"

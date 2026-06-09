@@ -9,6 +9,7 @@
  */
 
 import type { Metadata } from 'next'
+import Link from 'next/link'
 import { getPageBySlug } from '@/shared/lib/data-source'
 import { Separator, Button } from '@/shared/ui'
 import { ContactFormWidget } from '@/widgets/contact-form'
@@ -245,14 +246,14 @@ export default async function ContactPage() {
             Stay connected — subscribe to updates &amp; impact stories.
           </p>
           <div className="flex items-center gap-spacing-3 shrink-0">
-            <Button variant="ghost" size="md" asChild={false}>
-              <a href="/newsletter">Subscribe</a>
+            <Button variant="ghost" size="md" asChild>
+              <Link href="/#newsletter">Subscribe</Link>
             </Button>
             <span aria-hidden="true" className="text-color-border select-none hidden sm:inline">
               |
             </span>
-            <Button variant="primary" size="md" asChild={false}>
-              <a href="/donate">Support Our Work</a>
+            <Button variant="primary" size="md" asChild>
+              <Link href="/donate">Support Our Work</Link>
             </Button>
           </div>
         </div>

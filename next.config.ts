@@ -6,6 +6,11 @@ const nextConfig: NextConfig = {
     // parent directories with other lockfiles.
     root: __dirname,
   },
+  images: {
+    // Images are pre-optimized (webp in Supabase Storage + branded SVGs), so we
+    // skip Vercel's Image Optimization to avoid per-transformation billing.
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;

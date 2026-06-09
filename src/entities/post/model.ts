@@ -21,6 +21,8 @@ export interface ListPostsParams {
   page?: number
   /** Number of posts per page (default: 12). */
   pageSize?: number
-  /** Filter by term slug (category). */
+  /** Filter by category term slug (taxonomy: category). */
   categorySlug?: string
+  /** Filter by tag term slug (taxonomy: post_tag). */
+  tagSlug?: string
 }
