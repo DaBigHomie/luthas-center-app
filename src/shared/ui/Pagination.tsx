@@ -74,7 +74,7 @@ function Pagination({
   const hasPrev = currentPage > 1
   const hasNext = currentPage < totalPages
 
-  const PrevButton = () => (
+  const prevButton = (
     <li>
       <button
         type="button"
@@ -91,7 +91,7 @@ function Pagination({
     </li>
   )
 
-  const NextButton = () => (
+  const nextButton = (
     <li>
       <button
         type="button"
@@ -111,7 +111,7 @@ function Pagination({
   return (
     <nav aria-label="Pagination" className={cn('flex items-center justify-center', className)}>
       <ol className="flex items-center gap-spacing-1 list-none p-0 m-0">
-        <PrevButton />
+        {prevButton}
 
         {variant === 'default' && totalPages > 1 && (
           <>
@@ -155,7 +155,7 @@ function Pagination({
           </li>
         )}
 
-        <NextButton />
+        {nextButton}
       </ol>
     </nav>
   )

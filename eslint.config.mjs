@@ -12,6 +12,14 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Vendored WordPress source (themes/db backup) — not our code:
+    ".wp-source/**",
+    // Migration tooling + generated artifacts — not shipped app code:
+    "scripts/**",
+    "data/**",
+    "output/**",
+    "public/media/**",
+    "src/shared/config/redirects.generated.ts",
   ]),
 ]);
 

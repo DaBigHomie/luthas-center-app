@@ -80,21 +80,6 @@ function FilterBarSkeleton() {
   )
 }
 
-function PostCardSkeleton() {
-  return (
-    <div className="flex flex-col rounded-radius-md overflow-hidden border border-color-border bg-color-surface">
-      <Skeleton className="w-full aspect-video" shape="rect" />
-      <div className="p-spacing-4 flex flex-col gap-spacing-3">
-        <Skeleton className="h-4 w-20" shape="text" />
-        <Skeleton className="h-5 w-full" shape="text" />
-        <Skeleton className="h-5 w-4/5" shape="text" />
-        <Skeleton className="h-4 w-2/3" shape="text" />
-        <Skeleton className="h-4 w-1/2" shape="text" />
-      </div>
-    </div>
-  )
-}
-
 // ---------------------------------------------------------------------------
 // Page component
 // ---------------------------------------------------------------------------

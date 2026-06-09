@@ -29,7 +29,7 @@ function toYouTubeEmbed(url: string): string | null {
   }
 }
 
-export function CourseHero({ course, coverImageUrl, coverImage }: CourseHeroProps) {
+export function CourseHero({ course, coverImageUrl }: CourseHeroProps) {
   const embedUrl = course.intro_video ? toYouTubeEmbed(course.intro_video) : null
 
   return (

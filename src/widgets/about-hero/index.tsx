@@ -23,8 +23,6 @@ export function AboutHeroWidget({
   excerpt,
   heroImageUrl,
   heroImageAlt,
-  heroImageWidth,
-  heroImageHeight,
 }: AboutHeroWidgetProps) {
   return (
     <section
