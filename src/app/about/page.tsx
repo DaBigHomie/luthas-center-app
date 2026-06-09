@@ -19,6 +19,30 @@ export const metadata: Metadata = {
   title: 'About',
   description:
     'At the Luthas Center for Excellence, our exceptional strength lies in our wholehearted dedication to integrating life-transforming programs.',
+  alternates: {
+    canonical: 'https://luthascenter.damieus.app/about',
+  },
+  openGraph: {
+    title: 'About | Luthas Center for Excellence',
+    description:
+      'At the Luthas Center for Excellence, our exceptional strength lies in our wholehearted dedication to integrating life-transforming programs.',
+    url: 'https://luthascenter.damieus.app/about',
+    images: [
+      {
+        url: '/placeholder-cover.svg',
+        width: 1200,
+        height: 630,
+        alt: 'About Luthas Center for Excellence',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'About | Luthas Center for Excellence',
+    description:
+      'At the Luthas Center for Excellence, our exceptional strength lies in our wholehearted dedication to integrating life-transforming programs.',
+    images: ['/placeholder-cover.svg'],
+  },
 }
 
 // ---------------------------------------------------------------------------

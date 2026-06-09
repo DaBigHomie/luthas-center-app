@@ -58,15 +58,40 @@ export async function generateMetadata({
   const post = await getPostBySlug(slug)
   if (!post) return {}
 
+  const description = post.excerpt ?? undefined
+  const canonical = `https://luthascenter.damieus.app/blog/${slug}`
+
+  let ogImageUrl = '/placeholder-cover.svg'
+  if (post.featured_image_id) {
+    const media = await getMediaByWpId(Number(post.featured_image_id))
+    if (media) ogImageUrl = resolveMediaUrl(media)
+  }
+
   return {
     title: post.title ?? undefined,
-    description: post.excerpt ?? undefined,
+    description,
+    alternates: { canonical },
     openGraph: {
       type: 'article',
       title: post.title ?? undefined,
-      description: post.excerpt ?? undefined,
+      description,
+      url: canonical,
       publishedTime: post.published_at ?? undefined,
       modifiedTime: post.modified_at ?? undefined,
+      images: [
+        {
+          url: ogImageUrl,
+          width: 1200,
+          height: 630,
+          alt: post.title ?? 'Blog post cover',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.title ?? undefined,
+      description,
+      images: [ogImageUrl],
     },
   }
 }
@@ -172,7 +197,7 @@ export default async function PostDetailPage({
   const authorAvatarUrl = loadAuthorAvatarUrl(author?.id ?? null)
 
   // Canonical URL (used for share bar; must be a string on server)
-  const canonicalUrl = `https://luthas-center.damieus.app/blog/${slug}`
+  const canonicalUrl = `https://luthascenter.damieus.app/blog/${slug}`
 
   // Related posts
   const relatedPosts = await loadRelatedPosts(primaryCategory?.slug ?? null, slug)
@@ -190,8 +215,60 @@ export default async function PostDetailPage({
     { label: post.title ?? 'Post' },
   ]
 
+  const BASE_URL = 'https://luthascenter.damieus.app'
+  const absImageUrl = featuredImageUrl.startsWith('/')
+    ? `${BASE_URL}${featuredImageUrl}`
+    : featuredImageUrl
+
+  // JSON-LD: Article (BlogPosting)
+  const articleJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: post.title ?? '',
+    description: post.excerpt ?? '',
+    url: canonicalUrl,
+    image: absImageUrl,
+    ...(post.published_at ? { datePublished: post.published_at } : {}),
+    ...(post.modified_at ? { dateModified: post.modified_at } : {}),
+    ...(author ? { author: { '@type': 'Person', name: author.name } } : {
+      author: { '@type': 'Organization', name: 'Luthas Center for Excellence' },
+    }),
+    publisher: {
+      '@type': 'Organization',
+      name: 'Luthas Center for Excellence',
+      logo: {
+        '@type': 'ImageObject',
+        url: `${BASE_URL}/favicon.ico`,
+      },
+    },
+  }
+
+  // JSON-LD: BreadcrumbList
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: BASE_URL },
+      { '@type': 'ListItem', position: 2, name: 'Blog', item: `${BASE_URL}/blog` },
+      ...(primaryCategory
+        ? [{ '@type': 'ListItem', position: 3, name: primaryCategory.name, item: `${BASE_URL}/blog/category/${primaryCategory.slug}` }]
+        : []),
+      { '@type': 'ListItem', position: primaryCategory ? 4 : 3, name: post.title ?? 'Post', item: canonicalUrl },
+    ],
+  }
+
   return (
     <div className="bg-color-background">
+      {/* JSON-LD structured data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+
       {/* ------------------------------------------------------------------ */}
       {/* Header zone: breadcrumb, category pills, title, byline              */}
       {/* ------------------------------------------------------------------ */}

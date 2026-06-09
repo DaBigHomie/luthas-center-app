@@ -10,7 +10,7 @@
  *   import { Resend } from 'resend'
  *   const resend = new Resend(process.env.RESEND_API_KEY)
  *   await resend.emails.send({
- *     from: 'noreply@luthas-center.damieus.app',
+ *     from: 'noreply@luthascenter.damieus.app',
  *     to: process.env.CONTACT_EMAIL ?? 'info@luthascenter.org',
  *     subject: `[Contact] ${data.subject}`,
  *     text: `From: ${data.name} <${data.email}>\n\n${data.message}`,

@@ -9,7 +9,8 @@
 
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
-import { Breadcrumb, Prose } from '@/shared/ui'
+import { Breadcrumb } from '@/shared/ui'
+import { Prose } from '@/shared/ui/Prose'
 import {
   getCourseWithCurriculum,
   listPublishedCourses,
@@ -46,9 +47,41 @@ export async function generateMetadata({
   const { slug } = await params
   const course = await getCourseWithCurriculum(slug)
   if (!course) return {}
+
+  const description = course.excerpt ?? course.short_description ?? undefined
+  const imageId = course.featured_image_id ?? course.cover_image_id ?? null
+  let ogImageUrl = '/placeholder-cover.svg'
+  if (imageId) {
+    const media = await getMediaByWpId(imageId)
+    if (media) ogImageUrl = resolveMediaUrl(media)
+  }
+
+  const canonical = `https://luthascenter.damieus.app/courses/${slug}`
+
   return {
     title: `${course.title} | Luthas Center`,
-    description: course.excerpt ?? course.short_description ?? undefined,
+    description,
+    alternates: { canonical },
+    openGraph: {
+      title: course.title ?? undefined,
+      description,
+      url: canonical,
+      type: 'website',
+      images: [
+        {
+          url: ogImageUrl,
+          width: 1200,
+          height: 630,
+          alt: course.title ?? 'Course cover',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: course.title ?? undefined,
+      description,
+      images: [ogImageUrl],
+    },
   }
 }
 
@@ -101,8 +134,49 @@ export default async function CourseDetailPage({
     { label: course.title ?? course.slug },
   ]
 
+  const BASE_URL = 'https://luthascenter.damieus.app'
+  const canonicalUrl = `${BASE_URL}/courses/${slug}`
+
+  // JSON-LD: Course schema
+  const courseJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Course',
+    name: course.title ?? slug,
+    description: course.excerpt ?? course.short_description ?? course.title ?? '',
+    url: canonicalUrl,
+    provider: {
+      '@type': 'Organization',
+      name: 'Luthas Center for Excellence',
+      sameAs: BASE_URL,
+    },
+    ...(coverImageUrl ? { image: coverImageUrl.startsWith('/') ? `${BASE_URL}${coverImageUrl}` : coverImageUrl } : {}),
+    ...(course.published_at ? { datePublished: course.published_at } : {}),
+    ...(course.modified_at ? { dateModified: course.modified_at } : {}),
+  }
+
+  // JSON-LD: BreadcrumbList
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: BASE_URL },
+      { '@type': 'ListItem', position: 2, name: 'Courses', item: `${BASE_URL}/courses` },
+      { '@type': 'ListItem', position: 3, name: course.title ?? slug, item: canonicalUrl },
+    ],
+  }
+
   return (
     <main className="min-h-screen bg-color-background">
+      {/* JSON-LD structured data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(courseJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+
       {/* Breadcrumb */}
       <div className="max-w-screen-xl mx-auto px-spacing-4 lg:px-spacing-8 pt-spacing-6">
         <Breadcrumb items={breadcrumbItems} />

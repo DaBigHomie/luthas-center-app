@@ -61,8 +61,6 @@ export function LessonMedia({ title, videoUrl, imageUrl, imageRow }: LessonMedia
           fill
           className="object-cover"
           sizes="(max-width: 1024px) 100vw, 60vw"
-          width={imageRow?.width ?? undefined}
-          height={imageRow?.height ?? undefined}
         />
       ) : (
         /* Branded placeholder */

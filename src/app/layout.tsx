@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   },
   description:
     'Impossible to Inevitable — education, mental health support, and community empowerment through the Luthas Center for Excellence.',
-  metadataBase: new URL('https://luthas-center.damieus.app'),
+  metadataBase: new URL('https://luthascenter.damieus.app'),
   openGraph: {
     type: 'website',
     siteName: 'Luthas Center for Excellence',
@@ -53,12 +53,42 @@ export const metadata: Metadata = {
 // Root Layout
 // ---------------------------------------------------------------------------
 
+// ---------------------------------------------------------------------------
+// JSON-LD — Organization (sitewide)
+// ---------------------------------------------------------------------------
+
+const organizationJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'Luthas Center for Excellence',
+  url: 'https://luthascenter.damieus.app',
+  logo: 'https://luthascenter.damieus.app/favicon.ico',
+  sameAs: [
+    'https://www.facebook.com/LuthasCenter',
+    'https://twitter.com/LuthasCenter',
+    'https://www.instagram.com/LuthasCenter',
+  ],
+  contactPoint: {
+    '@type': 'ContactPoint',
+    email: 'info@luthascenter.org',
+    contactType: 'customer support',
+  },
+  description:
+    'Impossible to Inevitable — education, mental health support, and community empowerment through the Luthas Center for Excellence.',
+}
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html
       lang="en"
       className={`${montserrat.variable} ${lato.variable} h-full`}
     >
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+        />
+      </head>
       <body className="min-h-full flex flex-col bg-color-background text-color-text font-[var(--font-body)] antialiased">
         {/* Skip navigation link — first focusable element on the page */}
         <a

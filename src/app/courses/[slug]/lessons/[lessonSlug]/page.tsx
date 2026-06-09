@@ -9,7 +9,8 @@
 
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
-import { Breadcrumb, Prose } from '@/shared/ui'
+import { Breadcrumb } from '@/shared/ui'
+import { Prose } from '@/shared/ui/Prose'
 import {
   getLessonBySlug,
   getCourseBySlug,

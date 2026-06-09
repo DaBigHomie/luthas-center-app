@@ -64,8 +64,6 @@ export function CourseHero({ course, coverImageUrl, coverImage }: CourseHeroProp
             className="object-cover"
             sizes="(max-width: 1024px) 100vw, 60vw"
             priority
-            width={coverImage?.width ?? undefined}
-            height={coverImage?.height ?? undefined}
           />
         ) : (
           /* Decorative placeholder */

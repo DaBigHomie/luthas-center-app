@@ -1,16 +1,161 @@
 /**
  * Prose — renders trusted WordPress HTML via dangerouslySetInnerHTML.
  *
- * Content is migrated from our own WordPress site and is not user-generated,
- * so XSS risk is low. Server-side sanitization (e.g. DOMPurify in an Edge
- * Function or rehype-sanitize in the build pipeline) is a future hardening step.
+ * Server Component. Content is sanitized server-side with sanitize-html and
+ * internal links/images are rewritten to new routes before rendering.
  *
  * Typography is built from design tokens (no raw hex, no Tailwind Typography
  * plugin dependency). Headings use font-heading; links use text-accent.
  */
 
+import 'server-only'
 import * as React from 'react'
+import sanitizeHtml from 'sanitize-html'
 import { cn } from '@/shared/lib/utils'
+import { REDIRECT_MAP } from '@/shared/config/redirects.generated'
+
+// ---------------------------------------------------------------------------
+// Internal-URL patterns for luthascenter.local (dev WP host) and
+// absolute old-WP paths that should be rewritten to new routes.
+// ---------------------------------------------------------------------------
+
+const INTERNAL_ORIGINS = [
+  'https://luthascenter.local',
+  'http://luthascenter.local',
+  'https://www.luthascenter.local',
+  'http://www.luthascenter.local',
+  'https://luthascenter.com',
+  'http://luthascenter.com',
+  'https://www.luthascenter.com',
+  'http://www.luthascenter.com',
+]
+
+/**
+ * Strip any known internal origin from an absolute URL, returning a root-
+ * relative path (e.g. "/courses/agile-foundations"). Returns null when the URL
+ * cannot be matched to an internal origin.
+ */
+function toInternalPath(href: string): string | null {
+  for (const origin of INTERNAL_ORIGINS) {
+    if (href.startsWith(origin + '/') || href === origin) {
+      return href.slice(origin.length) || '/'
+    }
+  }
+  return null
+}
+
+/**
+ * Lookup a path in the redirect map (normalise trailing slash first).
+ * Returns the mapped new path or the original path if not found.
+ */
+function resolveInternalPath(rawPath: string): string {
+  const normalised = rawPath.length > 1 ? rawPath.replace(/\/$/, '') : rawPath
+  return REDIRECT_MAP[normalised] ?? normalised
+}
+
+// ---------------------------------------------------------------------------
+// sanitize-html configuration
+// ---------------------------------------------------------------------------
+
+const ALLOWED_TAGS = [
+  // Structure
+  'p', 'br', 'hr', 'div', 'span', 'section', 'article', 'header', 'footer',
+  'main', 'aside', 'nav',
+  // Headings
+  'h1', 'h2', 'h3', 'h4', 'h5', 'h6',
+  // Inline
+  'a', 'abbr', 'acronym', 'b', 'bdo', 'big', 'blockquote', 'cite', 'code',
+  'del', 'dfn', 'em', 'i', 'ins', 'kbd', 'mark', 'q', 's', 'samp', 'small',
+  'strong', 'sub', 'sup', 'time', 'tt', 'u', 'var',
+  // Lists
+  'dd', 'dl', 'dt', 'li', 'ol', 'ul',
+  // Tables
+  'caption', 'col', 'colgroup', 'table', 'tbody', 'td', 'tfoot', 'th',
+  'thead', 'tr',
+  // Media
+  'figure', 'figcaption', 'img', 'picture', 'source',
+  // Pre / code
+  'pre',
+  // Misc
+  'details', 'summary',
+]
+
+const SANITIZE_OPTIONS: sanitizeHtml.IOptions = {
+  allowedTags: ALLOWED_TAGS,
+  allowedAttributes: {
+    '*': ['class', 'id', 'style', 'aria-label', 'aria-hidden', 'role',
+          'data-*', 'tabindex'],
+    a: ['href', 'title', 'target', 'rel'],
+    img: ['src', 'alt', 'title', 'width', 'height', 'loading', 'decoding',
+          'srcset', 'sizes'],
+    source: ['src', 'srcset', 'type', 'media'],
+    td: ['colspan', 'rowspan'],
+    th: ['colspan', 'rowspan', 'scope'],
+    time: ['datetime'],
+    blockquote: ['cite'],
+    del: ['datetime'],
+    ins: ['datetime'],
+  },
+  allowedSchemes: ['https', 'http', 'mailto', 'tel'],
+  // Rewrite internal links and drop unreachable .local image sources
+  transformTags: {
+    a(tagName, attribs) {
+      const href = attribs.href ?? ''
+      const internalPath = toInternalPath(href)
+      if (internalPath !== null) {
+        return {
+          tagName,
+          attribs: {
+            ...attribs,
+            href: resolveInternalPath(internalPath),
+          },
+        }
+      }
+      // External links — ensure safe rel
+      if (href.startsWith('http')) {
+        return {
+          tagName,
+          attribs: {
+            ...attribs,
+            target: '_blank',
+            rel: 'noopener noreferrer',
+          },
+        }
+      }
+      return { tagName, attribs }
+    },
+    img(tagName, attribs) {
+      const src = attribs.src ?? ''
+      const internalPath = toInternalPath(src)
+      if (internalPath !== null) {
+        // Internal image from .local host — replace with placeholder
+        return {
+          tagName,
+          attribs: {
+            ...attribs,
+            src: '/placeholder-cover.svg',
+            srcset: '',
+            sizes: '',
+          },
+        }
+      }
+      // External image: pass through unchanged (src may be a CDN or Supabase URL)
+      return { tagName, attribs }
+    },
+  },
+}
+
+// ---------------------------------------------------------------------------
+// Sanitize helper
+// ---------------------------------------------------------------------------
+
+function sanitize(html: string): string {
+  return sanitizeHtml(html, SANITIZE_OPTIONS)
+}
+
+// ---------------------------------------------------------------------------
+// Component
+// ---------------------------------------------------------------------------
 
 export interface ProseProps {
   html: string
@@ -18,6 +163,8 @@ export interface ProseProps {
 }
 
 export function Prose({ html, className }: ProseProps) {
+  const clean = sanitize(html)
+
   return (
     <div
       className={cn(
@@ -58,7 +205,7 @@ export function Prose({ html, className }: ProseProps) {
         '[&>*:first-child]:mt-0 [&>*:last-child]:mb-0',
         className,
       )}
-      dangerouslySetInnerHTML={{ __html: html }}
+      dangerouslySetInnerHTML={{ __html: clean }}
     />
   )
 }

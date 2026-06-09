@@ -31,6 +31,7 @@ import type { PageRow, PageSummary } from '@/entities/page/model'
 import type { DonationFormRow } from '@/entities/donation/model'
 import type { ProductSummary, ProductRow } from '@/entities/product/model'
 import type { ProfileRow } from '@/entities/profile/model'
+import { slugify, isNumericSlug } from '@/shared/lib/slugify'
 
 // ---------------------------------------------------------------------------
 // Mode detection
@@ -131,11 +132,74 @@ type RawLesson = Record<string, any>
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 type RawMedia = Record<string, any>
 
+// ---------------------------------------------------------------------------
+// Title-slug tables (built once per process from the full record set)
+//
+// Courses and lessons are extracted with numeric wp_id as their slug, so we
+// generate stable, human-readable slugs from the title and cache the mapping.
+// ---------------------------------------------------------------------------
+
+let _courseSlugMap: Map<number, string> | null = null
+let _lessonSlugMap: Map<number, string> | null = null
+
+/**
+ * Build a wp_id → title-slug map with suffix-based deduplication.
+ * Records are processed sorted by wp_id so the assignment is deterministic.
+ */
+function buildTitleSlugMap(
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  records: Array<Record<string, any>>,
+): Map<number, string> {
+  const seen = new Map<string, number>()
+  const result = new Map<number, string>()
+  const sorted = [...records].sort((a, b) => a.wp_id - b.wp_id)
+  for (const r of sorted) {
+    const base = slugify(String(r.title ?? r.wp_id))
+    const count = seen.get(base) ?? 0
+    result.set(r.wp_id, count === 0 ? base : `${base}-${count + 1}`)
+    seen.set(base, count + 1)
+  }
+  return result
+}
+
+function getCourseSlugMap(): Map<number, string> {
+  if (_courseSlugMap) return _courseSlugMap
+  const records = loadJson<RawCourse[]>('courses.json')
+  _courseSlugMap = buildTitleSlugMap(records)
+  return _courseSlugMap
+}
+
+function getLessonSlugMap(): Map<number, string> {
+  if (_lessonSlugMap) return _lessonSlugMap
+  const records = loadJson<RawLesson[]>('lessons.json')
+  _lessonSlugMap = buildTitleSlugMap(records)
+  return _lessonSlugMap
+}
+
+/**
+ * Resolve the best slug for a course record.
+ * Falls back to slugify(title) whenever the stored slug is absent or numeric.
+ */
+function resolveCourseSlug(r: RawCourse): string {
+  const raw = r.slug as string | undefined
+  if (!isNumericSlug(raw)) return raw!
+  return getCourseSlugMap().get(r.wp_id as number) ?? slugify(String(r.title ?? r.wp_id))
+}
+
+/**
+ * Resolve the best slug for a lesson record.
+ */
+function resolveLessonSlug(r: RawLesson): string {
+  const raw = r.slug as string | undefined
+  if (!isNumericSlug(raw)) return raw!
+  return getLessonSlugMap().get(r.wp_id as number) ?? slugify(String(r.title ?? r.wp_id))
+}
+
 function mapCourseRow(r: RawCourse): CourseRow {
   return {
     id: String(r.wp_id),
     wp_id: r.wp_id,
-    slug: r.slug ?? String(r.wp_id),
+    slug: resolveCourseSlug(r),
     title: r.title ?? '',
     content: r.content ?? null,
     excerpt: r.excerpt ?? null,
@@ -164,7 +228,7 @@ function mapCourseSummary(r: RawCourse): CourseSummary {
   return {
     id: String(r.wp_id),
     wp_id: r.wp_id,
-    slug: r.slug ?? String(r.wp_id),
+    slug: resolveCourseSlug(r),
     title: r.title ?? '',
     excerpt: r.excerpt ?? null,
     short_description: r.short_description ?? null,
@@ -178,10 +242,15 @@ function mapCourseSummary(r: RawCourse): CourseSummary {
 }
 
 function mapPostRow(r: RawPost): PostRow {
+  // Posts use post_name (stored as r.slug) — fall back to slugify(title) only if blank
+  const rawPostSlug = r.slug as string | undefined
+  const resolvedPostSlug = rawPostSlug?.trim()
+    ? rawPostSlug
+    : slugify(String(r.title ?? r.wp_id))
   return {
     id: String(r.wp_id),
     wp_id: r.wp_id,
-    slug: r.slug ?? String(r.wp_id),
+    slug: resolvedPostSlug,
     title: r.title ?? '',
     content: r.content ?? null,
     excerpt: r.excerpt ?? null,
@@ -198,10 +267,14 @@ function mapPostRow(r: RawPost): PostRow {
 }
 
 function mapPostSummary(r: RawPost): PostSummary {
+  const rawPostSlug = r.slug as string | undefined
+  const resolvedPostSlug = rawPostSlug?.trim()
+    ? rawPostSlug
+    : slugify(String(r.title ?? r.wp_id))
   return {
     id: String(r.wp_id),
     wp_id: r.wp_id,
-    slug: r.slug ?? String(r.wp_id),
+    slug: resolvedPostSlug,
     title: r.title ?? '',
     excerpt: r.excerpt ?? null,
     author_id: r.author?.id ?? null,
@@ -216,7 +289,7 @@ function mapLessonRow(r: RawLesson): LessonRow {
   return {
     id: String(r.wp_id),
     wp_id: r.wp_id,
-    slug: r.slug ?? String(r.wp_id),
+    slug: resolveLessonSlug(r),
     title: r.title ?? '',
     content: r.content ?? null,
     excerpt: r.excerpt ?? null,
@@ -274,7 +347,10 @@ export async function getCourseBySlug(slug: string): Promise<CourseRow | null> {
     return dbFn(slug)
   }
   const records = loadJson<RawCourse[]>('courses.json')
-  const found = records.find((r) => r.slug === slug && r.status === 'publish')
+  // Match against the resolved title-slug (r.slug may be numeric/empty)
+  const found = records.find(
+    (r) => resolveCourseSlug(r) === slug && r.status === 'publish',
+  )
   return found ? mapCourseRow(found) : null
 }
 
@@ -341,7 +417,14 @@ export async function getPostBySlug(slug: string): Promise<PostRow | null> {
     return dbFn(slug)
   }
   const records = loadJson<RawPost[]>('posts.json')
-  const found = records.find((r) => r.slug === slug && r.status === 'publish')
+  // Use the resolved slug (falls back to slugify(title) for blank post_name)
+  const found = records.find((r) => {
+    const rawPostSlug = r.slug as string | undefined
+    const resolvedPostSlug = rawPostSlug?.trim()
+      ? rawPostSlug
+      : slugify(String(r.title ?? r.wp_id))
+    return resolvedPostSlug === slug && r.status === 'publish'
+  })
   return found ? mapPostRow(found) : null
 }
 
@@ -384,7 +467,10 @@ export async function getLessonBySlug(slug: string): Promise<LessonRow | null> {
     return dbFn(slug)
   }
   const records = loadJson<RawLesson[]>('lessons.json')
-  const found = records.find((r) => r.slug === slug && r.status === 'publish')
+  // Match against the resolved title-slug (r.slug may be numeric)
+  const found = records.find(
+    (r) => resolveLessonSlug(r) === slug && r.status === 'publish',
+  )
   return found ? mapLessonRow(found) : null
 }
 

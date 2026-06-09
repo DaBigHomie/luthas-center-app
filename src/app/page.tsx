@@ -12,6 +12,7 @@
  *   5. Newsletter   — email signup stub
  */
 
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import {
   listPublishedCourses,
@@ -30,10 +31,34 @@ import { NewsletterSection } from '@/widgets/home-newsletter/NewsletterSection'
 // Page
 // ---------------------------------------------------------------------------
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Home',
   description:
     'Impossible to Inevitable — discover courses, resources, and community at Luthas Center for Excellence.',
+  alternates: {
+    canonical: 'https://luthascenter.damieus.app',
+  },
+  openGraph: {
+    title: 'Luthas Center for Excellence',
+    description:
+      'Impossible to Inevitable — discover courses, resources, and community at Luthas Center for Excellence.',
+    url: 'https://luthascenter.damieus.app',
+    images: [
+      {
+        url: '/placeholder-cover.svg',
+        width: 1200,
+        height: 630,
+        alt: 'Luthas Center for Excellence',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Luthas Center for Excellence',
+    description:
+      'Impossible to Inevitable — discover courses, resources, and community at Luthas Center for Excellence.',
+    images: ['/placeholder-cover.svg'],
+  },
 }
 
 export default async function HomePage() {

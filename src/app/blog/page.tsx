@@ -32,6 +32,30 @@ export const metadata: Metadata = {
   title: 'Blog — Luthas Center for Excellence',
   description:
     'Stories, guides, and community — from mental health to business. Impossible to Inevitable.',
+  alternates: {
+    canonical: 'https://luthascenter.damieus.app/blog',
+  },
+  openGraph: {
+    title: 'Blog — Luthas Center for Excellence',
+    description:
+      'Stories, guides, and community — from mental health to business. Impossible to Inevitable.',
+    url: 'https://luthascenter.damieus.app/blog',
+    images: [
+      {
+        url: '/placeholder-cover.svg',
+        width: 1200,
+        height: 630,
+        alt: 'Luthas Center Blog',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Blog — Luthas Center for Excellence',
+    description:
+      'Stories, guides, and community — from mental health to business. Impossible to Inevitable.',
+    images: ['/placeholder-cover.svg'],
+  },
 }
 
 // ---------------------------------------------------------------------------

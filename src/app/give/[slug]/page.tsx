@@ -9,7 +9,7 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { listDonationForms } from '@/shared/lib/data-source'
-import { Prose } from '@/shared/ui'
+import { Prose } from '@/shared/ui/Prose'
 import { Accordion } from '@/shared/ui'
 import { Badge } from '@/shared/ui'
 import { Card } from '@/shared/ui'
@@ -66,10 +66,34 @@ export async function generateMetadata({
   const forms = await listDonationForms()
   const form = forms.find((f) => f.slug === slug)
   if (!form) return { title: 'Donate' }
+
+  const description =
+    'Support The Luthas Center — an education and mental health nonprofit. Your gift makes the impossible, inevitable.'
+  const canonical = `https://luthascenter.damieus.app/give/${slug}`
+
   return {
     title: `${form.title ?? 'Donate'} | The Luthas Center`,
-    description:
-      'Support The Luthas Center — an education and mental health nonprofit. Your gift makes the impossible, inevitable.',
+    description,
+    alternates: { canonical },
+    openGraph: {
+      title: `${form.title ?? 'Donate'} | The Luthas Center for Excellence`,
+      description,
+      url: canonical,
+      images: [
+        {
+          url: '/placeholder-cover.svg',
+          width: 1200,
+          height: 630,
+          alt: form.title ?? 'Donate to Luthas Center',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${form.title ?? 'Donate'} | The Luthas Center for Excellence`,
+      description,
+      images: ['/placeholder-cover.svg'],
+    },
   }
 }
 

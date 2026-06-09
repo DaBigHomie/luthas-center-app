@@ -43,8 +43,6 @@ export function AboutHeroWidget({
                 className="object-cover"
                 loading="eager"
                 sizes="(max-width: 1024px) 100vw, 55vw"
-                width={heroImageWidth || undefined}
-                height={heroImageHeight || undefined}
               />
             </div>
           </div>

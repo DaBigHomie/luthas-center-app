@@ -21,6 +21,30 @@ export const metadata: Metadata = {
   title: 'Contact',
   description:
     "Get in touch with the Luthas Center for Excellence. We'd love to hear from you.",
+  alternates: {
+    canonical: 'https://luthascenter.damieus.app/contact',
+  },
+  openGraph: {
+    title: 'Contact | Luthas Center for Excellence',
+    description:
+      "Get in touch with the Luthas Center for Excellence. We'd love to hear from you.",
+    url: 'https://luthascenter.damieus.app/contact',
+    images: [
+      {
+        url: '/placeholder-cover.svg',
+        width: 1200,
+        height: 630,
+        alt: 'Contact Luthas Center for Excellence',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Contact | Luthas Center for Excellence',
+    description:
+      "Get in touch with the Luthas Center for Excellence. We'd love to hear from you.",
+    images: ['/placeholder-cover.svg'],
+  },
 }
 
 // ---------------------------------------------------------------------------

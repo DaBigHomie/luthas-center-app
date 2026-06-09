@@ -19,6 +19,30 @@ export const metadata: Metadata = {
   title: 'Donate | The Luthas Center',
   description:
     'Support The Luthas Center education and mental health programs. Choose a fund and make a gift today.',
+  alternates: {
+    canonical: 'https://luthascenter.damieus.app/donate',
+  },
+  openGraph: {
+    title: 'Donate | The Luthas Center for Excellence',
+    description:
+      'Support The Luthas Center education and mental health programs. Choose a fund and make a gift today.',
+    url: 'https://luthascenter.damieus.app/donate',
+    images: [
+      {
+        url: '/placeholder-cover.svg',
+        width: 1200,
+        height: 630,
+        alt: 'Donate to Luthas Center for Excellence',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Donate | The Luthas Center for Excellence',
+    description:
+      'Support The Luthas Center education and mental health programs. Choose a fund and make a gift today.',
+    images: ['/placeholder-cover.svg'],
+  },
 }
 
 export default async function DonatePage() {

@@ -31,6 +31,30 @@ export const metadata: Metadata = {
   title: 'Course Catalog | Luthas Center',
   description:
     'Browse all free and open-access courses at Luthas Center — empowering you from impossible to inevitable.',
+  alternates: {
+    canonical: 'https://luthascenter.damieus.app/courses',
+  },
+  openGraph: {
+    title: 'Course Catalog | Luthas Center for Excellence',
+    description:
+      'Browse all free and open-access courses at Luthas Center — empowering you from impossible to inevitable.',
+    url: 'https://luthascenter.damieus.app/courses',
+    images: [
+      {
+        url: '/placeholder-cover.svg',
+        width: 1200,
+        height: 630,
+        alt: 'Luthas Center Course Catalog',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Course Catalog | Luthas Center for Excellence',
+    description:
+      'Browse all free and open-access courses at Luthas Center — empowering you from impossible to inevitable.',
+    images: ['/placeholder-cover.svg'],
+  },
 }
 
 // ---------------------------------------------------------------------------

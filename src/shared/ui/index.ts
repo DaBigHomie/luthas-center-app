@@ -36,5 +36,5 @@ export type { SkeletonProps } from './Skeleton'
 export { Separator } from './Separator'
 export type { SeparatorProps } from './Separator'
 
-export { Prose } from './Prose'
-export type { ProseProps } from './Prose'
+// Prose is server-only — import directly from '@/shared/ui/Prose', not from this barrel.
+// export { Prose } from './Prose'
