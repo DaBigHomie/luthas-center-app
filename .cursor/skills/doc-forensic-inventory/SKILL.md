@@ -83,11 +83,14 @@ Output **priority-ordered** rows:
 
 ## Phase 5 — Remediate + sync surfaces
 
-Follow **`surface-sync`** skill — lane A (sync-skills) + lane B (commands/rules/instructions):
+**Lane A:** `sync-skills.mts` (hub → `.cursor/skills/` + `.gemini/skills/` on T1 repos).  
+**Lane B:** update `.claude/commands`, `.cursor/rules`, `.github/instructions`, `.agents/skills/` per `ide-capability-manifest.json`.
 
 ```bash
+cd documentation-standards
+npx tsx scripts/sync-skills.mts --dry-run --tier=T1
 npx tsx scripts/sync-skills.mts --tier=T1
-# Then update .claude/commands, .cursor/rules, .github/instructions, .agents/skills per manifest
+# Then align lane B trigger files per manifest impl paths
 ```
 
 Update multi-surface commands if domain list changed:
