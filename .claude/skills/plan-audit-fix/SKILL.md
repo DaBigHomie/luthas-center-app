@@ -12,6 +12,8 @@ disable-model-invocation: true
 
 Compose **`plan-audit-fix`** before **`audit-fix-plan`**. Planning prevents fixing the wrong HEAD or fighting another agent's SSOT.
 
+**Global SSOT:** `~/.claude/skills/plan-audit-fix/SKILL.md` (keep in sync via `sync-skills` / manual copy).
+
 ## Phase 1 — PLAN (50x reasoning)
 
 Run **read-only** unless the user explicitly assigns writes.
@@ -45,7 +47,7 @@ Flag: name ≠ behavior, filename assumptions, stale counts, ignored git HEAD.
 ### 1.3 Blast radius (forecast-scrutiny)
 
 | Dimension | Question |
-|-----------|------------|
+|-----------|----------|
 | Git | Which worktree/branch owns the fix PR? |
 | Downstream docs | What links/manifests will drift? (doc-forensic-inventory) |
 | Code vs doc | Is this docs-only or does code need a separate lane? |
@@ -84,8 +86,6 @@ Read and follow **`audit-fix-plan`** skill (`~/.claude/skills/audit-fix-plan/SKI
 ### Post-fix verify
 
 ```bash
-# doc-place (if ATB)
-cd ~/management-git/documentation-standards
 npx tsx scripts/warden.mts --repo atl-table-booking-app --domain doc-place
 ```
 
@@ -112,13 +112,3 @@ plan-audit-fix (this skill)
 | Fix tabs/routes from memory | `git show origin/main:...` |
 | Commit from dirty primary tree | Worktree PR per handoff rules |
 | Run F-00 palette swap when Fork-A locked | Option 3 — supersede in V5-MASTER (T08) |
-
----
-
-## Example invocation
-
-User: "Reconcile CARO-TECH with handoff #314, then audit-fix"
-
-1. PLAN: fetch, read `AGENT-HANDOFF-PLAN.md`, diff tab bar vs TSA §4
-2. audit-fix-plan: edit `docs/CARO-TECHNICAL-SOLUTION-ARCHITECTURE.md` → v1.5
-3. Cross-link handoff path; WARDEN doc-place spot-check
