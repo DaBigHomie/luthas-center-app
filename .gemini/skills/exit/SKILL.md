@@ -40,15 +40,94 @@ git branch --show-current
 - **Do not** `reset --hard` or force-push without explicit user approval.
 - If the user only wanted a handoff without commit, **document** WIP in the manifest (see §3).
 
+## 2.5. Forensic sanity pass (before writing the manifest)
+
+If this session made non-trivial claims that will end up in the manifest — new cross-repo
+references, new tool/version pointers, "delivered" or "fixed" statements — run a **forensic-auditing**
+pass over the touched files before writing them down as fact. This is not a full 50x audit; check
+specifically:
+
+- **Diff against live git HEAD** (not memory) — does the referenced file/branch/PR actually exist
+  where the doc says it does, right now?
+- **Trace, don't assume, tool behavior** — if the manifest says "ran X to do Y," confirm by reading
+  X, not by its name (see `forensic-auditing` skill, rule 1 and 2).
+- **Cross-repo sync copies** — if a file being referenced is known to be synced across repos
+  (MALFIG gatekeeper pattern), name the canonical copy explicitly; don't assume "the" copy without
+  checking for a second untracked/divergent one.
+
+Invoke the `forensic-auditing` skill directly for sessions with material claims; skip it for
+routine sessions with no new cross-references (adds no value there, just cost).
+
 ## 3. Handoff and agent manifests
 
+**Do not write docs from scratch.** Use scaffold scripts — agents fill only `.scaffold.json` `agentFill` placeholders via `replace_string` / search_replace.
+
+### 3.0 Token-efficient doc creation (required)
+
+```bash
+# List all scaffold types (PM + agent handoff + context manifest)
+npx tsx documentation-standards/scripts/scaffold-doc.mts --catalog
+
+# Scaffold a doc — auto-fills dates, git HEAD, branch; emits sidecar for agent fill
+npx tsx documentation-standards/scripts/scaffold-doc.mts --type pm-charter \
+  --out docs/plans/charter.md --repo-path . --vars PROJECT_NAME=MyApp,REPO_SLUG=maximus
+
+# Read the sidecar — replace ONLY listed keys
+cat docs/plans/charter.md.scaffold.json
+```
+
+| Script | Purpose |
+|--------|---------|
+| `scaffold-doc.mts` | Copy template + `.scaffold.json` sidecar (agent replace-only) |
+| `handoff-session-close.mts` | handoff-framework init/generate/validate + Forge scaffolds |
+| `exit-session.mts` | Full exit (calls handoff-session-close in Step 3) |
+
+**handoff-framework** (sibling repo `~/Management Git/handoff-framework`):
+
+- `generate-state` auto-fills `01-PROJECT_STATE` (metrics, gates, git log) — **no agent tokens**
+- `validate-docs` / `validate:naming` — run after fill
+- MCP (maximus-ai): `generate_handoff` + `validate_handoff` when MCP available
+
+### 3.1 Primary hub
+
 1. **Primary hub:** `documentation-standards` — use [`KEY-FILES.md`](https://github.com/DaBigHomie/documentation-standards/blob/master/KEY-FILES.md) and [`docs/AGENT-CONTEXT-KEY.md`](https://github.com/DaBigHomie/documentation-standards/blob/master/docs/AGENT-CONTEXT-KEY.md) as pointers.
-2. Write or update a **session manifest** under **`documentation-standards/docs/context-manifests/`** (or repo-local path if user prefers):
+2. On `/exit`, **`exit-session.mts` Step 3** runs `handoff-session-close.mts` which:
+   - Initializes `docs/handoff-{session}/` via handoff-framework (15 numbered templates)
+   - Auto-generates `01-PROJECT_STATE` via `generate-state.mts`
+   - Validates via `validate-docs.mts`
+   - Scaffolds Forge handoff + context manifest with `.scaffold.json` sidecars
+3. Write or update a **session manifest** under **`documentation-standards/docs/context-manifests/`** (or repo-local path if user prefers):
 
    - Filename: **`YYYY-MM-DD_HH-mm_scope.md`** or **`SESSION-<repo>-<branch>-YYYYMMDD.md`**.
    - Include: repos touched, branches, commits made (hashes), files intentionally dirty, **next steps**, links to PRs/issues if any.
+   - Prefer `scaffold-doc.mts --type agent-context-manifest` — fill sidecar only.
 
-3. Align with **[`docs/PROMPT-NEXT-AGENT-HANDOFF.md`](https://github.com/DaBigHomie/documentation-standards/blob/master/docs/PROMPT-NEXT-AGENT-HANDOFF.md)** — note whether **Mechanism A/B** (delegate / Cursor handoff) applies later.
+3. **For larger sessions** (many files, multiple repos, or a handoff someone else needs to pick up
+   cold): use the **`@dabighomie/handoff-framework`** package at `~/management-git/handoff-framework`
+   instead of a single freeform manifest — it produces a numbered, session-named template set
+   (`00-MASTER_INDEX`, `01-PROJECT_STATE`, …) built for exactly this "next agent shouldn't re-read
+   the whole codebase" problem:
+
+   ```bash
+   cd ~/management-git/handoff-framework
+   node bin/handoff.mjs init <project> --session <slug>       # scaffolds docs/handoff-<slug>/
+   node bin/handoff.mjs generate <project> --session <slug>   # state snapshot
+   node bin/handoff.mjs validate <project> --session <slug>   # 7-point quality score
+   ```
+
+   Use the single-file manifest (step 2) for routine sessions; use the framework for the ones
+   where handoff quality actually matters. They are not mutually exclusive — the framework's
+   `01-PROJECT_STATE` doc can point back at the single-file manifest for the quick version.
+
+4. **Known drift, not yet reconciled:** `scripts/exit-session.mts` (a separate, working automation
+   for steps 1–4 of this skill) writes its own JSON handoff manifest to
+   `handoff-framework/docs/context-manifests/`, not `documentation-standards/docs/context-manifests/`
+   as documented above, and that directory in practice holds session-report emails, not manifests —
+   this script's manifest path is effectively unused. Running `npx tsx scripts/exit-session.mts <alias>`
+   is a real shortcut for steps 1/2/4 of this skill; don't rely on its manifest step until this is
+   reconciled.
+
+5. Align with **[`docs/PROMPT-NEXT-AGENT-HANDOFF.md`](https://github.com/DaBigHomie/documentation-standards/blob/master/docs/PROMPT-NEXT-AGENT-HANDOFF.md)** — note whether **Mechanism A/B** (delegate / Cursor handoff) applies later.
 
 See **[reference.md](reference.md)** for a manifest skeleton.
 
@@ -139,8 +218,10 @@ npx tsx ~/management-git/documentation-standards/scripts/send-report.mts \
    cd ~/management-git/documentation-standards
    node scripts/verify-workspace-40x.mjs --strict-prime-gate
    node scripts/verify-workspace-40x.mjs --test-health
-   node scripts/verify-context-footprint.mjs
    ```
+
+   (`verify-workspace-40x.mjs` already includes the per-repo footprint table —
+   `verify-context-footprint.mjs` is deprecated, do not call it separately.)
 
    When **`atl-table-booking-app`** was touched and tests ran:
 
